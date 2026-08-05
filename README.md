@@ -12,14 +12,12 @@
 <p align="center">
   <img alt="Flutter 3.44" src="https://img.shields.io/badge/Flutter-3.44-02569B?logo=flutter&logoColor=white">
   <img alt="Android and iOS" src="https://img.shields.io/badge/platforms-Android%20%7C%20iOS-4E6851">
-  <img alt="Local first" src="https://img.shields.io/badge/data-local--first-256D5B">
   <img alt="Free and without ads" src="https://img.shields.io/badge/free-no%20ads-E8A03A">
   <img alt="Available in English and French" src="https://img.shields.io/badge/languages-EN%20%7C%20FR-6B5FA7">
 </p>
 
 <p align="center">
   <a href="https://stopcorn.skyost.eu/en/">Website</a> ·
-  <a href="https://stopcorn.skyost.eu/fr/">Site en français</a> ·
   <a href="https://github.com/Skyost/StopCorn/releases">Releases</a> ·
   <a href="https://github.com/Skyost/StopCorn/issues">Feedback</a>
 </p>
