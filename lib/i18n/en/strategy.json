@@ -1,0 +1,21 @@
+{
+  "putPhoneAway": "Put the phone out of reach",
+  "leaveRoom": "Leave the room",
+  "walkFiveMinutes": "Walk for five minutes",
+  "slowBreathing": "Breathe slowly for 90 seconds",
+  "waterAndSwitch": "Drink a glass of water and change activity",
+  "messageSomeone": "Message someone you chose",
+  "twoMinuteTask": "Start a two-minute task",
+  "takeShower": "Take a shower",
+  "waitTenMinutes": "Wait ten minutes before deciding",
+  "personal": "Personal strategy",
+  "genericDescription": "A simple action to try when you need support.",
+  "timerSeconds(param=count)": {
+    "one": "Suggested timer: $count second.",
+    "other": "Suggested timer: $count seconds."
+  },
+  "timerMinutes(param=count)": {
+    "one": "Suggested timer: $count minute.",
+    "other": "Suggested timer: $count minutes."
+  }
+}

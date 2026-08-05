@@ -1,0 +1,37 @@
+{
+  "id": "why-change",
+  "order": 1,
+  "titleKey": "learningModules.whyChange.title",
+  "summaryKey": "learningModules.whyChange.summary",
+  "estimatedMinutes": 6,
+  "sections": [
+    {
+      "titleKey": "learningModules.whyChange.sections.direction.title",
+      "paragraphKeys": [
+        "learningModules.whyChange.sections.direction.paragraph1",
+        "learningModules.whyChange.sections.direction.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.whyChange.sections.benefits.title",
+      "paragraphKeys": [
+        "learningModules.whyChange.sections.benefits.paragraph1",
+        "learningModules.whyChange.sections.benefits.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.whyChange.sections.changes.title",
+      "paragraphKeys": [
+        "learningModules.whyChange.sections.changes.paragraph1",
+        "learningModules.whyChange.sections.changes.paragraph2"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.whyChange.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Ng J. Y. Y. et al. (2012). Self-Determination Theory Applied to Health Contexts: A Meta-Analysis. Perspectives on Psychological Science, 7(4), 325–340. https://doi.org/10.1177/1745691612447309",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26168470/"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "subtitle": "Des repères descriptifs construits uniquement à partir de ce que tu as choisi d'enregistrer.",
+  "error": {
+    "load": "Les données de progression n'ont pas pu être chargées."
+  },
+  "overview": {
+    "title": "Vue d'ensemble",
+    "events(param=count)": {
+      "zero": "consommations enregistrées",
+      "one": "consommation enregistrée",
+      "other": "consommations enregistrées"
+    },
+    "daysWithout(param=count)": {
+      "zero": "jours sans consommation enregistrée",
+      "one": "jour sans consommation enregistrée",
+      "other": "jours sans consommation enregistrée"
+    },
+    "completedUrges(param=count)": {
+      "zero": "sessions d'aide terminées",
+      "one": "session d'aide terminée",
+      "other": "sessions d'aide terminées"
+    },
+    "averageDecrease": "diminution moyenne de l'intensité",
+    "notEnough": "Pas encore assez de données",
+    "decreaseDetail": "Différence entre l'intensité ressentie au début et celle ressentie à la fin",
+    "goal": {
+      "abstinence(param=count)": {
+        "zero": "$count consommation enregistrée volontairement sur la période sélectionnée. Une absence d'observation ne prouve jamais qu'aucun événement n'a eu lieu.",
+        "one": "$count consommation enregistrée volontairement sur la période sélectionnée. Une absence d'observation ne prouve jamais qu'aucun événement n'a eu lieu.",
+        "other": "$count consommations enregistrées volontairement sur la période sélectionnée. Une absence d'observation ne prouve jamais qu'aucun événement n'a eu lieu."
+      },
+      "reduction(param=count)": {
+        "zero": "Cette semaine : $count événement enregistré sur une limite souhaitée de $limit.",
+        "one": "Cette semaine : $count événement enregistré sur une limite souhaitée de $limit.",
+        "other": "Cette semaine : $count événements enregistrés sur une limite souhaitée de $limit."
+      },
+      "contextual(param=count)": {
+        "zero": "$count consommation enregistrée correspondait à l'un de tes contextes protégés sur la période sélectionnée : $contexts.",
+        "one": "$count consommation enregistrée correspondait à l'un de tes contextes protégés sur la période sélectionnée : $contexts.",
+        "other": "$count consommations enregistrées correspondaient à l'un de tes contextes protégés sur la période sélectionnée : $contexts."
+      },
+      "observation(param=count)": {
+        "zero": "$count repère volontaire enregistré sur la période sélectionnée. Chaque observation honnête aide à faire apparaître les tendances.",
+        "one": "$count repère volontaire enregistré sur la période sélectionnée. Chaque observation honnête aide à faire apparaître les tendances.",
+        "other": "$count repères volontaires enregistrés sur la période sélectionnée. Chaque observation honnête aide à faire apparaître les tendances."
+      }
+    },
+    "empty": "Pas encore assez de données. Quelques repères suffiront pour faire apparaître des tendances."
+  },
+  "events": {
+    "title": "Évolution des événements",
+    "weeklyTitle": "Évolution hebdomadaire",
+    "empty": "Aucun événement enregistré sur cette période.",
+    "weekOf": "Semaine du $date",
+    "summary(param=count)": {
+      "zero": "$count événements volontairement enregistrés, répartis par semaine.",
+      "one": "$count événement volontairement enregistré, réparti par semaine.",
+      "other": "$count événements volontairement enregistrés, répartis par semaine."
+    }
+  },
+  "urges": {
+    "title(rich)": "Envies de $corn",
+    "averageIntensity": "Intensité moyenne",
+    "empty": "Pas encore assez de sessions terminées avec une intensité finale.",
+    "initial": "Initiale",
+    "observationHours": "Heures des observations",
+    "noHours": "Aucune heure de parcours d'aide ou d'événement n'est disponible.",
+    "comparison": {
+      "unavailable": "Pas encore assez de données pour comparer le début et la fin des parcours d'aide.",
+      "decrease(param=count)": {
+        "zero": "L'intensité a diminué en moyenne de $value points pendant les sessions complètes.",
+        "one": "L'intensité a diminué en moyenne de $value point pendant les sessions complètes.",
+        "other": "L'intensité a diminué en moyenne de $value points pendant les sessions complètes."
+      },
+      "increase(param=count)": {
+        "zero": "L'intensité a augmenté en moyenne de $value points pendant les sessions complètes.",
+        "one": "L'intensité a augmenté en moyenne de $value point pendant les sessions complètes.",
+        "other": "L'intensité a augmenté en moyenne de $value points pendant les sessions complètes."
+      }
+    },
+    "hourSummary": "La tranche $label contient le plus d'observations enregistrées.",
+    "timeBucket": {
+      "midnight": "${start}h – minuit",
+      "range": "${start}h – ${end}h"
+    },
+    "finalLabel": "Finale"
+  },
+  "patterns": {
+    "title": "Déclencheurs et émotions",
+    "triggers": {
+      "title": "Déclencheurs les plus notés",
+      "kind": "déclencheur",
+      "empty": "Aucun déclencheur n'a encore été noté."
+    },
+    "emotions": {
+      "title": "Émotions les plus notées",
+      "kind": "émotion",
+      "empty": "Aucune émotion n'a encore été notée."
+    },
+    "rankingSummary": "$label est le $kind le plus souvent noté sur cette période."
+  },
+  "strategies": {
+    "title": "Stratégies",
+    "effectiveness": "Efficacité perçue",
+    "empty": "Aucune stratégie évaluée sur cette période. L'échelle va de −5 à +5.",
+    "evaluations(param=count)": {
+      "zero": "$effect ($count évaluations)",
+      "one": "$effect ($count évaluation)",
+      "other": "$effect ($count évaluations)"
+    },
+    "threshold": "Utilise et évalue une stratégie au moins trois fois pour obtenir un repère plus solide.",
+    "best": "$strategy est la stratégie la mieux évaluée parmi celles utilisées au moins trois fois."
+  },
+  "checkIns": {
+    "title": "Bilans",
+    "count(param=count)": {
+      "zero": "bilans quotidiens",
+      "one": "bilan quotidien",
+      "other": "bilans quotidiens"
+    },
+    "averageMood": "note d'humeur moyenne",
+    "averageControl": "taux de contrôle moyen",
+    "outOfTen": "Sur 10"
+  },
+  "comparison": {
+    "unavailable": "Pas encore assez de données comparables",
+    "stable": "Stable par rapport à la période précédente",
+    "value": "$value % $direction que la période précédente",
+    "more": "de plus",
+    "less": "de moins"
+  },
+  "startingPoint": {
+    "sectionTitle": "Comparaison avec mon point de départ",
+    "screenTitle": "Mon point de départ",
+    "intro": "Ces réponses ont été enregistrées lors de ta configuration initiale. Elles constituent un repère personnel, pas un diagnostic.",
+    "recordedOn": "Bilan initial enregistré le $date.",
+    "goalTitle": "Ton objectif initial",
+    "goalUnavailable": "L’objectif initial n’est plus disponible.",
+    "weeklyLimit": "Limite souhaitée : $count par semaine",
+    "contexts": "Contextes choisis : $contexts",
+    "motivationTitle": "Ta motivation initiale",
+    "markersTitle": "Tes repères initiaux",
+    "frequency": "Fréquence approximative sur les 7 jours précédents",
+    "frequencyValue": "$count sur 7 jours",
+    "control": "Sentiment de contrôle",
+    "impact": "Impact négatif ressenti",
+    "confidence": "Confiance dans ta capacité à changer",
+    "score": "$value / 10",
+    "disclaimer": "Ces valeurs reflètent uniquement ton ressenti au moment du bilan initial.",
+    "comparison": {
+      "intro": "Comparaison avec les observations de la période sélectionnée.",
+      "control": "Sentiment de contrôle",
+      "initial": "Initiale",
+      "finalLabel": "Finale",
+      "controlDetail(param=count)": {
+        "zero": "Moyenne calculée à partir de $count bilan quotidien.",
+        "one": "Moyenne calculée à partir de $count bilan quotidien.",
+        "other": "Moyenne calculée à partir de $count bilans quotidiens."
+      },
+      "controlPending": "Au moins cinq bilans quotidiens sont nécessaires pour proposer une comparaison.",
+      "frequency": "Fréquence hebdomadaire",
+      "frequencyPending": "Une semaine complète d’observation est nécessaire pour proposer une comparaison.",
+      "frequencyDetail": "La valeur actuelle ne compte que les consommations volontairement enregistrées et peut donc différer de la fréquence réelle.",
+      "open": "Voir mon point de départ"
+    },
+    "empty": "Aucun bilan initial n’est disponible.",
+    "error": "Le point de départ n’a pas pu être chargé."
+  },
+  "harvest": "Récolte"
+}

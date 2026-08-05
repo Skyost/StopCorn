@@ -1,0 +1,74 @@
+name: Feature request
+description: Suggest an improvement to StopCorn or a new user-facing capability.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing an idea. StopCorn aims to remain focused, private, free, and supportive without judgment.
+
+  - type: checkboxes
+    id: existing-request
+    attributes:
+      label: Existing request
+      options:
+        - label: I searched the existing issues and did not find the same request.
+          required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Mobile application
+        - Progress and insights
+        - Urge support
+        - Learning content
+        - Privacy and data management
+        - Accessibility
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What user problem would this request address? Please focus on the need rather than only the proposed interface.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Explain how you imagine the feature working.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any workarounds or alternative designs you considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy and data considerations
+      description: Would this require new permissions, network access, accounts, analytics, or storage of additional data?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add mockups, references, or other useful context. Do not include sensitive or explicit material.
+    validations:
+      required: false
+

@@ -1,0 +1,22 @@
+{
+  "title": "Map your terrain",
+  "summary": "Identify situations that recur in your observations.",
+  "sections": {
+    "states": {
+      "title": "Times and states",
+      "paragraph1": "Time and place can become recurring context cues. Stress, boredom, or trying to get some distance from a difficult emotion may also appear in your observations.",
+      "paragraph2": "Treat these repetitions as hypotheses, not causes: several observations over time are more informative than one coincidence."
+    },
+    "routines": {
+      "title": "Devices and routines",
+      "paragraph1": "A device available in the same place and at the same time can make an automatic response easier.",
+      "paragraph2": "If your notes show that social media or an evening routine often comes first, treat it as a useful pattern—not necessarily the only cause."
+    },
+    "map": {
+      "title": "A map, not a verdict",
+      "paragraph1": "Mapping your terrain helps you prepare options. It does not mean avoiding every difficult situation.",
+      "paragraph2": "A few general observations are enough; no explicit detail or browsing history is useful."
+    }
+  },
+  "reflectionPrompt": "Which situation appears most often in your observations?"
+}

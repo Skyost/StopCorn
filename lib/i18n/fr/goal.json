@@ -1,0 +1,18 @@
+{
+  "abstinence": {
+    "title": "Arrêter",
+    "description": "Je souhaite ne plus consommer."
+  },
+  "reduction": {
+    "title": "Réduire",
+    "description": "Je souhaite diminuer progressivement la fréquence."
+  },
+  "contextual": {
+    "title": "Éviter certains contextes",
+    "description": "Je veux reprendre le contrôle dans certaines situations."
+  },
+  "observation": {
+    "title": "Observer d'abord",
+    "description": "Je veux comprendre mes habitudes avant de fixer une cible."
+  }
+}

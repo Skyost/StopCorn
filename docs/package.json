@@ -1,0 +1,42 @@
+{
+  "name": "stopcorn-website",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@11.15.0",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "check": "pnpm lint && pnpm typecheck && pnpm generate",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@bootstrap-vue-next/nuxt": "^0.45.9",
+    "@nuxt/icon": "^2.2.1",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/robots": "^6.0.8",
+    "@nuxtjs/sitemap": "^8.0.15",
+    "bootstrap": "^5.3.8",
+    "bootstrap-vue-next": "^0.45.9",
+    "nuxt": "^4.5.1",
+    "nuxt-cname-generator": "^2.0.0",
+    "nuxt-link-checker": "^5.1.0",
+    "vue-i18n": "^11.4.8"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.81",
+    "@nuxt/eslint": "^1.16.0",
+    "@types/node": "^24.10.0",
+    "eslint": "^10.3.0",
+    "sass": "^1.99.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Export my data",
+  "confirm": "I understand that this file may be sensitive",
+  "backSettings": "Back to settings",
+  "error": "The export could not be created. No data was sent.",
+  "warning": {
+    "title": "Before continuing",
+    "sensitive": "The JSON file may contain sensitive personal information: notes, goals, and observations you chose to record.",
+    "share": "StopCorn never sends it automatically. Once created, only the system share sheet will open."
+  },
+  "create": {
+    "action": "Create and open sharing",
+    "progress": "Creating file…"
+  },
+  "share": {
+    "subject": "StopCorn data export",
+    "title": "StopCorn export"
+  }
+}

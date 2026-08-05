@@ -1,0 +1,102 @@
+{
+  "pauseTitle": "Faire une pause",
+  "quit": "Quitter",
+  "support": {
+    "pageTitle": "Choisir une aide",
+    "title": "Qu'est-ce qui t'aiderait maintenant ?",
+    "subtitle": "Choisis l'option qui te paraît la plus accessible. Tu gardes la main sur le rythme.",
+    "semantics": "Formes de soutien disponibles",
+    "guidedTitle": "Pause guidée",
+    "guidedDescription": "Prends un court moment pour souffler, puis fais à nouveau le point.",
+    "planTitle": "Plan de secours",
+    "planDescription(param=count)": {
+      "zero": "Aucune action n'a encore été préparée.",
+      "one": "Choisis l'action que tu avais préparée.",
+      "other": "Choisis parmi les $count actions que tu avais préparées."
+    },
+    "ideasTitle": "Autres idées",
+    "ideasDescription(param=count)": {
+      "zero": "Aucune autre action n'est disponible.",
+      "one": "Découvre une autre action.",
+      "other": "Découvre $count autres actions."
+    }
+  },
+  "grounding": {
+    "feet": "Pose les pieds au sol.",
+    "inhale": "Inspire lentement.",
+    "observe": "Observe ce que tu ressens sans chercher à le chasser.",
+    "exhale": "Expire plus longtemps que tu n'inspires.",
+    "change": "Observe simplement si cela monte, baisse ou reste stable.",
+    "title": "Accorde-toi un instant.",
+    "subtitle": "Cette courte pause est une aide à la décontraction, elle ne constitue pas une règle médicale.",
+    "semantics": "Progression de la pause",
+    "skip": "Passer"
+  },
+  "strategy": {
+    "pageTitle": "Choisir une action",
+    "title": "Quelle action peux-tu essayer maintenant ?",
+    "subtitle": "Une petite action réaliste suffit. Elle n'a pas besoin de faire disparaître ce que tu ressens.",
+    "planTitle": "Ton plan de secours",
+    "planSubtitle": "Choisis l'une des actions que tu avais préparées pour ce moment.",
+    "ideasTitle": "Autres idées",
+    "ideasSubtitle": "Choisis une autre action simple qui te paraît faisable maintenant.",
+    "loadError": "Les stratégies n'ont pas pu être chargées.",
+    "empty": "Aucune action n'est disponible dans cette liste.",
+    "semantics": "Stratégies disponibles",
+    "start": "Je lance cette action",
+    "started": "Action lancée : $strategy.",
+    "timerTitle": "Durée indicative",
+    "timerGuidance": "Ce minuteur est seulement indicatif : tu peux terminer plus tôt ou prendre tout le temps dont tu as besoin.",
+    "timerSemantics": "Minuteur indicatif de l'action",
+    "timerComplete": "La durée indicative est écoulée.",
+    "reassess": "Faire le point à nouveau",
+    "effect": "Utilité perçue de la stratégie"
+  },
+  "result": {
+    "pageTitle": "Faire le point",
+    "title(rich)": "Comment évalues-tu ton envie maintenant ?",
+    "subtitle": "Elle peut avoir augmenté, diminué ou être restée stable.",
+    "outcome": {
+      "title": "Et maintenant ?",
+      "subtitle": "N'hésite pas à être honnête. Comme toujours, pas de jugement !",
+      "label": "Résultat"
+    },
+    "note": "Note facultative",
+    "noteHint": "Un repère utile pour la prochaine fois.",
+    "finish": "Terminer le parcours"
+  },
+  "complete": {
+    "title": "Parcours terminé",
+    "consumedHeadline": "Pas de souci.",
+    "otherHeadline": "Super !",
+    "consumedBody": "Cet événement n'efface pas tes progrès.",
+    "otherBody": "Tu as espacé ton envie et ton choix.",
+    "log": "Noter ce qui s'est passé"
+  },
+  "intensity": {
+    "title(rich)": "Quelle est l'intensité de ton envie ?",
+    "subtitle": "Évalue-la sur 10. Il n'y a pas de mauvaise réponse : ce repère permettra de voir comment elle évolue.",
+    "label": "Intensité actuelle"
+  },
+  "factors": {
+    "title": "D'autres détails ?",
+    "subtitle": "Ces informations facultatives peuvent t'aider à mieux comprendre ces moments.",
+    "label": "Facteurs déclenchants (facultatif)",
+    "trigger": "Déclencheur",
+    "emotion": "Émotion"
+  },
+  "timer": {
+    "count(param=count)": {
+      "zero": "${count}s restantes",
+      "one": "${count}s restante",
+      "other": "${count}s restantes"
+    }
+  },
+  "error": {
+    "start": "Impossible de démarrer ce parcours pour le moment. Réessaie.",
+    "missingSession": "Cette session n'est plus disponible.",
+    "strategySave": "La stratégie n'a pas pu être enregistrée. Réessaie.",
+    "outcomeRequired": "Choisis le résultat qui décrit le mieux la situation.",
+    "save": "Impossible d'enregistrer pour le moment. Réessaie dans quelques instants."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ride out an impulse",
+  "summary": "Create a little space before choosing what comes next.",
+  "sections": {
+    "delay": {
+      "title": "Give yourself a moment",
+      "paragraph1": "An impulse does not require an immediate or permanent decision.",
+      "paragraph2": "Waiting briefly gives you a chance to notice whether its intensity rises, falls, or stays stable."
+    },
+    "concrete": {
+      "title": "Change something concrete",
+      "paragraph1": "Changing rooms, putting down the phone, or starting a very small task can interrupt an automatic response.",
+      "paragraph2": "Choose an action simple enough to remain possible even when your energy is low."
+    },
+    "expectations": {
+      "title": "Do not demand disappearance",
+      "paragraph1": "A strategy can still be useful when the feeling does not disappear immediately.",
+      "paragraph2": "The aim is to practice making a choice, not to achieve a perfect result every time."
+    }
+  },
+  "reflectionPrompt": "Which realistic strategy could you try during the next difficult moment?"
+}

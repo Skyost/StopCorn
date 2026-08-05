@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Configuration",
+  "step": "Étape $current sur $total",
+  "welcome": {
+    "title": "Reprendre le contrôle, sans jugement",
+    "subtitle": "StopCorn t'aide à comprendre tes habitudes, à traverser les moments difficiles et à construire un plan adapté à ton objectif.",
+    "noAccount": "Aucune création de compte",
+    "localData": "Données conservées sur l'appareil",
+    "noAds": "Aucune publicité",
+    "selfHelp": "Un outil d'auto-accompagnement",
+    "privacyAction": "En savoir plus sur la confidentialité",
+    "privacyTitle": "Confidentialité dès le départ",
+    "privacyBody": "Aucune donnée de journal n'est envoyée à StopCorn. L'application ne lit ni ton navigateur, ni tes recherches, ni le contenu consulté. Tu choisis uniquement les repères généraux que tu souhaites noter. En cas de plantage, un rapport technique anonyme peut être envoyé pour que le problème soit corrigé ; il ne contient aucune de tes saisies et reste désactivable dans les réglages."
+  },
+  "goal": {
+    "title": "Qu'aimerais-tu changer ?",
+    "subtitle": "Choisis un cap qui te ressemble. Tu pourras le modifier plus tard.",
+    "semantics": "Choix de l'objectif",
+    "weeklyLimit": "Limite hebdomadaire souhaitée",
+    "weeklyHint": "Exemple : 2",
+    "contexts": "Contextes à éviter",
+    "motivation": "Motivation personnelle",
+    "motivationHint": "Ce que tu aimerais retrouver ou protéger…"
+  },
+  "baseline": {
+    "title": "Ton point de départ",
+    "subtitle": "Ce repère n'est pas un test médical. Il servira seulement à observer ton évolution.",
+    "frequency": "Fréquence approximative sur les 7 derniers jours",
+    "control": "Sentiment de contrôle",
+    "impact": "Impact négatif ressenti",
+    "confidence": "Confiance dans ta capacité à changer"
+  },
+  "strategies": {
+    "title": "Prépare ton plan de secours",
+    "subtitle": "Choisis idéalement trois actions réalistes. Une seule suffit pour continuer.",
+    "selected(param=count)": {
+      "zero": "Aucune stratégie sélectionnée",
+      "one": "$count stratégie sélectionnée",
+      "other": "$count stratégies sélectionnées"
+    },
+    "semantics": "Stratégies de secours"
+  },
+  "privacy": {
+    "title": "Tes données restent sous ton contrôle",
+    "subtitle": "StopCorn fonctionne sans compte et sans serveur dans cette version.",
+    "local": "Données enregistrées uniquement sur cet appareil.",
+    "noHistory": "Aucune URL ni recherche n'est enregistrée.",
+    "control": "Un export volontaire et une suppression totale sont possibles.",
+    "backup": "Les sauvegardes système du téléphone peuvent inclure les données selon tes réglages système.",
+    "dailyCheckInReminder": "Me rappeler de faire mon bilan",
+    "dailyCheckInReminderDescription": "À 20 h, reçois un rappel local uniquement si le bilan du jour est encore vide. Tu pourras modifier ce choix plus tard.",
+    "reminderPermissionDenied": "Les notifications n'ont pas été autorisées. Désactive cette option pour continuer, ou autorise-les puis réessaie.",
+    "reminderUnavailable": "Les rappels quotidiens ne sont pas disponibles sur cet appareil.",
+    "reminderError": "Le rappel quotidien n'a pas pu être préparé. Réessaie ou désactive-le pour continuer.",
+    "crashReports": "Les rapports d'erreur anonymes aident à corriger les bugs, et sont désactivables dans les réglages."
+  },
+  "start": "Commencer",
+  "finish": "Terminer la configuration",
+  "error": {
+    "load": "La configuration n'a pas pu être chargée.",
+    "save": "Impossible d'enregistrer pour le moment. Réessaie dans quelques instants.",
+    "complete": "La configuration n'a pas pu être terminée. Aucune donnée n'a été envoyée.",
+    "notReady": "L'onboarding n'est pas encore prêt.",
+    "invalidDraft": "Le brouillon de configuration enregistré est invalide."
+  },
+  "validation": {
+    "goal": "Choisis un objectif.",
+    "weeklyLimit": "Indique une limite hebdomadaire positive.",
+    "context": "Choisis au moins un contexte.",
+    "strategy": "Choisis au moins une stratégie.",
+    "scoreRange": "Les scores doivent être compris entre 0 et 10."
+  }
+}

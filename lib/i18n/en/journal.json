@@ -1,0 +1,62 @@
+{
+  "history": {
+    "title": "Journal",
+    "intro": "Find the consumption events, support sessions, and daily check-ins you chose to record, grouped by date.",
+    "error": "The journal could not be loaded.",
+    "empty": {
+      "title": "Your journal is still empty",
+      "body": "Consumption events and check-ins you record will appear here."
+    },
+    "date": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "entry": {
+      "consumption": "Consumption event",
+      "checkIn": "Daily check-in",
+      "time": "At $time",
+      "checkInSummary": "Mood: $mood/10 · Control: $control/10",
+      "noText": "No context or note.",
+      "entries(param=count)": {
+        "zero": "No entries",
+        "one": "$count entry",
+        "other": "$count entries"
+      },
+      "urge": "Support session",
+      "urgeSummary": "Intensity $initial → $finalValue",
+      "urgeSummaryPartial": "Starting intensity $initial"
+    },
+    "details": {
+      "cornUrges(plural, param=count, rich)": {
+        "zero": "no urge of $corn",
+        "one": "$count urge of $corn",
+        "other": "$count urges of $corn"
+      },
+      "initialIntensity": "Starting intensity",
+      "finalIntensity": "Intensity at the end",
+      "outcome": "Outcome",
+      "strategy": "Action tried",
+      "pause": "Guided pause",
+      "pauseSeconds(param=count)": {
+        "one": "$count second",
+        "other": "$count seconds"
+      },
+      "reflection": "Your reflection"
+    }
+  },
+  "edit": {
+    "action": "Correct"
+  },
+  "delete": {
+    "action": "Delete",
+    "title": "Delete this entry?",
+    "consumption": "This entry and its private note will be permanently removed from your journal. Your statistics will be recalculated without it.",
+    "checkIn": "This daily check-in and its private note will be permanently removed from your journal. Your statistics will be recalculated without it.",
+    "urge": "This support session and the reflection written at the end will be permanently removed. The strategy tried during it stops counting; a consumption event recorded from it is kept.",
+    "irreversible": "This cannot be undone.",
+    "confirm": "Delete permanently"
+  },
+  "error": {
+    "delete": "This entry could not be deleted. Nothing was changed."
+  }
+}

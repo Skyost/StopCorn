@@ -1,0 +1,22 @@
+{
+  "title": "Cartographier ton terrain",
+  "summary": "Repère les situations qui reviennent dans tes observations.",
+  "sections": {
+    "states": {
+      "title": "Les moments et les états",
+      "paragraph1": "L'heure et le lieu peuvent devenir des repères de contexte récurrents. Le stress, l'ennui ou l'envie de prendre de la distance avec une émotion difficile peuvent aussi apparaître dans tes observations.",
+      "paragraph2": "Considère ces répétitions comme des hypothèses, pas comme des causes : plusieurs observations dans le temps sont plus utiles qu'une coïncidence isolée."
+    },
+    "routines": {
+      "title": "Les appareils et les routines",
+      "paragraph1": "Un appareil disponible au même endroit et au même moment peut faciliter une réponse automatique.",
+      "paragraph2": "Si tes notes montrent que les réseaux sociaux ou une routine du soir précèdent souvent un moment difficile, considère-les comme des repères utiles, pas forcément comme sa seule cause."
+    },
+    "map": {
+      "title": "Une carte, pas un verdict",
+      "paragraph1": "Cartographier ton terrain sert à préparer des options, pas à éviter toutes les situations difficiles.",
+      "paragraph2": "Quelques observations générales suffisent : aucun détail explicite ni historique de navigation n'est utile."
+    }
+  },
+  "reflectionPrompt": "Quelle situation revient le plus souvent dans tes observations ?"
+}

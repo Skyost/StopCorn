@@ -1,0 +1,13 @@
+{
+  "boredom": "Boredom",
+  "stress": "Stress",
+  "loneliness": "Loneliness",
+  "fatigue": "Tiredness",
+  "habit": "Habit",
+  "arousal": "Arousal",
+  "socialMedia": "Social media",
+  "relationshipDifficulty": "Relationship difficulty",
+  "alcoholOrSubstance": "Alcohol or another substance",
+  "bedtimePhone": "Phone in bed",
+  "other": "Other"
+}

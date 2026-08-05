@@ -1,0 +1,9 @@
+{
+  "label": "Langue de l'application",
+  "english": "Anglais",
+  "french": "Français",
+  "section": {
+    "title": "Langue",
+    "description": "Choisis la langue utilisée dans toute l'application."
+  }
+}

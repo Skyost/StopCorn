@@ -1,0 +1,11 @@
+{
+  "contentVersion": 1,
+  "moduleAssets": [
+    "assets/learning/modules/why_change.json",
+    "assets/learning/modules/understand_loop.json",
+    "assets/learning/modules/map_terrain.json",
+    "assets/learning/modules/ride_urge.json",
+    "assets/learning/modules/prepare_environment.json",
+    "assets/learning/modules/continue_after_setback.json"
+  ]
+}

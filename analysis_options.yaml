@@ -1,0 +1,26 @@
+include: package:flutter_lints/flutter.yaml
+plugins:
+  riverpod_lint: any
+
+analyzer:
+  errors:
+    unreachable_switch_default: ignore
+    unused_element_parameter: ignore
+  exclude:
+    - '**.g.dart'
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    unnecessary_lambdas: true
+    avoid_types_on_closure_parameters: true
+    prefer_expression_function_bodies: true
+    avoid_renaming_method_parameters: false
+    prefer_const_constructors: true
+    unnecessary_final: true
+    public_member_api_docs: true
+    unnecessary_unawaited: true
+
+formatter:
+  trailing_commas: preserve
+  page_width: 200

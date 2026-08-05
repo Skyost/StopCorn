@@ -1,0 +1,46 @@
+{
+  "label": "Harvest",
+  "explanationAction": "What's this?",
+  "cornPoints": {
+    "title": "Corn points",
+    "todayCollected": "Today's corn point is collected.",
+    "todayAvailable": "One constructive action is enough to collect today's corn point."
+  },
+  "momentum": {
+    "title": "Momentum",
+    "currentMomentum(param=count)": {
+      "one": "Current momentum: $count day in a row.",
+      "other": "Current momentum: $count days in a row."
+    },
+    "bestMomentum(param=count)": {
+      "one": "Best momentum: $count day in a row.",
+      "other": "Best momentum: $count days in a row."
+    },
+    "dayCollected": "Corn point collected on this day",
+    "dayNotCollected": "No corn point collected on this day",
+    "dayUpcoming": "Upcoming day"
+  },
+  "reward": {
+    "title": "Corn point collected!",
+    "body": "Your constructive action moves your harvest forward.",
+    "pointsSemantics": "$gain Corn point added. New total: $total.",
+    "momentumSemantics(param=total)": {
+      "one": "Momentum increased by $gain. New momentum: $total day.",
+      "other": "Momentum increased by $gain. New momentum: $total days."
+    },
+    "gain": "+$count",
+    "continueAction": "Continue"
+  },
+  "sheet": {
+    "title": "How does the harvest work?",
+    "intro": "The harvest highlights actions that help you move forward. It does not measure abstinence and never judges the outcome of a day.",
+    "onePerDay": "You can collect at most one corn point per day. One constructive action is enough.",
+    "urge": "Completing a support flow counts, whatever its outcome.",
+    "checkIn": "Completing a daily check-in counts.",
+    "observation": "Honestly recording consumption also counts: honesty is never penalized.",
+    "learning": "Completing a learning module counts.",
+    "goal": "Creating or updating your goal counts.",
+    "momentumTitle": "What about momentum?",
+    "momentumBody": "Momentum is the number of cultivated days in a row. The current day remains a grace period. If momentum ends, your harvest never shrinks and every corn point remains yours."
+  }
+}

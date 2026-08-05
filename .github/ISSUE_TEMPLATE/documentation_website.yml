@@ -1,0 +1,89 @@
+name: Documentation or website
+description: Report or suggest a change to the website, documentation, translations, SEO, or accessibility.
+title: "[Docs/Website]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for stopcorn.skyost.eu, project documentation, legal pages, translations, or other public-facing content.
+
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Existing issue
+      options:
+        - label: I searched the existing issues and did not find a duplicate.
+          required: true
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request type
+      options:
+        - Website bug
+        - Incorrect or unclear content
+        - Missing documentation
+        - Translation or localization
+        - Accessibility
+        - SEO or social sharing
+        - Legal or privacy content
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Page, section, or file
+      description: Link to the page or identify the relevant repository file and section.
+      placeholder: "For example: https://stopcorn.skyost.eu/en/#privacy or docs/app/locales/en.json"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English
+        - French
+        - Both
+        - Not language-specific
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-state
+    attributes:
+      label: Current behavior or content
+      description: Explain what is currently incorrect, unclear, inaccessible, or missing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-state
+    attributes:
+      label: Suggested outcome
+      description: Describe the correction or result you would like to see.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Required only for a visual or behavioral website problem.
+      placeholder: "For example: Firefox 145 on macOS"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add references or redacted screenshots if useful. Do not include sensitive or explicit material.
+    validations:
+      required: false
+

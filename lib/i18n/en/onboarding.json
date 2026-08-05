@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Setup",
+  "step": "Step $current of $total",
+  "welcome": {
+    "title": "Regain control, without judgment",
+    "subtitle": "StopCorn helps you understand your habits, navigate difficult moments, and build a plan that fits your goal.",
+    "noAccount": "No account required",
+    "localData": "Data kept on this device",
+    "noAds": "No advertising",
+    "selfHelp": "A self-help tool",
+    "privacyAction": "Learn more about privacy",
+    "privacyTitle": "Privacy from the start",
+    "privacyBody": "No journal data is sent to StopCorn. The application does not read your browser, your searches, or the content you look at. You only choose the general markers you want to record. If the application crashes, an anonymous technical report can be sent so the problem gets fixed; it carries none of your entries and can be turned off in Settings."
+  },
+  "goal": {
+    "title": "What would you like to change?",
+    "subtitle": "Choose a direction that feels right. You can change it later.",
+    "semantics": "Goal selection",
+    "weeklyLimit": "Desired weekly limit",
+    "weeklyHint": "Example: 2",
+    "contexts": "Contexts to avoid",
+    "motivation": "Personal motivation",
+    "motivationHint": "What you would like to regain or protect…"
+  },
+  "baseline": {
+    "title": "Your starting point",
+    "subtitle": "This is not a medical test. It will only help you observe your progress.",
+    "frequency": "Approximate frequency over the last 7 days",
+    "control": "Sense of control",
+    "impact": "Perceived negative impact",
+    "confidence": "Confidence in your ability to change"
+  },
+  "strategies": {
+    "title": "Prepare your backup plan",
+    "subtitle": "Ideally choose three realistic actions. One is enough to continue.",
+    "selected(param=count)": {
+      "zero": "No strategy selected",
+      "one": "$count strategy selected",
+      "other": "$count strategies selected"
+    },
+    "semantics": "Backup strategies"
+  },
+  "privacy": {
+    "title": "Your data stays under your control",
+    "subtitle": "This version of StopCorn works without an account or server.",
+    "local": "Data is stored only on this device.",
+    "noHistory": "No URL or search is recorded.",
+    "control": "You can voluntarily export or completely erase your data.",
+    "backup": "Your phone's system backups may include app data depending on your system settings.",
+    "dailyCheckInReminder": "Remind me to check in",
+    "dailyCheckInReminderDescription": "At 8:00 PM, receive a local reminder only if today's check-in is still empty. You can change this later.",
+    "reminderPermissionDenied": "Notifications were not allowed. Turn this option off to continue, or allow notifications and try again.",
+    "reminderUnavailable": "Daily reminders are not available on this device.",
+    "reminderError": "The daily reminder could not be prepared. Try again or turn it off to continue.",
+    "crashReports": "Anonymous crash reports help fix bugs, and can be turned off in Settings."
+  },
+  "start": "Start",
+  "finish": "Finish setup",
+  "error": {
+    "load": "Setup could not be loaded.",
+    "save": "Unable to save right now. Try again in a moment.",
+    "complete": "Setup could not be completed. No data was sent.",
+    "notReady": "Onboarding is not ready yet.",
+    "invalidDraft": "The saved setup draft is invalid."
+  },
+  "validation": {
+    "goal": "Choose a goal.",
+    "weeklyLimit": "Enter a positive weekly limit.",
+    "context": "Choose at least one context.",
+    "strategy": "Choose at least one strategy.",
+    "scoreRange": "Scores must be between 0 and 10."
+  }
+}

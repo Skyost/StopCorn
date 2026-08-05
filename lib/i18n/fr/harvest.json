@@ -1,0 +1,48 @@
+{
+  "label": "Récolte",
+  "explanationAction": "C'est quoi ?",
+  "cornPoints": {
+    "title": "Corn points",
+    "todayCollected": "Le corn point du jour a été collecté.",
+    "todayAvailable": "Un geste constructif suffit pour récolter le corn point du jour."
+  },
+  "momentum": {
+    "title": "Élan",
+    "currentMomentum(param=count)": {
+      "zero": "Élan actuel : $count jours de suite.",
+      "one": "Élan actuel : $count jour de suite.",
+      "other": "Élan actuel : $count jours de suite."
+    },
+    "bestMomentum(param=count)": {
+      "zero": "Meilleur élan : $count jours de suite.",
+      "one": "Meilleur élan : $count jour de suite.",
+      "other": "Meilleur élan : $count jours de suite."
+    },
+    "dayCollected": "Corn point collecté ce jour",
+    "dayNotCollected": "Aucun corn point récolté ce jour",
+    "dayUpcoming": "Journée à venir"
+  },
+  "reward": {
+    "title": "Corn point récolté !",
+    "body": "Ton geste constructif fait avancer ta récolte.",
+    "pointsSemantics": "$gain corn point ajouté. Nouveau total : $total.",
+    "momentumSemantics(param=total)": {
+      "one": "Élan augmenté de $gain. Nouvel élan : $total jour.",
+      "other": "Élan augmenté de $gain. Nouvel élan : $total jours."
+    },
+    "gain": "+$count",
+    "continueAction": "Continuer"
+  },
+  "sheet": {
+    "title": "Comment fonctionne la récolte ?",
+    "intro": "La récolte met en valeur les gestes qui t'aident à avancer. Elle ne mesure pas l'abstinence et ne juge jamais le résultat d'une journée.",
+    "onePerDay": "Tu peux récolter au maximum un corn point par jour. Une seule action constructive suffit.",
+    "urge": "Terminer un parcours d'aide compte, quel que soit son résultat.",
+    "checkIn": "Faire un bilan quotidien compte.",
+    "observation": "Noter honnêtement une consommation compte également : la sincérité n'est jamais pénalisée.",
+    "learning": "Terminer un module pédagogique compte.",
+    "goal": "Créer ou mettre à jour ton objectif compte.",
+    "momentumTitle": "Et l'élan ?",
+    "momentumBody": "L'élan correspond aux jours cultivés à la suite. La journée en cours reste une période de grâce. Si l'élan s'interrompt, ta récolte ne diminue jamais et tous tes corn points restent acquis."
+  }
+}

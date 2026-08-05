@@ -1,0 +1,55 @@
+{
+  "subtitle": "Six modules courts, disponibles hors ligne et sans diagnostic.",
+  "semantics": "Modules pédagogiques",
+  "evidence": {
+    "title": "Sur quoi reposent ces modules ?",
+    "sheetTitle": "Sources et limites",
+    "principles": "Chaque module cite des travaux scientifiques sur des principes généraux liés à la motivation, aux habitudes, à la maîtrise de soi, à la pleine conscience ou à l'autocompassion.",
+    "limitations": "Ces sources ne valident pas cliniquement StopCorn. Certaines portent sur le comportement en général ou le tabagisme, et les études consacrées à la pornographie peuvent reposer sur des échantillons limités. Les modules proposent des repères éducatifs prudents, pas un diagnostic ni un traitement."
+  },
+  "sources": {
+    "title(param=count)": {
+      "zero": "$count sources scientifiques",
+      "one": "$count source scientifique",
+      "other": "$count sources scientifiques"
+    },
+    "shortDescription": "Références et portée des résultats",
+    "sheetTitle": "Sources scientifiques",
+    "scope": "Chaque résultat doit être replacé dans sa population et sa méthode : une association ne prouve pas une cause, et un résultat obtenu sur un autre comportement ou un échantillon limité n'est pas forcément généralisable. Ces références ne prouvent pas que ce module ou StopCorn constitue un traitement."
+  },
+  "module": {
+    "line": "$minutes min · $status",
+    "progress": "Progression du module $title",
+    "pageTitle": "Module",
+    "loadError": "Ce module n'a pas pu être chargé."
+  },
+  "status": {
+    "completed": "Terminé",
+    "reviewing": "Relecture en cours",
+    "resume": "Poursuivre la lecture",
+    "discover": "Découvrir"
+  },
+  "reading": {
+    "progress": "Progression de lecture du module",
+    "part": "Partie $current sur $total",
+    "previous": "Précédent"
+  },
+  "reflection": {
+    "optional": "Réflexion facultative",
+    "label": "Ma réflexion",
+    "hint": "Quelques mots pour toi-même…",
+    "localNote": "Cette note reste uniquement sur ton appareil.",
+    "continueAction": "Passer à la réflexion",
+    "yours": "Ta réflexion"
+  },
+  "completion": {
+    "title": "Module terminé",
+    "finish": "Terminer le module",
+    "restart": "Recommencer le module",
+    "back": "Retour aux modules"
+  },
+  "error": {
+    "load": "Les modules n'ont pas pu être chargés.",
+    "save": "Impossible d'enregistrer ta progression pour le moment. Réessaie."
+  }
+}

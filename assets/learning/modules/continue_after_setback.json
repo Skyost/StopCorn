@@ -1,0 +1,41 @@
+{
+  "id": "continue-after-setback",
+  "order": 6,
+  "titleKey": "learningModules.continueAfterSetback.title",
+  "summaryKey": "learningModules.continueAfterSetback.summary",
+  "estimatedMinutes": 7,
+  "sections": [
+    {
+      "titleKey": "learningModules.continueAfterSetback.sections.perspective.title",
+      "paragraphKeys": [
+        "learningModules.continueAfterSetback.sections.perspective.paragraph1",
+        "learningModules.continueAfterSetback.sections.perspective.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.continueAfterSetback.sections.adjust.title",
+      "paragraphKeys": [
+        "learningModules.continueAfterSetback.sections.adjust.paragraph1",
+        "learningModules.continueAfterSetback.sections.adjust.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.continueAfterSetback.sections.help.title",
+      "paragraphKeys": [
+        "learningModules.continueAfterSetback.sections.help.paragraph1",
+        "learningModules.continueAfterSetback.sections.help.paragraph2"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.continueAfterSetback.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Breines J. G. & Chen S. (2012). Self-compassion increases self-improvement motivation. Personality and Social Psychology Bulletin, 38(9), 1133–1143. https://doi.org/10.1177/0146167212445599",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22645164/"
+    },
+    {
+      "citation": "Shiffman S. et al. (1996). Progression from a smoking lapse to relapse: prediction from abstinence violation effects, nicotine dependence, and lapse characteristics. Journal of Consulting and Clinical Psychology, 64(5), 993–1002. https://doi.org/10.1037/0022-006X.64.5.993",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8916628/"
+    }
+  ]
+}

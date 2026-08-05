@@ -1,0 +1,41 @@
+{
+  "id": "map-terrain",
+  "order": 3,
+  "titleKey": "learningModules.mapTerrain.title",
+  "summaryKey": "learningModules.mapTerrain.summary",
+  "estimatedMinutes": 7,
+  "sections": [
+    {
+      "titleKey": "learningModules.mapTerrain.sections.states.title",
+      "paragraphKeys": [
+        "learningModules.mapTerrain.sections.states.paragraph1",
+        "learningModules.mapTerrain.sections.states.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.mapTerrain.sections.routines.title",
+      "paragraphKeys": [
+        "learningModules.mapTerrain.sections.routines.paragraph1",
+        "learningModules.mapTerrain.sections.routines.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.mapTerrain.sections.map.title",
+      "paragraphKeys": [
+        "learningModules.mapTerrain.sections.map.paragraph1",
+        "learningModules.mapTerrain.sections.map.paragraph2"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.mapTerrain.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Wood W., Tam L. & Guerrero Witt M. (2005). Changing circumstances, disrupting habits. Journal of Personality and Social Psychology, 88(6), 918–933. https://doi.org/10.1037/0022-3514.88.6.918",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15982113/"
+    },
+    {
+      "citation": "Bőthe B. et al. (2021). Why do people watch pornography? The motivational basis of pornography use. Psychology of Addictive Behaviors, 35(2), 172–186. https://doi.org/10.1037/adb0000603",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32730047/"
+    }
+  ]
+}

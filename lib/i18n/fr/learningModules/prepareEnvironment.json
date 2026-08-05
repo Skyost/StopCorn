@@ -1,0 +1,22 @@
+{
+  "title": "Préparer ton environnement",
+  "summary": "Ajoute de la friction et facilite les actions que tu as choisies.",
+  "sections": {
+    "friction": {
+      "title": "Rendre l'accès moins automatique",
+      "paragraph1": "Laisser le téléphone hors de la chambre, fixer certains horaires ou utiliser le mode de concentration du système peut ajouter une friction volontaire.",
+      "paragraph2": "Un bloqueur peut compléter ton plan, mais il ne règle pas une difficulté à lui seul."
+    },
+    "moments": {
+      "title": "Préparer les moments plus fragiles",
+      "paragraph1": "Si les soirées où tu es fatigué reviennent dans tes observations, préparer une routine simple ou charger ton appareil ailleurs peut faciliter l'action souhaitée.",
+      "paragraph2": "Si certains comptes ou réseaux précèdent souvent les moments difficiles, tu peux en ajuster l'accès sans devoir tout supprimer."
+    },
+    "alternative": {
+      "title": "Rendre l'alternative visible",
+      "paragraph1": "Prépare une autre action facile d'accès : un livre à proximité, une courte marche ou une tâche choisie à l'avance.",
+      "paragraph2": "Ton environnement est surtout utile lorsqu'il soutient une intention précise."
+    }
+  },
+  "reflectionPrompt": "Quel petit changement pourrais-tu apporter à ton environnement aujourd'hui ?"
+}

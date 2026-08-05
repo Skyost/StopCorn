@@ -1,0 +1,54 @@
+{
+  "subtitle": "Six short modules, available offline and without diagnosis.",
+  "semantics": "Learning modules",
+  "evidence": {
+    "title": "What informs these modules?",
+    "sheetTitle": "Evidence and limitations",
+    "principles": "Each module cites peer-reviewed research supporting general principles about motivation, habits, self-control, mindfulness, or self-compassion.",
+    "limitations": "These sources do not clinically validate StopCorn. Some concern general behavior or smoking, and pornography-specific studies can involve limited samples. The modules provide cautious educational guidance, not a diagnosis or treatment."
+  },
+  "sources": {
+    "title(param=count)": {
+      "one": "$count scientific source",
+      "other": "$count scientific sources"
+    },
+    "shortDescription": "References and scope of the evidence",
+    "sheetTitle": "Scientific sources",
+    "scope": "Read each result within its population and study design: an association does not establish a cause, and a finding from another behavior or a limited sample may not generalize. These references do not prove that this module or StopCorn is a treatment."
+  },
+  "module": {
+    "line": "$minutes min · $status",
+    "progress": "Progress for module $title",
+    "pageTitle": "Module",
+    "loadError": "This module could not be loaded."
+  },
+  "status": {
+    "completed": "Completed",
+    "reviewing": "Reading again",
+    "resume": "Resume reading",
+    "discover": "Discover"
+  },
+  "reading": {
+    "progress": "Module reading progress",
+    "part": "Part $current of $total",
+    "previous": "Previous"
+  },
+  "reflection": {
+    "optional": "Optional reflection",
+    "label": "My reflection",
+    "hint": "A few words for yourself…",
+    "localNote": "This note stays only on your device.",
+    "continueAction": "Continue to reflection",
+    "yours": "Your reflection"
+  },
+  "completion": {
+    "title": "Module completed",
+    "finish": "Finish module",
+    "restart": "Restart module",
+    "back": "Back to modules"
+  },
+  "error": {
+    "load": "Modules could not be loaded.",
+    "save": "Unable to save your progress right now. Try again."
+  }
+}

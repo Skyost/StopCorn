@@ -1,0 +1,37 @@
+{
+  "id": "prepare-environment",
+  "order": 5,
+  "titleKey": "learningModules.prepareEnvironment.title",
+  "summaryKey": "learningModules.prepareEnvironment.summary",
+  "estimatedMinutes": 8,
+  "sections": [
+    {
+      "titleKey": "learningModules.prepareEnvironment.sections.friction.title",
+      "paragraphKeys": [
+        "learningModules.prepareEnvironment.sections.friction.paragraph1",
+        "learningModules.prepareEnvironment.sections.friction.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.prepareEnvironment.sections.moments.title",
+      "paragraphKeys": [
+        "learningModules.prepareEnvironment.sections.moments.paragraph1",
+        "learningModules.prepareEnvironment.sections.moments.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.prepareEnvironment.sections.alternative.title",
+      "paragraphKeys": [
+        "learningModules.prepareEnvironment.sections.alternative.paragraph1",
+        "learningModules.prepareEnvironment.sections.alternative.paragraph2"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.prepareEnvironment.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Duckworth A. L., Gendler T. S. & Gross J. J. (2016). Situational Strategies for Self-Control. Perspectives on Psychological Science, 11(1), 35–55. https://doi.org/10.1177/1745691615623247",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26817725/"
+    }
+  ]
+}

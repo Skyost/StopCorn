@@ -1,0 +1,41 @@
+{
+  "title": "Noter une consommation",
+  "intro": "Quelques informations suffisent. Tu peux ignorer toutes les questions facultatives.",
+  "date": "Date",
+  "time": "Heure",
+  "factors": {
+    "label": "Facteurs déclenchants (facultatif)",
+    "trigger": "Déclencheur",
+    "emotion": "Émotion"
+  },
+  "control": {
+    "label": "Sentiment de contrôle (facultatif)",
+    "scale": "0 = aucun contrôle, 10 = contrôle complet"
+  },
+  "context": {
+    "label": "Contexte très court (facultatif)",
+    "hint": "Exemple : seul le soir",
+    "description": "Reste général : aucun site, recherche ou détail explicite."
+  },
+  "contextualGoal": {
+    "title": "Tes contextes protégés",
+    "description": "Sélectionne les contextes de ton objectif qui correspondaient à la situation. Ils apparaîtront ainsi dans ta progression, sans remplacer la note facultative ci-dessous.",
+    "label": "Contextes de mon objectif (facultatif)"
+  },
+  "note": {
+    "label": "Note facultative",
+    "hint": "Un repère utile pour la suite…"
+  },
+  "saved": {
+    "title": "C'est enregistré.",
+    "body": "L'objectif est de mieux comprendre la situation, pas de te juger."
+  },
+  "edit": {
+    "title": "Corriger cette consommation"
+  },
+  "error": {
+    "load": "Le formulaire n'a pas pu être préparé.",
+    "save": "Impossible d'enregistrer pour le moment. Réessaie dans quelques instants.",
+    "missingEvent": "Cette consommation n'existe plus."
+  }
+}

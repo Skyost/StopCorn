@@ -1,0 +1,22 @@
+{
+  "title": "Continue after a setback",
+  "summary": "Turn an event into useful information, without judgment.",
+  "sections": {
+    "perspective": {
+      "title": "Move beyond “everything is ruined”",
+      "paragraph1": "One event does not erase the pauses, choices, and observations you have already made.",
+      "paragraph2": "The thought that everything is ruined can push you to abandon a plan that is still useful."
+    },
+    "adjust": {
+      "title": "Adjust rather than punish",
+      "paragraph1": "Look at what came before: time, tiredness, emotion, device, or general context.",
+      "paragraph2": "Then choose one limited adjustment. Punishment or an unrealistic goal rarely provides useful information."
+    },
+    "help": {
+      "title": "Know when to ask for help",
+      "paragraph1": "If loss of control persists, causes severe distress, or has significant consequences, talking to a qualified professional may help.",
+      "paragraph2": "Asking for help can be part of the plan; it does not take away from progress already made."
+    }
+  },
+  "reflectionPrompt": "What useful information can you take from the last event without judging yourself?"
+}

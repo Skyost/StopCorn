@@ -1,0 +1,67 @@
+{
+  "load": {
+    "error": "Les données d'aujourd'hui n'ont pas pu être chargées."
+  },
+  "sections": {
+    "today": "Aujourd'hui",
+    "metrics": "Métriques",
+    "lastThirtyDays": "Ces 30 derniers jours",
+    "quickActions": "Actions rapides"
+  },
+  "goal": {
+    "title": "Objectif",
+    "undefined": "Objectif à définir",
+    "weeklyLimit(param=count)": {
+      "zero": "Limite souhaitée : $count événement par semaine.",
+      "one": "Limite souhaitée : $count événement par semaine.",
+      "other": "Limite souhaitée : $count événements par semaine."
+    },
+    "contexts": "Contextes protégés : $contexts."
+  },
+  "checkIn": {
+    "title": "Bilan quotidien",
+    "completed": "Bilan quotidien enregistré.",
+    "available": "Bilan quotidien à faire quand tu le souhaites.\nTape pour l'enregistrer.",
+    "action": {
+      "done": "Éditer mon bilan quotidien",
+      "pending": "Faire mon bilan quotidien"
+    }
+  },
+  "urge": {
+    "today": "Envies aujourd'hui",
+    "count(plural, param=count, rich)": {
+      "zero": "Aucune envie enregistrée aujourd'hui.",
+      "one": "$count envie enregistrée aujourd'hui.",
+      "other": "$count envies enregistrées aujourd'hui."
+    },
+    "semantics": "J'ai envie de consulter du contenu, faire une pause",
+    "action(rich)": "J'ai une envie de $corn",
+    "subtitle": "Faire une pause"
+  },
+  "strategy": {
+    "lastHelpful": "Dernière stratégie utile"
+  },
+  "metrics": {
+    "daysWithout(param=count)": {
+      "zero": "jours sans consommation enregistrée",
+      "one": "jour sans consommation enregistrée",
+      "other": "jours sans consommation enregistrée"
+    },
+    "traversedUrges(plural, param=count)": {
+      "zero": "envies surpassées ou réduites",
+      "one": "envie surpassée ou réduite",
+      "other": "envies surpassées ou réduites"
+    },
+    "averageControl": "taux de contrôle moyen déclaré",
+    "empty": "Tes premières observations apparaîtront ici. Il n'est pas nécessaire de tout noter parfaitement : quelques repères suffisent pour commencer."
+  },
+  "actions": {
+    "openJournal": "Ouvrir mon journal",
+    "logConsumption": "Noter une consommation",
+    "reviewPlan": "Revoir mon plan"
+  },
+  "learningRecommendation": {
+    "title": "À découvrir",
+    "action": "Poursuivre la lecture"
+  }
+}

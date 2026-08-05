@@ -1,0 +1,41 @@
+{
+  "title": "Record a consumption",
+  "intro": "A few details are enough. You can skip every optional question.",
+  "date": "Date",
+  "time": "Time",
+  "factors": {
+    "label": "Contributing factors (optional)",
+    "trigger": "Trigger",
+    "emotion": "Emotion"
+  },
+  "control": {
+    "label": "Sense of control (optional)",
+    "scale": "0 = no control, 10 = complete control"
+  },
+  "context": {
+    "label": "Very short context (optional)",
+    "hint": "Example: alone in the evening",
+    "description": "Keep it general: no website, search, or explicit detail."
+  },
+  "contextualGoal": {
+    "title": "Your protected contexts",
+    "description": "Select any context from your current goal that applied. This makes that goal visible in your progress without replacing the optional note below.",
+    "label": "Contexts from my goal (optional)"
+  },
+  "note": {
+    "label": "Optional note",
+    "hint": "A helpful marker for later…"
+  },
+  "saved": {
+    "title": "It's saved.",
+    "body": "The goal is to better understand the situation, not to judge yourself."
+  },
+  "edit": {
+    "title": "Correct this consumption"
+  },
+  "error": {
+    "load": "The form could not be prepared.",
+    "save": "Unable to save right now. Try again in a moment.",
+    "missingEvent": "This consumption no longer exists."
+  }
+}

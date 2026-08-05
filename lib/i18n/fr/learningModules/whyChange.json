@@ -1,0 +1,22 @@
+{
+  "title": "Pourquoi changer ?",
+  "summary": "Précise ce que tu aimerais retrouver ou préserver.",
+  "sections": {
+    "direction": {
+      "title": "Une direction qui vient de toi",
+      "paragraph1": "Un changement a plus de chances de durer lorsqu'il correspond à ce qui compte pour toi, et pas seulement à ce que les autres attendent.",
+      "paragraph2": "Tu peux vouloir arrêter, réduire, éviter certaines situations ou commencer par observer. Aucun de ces choix ne définit ta valeur."
+    },
+    "benefits": {
+      "title": "Ce que tu veux retrouver",
+      "paragraph1": "Essaie de nommer ce que tu aimerais retrouver : du temps, de la disponibilité mentale, du sommeil, une relation plus sereine ou le sentiment de décider.",
+      "paragraph2": "Une raison personnelle et précise peut servir de repère lorsque l'impulsion devient forte."
+    },
+    "changes": {
+      "title": "Une motivation variable",
+      "paragraph1": "La motivation change d'un jour à l'autre. Cela ne signifie ni que tu as échoué, ni que ton objectif est mauvais.",
+      "paragraph2": "Lorsqu'elle baisse, une petite action préparée à l'avance peut prendre le relais."
+    }
+  },
+  "reflectionPrompt": "Qu'aimerais-tu retrouver ou préserver en faisant évoluer cette habitude ?"
+}

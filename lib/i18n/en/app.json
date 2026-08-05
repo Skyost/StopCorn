@@ -1,0 +1,34 @@
+{
+  "name": "StopCorn",
+  "logoSemantics": "StopCorn corn cob logo",
+  "urgeCueSemantics": "this content",
+  "loading": "Loading…",
+  "retry": "Try again",
+  "cancel": "Cancel",
+  "close": "Close",
+  "continueLabel": "Continue",
+  "back": "Back",
+  "backHome": "Back to home",
+  "save": "Save",
+  "saving": "Saving…",
+  "noChoice": "No selection",
+  "unknown": "Unknown",
+  "minutes": "$count min",
+  "notMedicalDisclaimer": "StopCorn is not a medical tool. It does not diagnose and cannot replace a health professional. If this behavior causes severe distress, persistent loss of control, or significant consequences in your life, talking to a qualified professional may help.",
+  "technicalDetails": {
+    "show": "Show technical details",
+    "hide": "Hide technical details"
+  },
+  "splash": {
+    "preparing": "Preparing StopCorn…",
+    "error": "StopCorn could not start. Your data was not changed."
+  },
+  "score": {
+    "unanswered": "Optional — not answered",
+    "outOfTen": "$value / 10",
+    "clear": "Clear $label",
+    "unansweredSemantics": "$label: not answered",
+    "answeredSemantics": "$label: $value out of 10"
+  },
+  "moduleNumber": "Module #$order"
+}

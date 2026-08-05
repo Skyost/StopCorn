@@ -1,0 +1,22 @@
+{
+  "title": "Understand the loop",
+  "summary": "Notice the stages that can keep a habit going.",
+  "sections": {
+    "sequence": {
+      "title": "A sequence to observe",
+      "paragraph1": "A habit can sometimes be described as: situation → emotion → impulse → behavior → immediate effect or relief → consequences.",
+      "paragraph2": "This is a practical observation model, not a sequence proven to apply to everyone. Some stages may happen very quickly or be difficult to notice."
+    },
+    "action": {
+      "title": "Find a point of action",
+      "paragraph1": "You do not need to control the entire loop. Changing location, waiting a few minutes, or choosing another action can create space.",
+      "paragraph2": "Observing the situation and emotion can help you choose a realistic point of action."
+    },
+    "observe": {
+      "title": "Observe without diagnosing",
+      "paragraph1": "StopCorn notes are personal markers, not a diagnosis.",
+      "paragraph2": "The aim is to make recurring sequences more visible so you can adjust your plan."
+    }
+  },
+  "reflectionPrompt": "Which part of the loop seems easiest to change this week?"
+}

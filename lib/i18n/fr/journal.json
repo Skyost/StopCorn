@@ -1,0 +1,63 @@
+{
+  "history": {
+    "title": "Journal",
+    "intro": "Retrouve les consommations, les sessions d'aide et les bilans quotidiens que tu as choisi d'enregistrer, regroupés par date.",
+    "error": "Le journal n'a pas pu être chargé.",
+    "empty": {
+      "title": "Ton journal est encore vide",
+      "body": "Les consommations et les bilans que tu enregistreras apparaîtront ici."
+    },
+    "date": {
+      "today": "Aujourd'hui",
+      "yesterday": "Hier"
+    },
+    "entry": {
+      "consumption": "Consommation",
+      "checkIn": "Bilan quotidien",
+      "time": "À $time",
+      "checkInSummary": "Humeur : $mood/10 · Contrôle : $control/10",
+      "noText": "Aucun contexte ni aucune note.",
+      "entries(param=count)": {
+        "zero": "Aucune entrée",
+        "one": "$count entrée",
+        "other": "$count entrées"
+      },
+      "urge": "Session d'aide",
+      "urgeSummary": "Intensité $initial → $finalValue",
+      "urgeSummaryPartial": "Intensité de départ $initial"
+    },
+    "details": {
+      "cornUrges(plural, param=count, rich)": {
+        "zero": "aucune envie de $corn",
+        "one": "$count envie de $corn",
+        "other": "$count envies de $corn"
+      },
+      "initialIntensity": "Intensité de départ",
+      "finalIntensity": "Intensité à la fin",
+      "outcome": "Issue",
+      "strategy": "Action essayée",
+      "pause": "Pause guidée",
+      "pauseSeconds(param=count)": {
+        "zero": "$count secondes",
+        "one": "$count seconde",
+        "other": "$count secondes"
+      },
+      "reflection": "Ta réflexion"
+    }
+  },
+  "edit": {
+    "action": "Corriger"
+  },
+  "delete": {
+    "action": "Supprimer",
+    "title": "Supprimer cette entrée ?",
+    "consumption": "Cette entrée et sa note privée seront définitivement retirées de ton journal. Tes statistiques seront recalculées sans elle.",
+    "checkIn": "Ce bilan quotidien et sa note privée seront définitivement retirés de ton journal. Tes statistiques seront recalculées sans lui.",
+    "urge": "Cette séance de soutien et la réflexion écrite à la fin seront définitivement retirées. La stratégie essayée pendant la séance cesse d'être comptée ; une consommation notée depuis cette séance est conservée.",
+    "irreversible": "Cette action est irréversible.",
+    "confirm": "Supprimer définitivement"
+  },
+  "error": {
+    "delete": "Cette entrée n'a pas pu être supprimée. Rien n'a été modifié."
+  }
+}

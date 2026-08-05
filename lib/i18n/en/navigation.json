@@ -1,0 +1,9 @@
+{
+  "home": {
+    "item": "Home",
+    "title": "Hello"
+  },
+  "progress": "Progress",
+  "learn": "Learn",
+  "settings": "Settings"
+}

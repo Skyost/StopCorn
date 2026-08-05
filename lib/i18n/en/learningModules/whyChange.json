@@ -1,0 +1,22 @@
+{
+  "title": "Why change?",
+  "summary": "Clarify what you want to regain or protect.",
+  "sections": {
+    "direction": {
+      "title": "A goal that belongs to you",
+      "paragraph1": "Change is more sustainable when your chosen direction reflects what matters to you, rather than only an outside expectation.",
+      "paragraph2": "You may want to stop, reduce, avoid certain situations, or simply observe. None of these goals defines your worth."
+    },
+    "benefits": {
+      "title": "Concrete benefits",
+      "paragraph1": "Try to name what you would like to regain: time, mental space, sleep, a calmer relationship, or the feeling that you are choosing.",
+      "paragraph2": "A specific motivation can be a useful marker when the impulse is strong."
+    },
+    "changes": {
+      "title": "Motivation changes",
+      "paragraph1": "Motivation varies from one day to the next. That variation is neither a failure nor proof that your goal is wrong.",
+      "paragraph2": "When motivation drops, a small action prepared in advance can take over."
+    }
+  },
+  "reflectionPrompt": "What would you like to regain or protect by changing this habit?"
+}

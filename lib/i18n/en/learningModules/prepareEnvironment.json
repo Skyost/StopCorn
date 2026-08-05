@@ -1,0 +1,22 @@
+{
+  "title": "Prepare your environment",
+  "summary": "Add friction and make your chosen actions easier.",
+  "sections": {
+    "friction": {
+      "title": "Reduce automatic access",
+      "paragraph1": "Leaving the phone outside the bedroom, setting time boundaries, or using the system focus mode can add intentional friction.",
+      "paragraph2": "A blocker can complement a plan, but it cannot resolve a difficulty on its own."
+    },
+    "moments": {
+      "title": "Prepare vulnerable moments",
+      "paragraph1": "If tired evenings recur in your observations, preparing a simple routine or charging a device elsewhere can make the desired choice easier.",
+      "paragraph2": "If certain accounts or networks often come before difficult moments, you can adjust access without having to remove everything."
+    },
+    "alternative": {
+      "title": "Make the alternative visible",
+      "paragraph1": "Prepare an accessible replacement action: a book nearby, a short walk, or a task chosen in advance.",
+      "paragraph2": "Your environment works best when it supports a specific intention."
+    }
+  },
+  "reflectionPrompt": "What change to your environment could you make today?"
+}

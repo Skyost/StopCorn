@@ -1,0 +1,43 @@
+{
+  "title": "Bilan du jour",
+  "intro": {
+    "create": "Un repère rapide, en moins d'une minute.",
+    "edit": "Modifier le bilan d'aujourd'hui."
+  },
+  "mood": {
+    "label": "Humeur",
+    "scale": "0 = très difficile, 10 = très bonne"
+  },
+  "control": {
+    "label": "Sentiment de contrôle",
+    "scale": "0 = aucun contrôle, 10 = contrôle complet"
+  },
+  "urge": {
+    "count": "Nombre approximatif d'envies (facultatif)",
+    "hint": "Exemple : 3",
+    "negative": "Le nombre ne peut pas être négatif."
+  },
+  "consumption": {
+    "recorded(param=count)": {
+      "one": "$count consommation enregistrée ce jour-là.",
+      "other": "$count consommations enregistrées ce jour-là."
+    },
+    "none": "Aucune consommation enregistrée ce jour-là."
+  },
+  "sleep": {
+    "label": "Qualité du sommeil (facultatif)",
+    "scale": "0 = très mauvaise, 10 = excellente"
+  },
+  "note": {
+    "label": "Note facultative",
+    "hint": "Ce qui a marqué ta journée…"
+  },
+  "saved": {
+    "title": "Bilan enregistré.",
+    "body": "Ces repères aideront à observer les tendances dans le temps."
+  },
+  "error": {
+    "load": "Le bilan du jour n'a pas pu être chargé.",
+    "save": "Impossible d'enregistrer pour le moment. Réessaie dans quelques instants."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ride-urge",
+  "order": 4,
+  "titleKey": "learningModules.rideUrge.title",
+  "summaryKey": "learningModules.rideUrge.summary",
+  "estimatedMinutes": 6,
+  "sections": [
+    {
+      "titleKey": "learningModules.rideUrge.sections.delay.title",
+      "paragraphKeys": [
+        "learningModules.rideUrge.sections.delay.paragraph1",
+        "learningModules.rideUrge.sections.delay.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.rideUrge.sections.concrete.title",
+      "paragraphKeys": [
+        "learningModules.rideUrge.sections.concrete.paragraph1",
+        "learningModules.rideUrge.sections.concrete.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.rideUrge.sections.expectations.title",
+      "paragraphKeys": [
+        "learningModules.rideUrge.sections.expectations.paragraph1",
+        "learningModules.rideUrge.sections.expectations.paragraph2"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.rideUrge.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Bowen S. & Marlatt A. (2009). Surfing the urge: brief mindfulness-based intervention for college student smokers. Psychology of Addictive Behaviors, 23(4), 666–671. https://doi.org/10.1037/a0017127",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20025372/"
+    },
+    {
+      "citation": "Duckworth A. L., Gendler T. S. & Gross J. J. (2016). Situational Strategies for Self-Control. Perspectives on Psychological Science, 11(1), 35–55. https://doi.org/10.1177/1745691615623247",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26817725/"
+    }
+  ]
+}

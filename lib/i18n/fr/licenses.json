@@ -1,0 +1,6 @@
+{
+  "title": "Licences open source",
+  "intro": "StopCorn utilise des composants open source. Sélectionne une entrée pour lire son texte de licence.",
+  "loadError": "Les licences n'ont pas pu être chargées.",
+  "otherComponent": "Autre composant"
+}

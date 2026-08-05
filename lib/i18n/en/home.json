@@ -1,0 +1,64 @@
+{
+  "load": {
+    "error": "Today's data could not be loaded."
+  },
+  "sections": {
+    "today": "Today",
+    "metrics": "Metrics",
+    "lastThirtyDays": "Last 30 days",
+    "quickActions": "Quick actions"
+  },
+  "goal": {
+    "title": "Goal",
+    "undefined": "Goal to be defined",
+    "weeklyLimit(param=count)": {
+      "one": "Desired limit: $count event per week.",
+      "other": "Desired limit: $count events per week."
+    },
+    "contexts": "Protected contexts: $contexts."
+  },
+  "checkIn": {
+    "title": "Daily check-in",
+    "completed": "Daily check-in recorded.",
+    "available": "Daily check-in available whenever you want.\nTap to record.",
+    "action": {
+      "done": "Edit my daily check-in",
+      "pending": "Record my daily check-in"
+    }
+  },
+  "urge": {
+    "today": "Urges today",
+    "count(plural, param=count, rich)": {
+      "zero": "No urge recorded today.",
+      "one": "$count urge recorded today.",
+      "other": "$count urges recorded today."
+    },
+    "semantics": "I feel an urge to view content, take a break",
+    "action(rich)": "I need $corn",
+    "subtitle": "Take a break"
+  },
+  "strategy": {
+    "lastHelpful": "Last helpful strategy"
+  },
+  "metrics": {
+    "daysWithout(param=count)": {
+      "one": "day without a recorded consumption event",
+      "other": "days without a recorded consumption event"
+    },
+    "traversedUrges(plural, param=count)": {
+      "one": "urge moved through or reduced",
+      "other": "urges moved through or reduced"
+    },
+    "averageControl": "average reported rate control",
+    "empty": "Your first observations will appear here. You do not need to record everything perfectly: a few markers are enough to begin."
+  },
+  "actions": {
+    "openJournal": "Open my journal",
+    "logConsumption": "Record a consumption event",
+    "reviewPlan": "Review my plan"
+  },
+  "learningRecommendation": {
+    "title": "Up next",
+    "action": "Continue reading"
+  }
+}

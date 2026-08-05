@@ -1,0 +1,43 @@
+{
+  "title": "Daily check-in",
+  "intro": {
+    "create": "A quick marker, in under a minute.",
+    "edit": "Edit today's check-in."
+  },
+  "mood": {
+    "label": "Mood",
+    "scale": "0 = very difficult, 10 = very good"
+  },
+  "control": {
+    "label": "Sense of control",
+    "scale": "0 = no control, 10 = complete control"
+  },
+  "urge": {
+    "count": "Approximate number of urges (optional)",
+    "hint": "Example: 3",
+    "negative": "The number cannot be negative."
+  },
+  "consumption": {
+    "recorded(param=count)": {
+      "one": "$count consumption event recorded on that day.",
+      "other": "$count consumption events recorded on that day."
+    },
+    "none": "No consumption event recorded on that day."
+  },
+  "sleep": {
+    "label": "Sleep quality (optional)",
+    "scale": "0 = very poor, 10 = excellent"
+  },
+  "note": {
+    "label": "Optional note",
+    "hint": "What stood out today…"
+  },
+  "saved": {
+    "title": "Check-in saved.",
+    "body": "These markers will help you observe trends over time."
+  },
+  "error": {
+    "load": "The daily check-in could not be loaded.",
+    "save": "Unable to save right now. Try again in a moment."
+  }
+}

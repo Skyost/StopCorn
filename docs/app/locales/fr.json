@@ -1,0 +1,307 @@
+{
+  "accessibility": {
+    "skipToContent": "Aller au contenu principal"
+  },
+  "brand": {
+    "homeLabel": "StopCorn — revenir à l’accueil"
+  },
+  "language": {
+    "label": "Choisir la langue"
+  },
+  "navigation": {
+    "label": "Navigation principale",
+    "open": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "mission": "Pourquoi StopCorn",
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "privacy": "Confidentialité",
+    "terms": "Conditions d’utilisation",
+    "download": "Télécharger",
+    "source": "Code source",
+    "sourceLabel": "Voir le code source de StopCorn sur GitHub",
+    "contact": "Nous contacter"
+  },
+  "seo": {
+    "title": "StopCorn — Reprendre le contrôle de ses habitudes, sans jugement",
+    "description": "StopCorn est une application gratuite, privée et open source qui aide les adultes à mieux comprendre leur usage de la pornographie, traverser les envies et progresser à leur rythme.",
+    "socialImageAlt": "Logo de StopCorn sur un fond doux vert et crème"
+  },
+  "hero": {
+    "badge": "Gratuit, privé et open source",
+    "title": "Comprendre ses habitudes.",
+    "titleHighlight": "Reprendre la main, à son rythme.",
+    "description": "StopCorn aide les adultes qui souhaitent faire évoluer leur rapport à la pornographie. Observez ce qui se passe, traversez les moments difficiles et mesurez vos progrès — sans compte, sans publicité et sans jugement.",
+    "primaryAction": "Découvrir l’application",
+    "secondaryAction": "Voir le code source",
+    "trust": {
+      "free": "100 % gratuit",
+      "local": "Données sur votre appareil",
+      "noAds": "Sans pub ni traqueur"
+    }
+  },
+  "mission": {
+    "eyebrow": "Une autre voie",
+    "title": "Un outil honnête face aux solutions fermées et limitées",
+    "description": "Beaucoup d’alternatives réservent l’essentiel derrière un abonnement ou transforment une démarche intime en produit. StopCorn est né pour proposer un accompagnement accessible, discret et transparent à toutes les personnes qui en ressentent le besoin.",
+    "quote": "Le progrès ne se résume pas à une série parfaite. Il se construit en comprenant mieux ses schémas et en choisissant, un peu plus souvent, l’action qui nous convient.",
+    "reasons": {
+      "free": {
+        "title": "Vraiment gratuit",
+        "description": "Les fonctions utiles restent accessibles sans abonnement. Le soutien au projet est volontaire et ne débloque aucun avantage essentiel."
+      },
+      "private": {
+        "title": "Pensé pour rester privé",
+        "description": "Pas de compte StopCorn, pas de serveur de suivi et pas de collecte de contenu sensible. Vos entrées restent localement sur votre téléphone."
+      },
+      "kind": {
+        "title": "Sans culpabilisation",
+        "description": "L’application observe les tendances sans étiquette ni punition. Un événement n’efface jamais les efforts déjà accomplis."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Dans votre poche",
+    "title": "Des outils simples pour les moments qui comptent",
+    "description": "Pas de promesse miracle : des repères concrets pour préparer, agir, comprendre et avancer.",
+    "items": {
+      "urge": {
+        "title": "Traverser une envie",
+        "description": "Une action urgente accessible immédiatement, avec respiration guidée, délai court et stratégies choisies à l’avance."
+      },
+      "journal": {
+        "title": "Un journal discret",
+        "description": "Consignez volontairement le contexte, les émotions et une note privée, sans enregistrer de site, de recherche ou de contenu consulté."
+      },
+      "progress": {
+        "title": "Une progression nuancée",
+        "description": "Comparez votre point de départ aux tendances récentes : fréquence, sentiment de contrôle, intensité et évolution dans le temps."
+      },
+      "checkIn": {
+        "title": "Un bilan quotidien court",
+        "description": "Quelques secondes pour prendre du recul sur la journée, sans transformer le suivi en contrainte supplémentaire."
+      },
+      "plan": {
+        "title": "Un plan qui vous ressemble",
+        "description": "Préparez une liste d’actions réalistes et retrouvez la meilleure option au moment où la décision devient plus difficile."
+      },
+      "harvest": {
+        "title": "Un élan positif",
+        "description": "Les actions positives nourrissent une petite récolte symbolique, sans classement, compétition ni série punitive."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Votre rythme, vos repères",
+    "title": "Comment fonctionne StopCorn ?",
+    "description": "L’application vous accompagne dans une boucle courte et volontaire. Vous gardez toujours la main sur ce que vous saisissez.",
+    "steps": {
+      "baseline": {
+        "title": "Définir un point de départ",
+        "description": "Au démarrage, choisissez votre objectif et estimez votre fréquence récente, votre sentiment de contrôle et l’impact ressenti."
+      },
+      "observe": {
+        "title": "Observer sans se juger",
+        "description": "Les bilans et le journal font apparaître des contextes et des tendances, sans transformer chaque journée en réussite ou en échec."
+      },
+      "act": {
+        "title": "Agir dans l’instant",
+        "description": "En cas d’envie, ouvrez le parcours urgent et suivez une stratégie que vous aviez préparée lorsque la décision était plus facile."
+      },
+      "learn": {
+        "title": "Ajuster progressivement",
+        "description": "Comparez votre situation récente au point de départ, gardez ce qui aide et adaptez votre plan au fil du temps."
+      }
+    },
+    "note": "StopCorn ne bloque pas les sites et ne surveille pas votre navigation. C’est un outil d’auto-observation et d’action volontaire."
+  },
+  "privacy": {
+    "eyebrow": "Privé par conception",
+    "title": "Ce qui est intime doit le rester",
+    "description": "L'application est locale par défaut. Elle ne nécessite aucun compte StopCorn et ne contient ni publicité, ni mesure d'audience, ni traqueur marketing. Les rapports d'erreur anonymes sont désactivables dans les réglages.",
+    "promises": {
+      "noAccount": {
+        "title": "Aucun compte",
+        "description": "Aucune identité StopCorn à créer et aucune synchronisation distante de votre journal."
+      },
+      "noTracking": {
+        "title": "Aucun suivi comportemental",
+        "description": "L’application ne contient pas de publicité, de mesure d’audience ou de profilage marketing."
+      },
+      "noExplicitData": {
+        "title": "Aucun contenu explicite collecté",
+        "description": "Ni URL, ni historique, ni recherche, ni capture d’écran, ni trafic réseau ne sont enregistrés."
+      }
+    },
+    "policyEyebrow": "En détail",
+    "policyTitle": "Politique de confidentialité",
+    "policyLead": "Cette politique décrit les données traitées par l’application mobile StopCorn et par ce site. Elle s’applique à la version gratuite de l’application et à son mécanisme facultatif de soutien.",
+    "sections": {
+      "overview": {
+        "title": "Responsable et principes",
+        "body": "StopCorn est un projet open source édité par Skyost. Le projet applique une approche locale : les informations de suivi que vous saisissez servent au fonctionnement de l’application sur votre appareil et ne sont pas envoyées à un serveur StopCorn."
+      },
+      "mobileData": {
+        "title": "Données de l’application mobile",
+        "body": "Votre objectif, vos bilans, événements, notes, stratégies et paramètres sont stockés localement. StopCorn ne collecte jamais les URL, recherches, captures d’écran, historiques de navigation, contacts ou positions. Vous pouvez exporter volontairement vos données ou supprimer toutes les données détenues par l’application depuis les réglages."
+      },
+      "crashReports": {
+        "title": "Rapports d'erreur",
+        "body": "Lorsque StopCorn rencontre une erreur, un rapport technique anonyme peut être envoyé via Sentry afin que le problème soit corrigé. Il contient l'erreur, la version et l'endroit de l'application concerné. Il ne contient jamais d'objectif, de bilan, d'événement, de note ni de valeur lue dans la base locale, et les informations de navigation sont dépouillées de tout identifiant. L'envoi est actif par défaut et une option dans les réglages de l'application l'arrête complètement."
+      },
+      "websiteData": {
+        "title": "Données de ce site",
+        "body": "Ce site statique ne contient ni publicité, ni analyse d’audience, ni traqueur. Il utilise uniquement un cookie fonctionnel pour mémoriser votre choix de langue. L’hébergeur peut conserver des journaux techniques standards, comme l’adresse IP et la date d’une requête, selon ses propres règles d’exploitation et de sécurité."
+      },
+      "supportPurchase": {
+        "title": "Soutien facultatif via RevenueCat",
+        "body": "StopCorn ne contacte RevenueCat que si vous ouvrez vous-même la page de soutien : l’affichage de la carte de soutien dans les réglages n’entraîne aucun appel réseau. Une fois cette page ouverte, RevenueCat peut traiter des identifiants techniques afin de vérifier votre statut de soutien, pour qu’un soutien antérieur reste reconnu. Si vous effectuez un soutien, RevenueCat et l’App Store ou Google Play traitent aussi les informations nécessaires à l’achat. StopCorn désactive les fonctions publicitaires et n’utilise pas ces informations pour suivre vos habitudes. Le soutien est volontaire et vos notes privées ne sont jamais transmises avec l’achat."
+      },
+      "externalServices": {
+        "title": "Liens et services externes",
+        "body": "Les liens vers GitHub, les boutiques d’applications et les pages de tiers ouvrent des services indépendants. Leur consultation est régie par leurs propres conditions et politiques de confidentialité. Aucun contenu de votre journal StopCorn n’est joint à ces liens."
+      },
+      "choices": {
+        "title": "Vos choix et vos droits",
+        "body": "Vous gardez la maîtrise des informations saisies : l'export ne démarre que si vous le demandez, la suppression des données locales est disponible dans les réglages, et les rapports d'erreur anonymes y sont également désactivables. Pour toute question sur cette politique, vous pouvez ouvrir une demande publique sur GitHub, en veillant à n'y publier aucune information intime."
+      }
+    },
+    "externalPolicies": "Politiques des prestataires susceptibles d’intervenir lors d’un soutien ou de l’utilisation d’une boutique :",
+    "externalLinks": {
+      "revenueCat": "Politique de confidentialité de RevenueCat",
+      "apple": "Politique de confidentialité d’Apple",
+      "google": "Politique de confidentialité de Google",
+      "sentry": "Politique de confidentialité de Sentry"
+    }
+  },
+  "legal": {
+    "lastUpdated": "Dernière mise à jour : {date}"
+  },
+  "support": {
+    "eyebrow": "Libre grâce à vous",
+    "title": "Un projet ouvert, sans mur payant",
+    "description": "Le code de StopCorn est public et vérifiable. Si l’application vous aide, vous pourrez soutenir son développement depuis le paywall facultatif intégré à l’app. Ce soutien finance le temps de développement sans publicité, sans vente de données et sans limiter les fonctions essentielles.",
+    "sourceAction": "Explorer le projet sur GitHub",
+    "paywallAction": "Soutien volontaire disponible dans l’application"
+  },
+  "download": {
+    "eyebrow": "Bientôt disponible",
+    "title": "Gardez l’outil à portée de main",
+    "description": "Les versions iOS et Android sont en préparation. Les liens officiels apparaîtront ici dès leur publication sur les boutiques.",
+    "merch": {
+      "badge": "Pour plus tard",
+      "title": "Une petite boutique StopCorn",
+      "description": "Quelques objets discrets autour de l’épi viendront peut-être soutenir le projet dans le futur.",
+      "action": "Visiter la boutique",
+      "unavailable": "La boutique n’est pas encore ouverte."
+    }
+  },
+  "stores": {
+    "comingSoon": "Bientôt sur",
+    "appStore": {
+      "overline": "Télécharger dans",
+      "name": "l’App Store",
+      "comingSoonLabel": "L’application StopCorn sera bientôt disponible dans l’App Store"
+    },
+    "playStore": {
+      "overline": "Disponible sur",
+      "name": "Google Play",
+      "comingSoonLabel": "L’application StopCorn sera bientôt disponible sur Google Play"
+    }
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Vous vous demandez peut-être…",
+    "description": "L’essentiel sur le rôle de l’application, ses limites et son modèle.",
+    "items": {
+      "purpose": {
+        "question": "À qui s’adresse StopCorn ?",
+        "answer": "StopCorn s’adresse aux adultes qui souhaitent comprendre ou faire évoluer leur usage de la pornographie, quelle qu’en soit la fréquence. Il n’est pas nécessaire de se définir comme dépendant pour utiliser l’application."
+      },
+      "privacy": {
+        "question": "Mes données quittent-elles mon téléphone ?",
+        "answer": "Les objectifs, bilans, événements, notes et stratégies restent dans la base locale de l’application. L’affichage des réglages n’entraîne aucun appel réseau : StopCorn ne contacte RevenueCat que si vous ouvrez vous-même la page de soutien, puis pour reconnaître un soutien antérieur. Un soutien facultatif fait aussi intervenir la boutique de votre appareil. En cas d’erreur, un rapport de plantage anonyme peut être envoyé pour que le problème soit corrigé, et il reste désactivable dans les réglages. Aucune note privée n’est associée à ces opérations."
+      },
+      "blocking": {
+        "question": "StopCorn bloque-t-il les sites ou surveille-t-il ma navigation ?",
+        "answer": "Non. StopCorn n’installe pas de filtre, de VPN ou de système de surveillance. Il ne connaît ni les sites visités ni les recherches effectuées. Il vous aide à agir volontairement et à observer les informations que vous choisissez de saisir."
+      },
+      "medical": {
+        "question": "L’application remplace-t-elle un professionnel de santé ?",
+        "answer": "Non. StopCorn est un outil d’auto-observation et d’entraide personnelle ; ce n’est ni un dispositif médical, ni un diagnostic, ni un traitement. Si votre situation vous fait souffrir ou vous met en danger, adressez-vous à un professionnel qualifié ou aux services d’urgence de votre pays."
+      },
+      "price": {
+        "question": "StopCorn est-il vraiment gratuit ?",
+        "answer": "Oui. Les fonctions essentielles sont gratuites et le code est open source. Un soutien financier facultatif pourra être proposé dans l’application, sans fonctions importantes réservées aux personnes qui paient."
+      },
+      "support": {
+        "question": "Comment signaler un problème ou proposer une amélioration ?",
+        "answer": "Le dépôt GitHub accueille les rapports de bugs et les suggestions. Comme ces échanges sont publics, ne partagez jamais de note intime, d’historique personnel ou d’autre donnée sensible dans une issue."
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "Cadre d’utilisation",
+    "title": "Conditions d’utilisation",
+    "lead": "En utilisant StopCorn ou ce site, vous acceptez les conditions ci-dessous. Elles visent à exposer simplement le rôle et les limites d’un projet gratuit et open source.",
+    "sections": {
+      "eligibility": {
+        "title": "Public adulte",
+        "body": "StopCorn est destiné aux personnes âgées d’au moins 18 ans. En utilisant l’application, vous confirmez avoir l’âge requis dans votre pays pour accéder à un outil abordant la consommation de pornographie."
+      },
+      "purpose": {
+        "title": "Nature du service",
+        "body": "StopCorn fournit des outils d’auto-observation, d’organisation et d’information générale. L’application ne constitue pas un service médical, psychologique ou d’urgence, ne pose aucun diagnostic et ne garantit aucun résultat particulier."
+      },
+      "responsibilities": {
+        "title": "Utilisation responsable",
+        "body": "Vous choisissez les informations saisies et restez responsable de leur sauvegarde, de leur export et de la sécurité de votre appareil. N’utilisez pas les canaux publics du projet pour publier des informations personnelles ou intimes."
+      },
+      "availability": {
+        "title": "Disponibilité et garanties",
+        "body": "Le projet est fourni gratuitement et en l’état. Nous cherchons à maintenir une application fiable, mais ne pouvons garantir une disponibilité permanente, l’absence totale d’erreur ou l’adéquation à une situation particulière. Dans les limites autorisées par la loi, l’utilisation se fait sous votre responsabilité."
+      },
+      "externalServices": {
+        "title": "Services tiers et soutien",
+        "body": "Les boutiques d’applications, RevenueCat, GitHub et les autres sites liés appliquent leurs propres conditions. Tout soutien financier est facultatif, traité par la boutique concernée et soumis à ses règles de paiement, de remboursement et de disponibilité."
+      },
+      "changes": {
+        "title": "Évolution des conditions",
+        "body": "L’application et ces conditions peuvent évoluer. La date de mise à jour est indiquée en tête de cette section. Une modification importante sera présentée de façon raisonnablement visible sur ce site ou dans l’application."
+      }
+    },
+    "contact": "Une question sur ces conditions ?",
+    "contactAction": "Ouvrir une demande sur GitHub"
+  },
+  "preview": {
+    "accessibleLabel": "Galerie de captures d’écran de l’application StopCorn",
+    "badge": "Écrans réels de l’application",
+    "previous": "Capture précédente",
+    "next": "Capture suivante",
+    "selectScreenshot": "Choisir une capture à afficher",
+    "screenshotLabel": "Capture",
+    "pause": "Mettre le diaporama en pause",
+    "resume": "Reprendre le diaporama",
+    "slides": {
+      "home": "Écran d’accueil de StopCorn avec l’objectif, les métriques du jour, les Corn Points et l’élan.",
+      "urgeSupport": "Choix de soutien proposés par StopCorn lorsqu’une envie survient.",
+      "progress": "Écran de progression comparant le point de départ aux observations récentes.",
+      "journal": "Journal privé contenant les bilans quotidiens et les événements enregistrés.",
+      "learning": "Modules d’apprentissage courts disponibles hors ligne dans StopCorn."
+    }
+  },
+  "footer": {
+    "tagline": "Un outil gratuit et privé pour avancer sans jugement.",
+    "legalNavigation": "Liens légaux et projet",
+    "copyright": "© {year} StopCorn. Projet open source.",
+    "disclaimer": "StopCorn est un outil d’auto-observation, pas un dispositif médical ni un service d’urgence."
+  },
+  "error": {
+    "eyebrow": "On s’est un peu égarés",
+    "notFoundTitle": "Cette page n’existe pas",
+    "notFoundDescription": "Le lien est peut-être ancien, mais le chemin vers l’accueil est toujours juste ici.",
+    "genericTitle": "Quelque chose n’a pas germé comme prévu",
+    "genericDescription": "Une erreur inattendue s’est produite. Revenez à l’accueil et réessayez dans un instant.",
+    "backHome": "Revenir à l’accueil"
+  }
+}

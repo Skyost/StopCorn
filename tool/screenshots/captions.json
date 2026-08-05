@@ -1,0 +1,129 @@
+{
+  "profiles": {
+    "1_home": {
+      "badge": {
+        "kind": "logo"
+      },
+      "devicePlacement": "belowCaption",
+      "deviceOverflowPercent": 4,
+      "deviceHorizontalOffsetPercent": 0,
+      "mirrorDecorations": false
+    },
+    "2_urge_support": {
+      "badge": {
+        "kind": "emoji",
+        "value": "🫶"
+      },
+      "devicePlacement": "aboveCaption",
+      "deviceOverflowPercent": 6,
+      "deviceHorizontalOffsetPercent": 0,
+      "mirrorDecorations": true
+    },
+    "3_progress": {
+      "badge": {
+        "kind": "emoji",
+        "value": "📈"
+      },
+      "devicePlacement": "belowCaption",
+      "deviceOverflowPercent": 4,
+      "deviceHorizontalOffsetPercent": 0,
+      "mirrorDecorations": true
+    },
+    "4_journal": {
+      "badge": {
+        "kind": "emoji",
+        "value": "🔎"
+      },
+      "devicePlacement": "aboveCaption",
+      "deviceOverflowPercent": 6,
+      "deviceHorizontalOffsetPercent": 0,
+      "mirrorDecorations": false
+    },
+    "5_learning": {
+      "badge": {
+        "kind": "emoji",
+        "value": "💡"
+      },
+      "devicePlacement": "belowCaption",
+      "deviceOverflowPercent": 4,
+      "deviceHorizontalOffsetPercent": 0,
+      "mirrorDecorations": false
+    }
+  },
+  "locales": {
+    "fr": {
+      "1_home": {
+        "title": {
+          "text": "Avance à ton rythme",
+          "highlight": "rythme"
+        },
+        "subtitle": "Retrouve en un coup d’œil ce qui peut t’aider aujourd’hui."
+      },
+      "2_urge_support": {
+        "title": {
+          "text": "Traverse les moments difficiles",
+          "highlight": "Traverse"
+        },
+        "subtitle": "Trouve le soutien qui te convient, au moment où tu en as besoin."
+      },
+      "3_progress": {
+        "title": {
+          "text": "Regarde tout le chemin parcouru",
+          "highlight": "chemin"
+        },
+        "subtitle": "Observe tes progrès avec bienveillance, sans pression ni culpabilité."
+      },
+      "4_journal": {
+        "title": {
+          "text": "Apprends à mieux te connaître",
+          "highlight": "connaître"
+        },
+        "subtitle": "Note ce que tu ressens dans un espace privé et sans jugement."
+      },
+      "5_learning": {
+        "title": {
+          "text": "Découvre ce qui peut vraiment t’aider",
+          "highlight": "aider"
+        },
+        "subtitle": "Des contenus courts et concrets, à consulter où que tu sois."
+      }
+    },
+    "en": {
+      "1_home": {
+        "title": {
+          "text": "Move forward at your own pace",
+          "highlight": "pace"
+        },
+        "subtitle": "See at a glance what could help you today."
+      },
+      "2_urge_support": {
+        "title": {
+          "text": "Get through the difficult moments",
+          "highlight": "through"
+        },
+        "subtitle": "Find the support that feels right when you need it most."
+      },
+      "3_progress": {
+        "title": {
+          "text": "See how far you’ve come",
+          "highlight": "far"
+        },
+        "subtitle": "Notice your progress with kindness, without pressure or judgment."
+      },
+      "4_journal": {
+        "title": {
+          "text": "Get to know yourself better",
+          "highlight": "yourself"
+        },
+        "subtitle": "Write down how you feel in a private, judgment-free space."
+      },
+      "5_learning": {
+        "title": {
+          "text": "Discover what can truly help",
+          "highlight": "help"
+        },
+        "subtitle": "Short, practical content you can access wherever you are."
+      }
+    }
+  }
+}

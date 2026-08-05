@@ -1,0 +1,22 @@
+{
+  "title": "Continuer après un écart",
+  "summary": "Transforme un événement en information utile, sans te juger.",
+  "sections": {
+    "perspective": {
+      "title": "Sortir du « tout est fichu »",
+      "paragraph1": "Un événement n'efface pas les pauses, les choix et les observations que tu as déjà faits.",
+      "paragraph2": "Penser que tout est fichu peut te pousser à abandonner un plan qui reste pourtant utile."
+    },
+    "adjust": {
+      "title": "Ajuster plutôt que te punir",
+      "paragraph1": "Regarde ce qui a précédé : l'heure, la fatigue, l'émotion, l'appareil ou le contexte général.",
+      "paragraph2": "Choisis ensuite un ajustement limité. Une punition ou un objectif irréaliste apporte rarement une information utile."
+    },
+    "help": {
+      "title": "Savoir quand demander de l'aide",
+      "paragraph1": "Si la perte de contrôle persiste, provoque une forte souffrance ou entraîne des conséquences importantes, en parler à un professionnel qualifié peut aider.",
+      "paragraph2": "Demander de l'aide peut faire partie de ton plan et n'enlève rien aux progrès déjà accomplis."
+    }
+  },
+  "reflectionPrompt": "Quelle information utile peux-tu tirer du dernier événement sans te juger ?"
+}

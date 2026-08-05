@@ -1,0 +1,45 @@
+{
+  "id": "understand-loop",
+  "order": 2,
+  "titleKey": "learningModules.understandLoop.title",
+  "summaryKey": "learningModules.understandLoop.summary",
+  "estimatedMinutes": 7,
+  "sections": [
+    {
+      "titleKey": "learningModules.understandLoop.sections.sequence.title",
+      "paragraphKeys": [
+        "learningModules.understandLoop.sections.sequence.paragraph1",
+        "learningModules.understandLoop.sections.sequence.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.understandLoop.sections.action.title",
+      "paragraphKeys": [
+        "learningModules.understandLoop.sections.action.paragraph1",
+        "learningModules.understandLoop.sections.action.paragraph2"
+      ]
+    },
+    {
+      "titleKey": "learningModules.understandLoop.sections.observe.title",
+      "paragraphKeys": [
+        "learningModules.understandLoop.sections.observe.paragraph1",
+        "learningModules.understandLoop.sections.observe.paragraph2"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.understandLoop.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Wood W., Quinn J. M. & Kashy D. A. (2002). Habits in everyday life: thought, emotion, and action. Journal of Personality and Social Psychology, 83(6), 1281–1297. https://doi.org/10.1037/0022-3514.83.6.1281",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12500811/"
+    },
+    {
+      "citation": "Gola M. et al. (2017). Can Pornography be Addictive? An fMRI Study of Men Seeking Treatment for Problematic Pornography Use. Neuropsychopharmacology, 42(10), 2021–2031. https://doi.org/10.1038/npp.2017.78",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28409565/"
+    },
+    {
+      "citation": "Laier C. & Brand M. (2017). Mood changes after watching pornography on the Internet are linked to tendencies towards Internet-pornography-viewing disorder. Addictive Behaviors Reports, 5, 9–13. https://doi.org/10.1016/j.abrep.2016.11.003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29450222/"
+    }
+  ]
+}

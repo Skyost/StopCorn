@@ -1,0 +1,22 @@
+{
+  "title": "Laisser passer l'impulsion",
+  "summary": "Crée un peu d'espace avant de choisir la suite.",
+  "sections": {
+    "delay": {
+      "title": "T'accorder un instant",
+      "paragraph1": "Une impulsion ne t'oblige pas à prendre une décision immédiate ou définitive.",
+      "paragraph2": "Attendre un peu te permet d'observer si son intensité monte, baisse ou reste stable."
+    },
+    "concrete": {
+      "title": "Changer quelque chose de concret",
+      "paragraph1": "Changer de pièce, poser le téléphone ou commencer une toute petite tâche peut interrompre une réponse automatique.",
+      "paragraph2": "Choisis une action assez simple pour rester possible même lorsque ton énergie est basse."
+    },
+    "expectations": {
+      "title": "Ne pas exiger que la sensation disparaisse",
+      "paragraph1": "Une stratégie peut être utile même si la sensation ne disparaît pas tout de suite.",
+      "paragraph2": "L'objectif est de t'entraîner à choisir, pas d'obtenir un résultat parfait à chaque fois."
+    }
+  },
+  "reflectionPrompt": "Quelle stratégie réaliste pourrais-tu essayer lors du prochain moment difficile ?"
+}

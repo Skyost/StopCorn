@@ -1,0 +1,86 @@
+name: Bug report
+description: Report a reproducible problem in the StopCorn mobile application.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve StopCorn.
+
+        Please do not include explicit material, private journal entries, personal information, or unredacted screenshots in this public issue.
+
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Existing issue
+      options:
+        - label: I searched the existing issues and did not find a duplicate.
+          required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Where does the problem occur?
+      options:
+        - Android
+        - iOS
+        - Both Android and iOS
+        - Other or unknown
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: StopCorn version
+      description: Find this in the application settings or the store listing.
+      placeholder: "For example: 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: system-version
+    attributes:
+      label: Operating system and device
+      placeholder: "For example: Android 16 on Pixel 9, or iOS 19 on iPhone 16"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly and include any visible error message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect?
+      description: Describe the behavior you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open…
+        2. Tap…
+        3. Observe…
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add sanitized logs, links, or redacted screenshots if they help explain the issue.
+    validations:
+      required: false
+

@@ -1,0 +1,8 @@
+{
+  "dailyCheckIn": {
+    "title": "Your StopCorn check-in is waiting",
+    "body": "Take a moment to note how your day went.",
+    "channelName": "Daily check-in reminders",
+    "channelDescription": "A local reminder at 8:00 PM when the daily check-in is still empty."
+  }
+}

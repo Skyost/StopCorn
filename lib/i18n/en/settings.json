@@ -1,0 +1,177 @@
+{
+  "support": {
+    "title": "An open project, built to stay accessible",
+    "body": "StopCorn grew from a simple observation: comparable tools often end up behind a subscription or limited features. The app is therefore free and open source, with no ads or trackers, so anyone can move forward without a barrier.",
+    "values": {
+      "free": "Free",
+      "openSource": "Open source",
+      "noAds": "No ads",
+      "noTracking": "No trackers"
+    },
+    "contribution": "If StopCorn helps you, you can support its development. This is entirely optional and does not unlock any feature.",
+    "supportAction": "Support development",
+    "collapseAction": "Collapse the project card",
+    "expandAction": "Expand the project card",
+    "sourceAction": "Source code",
+    "websiteAction": "Website",
+    "thanks": "Thank you! Your support helps StopCorn stay free and independent.",
+    "error": {
+      "link": "This link could not be opened right now.",
+      "notConfigured": "In-app support is not configured in this build yet.",
+      "paywall": "The support page could not be displayed right now."
+    }
+  },
+  "appearance": {
+    "title": "Appearance",
+    "description": "Choose a theme or follow the system setting."
+  },
+  "reminders": {
+    "title": "Reminders",
+    "description": "Choose whether StopCorn should gently prompt you at the end of the day.",
+    "daily": {
+      "label": "Daily check-in reminder",
+      "description": "At 8:00 PM, notify me only if today's check-in is still empty.",
+      "unavailable": "Daily reminders are not available on this device."
+    },
+    "error": {
+      "permissionDenied": "Notifications were not allowed in the system settings.",
+      "save": "The daily reminder could not be updated."
+    }
+  },
+  "progress": {
+    "title": "Progress",
+    "description": "Adapt the indicators to what is useful to you.",
+    "defaultPeriod": "Default period",
+    "harvest": {
+      "label": "Harvest",
+      "description": "Collect at most one corn point per constructive day. Your harvest never decreases."
+    }
+  },
+  "personalPlan": {
+    "title": "Personal plan",
+    "description": "Keep the options you want to find quickly when you need support.",
+    "goal": {
+      "label": "My goal",
+      "none": "No active goal"
+    },
+    "backup": {
+      "title": "My backup plan",
+      "description": "Prioritize actions you can realistically try in a difficult moment.",
+      "summary(param=count)": {
+        "zero": "No action selected",
+        "one": "$count action selected",
+        "other": "$count actions selected"
+      }
+    },
+    "history": {
+      "title": "Goal history",
+      "subtitle": "The directions you have set so far",
+      "open": "See the history",
+      "current": "Current",
+      "ended": "Ended on $date",
+      "started": "Started on $date",
+      "empty": "You have not set a goal yet.",
+      "error": "The goal history could not be loaded.",
+      "count(param=count)": {
+        "one": "$count goal",
+        "other": "$count goals"
+      },
+      "weeklyLimit(param=count)": {
+        "one": "$count event per week",
+        "other": "$count events per week"
+      },
+      "contexts": "Protected contexts: $contexts"
+    }
+  },
+  "data": {
+    "title": "Data",
+    "description": "Your data stays local unless you choose to export it.",
+    "errorReporting": {
+      "label": "Anonymous crash reports",
+      "description": "Sends a technical report when StopCorn crashes, so the problem can be fixed. It contains no goal, journal record, note, or preference value. Turn this off to send nothing at all."
+    },
+    "export": {
+      "title": "Export my data",
+      "description": "Create a versioned JSON file."
+    },
+    "stored": {
+      "title": "What is stored",
+      "description": "Understand local data.",
+      "body1": "StopCorn locally stores your goals, check-ins, support sessions, voluntary events, strategies used, and learning progress.",
+      "body2": "The app never collects URLs, browser history, searches, screenshots, contacts, or location.",
+      "body3": "Depending on system settings, a phone backup may include app data."
+    },
+    "delete": {
+      "action": "Delete all my data",
+      "description": "Permanent action in two steps.",
+      "progress": "Deleting…",
+      "semantics": "Confirm deletion",
+      "title": "Delete all data?",
+      "body": "Goals, observations, notes, check-ins, progress, preferences, and cached exports will be erased from this device. This action is permanent.",
+      "error": "Deletion could not be completed. Some data may already be erased; try again to finish.",
+      "confirmation": {
+        "semantics": "Permanent deletion",
+        "title": "Final confirmation",
+        "action": "Delete permanently",
+        "keep": "Keep my data"
+      }
+    }
+  },
+  "developer": {
+    "title": "Developer tools",
+    "description": "Utilities available only in debug builds.",
+    "sample": {
+      "action": "Load sample data",
+      "description": "Add a coherent 60-day local history without deleting your existing records.",
+      "progress": "Loading sample data…",
+      "loaded": "Sample data loaded. You can reload it at any time.",
+      "error": "Sample data could not be loaded."
+    },
+    "cornPoint": {
+      "action": "Grant a Corn point",
+      "description": "Add a bonus point and open the animated dialog, even when today's Corn point is already collected."
+    },
+    "supportThanks": {
+      "label": "Show the support thank-you",
+      "description": "Locally shows the thank-you note in the support card without a RevenueCat purchase."
+    }
+  },
+  "about": {
+    "title": "About",
+    "description": "Information about StopCorn and its scope.",
+    "version": "Version $version.",
+    "body": "StopCorn is a free, private, judgment-free self-help tool.",
+    "privacy": {
+      "title": "Privacy",
+      "body1": "No StopCorn account is created and daily self-help use involves no usage tracking, audience analytics, or advertising.",
+      "body2": "All observations stay on this device unless you explicitly create and share an export.",
+      "body3": "StopCorn only contacts RevenueCat if you open the support page yourself: displaying Settings stays a local operation. After that, the application checks on launch whether a purchase exists, so it can thank you. RevenueCat and your device's store then process the information needed for a purchase, without your private notes. StopCorn disables diagnostics and advertising-identifier collection.",
+      "body4": "Complete deletion erases StopCorn user data and preferences, then returns the app to its initial state.",
+      "policyAction": "View the privacy policy",
+      "policyError": "The privacy policy could not be opened right now.",
+      "body5": "Anonymous crash reports are sent through Sentry so failures can be fixed. They contain the technical error and where it happened, never a goal, a journal record, a note, or a database value. The switch in the Data section stops them completely."
+    },
+    "licenses": "Open-source licenses",
+    "professionalHelp": "Find professional help",
+    "help": {
+      "title": "Professional help",
+      "body1": "A general practitioner, psychologist, or another qualified professional can help assess the situation and suggest suitable support.",
+      "body2": "Seeking help may be useful if distress is severe, loss of control persists, or consequences become significant.",
+      "body3": "StopCorn does not diagnose and cannot replace that support."
+    }
+  },
+  "goalEditor": {
+    "title": "Choose a new goal",
+    "history": "The current goal will remain in your history.",
+    "activate": "Activate this goal",
+    "error": "The goal could not be saved.",
+    "validation": {
+      "weeklyLimit": "Enter a positive weekly limit.",
+      "context": "Choose at least one context."
+    }
+  },
+  "error": {
+    "load": "Settings could not be loaded.",
+    "save": "Unable to save this setting right now."
+  }
+}

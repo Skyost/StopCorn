@@ -1,0 +1,8 @@
+{
+  "dailyCheckIn": {
+    "title": "Ton bilan StopCorn t'attend",
+    "body": "Prends un moment pour noter comment s'est passée ta journée.",
+    "channelName": "Rappels du bilan quotidien",
+    "channelDescription": "Un rappel local à 20 h lorsque le bilan du jour est encore vide."
+  }
+}

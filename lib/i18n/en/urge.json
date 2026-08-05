@@ -1,0 +1,101 @@
+{
+  "pauseTitle": "Take a break",
+  "quit": "Leave",
+  "support": {
+    "pageTitle": "Choose support",
+    "title": "What would help right now?",
+    "subtitle": "Choose the option that feels most accessible. You remain in control of the pace.",
+    "semantics": "Available forms of support",
+    "guidedTitle": "Guided pause",
+    "guidedDescription": "Follow a short grounding pause, then check in again.",
+    "planTitle": "Backup plan",
+    "planDescription(param=count)": {
+      "zero": "No action has been prepared yet.",
+      "one": "Choose from the action you prepared.",
+      "other": "Choose from the $count actions you prepared."
+    },
+    "ideasTitle": "Other ideas",
+    "ideasDescription(param=count)": {
+      "zero": "No other action is available.",
+      "one": "Explore one other action.",
+      "other": "Explore $count other actions."
+    }
+  },
+  "grounding": {
+    "feet": "Place your feet on the floor.",
+    "inhale": "Breathe in slowly.",
+    "observe": "Notice what you feel without trying to push it away.",
+    "exhale": "Breathe out longer than you breathe in.",
+    "change": "Simply notice whether it rises, falls, or stays stable.",
+    "title": "Give yourself a moment.",
+    "subtitle": "This short pause is an aid to relaxation, not a medical rule.",
+    "semantics": "Pause progress",
+    "skip": "Skip"
+  },
+  "strategy": {
+    "pageTitle": "Choose an action",
+    "title": "What action can you try now?",
+    "subtitle": "One small, realistic action is enough. It does not need to make the feeling disappear.",
+    "planTitle": "Your backup plan",
+    "planSubtitle": "Choose one of the actions you prepared for this moment.",
+    "ideasTitle": "Other ideas",
+    "ideasSubtitle": "Choose another simple action that feels realistic right now.",
+    "loadError": "Strategies could not be loaded.",
+    "empty": "No action is available in this list.",
+    "semantics": "Available strategies",
+    "start": "Start this action",
+    "started": "Action started: $strategy.",
+    "timerTitle": "Suggested time",
+    "timerGuidance": "This timer is only a guide: you can finish sooner or take as much time as you need.",
+    "timerSemantics": "Indicative action timer",
+    "timerComplete": "The suggested time has elapsed.",
+    "reassess": "Check in again",
+    "effect": "Perceived usefulness of the strategy"
+  },
+  "result": {
+    "pageTitle": "Check in",
+    "title(rich)": "How strong is your urge now?",
+    "subtitle": "It may have increased, decreased, or stayed the same.",
+    "outcome": {
+      "title": "And now?",
+      "subtitle": "Feel free to be honest. As always, no judgement!",
+      "label": "Outcome"
+    },
+    "note": "Optional note",
+    "noteHint": "A useful marker for next time.",
+    "finish": "Finish the flow"
+  },
+  "complete": {
+    "title": "Flow complete",
+    "consumedHeadline": "No problem.",
+    "otherHeadline": "Great!",
+    "consumedBody": "This event does not erase your progress.\nYou can simply note what may help next time.",
+    "otherBody": "You made space between your urge and your choice.\nThis is a skill that grows one attempt at a time.",
+    "log": "Record what happened"
+  },
+  "intensity": {
+    "title(rich)": "How strong is your urge?",
+    "subtitle": "Rate it out of 10. There is no wrong answer: this marker will help show how it changes.",
+    "label": "Current intensity"
+  },
+  "factors": {
+    "title": "More details?",
+    "subtitle": "These optional details can help you better understand these moments.",
+    "label": "Contributing factors (optional)",
+    "trigger": "Trigger",
+    "emotion": "Emotion"
+  },
+  "timer": {
+    "count(param=count)": {
+      "one": "$count second remaining",
+      "other": "$count seconds remaining"
+    }
+  },
+  "error": {
+    "start": "Unable to start this support flow right now. Try again.",
+    "missingSession": "This session is no longer available.",
+    "strategySave": "The strategy could not be saved. Try again.",
+    "outcomeRequired": "Choose the result that best describes the situation.",
+    "save": "Unable to save right now. Try again in a moment."
+  }
+}

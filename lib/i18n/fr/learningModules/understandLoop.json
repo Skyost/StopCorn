@@ -1,0 +1,22 @@
+{
+  "title": "Comprendre la boucle",
+  "summary": "Repère les étapes qui peuvent entretenir une habitude.",
+  "sections": {
+    "sequence": {
+      "title": "Un enchaînement à observer",
+      "paragraph1": "Une habitude peut parfois se décrire ainsi : situation → émotion → impulsion → comportement → effet ou soulagement immédiat → conséquences.",
+      "paragraph2": "C'est un modèle pratique pour observer, pas un enchaînement dont l'application à tout le monde est démontrée. Certaines étapes peuvent être très rapides ou difficiles à remarquer."
+    },
+    "action": {
+      "title": "Trouver un point d'appui",
+      "paragraph1": "Tu n'as pas besoin de maîtriser toute la boucle. Changer de lieu, attendre quelques minutes ou choisir une autre action peut ouvrir une marge de manœuvre.",
+      "paragraph2": "Observer la situation et l'émotion peut t'aider à choisir une action réaliste."
+    },
+    "observe": {
+      "title": "Observer sans poser de diagnostic",
+      "paragraph1": "Les notes de StopCorn sont des repères personnels, pas un diagnostic.",
+      "paragraph2": "Le but est de mieux voir les enchaînements qui reviennent afin d'ajuster ton plan."
+    }
+  },
+  "reflectionPrompt": "À quel moment de la boucle pourrais-tu agir le plus facilement cette semaine ?"
+}

@@ -1,0 +1,158 @@
+{
+  "subtitle": "Descriptive markers built only from what you chose to record.",
+  "error": {
+    "load": "Progress data could not be loaded."
+  },
+  "overview": {
+    "title": "Overview",
+    "events(param=count)": {
+      "one": "recorded consumption event",
+      "other": "recorded consumption events"
+    },
+    "daysWithout(param=count)": {
+      "one": "day without a recorded consumption event",
+      "other": "days without a recorded consumption event"
+    },
+    "completedUrges(param=count)": {
+      "one": "completed support session",
+      "other": "completed support sessions"
+    },
+    "averageDecrease": "average intensity decrease",
+    "notEnough": "Not enough data yet",
+    "decreaseDetail": "The difference between the initial intensity and the final intensity",
+    "goal": {
+      "abstinence(param=count)": {
+        "one": "$count consumption event was voluntarily recorded during the selected period. Missing observations never prove that no event occurred.",
+        "other": "$count consumption events were voluntarily recorded during the selected period. Missing observations never prove that no event occurred."
+      },
+      "reduction(param=count)": {
+        "one": "This week: $count recorded event for a desired limit of $limit.",
+        "other": "This week: $count recorded events for a desired limit of $limit."
+      },
+      "contextual(param=count)": {
+        "one": "$count recorded event matched one of your protected contexts during the selected period: $contexts.",
+        "other": "$count recorded events matched one of your protected contexts during the selected period: $contexts."
+      },
+      "observation(param=count)": {
+        "one": "$count voluntary marker was recorded during the selected period. Every honest observation helps reveal patterns.",
+        "other": "$count voluntary markers were recorded during the selected period. Every honest observation helps reveal patterns."
+      }
+    },
+    "empty": "Not enough data yet. A few markers will be enough for trends to appear."
+  },
+  "events": {
+    "title": "Event trends",
+    "weeklyTitle": "Weekly trend",
+    "empty": "No event was recorded during this period.",
+    "weekOf": "Week of $date",
+    "summary(param=count)": {
+      "one": "$count voluntarily recorded event, grouped by week.",
+      "other": "$count voluntarily recorded events, grouped by week."
+    }
+  },
+  "urges": {
+    "title(rich)": "Urges of $corn",
+    "averageIntensity": "Average intensity",
+    "empty": "Not enough completed sessions with a final intensity yet.",
+    "initial": "Initial",
+    "observationHours": "Observation times",
+    "noHours": "No time has been recorded for a support session or event.",
+    "comparison": {
+      "unavailable": "Not enough data yet to compare the beginning and end of support sessions.",
+      "decrease(param=count)": {
+        "one": "Intensity decreased by an average of $value point during complete sessions.",
+        "other": "Intensity decreased by an average of $value points during complete sessions."
+      },
+      "increase(param=count)": {
+        "one": "Intensity increased by an average of $value point during complete sessions.",
+        "other": "Intensity increased by an average of $value points during complete sessions."
+      }
+    },
+    "hourSummary": "The $label time range contains the most recorded observations.",
+    "timeBucket": {
+      "midnight": "$start:00 – midnight",
+      "range": "$start:00 – $end:00"
+    },
+    "finalLabel": "Final"
+  },
+  "patterns": {
+    "title": "Triggers and emotions",
+    "triggers": {
+      "title": "Most recorded triggers",
+      "kind": "trigger",
+      "empty": "No trigger has been recorded yet."
+    },
+    "emotions": {
+      "title": "Most recorded emotions",
+      "kind": "emotion",
+      "empty": "No emotion has been recorded yet."
+    },
+    "rankingSummary": "$label is the most frequently recorded $kind during this period."
+  },
+  "strategies": {
+    "title": "Strategies",
+    "effectiveness": "Perceived effectiveness",
+    "empty": "No strategy was rated during this period. The scale runs from −5 to +5.",
+    "evaluations(param=count)": {
+      "one": "$effect ($count rating)",
+      "other": "$effect ($count ratings)"
+    },
+    "threshold": "Use and rate a strategy at least three times to get a more reliable marker.",
+    "best": "$strategy is the highest-rated strategy among those used at least three times."
+  },
+  "checkIns": {
+    "title": "Check-ins",
+    "count(param=count)": {
+      "one": "daily check-in",
+      "other": "daily check-ins"
+    },
+    "averageMood": "average mood rate",
+    "averageControl": "average control rate",
+    "outOfTen": "Out of 10"
+  },
+  "comparison": {
+    "unavailable": "Not enough comparable data yet",
+    "stable": "Stable compared with the previous period",
+    "value": "$value% $direction than the previous period",
+    "more": "more",
+    "less": "less"
+  },
+  "startingPoint": {
+    "sectionTitle": "Comparison with my starting point",
+    "screenTitle": "My starting point",
+    "intro": "These answers were recorded during your initial setup. They are a personal reference point, not a diagnosis.",
+    "recordedOn": "Initial assessment recorded on $date.",
+    "goalTitle": "Your initial goal",
+    "goalUnavailable": "Your initial goal is no longer available.",
+    "weeklyLimit": "Desired limit: $count per week",
+    "contexts": "Selected contexts: $contexts",
+    "motivationTitle": "Your initial motivation",
+    "markersTitle": "Your initial markers",
+    "frequency": "Approximate frequency over the preceding 7 days",
+    "frequencyValue": "$count over 7 days",
+    "control": "Sense of control",
+    "impact": "Perceived negative impact",
+    "confidence": "Confidence in your ability to change",
+    "score": "$value / 10",
+    "disclaimer": "These values only reflect how you felt when you completed the initial assessment.",
+    "comparison": {
+      "intro": "Compared with observations from the selected period.",
+      "control": "Sense of control",
+      "initial": "Initial",
+      "finalLabel": "Final",
+      "controlDetail(param=count)": {
+        "zero": "Average calculated from $count daily check-in.",
+        "one": "Average calculated from $count daily check-in.",
+        "other": "Average calculated from $count daily check-ins."
+      },
+      "controlPending": "At least five daily check-ins are needed before a comparison can be shown.",
+      "frequency": "Weekly frequency",
+      "frequencyPending": "A complete week of observation is needed before a comparison can be shown.",
+      "frequencyDetail": "The current value only counts consumption events you chose to record, so it may differ from the actual frequency.",
+      "open": "View my starting point"
+    },
+    "empty": "No initial assessment is available.",
+    "error": "Your starting point could not be loaded."
+  },
+  "harvest": "Harvest"
+}
