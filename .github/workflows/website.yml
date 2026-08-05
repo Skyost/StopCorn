@@ -49,7 +49,21 @@ jobs:
           cache: true
 
       - name: Install image-generation dependencies
-        run: sudo apt-get update && sudo apt-get install --yes fontconfig imagemagick libpango-1.0-0
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes build-essential fontconfig libfontconfig1-dev libfreetype-dev libjpeg-dev libpango1.0-dev libpng-dev librsvg2-dev libtiff-dev libwebp-dev libxml2-dev pkg-config
+          imagemagick_directory="$RUNNER_TEMP/imagemagick"
+          mkdir --parents "$imagemagick_directory"
+          curl --fail --location --retry 3 --output "$imagemagick_directory/source.tar.gz" https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-29.tar.gz
+          tar --extract --file "$imagemagick_directory/source.tar.gz" --directory "$imagemagick_directory"
+          (
+            cd "$imagemagick_directory/ImageMagick-7.1.2-29"
+            ./configure --prefix="$imagemagick_directory/install" --with-pango=yes --with-rsvg=yes
+            make --jobs "$(nproc)"
+            make install
+          )
+          "$imagemagick_directory/install/bin/magick" -list format | grep --quiet 'PANGO.*r--'
+          echo "$imagemagick_directory/install/bin" >> "$GITHUB_PATH"
 
       - name: Install Flutter dependencies
         run: flutter pub get
