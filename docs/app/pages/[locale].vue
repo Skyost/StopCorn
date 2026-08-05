@@ -236,47 +236,50 @@ usePageHead({ locale: currentLocale })
           </BCol>
         </BRow>
 
-        <div class="legal-document">
-          <div class="legal-document__heading">
-            <div>
-              <p class="eyebrow">
-                {{ t('privacy.policyEyebrow') }}
-              </p>
-              <h2>{{ t('privacy.policyTitle') }}</h2>
-            </div>
-            <p>{{ t('legal.lastUpdated', { date: legalUpdatedAt }) }}</p>
-          </div>
-          <p class="legal-document__lead">
-            {{ t('privacy.policyLead') }}
-          </p>
-          <div class="legal-document__grid">
-            <article
-              v-for="policySection in PRIVACY_SECTIONS"
-              :key="policySection"
-            >
-              <h3>{{ t(`privacy.sections.${policySection}.title`) }}</h3>
-              <p>{{ t(`privacy.sections.${policySection}.body`) }}</p>
-            </article>
-          </div>
-          <div class="legal-document__external">
-            <p>{{ t('privacy.externalPolicies') }}</p>
-            <ul>
-              <li
-                v-for="externalLink in EXTERNAL_PRIVACY_LINKS"
-                :key="externalLink.id"
+        <details class="legal-document">
+          <summary class="legal-document__summary">
+            <span>
+              {{ t('privacy.policyEyebrow') }}
+              <strong>{{ t('privacy.policyTitle') }}</strong>
+            </span>
+            <span>
+              {{ t('legal.lastUpdated', { date: legalUpdatedAt }) }}
+              <Icon name="lucide:plus" />
+            </span>
+          </summary>
+          <div class="legal-document__content">
+            <p class="legal-document__lead">
+              {{ t('privacy.policyLead') }}
+            </p>
+            <div class="legal-document__grid">
+              <article
+                v-for="policySection in PRIVACY_SECTIONS"
+                :key="policySection"
               >
-                <a
-                  :href="externalLink.url"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <h3>{{ t(`privacy.sections.${policySection}.title`) }}</h3>
+                <p>{{ t(`privacy.sections.${policySection}.body`) }}</p>
+              </article>
+            </div>
+            <div class="legal-document__external">
+              <p>{{ t('privacy.externalPolicies') }}</p>
+              <ul>
+                <li
+                  v-for="externalLink in EXTERNAL_PRIVACY_LINKS"
+                  :key="externalLink.id"
                 >
-                  {{ t(`privacy.externalLinks.${externalLink.id}`) }}
-                  <Icon name="lucide:external-link" />
-                </a>
-              </li>
-            </ul>
+                  <a
+                    :href="externalLink.url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ t(`privacy.externalLinks.${externalLink.id}`) }}
+                    <Icon name="lucide:external-link" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </details>
       </BContainer>
     </section>
 
@@ -835,6 +838,63 @@ usePageHead({ locale: currentLocale })
       color: rgb(255 255 255 / 60%);
       font-size: 0.86rem;
     }
+  }
+
+  &[open] {
+    .legal-document__summary :deep(.iconify) {
+      transform: rotate(45deg);
+    }
+  }
+
+  &__summary {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    > span:first-child {
+      display: grid;
+      gap: 0.25rem;
+      color: var(--sc-secondary);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+
+      strong {
+        color: var(--sc-white);
+        font-size: clamp(1.6rem, 3vw, 2.25rem);
+        letter-spacing: normal;
+        text-transform: none;
+      }
+    }
+
+    > span:last-child {
+      display: inline-flex;
+      flex: 0 0 auto;
+      gap: 0.7rem;
+      align-items: center;
+      color: var(--sc-white);
+      font-size: 0.86rem;
+
+      :deep(.iconify) {
+        width: 1.1rem;
+        color: var(--sc-secondary);
+        transition: transform 180ms ease;
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 1.5rem;
+    padding-top: 0.1rem;
+    border-top: 1px solid rgb(255 255 255 / 12%);
   }
 
   &__lead {

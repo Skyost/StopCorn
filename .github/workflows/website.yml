@@ -7,8 +7,12 @@ on:
       - master
     paths:
       - pubspec.yaml
+      - pubspec.lock
+      - lib/**
+      - test/screenshots_test.dart
       - docs/**
-      - assets/branding/**
+      - assets/**
+      - tool/**
       - .github/workflows/website.yml
   pull_request:
     branches:
@@ -16,8 +20,12 @@ on:
       - master
     paths:
       - pubspec.yaml
+      - pubspec.lock
+      - lib/**
+      - test/screenshots_test.dart
       - docs/**
-      - assets/branding/**
+      - assets/**
+      - tool/**
       - .github/workflows/website.yml
   workflow_dispatch:
 
@@ -32,6 +40,22 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.8
+          cache: true
+
+      - name: Install image-generation dependencies
+        run: sudo apt-get update && sudo apt-get install --yes fontconfig imagemagick libpango-1.0-0
+
+      - name: Install Flutter dependencies
+        run: flutter pub get
+
+      - name: Generate website media
+        run: tool/website/generate.sh
 
       - name: Set up pnpm and Node.js
         uses: pnpm/setup@v2
@@ -50,13 +74,13 @@ jobs:
 
       - name: Configure GitHub Pages
         if: github.event_name != 'pull_request'
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         with:
           enablement: true
 
       - name: Upload GitHub Pages artifact
         if: github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: docs/.output/public
 
@@ -77,4 +101,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
