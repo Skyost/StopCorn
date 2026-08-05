@@ -83,16 +83,16 @@ the tracked logo at [`assets/branding/logo.svg`](assets/branding/logo.svg).
   traffic collection.
 - Optional daily reminders are scheduled entirely on the device and contain no
   check-in data.
-- JSON export happens only after explicit confirmation. Complete deletion also
-  removes StopCorn preferences and any plaintext export still in the app cache.
 - Nothing reaches RevenueCat until the optional support paywall is opened
   deliberately: displaying Settings stays local. Once it has been opened, the
   supporter entitlement is checked on later launches so a purchase can be
   acknowledged. Opening the paywall also involves the device's app store;
   StopCorn never attaches journal content or private notes.
 
-Exports are not encrypted yet and should be handled as sensitive files. Device
-system backups may include app data depending on platform settings.
+> [!NOTE]
+> Exports are not encrypted yet.
+> Device system backups may include app data depending on platform settings.
+
 
 ## Getting StopCorn
 
@@ -105,8 +105,8 @@ Developers can already run the complete application from source.
 
 ### Requirements
 
-- Flutter 3.44.8 stable, or a compatible release;
-- Dart 3.12.2, or a version allowed by `pubspec.yaml`;
+- At least Flutter 3.44 stable, or a compatible release;
+- at least Dart 3.12, or a version allowed by `pubspec.yaml`;
 - the Android or iOS toolchain for the target platform.
 
 Check the local environment:
@@ -352,34 +352,9 @@ Launcher icons are generated from the tracked SVG logo and the tokens in
 This requires ImageMagick with SVG support. The Android notification icon is a
 hand-written vector and is not regenerated.
 
-## Current limitations
-
-- StopCorn does not block content, filter DNS requests, inspect URLs, or monitor
-  another application.
-- There is no biometric or local passcode lock yet.
-- Exports are unencrypted and imports are not supported.
-- There is no StopCorn account or synchronization. RevenueCat may initialize an
-  anonymous purchase identity, but only once the support paywall has been opened
-  deliberately.
-- Crash reports leave the device unless they are turned off in Settings. They
-  are scrubbed, but they are the one thing StopCorn sends without being asked.
-- Every observation is voluntary; missing data never proves that an event did
-  not happen.
-- Only English and French are currently supported.
-
-Potential future work includes system-level blocking integrations that retain
-no clear-text URLs, local locking and recent-app masking, encrypted export and
-controlled import, more locales, and voluntary sharing of a selected summary.
-
 ## Contributing and feedback
 
 Bug reports and feature ideas are welcome in
 [GitHub Issues](https://github.com/Skyost/StopCorn/issues). Issues are public:
 never include intimate notes, personal history, exported data, or other
 sensitive information.
-
-StopCorn has not had its first public release. Until that happens, keep
-`AppConstants.databaseSchemaVersion` at `1`, update the initial Drift schema
-directly, regenerate with `dart run build_runner build`, and test the resulting
-version-1 database. After the first release, schema changes must preserve user
-data and include migrations from every supported released version.
