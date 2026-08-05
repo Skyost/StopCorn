@@ -54,6 +54,14 @@ jobs:
       - name: Install Flutter dependencies
         run: flutter pub get
 
+      - name: Generate Dart sources for screenshots
+        env:
+          REVENUECAT_ANDROID_API_KEY: ''
+          REVENUECAT_IOS_API_KEY: ''
+          REVENUECAT_TEST_API_KEY: ''
+          SENTRY_DSN: ''
+        run: dart run build_runner build --delete-conflicting-outputs
+
       - name: Generate website media
         run: tool/website/generate.sh
 
