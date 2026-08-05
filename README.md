@@ -45,8 +45,9 @@ default.
   sessions, check-ins, general contexts, and private notes into one timeline.
 - **Descriptive progress, not promises.** Explore trends, helpful strategies,
   check-in markers, and the active goal while keeping missing data in context.
-- **Short offline learning modules.** Six bilingual modules explain urges,
-  habits, environments, emotions, setbacks, and sustainable change.
+- **Short offline learning modules.** Nine bilingual modules explain urges,
+  habits, shame, environments, emotions, self-monitoring, setbacks, and
+  sustainable change, each with per-section takeaways and cited sources.
 - **Optional encouragement.** A non-punitive daily “harvest” recognizes useful
   actions without turning abstinence into a competition.
 
@@ -137,8 +138,7 @@ SENTRY_DSN=
 Generate translations and source code, then run the app:
 
 ```sh
-dart run slang
-dart run build_runner build
+dart run build_runner build --delete-conflicting-outputs
 flutter run
 ```
 
@@ -303,7 +303,7 @@ sources are split by namespace under `lib/i18n/en/` and `lib/i18n/fr/`. Update
 the same key in both locales and run:
 
 ```sh
-dart run slang
+dart run build_runner build --delete-conflicting-outputs
 ```
 
 Generated `strings*.g.dart` files must not be edited manually. Quantity-aware
@@ -312,9 +312,15 @@ French requires explicit `zero` forms anywhere `0` would otherwise use the
 singular. `test/i18n/pluralization_test.dart` locks this behavior down.
 
 Learning-module descriptors contain stable identifiers, order, duration,
-translation keys, and references. Reader-facing copy lives in one Slang JSON
-file per module and locale. When the bundled catalog changes, increment both
-its `contentVersion` and `AppConstants.learningContentVersion`.
+translation keys, and references. Each section lists its paragraph keys and may
+add optional `keyPointKeys` rendered as takeaways. Reader-facing copy lives in
+one Slang JSON file per module and locale. When the bundled catalog changes,
+increment both its `contentVersion` and `AppConstants.learningContentVersion`.
+
+Every reference must be a real, verifiable record: the citation carries a
+resolvable DOI and the `url` points to its PubMed entry, or to `doi.org` when
+the work is not indexed there. `test/features/learning/learning_repository_test.dart`
+pins the audited list.
 
 ## Website and generated media
 
