@@ -5,17 +5,41 @@
     "direction": {
       "title": "Une direction qui vient de toi",
       "paragraph1": "Un changement a plus de chances de durer lorsqu'il correspond à ce qui compte pour toi, et pas seulement à ce que les autres attendent.",
-      "paragraph2": "Tu peux vouloir arrêter, réduire, éviter certaines situations ou commencer par observer. Aucun de ces choix ne définit ta valeur."
+      "paragraph2": "Les travaux sur la motivation autodéterminée vont dans ce sens : dans le domaine de la santé, les raisons vécues comme personnelles sont associées à un engagement plus durable que la pression extérieure, la peur du regard des autres ou la honte.",
+      "paragraph3": "Tu peux vouloir arrêter, réduire, éviter certaines situations ou simplement commencer par observer. Aucun de ces choix ne définit ta valeur, et tu as le droit d'en changer en cours de route.",
+      "keyPoint1": "Formule ton objectif avec tes mots plutôt qu'avec ceux d'un forum.",
+      "keyPoint2": "Une motivation personnelle tend à mieux soutenir le changement dans le temps.",
+      "keyPoint3": "Commencer par observer est un objectif valable."
     },
     "benefits": {
       "title": "Ce que tu veux retrouver",
       "paragraph1": "Essaie de nommer ce que tu aimerais retrouver : du temps, de la disponibilité mentale, du sommeil, une relation plus sereine ou le sentiment de décider.",
-      "paragraph2": "Une raison personnelle et précise peut servir de repère lorsque l'impulsion devient forte."
+      "paragraph2": "Plus la raison est concrète, plus elle reste utilisable au moment où l'impulsion est forte. « Me coucher avant minuit trois soirs cette semaine » offre un repère que « aller mieux » ne donne pas.",
+      "paragraph3": "Tu peux aussi nommer ce que tu souhaites simplement préserver : une relation, une confiance, une disponibilité. Protéger quelque chose est une raison aussi valable que réparer quelque chose.",
+      "keyPoint1": "Écris une raison en une phrase, au présent.",
+      "keyPoint2": "Choisis un repère que tu peux vérifier toi-même.",
+      "keyPoint3": "Garde-la accessible pour les moments difficiles."
+    },
+    "ambivalence": {
+      "title": "Vouloir et ne pas vouloir à la fois",
+      "paragraph1": "Il est fréquent de vouloir changer et de ne pas en avoir envie au même moment. Cette ambivalence n'est pas un manque de sincérité : elle accompagne presque tous les changements d'habitude.",
+      "paragraph2": "Dans les études sur l'entretien motivationnel, certaines formes de discours de changement et de maintien exprimées par la personne sont associées au comportement ultérieur. Ces liens varient toutefois selon le type de propos et restent parfois instables.",
+      "paragraph3": "Écrire les deux côtés — ce que cette habitude t'apporte et ce qu'elle te coûte — peut t'aider à entendre cette ambivalence sans essayer de faire taire l'un des deux."
+    },
+    "gap": {
+      "title": "De l'intention à l'action",
+      "paragraph1": "Décider fermement ne suffit pas toujours. Les synthèses sur l'écart entre intention et comportement montrent qu'une intention nettement renforcée ne se traduit en moyenne que par un changement de comportement plus modeste.",
+      "paragraph2": "Ce n'est pas une raison de renoncer, mais une raison de préparer : ce qui fait la différence tient souvent aux plans concrets et à l'environnement, plus qu'à l'intensité de la décision.",
+      "paragraph3": "Plusieurs des modules suivants portent précisément sur cette préparation : repérer les situations qui reviennent, traverser une impulsion, ajuster ton environnement.",
+      "keyPoint1": "Une décision forte ne remplace pas un plan précis.",
+      "keyPoint2": "Prépare la situation, pas seulement l'intention.",
+      "keyPoint3": "Un plan écrit reste disponible quand la motivation baisse."
     },
     "changes": {
-      "title": "Une motivation variable",
+      "title": "Une motivation qui varie",
       "paragraph1": "La motivation change d'un jour à l'autre. Cela ne signifie ni que tu as échoué, ni que ton objectif est mauvais.",
-      "paragraph2": "Lorsqu'elle baisse, une petite action préparée à l'avance peut prendre le relais."
+      "paragraph2": "La fatigue, le stress, l'isolement ou une journée difficile peuvent la faire baisser sans rien changer à ce qui compte pour toi.",
+      "paragraph3": "Lorsqu'elle baisse, une petite action préparée à l'avance peut prendre le relais. Relire la raison que tu as écrite suffit parfois à passer un moment creux."
     }
   },
   "reflectionPrompt": "Qu'aimerais-tu retrouver ou préserver en faisant évoluer cette habitude ?"

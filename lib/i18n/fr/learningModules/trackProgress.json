@@ -1,0 +1,46 @@
+{
+  "title": "Observer sans te noter",
+  "summary": "Suis ce qui bouge, sans transformer tes notes en bulletin.",
+  "sections": {
+    "why": {
+      "title": "Pourquoi observer change quelque chose",
+      "paragraph1": "Noter régulièrement où tu en es n'est pas une formalité administrative. Une méta-analyse portant sur de nombreuses expériences a montré que suivre ses progrès vers un objectif augmente en moyenne les chances de l'atteindre.",
+      "paragraph2": "L'effet était plus net lorsque le suivi était rendu explicite — écrit ou partagé — plutôt que gardé en tête.",
+      "paragraph3": "L'observation agit aussi en dehors de la mesure : elle ramène l'attention sur un comportement devenu automatique, ce qui suffit parfois à ouvrir un choix.",
+      "keyPoint1": "Écris ton observation plutôt que de la garder en tête.",
+      "keyPoint2": "Vise un suivi régulier plutôt qu'exhaustif.",
+      "keyPoint3": "Observer est déjà une action, pas une préparation."
+    },
+    "what": {
+      "title": "Quoi noter, et quoi ne pas noter",
+      "paragraph1": "Les informations utiles sont générales : un horaire, un lieu, un état, une stratégie essayée, un ressenti après coup. Elles suffisent à faire apparaître une régularité.",
+      "paragraph2": "Les détails explicites, eux, n'apportent rien à l'analyse et créent un risque supplémentaire si ton appareil est perdu ou consulté par quelqu'un d'autre.",
+      "paragraph3": "Un bon test avant d'écrire : cette note m'aiderait-elle à décider quelque chose la semaine prochaine ? Si la réponse est non, elle peut rester non écrite."
+    },
+    "noScore": {
+      "title": "Une observation, pas une note",
+      "paragraph1": "Une même donnée peut être lue de deux façons : « trois événements cette semaine » est une information ; « je suis nul, trois fois » est un jugement. Seule la première permet d'ajuster quelque chose.",
+      "paragraph2": "Une méta-régression portant sur des interventions d'alimentation et d'activité physique a observé que l'auto-observation était la technique la plus déterminante, et que la combiner à d'autres techniques d'autorégulation — se fixer un objectif, comparer, ajuster — donnait de meilleurs résultats que les autres interventions.",
+      "paragraph3": "C'est aussi pour cette raison que StopCorn n'attribue ni score moral, ni série à ne pas briser sous peine de tout perdre.",
+      "keyPoint1": "Décris les faits, laisse le verdict de côté.",
+      "keyPoint2": "Compare-toi à ton point de départ, pas à un idéal.",
+      "keyPoint3": "Une donnée sert à décider, pas à te juger."
+    },
+    "gaps": {
+      "title": "Les trous dans les données",
+      "paragraph1": "Il y aura des jours sans note. C'est normal, et cela ne rend pas le reste inutilisable.",
+      "paragraph2": "En revanche, une absence de données n'est pas une absence d'événement : quand tu relis une tendance, garde en tête ce qui n'a pas été enregistré avant d'en tirer une conclusion.",
+      "paragraph3": "Reprendre après une interruption a plus de valeur qu'un historique parfait. Le suivi n'a pas besoin d'être complet pour être utile."
+    },
+    "rhythm": {
+      "title": "Un rythme de relecture",
+      "paragraph1": "Les notes prennent leur sens quand tu les relis. Un rendez-vous court et régulier — par exemple dix minutes une fois par semaine — peut être un point de départ.",
+      "paragraph2": "Regarde trois choses : ce qui revient, ce qui a aidé, et ce que tu veux ajuster pour la suite. Pour commencer, choisir un seul ajustement peut rendre ses effets plus lisibles.",
+      "paragraph3": "Si la relecture devient une séance de reproches, essaie de reformuler les questions : qu'est-ce qui revient, qu'est-ce qui a aidé et que veux-tu tester ensuite ?",
+      "keyPoint1": "Fixe une relecture courte, à jour fixe.",
+      "keyPoint2": "Commence par un seul ajustement.",
+      "keyPoint3": "Note aussi ce qui a fonctionné."
+    }
+  },
+  "reflectionPrompt": "Quel jour de la semaine pourrais-tu réserver à une courte relecture de tes notes ?"
+}

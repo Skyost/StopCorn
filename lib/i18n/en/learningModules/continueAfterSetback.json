@@ -4,18 +4,39 @@
   "sections": {
     "perspective": {
       "title": "Move beyond “everything is ruined”",
-      "paragraph1": "One event does not erase the pauses, choices, and observations you have already made.",
-      "paragraph2": "The thought that everything is ruined can push you to abandon a plan that is still useful."
+      "paragraph1": "Here, a “lapse” means an event that does not match the goal you chose. It does not erase the pauses, choices, and observations you have already made.",
+      "paragraph2": "In a smoking-cessation study, most reactions grouped under the abstinence violation effect did not predict relapse. Feeling like giving up after the lapse, however, was associated with faster progression to a second lapse.",
+      "paragraph3": "Participants who tried a restorative response after the lapse were less likely to have another one that same day. Because the study concerned smoking, this is a useful lead rather than a rule for your situation.",
+      "keyPoint1": "A lapse and a lasting return are two different things.",
+      "keyPoint2": "A restorative response may help you pick up the thread.",
+      "keyPoint3": "Resume the current plan rather than restarting from zero."
+    },
+    "compassion": {
+      "title": "Self-compassion is not indulgence",
+      "paragraph1": "Many people fear that going easy on themselves amounts to giving up. Experiments suggest the opposite: after a failure, a kind stance toward oneself was associated with more effort to improve.",
+      "paragraph2": "One structured self-compassion training program has also shown effects on well-being in a controlled trial, run on a small, mostly female sample. Self-compassion is therefore something you practice as a skill rather than a fixed personality trait.",
+      "paragraph3": "One simple formulation: speak to yourself the way you would speak to someone you respect who has just been through the same thing."
     },
     "adjust": {
       "title": "Adjust rather than punish",
       "paragraph1": "Look at what came before: time, tiredness, emotion, device, or general context.",
-      "paragraph2": "Then choose one limited adjustment. Punishment or an unrealistic goal rarely provides useful information."
+      "paragraph2": "Then choose one limited adjustment. Punishment or an unrealistic goal rarely provides useful information.",
+      "paragraph3": "A lapse is also data: it points to a spot in the plan that was not yet covered. That is unpleasant, but it is usable.",
+      "keyPoint1": "Look for the situation, not the culprit.",
+      "keyPoint2": "Start with one limited adjustment.",
+      "keyPoint3": "Tightening the goal after a lapse rarely makes it more sustainable."
+    },
+    "plan": {
+      "title": "A skill, not a fate",
+      "paragraph1": "Relapse-prevention approaches consider the possibility of a lapse and suggest preparing your response in advance rather than relying only on the hope that it will not happen.",
+      "paragraph2": "Reviews of these programs show broadly favorable effects on addictive behaviors, with results varying across substances and protocols.",
+      "paragraph3": "You can prepare three lines: what I do after the lapse, who I can message, and what I look at in my plan before concluding anything."
     },
     "help": {
       "title": "Know when to ask for help",
       "paragraph1": "If loss of control persists, causes severe distress, or has significant consequences, talking to a qualified professional may help.",
-      "paragraph2": "Asking for help can be part of the plan; it does not take away from progress already made."
+      "paragraph2": "Recent reviews focus mainly on cognitive-behavioral psychotherapies and acceptance-based approaches. They report encouraging results, but study quality is often low and risk of bias high, so effectiveness cannot yet be stated with certainty.",
+      "paragraph3": "Asking for help can be part of the plan; it does not take away from progress already made."
     }
   },
   "reflectionPrompt": "What useful information can you take from the last event without judging yourself?"

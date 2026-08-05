@@ -5,17 +5,41 @@
     "delay": {
       "title": "Give yourself a moment",
       "paragraph1": "An impulse does not require an immediate or permanent decision.",
-      "paragraph2": "Waiting briefly gives you a chance to notice whether its intensity rises, falls, or stays stable."
+      "paragraph2": "Waiting briefly gives you a chance to notice whether its intensity rises, falls, or stays stable. You have nothing to decide during that delay: you are just watching.",
+      "paragraph3": "A short delay you can keep is often more realistic than a long one you abandon.",
+      "keyPoint1": "Set a short duration, decided in advance.",
+      "keyPoint2": "During the delay, no decision is required of you.",
+      "keyPoint3": "After the delay, you choose with more information."
+    },
+    "wave": {
+      "title": "Watch the wave",
+      "paragraph1": "An approach from mindfulness, sometimes called “urge surfing,” means observing the sensation like a wave: where it sits in the body, how it changes, without trying to make it disappear.",
+      "paragraph2": "A brief intervention built on this principle was tested with student smokers and showed encouraging results on consumption in the following days. The trial was short and concerned another behavior, which calls for caution.",
+      "paragraph3": "In practice, observing in this way can offer an alternative to fighting the sensation directly, especially when you are tired."
+    },
+    "suppression": {
+      "title": "Do not try not to think about it",
+      "paragraph1": "Repeating “I must not think about this” rarely works. Research on thought suppression describes paradoxical effects: the monitored thought often returns, sometimes stronger.",
+      "paragraph2": "Acceptance-based approaches propose the opposite: let the thought be there, and act anyway. A preliminary multiple-baseline study following six men observed reduced frequency after this kind of intervention. Without a randomized control group, the finding remains exploratory.",
+      "paragraph3": "In practice: you do not have to win an argument against your own mind. You can have the thought and do something else.",
+      "keyPoint1": "Trying to push a thought away can make it return.",
+      "keyPoint2": "Let it stay, and act regardless.",
+      "keyPoint3": "Focus on the action you choose, not on controlling every thought."
     },
     "concrete": {
       "title": "Change something concrete",
       "paragraph1": "Changing rooms, putting down the phone, or starting a very small task can interrupt an automatic response.",
-      "paragraph2": "Choose an action simple enough to remain possible even when your energy is low."
+      "paragraph2": "So-called situational strategies act upstream: changing the situation may take less effort than resisting at the most intense moment.",
+      "paragraph3": "Choose an action simple enough to remain possible even when your energy is low: drinking a glass of water, stepping outside the door, putting on one song."
     },
     "expectations": {
       "title": "Do not demand disappearance",
-      "paragraph1": "A strategy can still be useful when the feeling does not disappear immediately.",
-      "paragraph2": "The aim is to practice making a choice, not to achieve a perfect result every time."
+      "paragraph1": "A strategy can still be useful when the feeling does not disappear immediately. In the trial with student smokers, the two groups did not differ on the intensity of the urges they felt; what differed was how much they smoked over the following days.",
+      "paragraph2": "The aim is to practice making a choice, not to achieve a perfect result every time. An attempt that did not “work” still teaches you something about the moment you tried it.",
+      "paragraph3": "The same strategy does not fit every context. You can keep two or three available rather than relying on a single one.",
+      "keyPoint1": "Success means having chosen, not having stopped feeling.",
+      "keyPoint2": "Prepare several simple strategies.",
+      "keyPoint3": "Note which one helped, and in which context."
     }
   },
   "reflectionPrompt": "Which realistic strategy could you try during the next difficult moment?"

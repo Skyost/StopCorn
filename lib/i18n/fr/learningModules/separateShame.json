@@ -1,0 +1,43 @@
+{
+  "title": "Usage, détresse et honte",
+  "summary": "Distingue ce que tu fais de ce que tu en penses.",
+  "sections": {
+    "frequency": {
+      "title": "La fréquence ne dit pas tout",
+      "paragraph1": "Deux personnes ayant un usage comparable peuvent vivre des situations très différentes. Ce n'est pas seulement la quantité qui pèse, mais la place que ce comportement prend et la souffrance qu'il provoque.",
+      "paragraph2": "Les travaux récents distinguent d'ailleurs deux dimensions : l'usage lui-même, et la détresse ressentie à son sujet. Les deux sont associées, mais ne se recouvrent pas.",
+      "paragraph3": "C'est aussi pour cela que comparer ton nombre de jours à celui d'un inconnu sur internet renseigne peu. Ce qui compte est ce que tu constates dans ta propre vie.",
+      "keyPoint1": "Regarde l'impact concret, pas seulement le compteur.",
+      "keyPoint2": "Te comparer aux autres éclaire rarement ta propre situation.",
+      "keyPoint3": "Détresse et fréquence sont deux mesures distinctes."
+    },
+    "incongruence": {
+      "title": "Quand l'usage entre en conflit avec tes valeurs",
+      "paragraph1": "Une partie de la détresse vient parfois du décalage entre le comportement et ce à quoi tu tiens : une revue systématique a montré que ce désaccord interne est associé au sentiment d'être dépendant, parfois indépendamment de la fréquence réelle.",
+      "paragraph2": "Ce résultat ne veut pas dire que ta souffrance serait imaginaire, ni que tes valeurs seraient le vrai problème. Il indique surtout qu'un même usage n'a pas le même poids selon ce que tu en penses.",
+      "paragraph3": "En pratique, cela ouvre deux leviers plutôt qu'un : ajuster le comportement, et regarder honnêtement ce que tu attends de toi-même."
+    },
+    "shameGuilt": {
+      "title": "Honte et regret ne mènent pas au même endroit",
+      "paragraph1": "La honte dit « je suis quelqu'un de mauvais ». Le regret dit « cette action ne me convient pas ». La première attaque la personne, le second désigne un comportement.",
+      "paragraph2": "Le regret laisse une prise sur laquelle agir ; la honte, en visant la personne entière, en laisse peu. Des expériences ont d'ailleurs observé qu'une attitude bienveillante envers soi après une faute allait de pair avec plus de motivation à s'améliorer.",
+      "paragraph3": "Se traiter durement donne l'impression de faire quelque chose, mais fournit rarement une information exploitable pour la prochaine fois. La honte pousse aussi à tout garder pour soi, ce qui rend le soutien moins accessible au moment où il serait utile.",
+      "keyPoint1": "Vise le comportement, pas la personne que tu es.",
+      "keyPoint2": "La bienveillance envers soi n'empêche pas de vouloir s'améliorer.",
+      "keyPoint3": "Tu peux chercher du soutien sans tout raconter."
+    },
+    "comparison": {
+      "title": "Des attentes construites ailleurs",
+      "paragraph1": "Une méta-analyse a observé une association, modeste et surtout retrouvée chez les hommes, entre la consommation de pornographie et une satisfaction relationnelle ou sexuelle plus faible.",
+      "paragraph2": "Cette synthèse regroupe des enquêtes transversales, des suivis longitudinaux et quelques expériences. Elle n'établit pas pour autant un sens de causalité unique, et la moyenne d'un groupe ne prédit pas ce que tu vis.",
+      "paragraph3": "Ce qui reste utile à observer, c'est plus concret : ce que tu attends, ce que tu compares, et ce que cela change dans ta vie réelle."
+    },
+    "labels": {
+      "title": "Ce que les étiquettes disent, et ne disent pas",
+      "paragraph1": "La classification internationale des maladies (CIM-11) reconnaît un « trouble du comportement sexuel compulsif ». Il repose sur une perte de contrôle persistante, généralement sur une période prolongée, avec une souffrance marquée ou une altération importante du fonctionnement — pas sur une fréquence donnée.",
+      "paragraph2": "Une souffrance entièrement liée à des jugements moraux ou à la désapprobation ne suffit pas à ce diagnostic. La question de classer ce trouble parmi les addictions reste discutée ; une étiquette n'est pas nécessaire pour décider d'un changement.",
+      "paragraph3": "StopCorn ne pose aucun diagnostic. Si la souffrance est forte ou durable, un professionnel qualifié reste le bon interlocuteur pour cette question."
+    }
+  },
+  "reflectionPrompt": "Qu'est-ce qui te pèse le plus : ce que tu fais, ou ce que tu te dis à ce sujet ?"
+}

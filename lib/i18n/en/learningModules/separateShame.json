@@ -1,0 +1,43 @@
+{
+  "title": "Use, distress, and shame",
+  "summary": "Separate what you do from what you think about it.",
+  "sections": {
+    "frequency": {
+      "title": "Frequency does not say everything",
+      "paragraph1": "Two people with comparable use can be in very different situations. What weighs is not only the amount, but the room the behavior takes up and the distress it causes.",
+      "paragraph2": "Recent work separates two dimensions: use itself, and the distress felt about it. They are related, but they do not overlap.",
+      "paragraph3": "That is also why comparing your day count with a stranger's online tells you little. What matters is what you observe in your own life.",
+      "keyPoint1": "Look at concrete impact, not only the counter.",
+      "keyPoint2": "Comparing yourself with others rarely clarifies your own situation.",
+      "keyPoint3": "Distress and frequency are two distinct measures."
+    },
+    "incongruence": {
+      "title": "When use conflicts with your values",
+      "paragraph1": "Part of the distress sometimes comes from the gap between the behavior and what you care about: a systematic review found this internal disagreement is associated with feeling addicted, at times independently of actual frequency.",
+      "paragraph2": "This does not mean your distress is imaginary, nor that your values are the real problem. It mainly indicates that the same use does not carry the same weight depending on what you make of it.",
+      "paragraph3": "In practice, that gives you two levers instead of one: adjusting the behavior, and honestly examining what you expect of yourself."
+    },
+    "shameGuilt": {
+      "title": "Shame and regret lead to different places",
+      "paragraph1": "Shame says “I am a bad person.” Regret says “this action does not suit me.” The first attacks the person, the second points at a behavior.",
+      "paragraph2": "Regret leaves you something to act on; shame, by targeting the whole person, leaves little. Experiments have indeed observed that a kind stance toward oneself after a wrongdoing went along with more motivation to improve.",
+      "paragraph3": "Treating yourself harshly feels like doing something, but it rarely produces information you can use next time. Shame also pushes you to keep everything to yourself, which makes support harder to reach at the moment it would help.",
+      "keyPoint1": "Aim at the behavior, not at who you are.",
+      "keyPoint2": "Self-kindness does not stop you from wanting to improve.",
+      "keyPoint3": "You can seek support without sharing everything."
+    },
+    "comparison": {
+      "title": "Expectations built somewhere else",
+      "paragraph1": "A meta-analysis observed an association—modest, and found mainly among men—between pornography consumption and lower relational or sexual satisfaction.",
+      "paragraph2": "That synthesis pools cross-sectional surveys, longitudinal follow-ups, and a few experiments. It still does not establish a single direction of causality, and a group average does not predict your experience.",
+      "paragraph3": "What stays useful to observe is more concrete: what you expect, what you compare yourself to, and what that changes in your actual life."
+    },
+    "labels": {
+      "title": "What labels say, and do not say",
+      "paragraph1": "The International Classification of Diseases (ICD-11) recognizes “compulsive sexual behaviour disorder.” It involves a persistent failure to control the behavior, generally over an extended period, with marked distress or significant impairment—not any given frequency.",
+      "paragraph2": "Distress entirely related to moral judgments or disapproval is not sufficient for this diagnosis. Whether the disorder should be classified as an addiction remains debated; you do not need a label in order to decide on a change.",
+      "paragraph3": "StopCorn makes no diagnosis. If distress is severe or lasting, a qualified professional remains the right person for that question."
+    }
+  },
+  "reflectionPrompt": "What weighs on you more: what you do, or what you tell yourself about it?"
+}

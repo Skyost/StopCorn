@@ -1,0 +1,74 @@
+{
+  "id": "track-progress",
+  "order": 8,
+  "titleKey": "learningModules.trackProgress.title",
+  "summaryKey": "learningModules.trackProgress.summary",
+  "sections": [
+    {
+      "titleKey": "learningModules.trackProgress.sections.why.title",
+      "paragraphKeys": [
+        "learningModules.trackProgress.sections.why.paragraph1",
+        "learningModules.trackProgress.sections.why.paragraph2",
+        "learningModules.trackProgress.sections.why.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.trackProgress.sections.why.keyPoint1",
+        "learningModules.trackProgress.sections.why.keyPoint2",
+        "learningModules.trackProgress.sections.why.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.trackProgress.sections.what.title",
+      "paragraphKeys": [
+        "learningModules.trackProgress.sections.what.paragraph1",
+        "learningModules.trackProgress.sections.what.paragraph2",
+        "learningModules.trackProgress.sections.what.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.trackProgress.sections.noScore.title",
+      "paragraphKeys": [
+        "learningModules.trackProgress.sections.noScore.paragraph1",
+        "learningModules.trackProgress.sections.noScore.paragraph2",
+        "learningModules.trackProgress.sections.noScore.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.trackProgress.sections.noScore.keyPoint1",
+        "learningModules.trackProgress.sections.noScore.keyPoint2",
+        "learningModules.trackProgress.sections.noScore.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.trackProgress.sections.gaps.title",
+      "paragraphKeys": [
+        "learningModules.trackProgress.sections.gaps.paragraph1",
+        "learningModules.trackProgress.sections.gaps.paragraph2",
+        "learningModules.trackProgress.sections.gaps.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.trackProgress.sections.rhythm.title",
+      "paragraphKeys": [
+        "learningModules.trackProgress.sections.rhythm.paragraph1",
+        "learningModules.trackProgress.sections.rhythm.paragraph2",
+        "learningModules.trackProgress.sections.rhythm.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.trackProgress.sections.rhythm.keyPoint1",
+        "learningModules.trackProgress.sections.rhythm.keyPoint2",
+        "learningModules.trackProgress.sections.rhythm.keyPoint3"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.trackProgress.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Harkin B. et al. (2016). Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence. Psychological Bulletin, 142(2), 198–229. https://doi.org/10.1037/bul0000025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26479070/"
+    },
+    {
+      "citation": "Michie S., Abraham C., Whittington C., McAteer J. & Gupta S. (2009). Effective techniques in healthy eating and physical activity interventions: a meta-regression. Health Psychology, 28(6), 690–701. https://doi.org/10.1037/a0016136",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19916637/"
+    }
+  ]
+}

@@ -3,27 +3,60 @@
   "order": 1,
   "titleKey": "learningModules.whyChange.title",
   "summaryKey": "learningModules.whyChange.summary",
-  "estimatedMinutes": 6,
   "sections": [
     {
       "titleKey": "learningModules.whyChange.sections.direction.title",
       "paragraphKeys": [
         "learningModules.whyChange.sections.direction.paragraph1",
-        "learningModules.whyChange.sections.direction.paragraph2"
+        "learningModules.whyChange.sections.direction.paragraph2",
+        "learningModules.whyChange.sections.direction.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.whyChange.sections.direction.keyPoint1",
+        "learningModules.whyChange.sections.direction.keyPoint2",
+        "learningModules.whyChange.sections.direction.keyPoint3"
       ]
     },
     {
       "titleKey": "learningModules.whyChange.sections.benefits.title",
       "paragraphKeys": [
         "learningModules.whyChange.sections.benefits.paragraph1",
-        "learningModules.whyChange.sections.benefits.paragraph2"
+        "learningModules.whyChange.sections.benefits.paragraph2",
+        "learningModules.whyChange.sections.benefits.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.whyChange.sections.benefits.keyPoint1",
+        "learningModules.whyChange.sections.benefits.keyPoint2",
+        "learningModules.whyChange.sections.benefits.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.whyChange.sections.ambivalence.title",
+      "paragraphKeys": [
+        "learningModules.whyChange.sections.ambivalence.paragraph1",
+        "learningModules.whyChange.sections.ambivalence.paragraph2",
+        "learningModules.whyChange.sections.ambivalence.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.whyChange.sections.gap.title",
+      "paragraphKeys": [
+        "learningModules.whyChange.sections.gap.paragraph1",
+        "learningModules.whyChange.sections.gap.paragraph2",
+        "learningModules.whyChange.sections.gap.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.whyChange.sections.gap.keyPoint1",
+        "learningModules.whyChange.sections.gap.keyPoint2",
+        "learningModules.whyChange.sections.gap.keyPoint3"
       ]
     },
     {
       "titleKey": "learningModules.whyChange.sections.changes.title",
       "paragraphKeys": [
         "learningModules.whyChange.sections.changes.paragraph1",
-        "learningModules.whyChange.sections.changes.paragraph2"
+        "learningModules.whyChange.sections.changes.paragraph2",
+        "learningModules.whyChange.sections.changes.paragraph3"
       ]
     }
   ],
@@ -32,6 +65,14 @@
     {
       "citation": "Ng J. Y. Y. et al. (2012). Self-Determination Theory Applied to Health Contexts: A Meta-Analysis. Perspectives on Psychological Science, 7(4), 325–340. https://doi.org/10.1177/1745691612447309",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26168470/"
+    },
+    {
+      "citation": "Magill M. et al. (2019). Do what you say and say what you are going to do: A preliminary meta-analysis of client change and sustain talk subtypes in motivational interviewing. Psychotherapy Research, 29(7), 860–869. https://doi.org/10.1080/10503307.2018.1490973",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29954290/"
+    },
+    {
+      "citation": "Sheeran P. & Webb T. L. (2016). The Intention–Behavior Gap. Social and Personality Psychology Compass, 10(9), 503–518. https://doi.org/10.1111/spc3.12265",
+      "url": "https://doi.org/10.1111/spc3.12265"
     }
   ]
 }

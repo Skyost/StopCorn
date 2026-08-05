@@ -5,17 +5,44 @@
     "friction": {
       "title": "Rendre l'accès moins automatique",
       "paragraph1": "Laisser le téléphone hors de la chambre, fixer certains horaires ou utiliser le mode de concentration du système peut ajouter une friction volontaire.",
-      "paragraph2": "Un bloqueur peut compléter ton plan, mais il ne règle pas une difficulté à lui seul."
+      "paragraph2": "L'idée n'est pas de rendre quelque chose impossible, mais d'ajouter quelques secondes entre l'impulsion et le geste. Ces secondes peuvent créer un espace où un choix redevient possible.",
+      "paragraph3": "Une friction utile est une friction que tu acceptes. Si tu contournes presque aussitôt un dispositif, essaie un réglage plus réaliste plutôt que d'en faire un motif d'échec.",
+      "keyPoint1": "Vise quelques secondes de délai, pas l'impossibilité.",
+      "keyPoint2": "Choisis une friction que tu es prêt à garder.",
+      "keyPoint3": "Ajuste une friction que tu contournes rapidement."
+    },
+    "avoid": {
+      "title": "Éviter coûte moins cher que résister",
+      "paragraph1": "Une étude de suivi a observé que les personnes atteignant le mieux leurs objectifs n'étaient pas celles qui résistaient le plus, mais celles qui rencontraient moins de tentations.",
+      "paragraph2": "Autrement dit, la maîtrise de soi se joue souvent en amont : dans l'organisation de la journée et de l'espace, plus que dans l'instant critique.",
+      "paragraph3": "Cela retire aussi une part de culpabilité : avoir besoin d'aménager ton environnement n'est pas un aveu de faiblesse. C'est une stratégie cohérente avec ces observations."
+    },
+    "ifThen": {
+      "title": "Des plans « si… alors… »",
+      "paragraph1": "Une méta-analyse portant sur de nombreuses études a montré que formuler un plan précis — « si telle situation se produit, alors je ferai telle action » — améliore l'atteinte des objectifs par rapport à une simple intention.",
+      "paragraph2": "La précision compte : la situation doit être reconnaissable et l'action immédiatement réalisable. « Si je me retrouve au lit avec mon téléphone après 23 h, alors je le repose sur le bureau » est plus précis que « je ferai attention le soir ».",
+      "paragraph3": "Tu peux commencer par deux ou trois plans correspondant à tes situations les plus fréquentes.",
+      "keyPoint1": "Écris la situation déclenchante, pas seulement l'objectif.",
+      "keyPoint2": "Choisis une action que tu peux commencer immédiatement.",
+      "keyPoint3": "Commence par deux ou trois plans."
     },
     "moments": {
       "title": "Préparer les moments plus fragiles",
       "paragraph1": "Si les soirées où tu es fatigué reviennent dans tes observations, préparer une routine simple ou charger ton appareil ailleurs peut faciliter l'action souhaitée.",
-      "paragraph2": "Si certains comptes ou réseaux précèdent souvent les moments difficiles, tu peux en ajuster l'accès sans devoir tout supprimer."
+      "paragraph2": "Prépare ces moments quand ils ne sont pas là : décider à l'avance peut demander moins d'effort que choisir au cœur d'un moment difficile.",
+      "paragraph3": "Si certains comptes ou réseaux précèdent souvent les moments difficiles, tu peux en ajuster l'accès sans devoir tout supprimer."
     },
     "alternative": {
       "title": "Rendre l'alternative visible",
       "paragraph1": "Prépare une autre action facile d'accès : un livre à proximité, une courte marche ou une tâche choisie à l'avance.",
-      "paragraph2": "Ton environnement est surtout utile lorsqu'il soutient une intention précise."
+      "paragraph2": "Retirer quelque chose laisse un vide, et un vide se remplit rarement tout seul dans la bonne direction. L'alternative doit être au moins aussi accessible que ce que tu retires.",
+      "paragraph3": "Ton environnement est surtout utile lorsqu'il soutient une intention précise."
+    },
+    "limits": {
+      "title": "Ce qu'un filtre ne fait pas",
+      "paragraph1": "Un bloqueur peut compléter ton plan, mais il ne règle pas une difficulté à lui seul : il agit sur l'accès, pas sur la situation, l'émotion ou l'habitude qui précèdent.",
+      "paragraph2": "Les dispositifs reposant sur la surveillance par un tiers posent en plus une question de vie privée et de confiance. StopCorn n'accède ni à l'activité ni à l'historique de ton navigateur, et ne transmet aucune donnée de navigation web.",
+      "paragraph3": "Un outil technique fonctionne mieux comme appui d'un plan que comme substitut à ce plan."
     }
   },
   "reflectionPrompt": "Quel petit changement pourrais-tu apporter à ton environnement aujourd'hui ?"

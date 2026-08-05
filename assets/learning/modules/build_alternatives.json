@@ -1,0 +1,73 @@
+{
+  "id": "build-alternatives",
+  "order": 7,
+  "titleKey": "learningModules.buildAlternatives.title",
+  "summaryKey": "learningModules.buildAlternatives.summary",
+  "sections": [
+    {
+      "titleKey": "learningModules.buildAlternatives.sections.vacuum.title",
+      "paragraphKeys": [
+        "learningModules.buildAlternatives.sections.vacuum.paragraph1",
+        "learningModules.buildAlternatives.sections.vacuum.paragraph2",
+        "learningModules.buildAlternatives.sections.vacuum.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.buildAlternatives.sections.vacuum.keyPoint1",
+        "learningModules.buildAlternatives.sections.vacuum.keyPoint2",
+        "learningModules.buildAlternatives.sections.vacuum.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.buildAlternatives.sections.activation.title",
+      "paragraphKeys": [
+        "learningModules.buildAlternatives.sections.activation.paragraph1",
+        "learningModules.buildAlternatives.sections.activation.paragraph2",
+        "learningModules.buildAlternatives.sections.activation.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.buildAlternatives.sections.values.title",
+      "paragraphKeys": [
+        "learningModules.buildAlternatives.sections.values.paragraph1",
+        "learningModules.buildAlternatives.sections.values.paragraph2",
+        "learningModules.buildAlternatives.sections.values.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.buildAlternatives.sections.values.keyPoint1",
+        "learningModules.buildAlternatives.sections.values.keyPoint2",
+        "learningModules.buildAlternatives.sections.values.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.buildAlternatives.sections.small.title",
+      "paragraphKeys": [
+        "learningModules.buildAlternatives.sections.small.paragraph1",
+        "learningModules.buildAlternatives.sections.small.paragraph2",
+        "learningModules.buildAlternatives.sections.small.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.buildAlternatives.sections.people.title",
+      "paragraphKeys": [
+        "learningModules.buildAlternatives.sections.people.paragraph1",
+        "learningModules.buildAlternatives.sections.people.paragraph2",
+        "learningModules.buildAlternatives.sections.people.paragraph3"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.buildAlternatives.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Cuijpers P., van Straten A. & Warmerdam L. (2007). Behavioral activation treatments of depression: a meta-analysis. Clinical Psychology Review, 27(3), 318–326. https://doi.org/10.1016/j.cpr.2006.11.001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17184887/"
+    },
+    {
+      "citation": "A-Tjak J. G. L. et al. (2015). A meta-analysis of the efficacy of acceptance and commitment therapy for clinically relevant mental and physical health problems. Psychotherapy and Psychosomatics, 84(1), 30–36. https://doi.org/10.1159/000365764",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25547522/"
+    },
+    {
+      "citation": "Twohig M. P. & Crosby J. M. (2010). Acceptance and commitment therapy as a treatment for problematic internet pornography viewing. Behavior Therapy, 41(3), 285–295. https://doi.org/10.1016/j.beth.2009.06.002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20569778/"
+    }
+  ]
+}

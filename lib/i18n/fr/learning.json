@@ -1,11 +1,11 @@
 {
-  "subtitle": "Six modules courts, disponibles hors ligne et sans diagnostic.",
+  "subtitle": "Neuf modules courts, disponibles hors ligne et sans diagnostic.",
   "semantics": "Modules pédagogiques",
   "evidence": {
     "title": "Sur quoi reposent ces modules ?",
     "sheetTitle": "Sources et limites",
-    "principles": "Chaque module cite des travaux scientifiques sur des principes généraux liés à la motivation, aux habitudes, à la maîtrise de soi, à la pleine conscience ou à l'autocompassion.",
-    "limitations": "Ces sources ne valident pas cliniquement StopCorn. Certaines portent sur le comportement en général ou le tabagisme, et les études consacrées à la pornographie peuvent reposer sur des échantillons limités. Les modules proposent des repères éducatifs prudents, pas un diagnostic ni un traitement."
+    "principles": "Chaque module cite des travaux scientifiques sur des principes généraux liés à la motivation, aux habitudes, à la maîtrise de soi, à la régulation émotionnelle, à l'auto-observation, à la pleine conscience ou à l'autocompassion. Chaque référence renvoie à une notice PubMed ou à un DOI vérifiable.",
+    "limitations": "Ces sources ne valident pas cliniquement StopCorn. Certaines portent sur le comportement en général, le tabagisme ou la dépression, et les études consacrées à la pornographie peuvent reposer sur des échantillons limités. Plusieurs résultats sont corrélationnels et ne démontrent pas de lien de cause à effet. Les modules proposent des repères éducatifs prudents, pas un diagnostic ni un traitement."
   },
   "sources": {
     "title(param=count)": {
@@ -31,6 +31,7 @@
   },
   "reading": {
     "progress": "Progression de lecture du module",
+    "keyPoints": "À retenir",
     "part": "Partie $current sur $total",
     "previous": "Précédent"
   },

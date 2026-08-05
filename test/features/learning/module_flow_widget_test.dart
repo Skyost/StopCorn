@@ -94,7 +94,12 @@ void main() {
     await _waitForPersistence(tester);
     expect(tester.takeException(), isNull, reason: 'first section');
     expect(find.text('Une direction qui vient de toi'), findsOneWidget);
-    _expectReadingProgress(tester, 1 / 3);
+    expect(find.text('À retenir'), findsOneWidget);
+    expect(
+      find.text('Commencer par observer est un objectif valable.'),
+      findsOneWidget,
+    );
+    _expectReadingProgress(tester, 1 / 5);
 
     Finder sources = find.byKey(const Key('module_sources_tile'));
     await tester.ensureVisible(sources);
@@ -112,23 +117,25 @@ void main() {
     await tester.ensureVisible(next);
     await tester.tap(next);
     await _waitForPersistence(tester);
-    _expectReadingProgress(tester, 2 / 3);
+    _expectReadingProgress(tester, 2 / 5);
 
     GoRouter.of(tester.element(next)).pop();
     await _pumpFrames(tester);
     expect(firstModule, findsOneWidget);
-    _expectReadingProgress(tester, 2 / 3);
+    _expectReadingProgress(tester, 2 / 5);
 
     await scrollAppPageUntilVisible(tester, firstModule, delta: -400);
     await tester.tap(firstModule);
     await _waitForPersistence(tester);
-    _expectReadingProgress(tester, 2 / 3);
+    _expectReadingProgress(tester, 2 / 5);
 
     next = find.byKey(const Key('module_primary_button'));
-    await tester.ensureVisible(next);
-    await tester.tap(next);
-    await _waitForPersistence(tester);
-    _expectReadingProgress(tester, 1);
+    for (double expected in [3 / 5, 4 / 5, 1.0]) {
+      await tester.ensureVisible(next);
+      await tester.tap(next);
+      await _waitForPersistence(tester);
+      _expectReadingProgress(tester, expected);
+    }
 
     await tester.ensureVisible(next);
     await tester.tap(next);

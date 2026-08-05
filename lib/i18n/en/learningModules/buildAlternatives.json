@@ -1,0 +1,43 @@
+{
+  "title": "Rebuild what matters",
+  "summary": "Fill the space you free up with actions that mean something to you.",
+  "sections": {
+    "vacuum": {
+      "title": "Plan what will take its place",
+      "paragraph1": "Removing a habit frees up time, attention, and sometimes a way of soothing a difficult evening. If nothing takes that place, it tends to be filled by whatever is most reachable.",
+      "paragraph2": "A plan made only of prohibitions can therefore run out of steam: it describes what you no longer do, never what you do.",
+      "paragraph3": "So the useful question is not only “how do I stop?” but “what do I put there, concretely, on Tuesday at 10 p.m.?”",
+      "keyPoint1": "Write your plan as actions, not only as bans.",
+      "keyPoint2": "Plan for the exact moment that frees up.",
+      "keyPoint3": "Make the alternative easy to reach."
+    },
+    "activation": {
+      "title": "Act before you feel like it",
+      "paragraph1": "We often wait for motivation before acting. Behavioral activation proposes the reverse order: schedule activities, then observe that mood follows, at least partly.",
+      "paragraph2": "A meta-analysis in depression observed that these structured activity programs produced effects comparable to other established psychological treatments. This work concerns depression, not this habit specifically, but the principle remains informative.",
+      "paragraph3": "In practice: put the activity in your week like an appointment, without waiting to feel like it on the day."
+    },
+    "values": {
+      "title": "Actions connected to what you care about",
+      "paragraph1": "An activity connected to something that matters to you—a relationship, a skill, your health, or something you create—may be easier to choose again.",
+      "paragraph2": "Acceptance and commitment therapies work explicitly in this direction, and reviews report effects across various mental health problems. A small preliminary study also applied this approach to problematic online pornography use: the results observed in six participants were encouraging, but still need confirmation in controlled trials.",
+      "paragraph3": "A good starting question: if this difficulty took up less room, what would you spend that time on?",
+      "keyPoint1": "Tie each action to a value, not to a performance.",
+      "keyPoint2": "Choose an activity that fits you.",
+      "keyPoint3": "Aim for meaning, not for being busy."
+    },
+    "small": {
+      "title": "Small enough for a bad day",
+      "paragraph1": "An alternative is only useful if it stays possible when you are tired, irritated, or alone. Those are exactly the states in which you will need it.",
+      "paragraph2": "You can plan two formats: a full version for good days, and a minimal version for the others. A short walk rather than a workout, one page read rather than a chapter.",
+      "paragraph3": "The minimal version is not a failed full version. It is what keeps the whole plan from stopping."
+    },
+    "people": {
+      "title": "Not carrying it all alone",
+      "paragraph1": "Keeping this difficulty entirely to yourself can reinforce isolation or shame and make support less accessible when it would help.",
+      "paragraph2": "You do not have to tell everything to create connection. A regularly shared activity can already provide company and support, without requiring you to explain the subject.",
+      "paragraph3": "If you do choose to talk to someone, choose a person from whom you expect support, not an assessment of your worth."
+    }
+  },
+  "reflectionPrompt": "Which activity would you like to take up more room in your week?"
+}

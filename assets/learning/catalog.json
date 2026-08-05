@@ -3,9 +3,12 @@
   "moduleAssets": [
     "assets/learning/modules/why_change.json",
     "assets/learning/modules/understand_loop.json",
+    "assets/learning/modules/separate_shame.json",
     "assets/learning/modules/map_terrain.json",
     "assets/learning/modules/ride_urge.json",
     "assets/learning/modules/prepare_environment.json",
+    "assets/learning/modules/build_alternatives.json",
+    "assets/learning/modules/track_progress.json",
     "assets/learning/modules/continue_after_setback.json"
   ]
 }

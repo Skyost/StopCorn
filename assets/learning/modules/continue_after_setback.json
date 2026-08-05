@@ -1,41 +1,85 @@
 {
   "id": "continue-after-setback",
-  "order": 6,
+  "order": 9,
   "titleKey": "learningModules.continueAfterSetback.title",
   "summaryKey": "learningModules.continueAfterSetback.summary",
-  "estimatedMinutes": 7,
   "sections": [
     {
       "titleKey": "learningModules.continueAfterSetback.sections.perspective.title",
       "paragraphKeys": [
         "learningModules.continueAfterSetback.sections.perspective.paragraph1",
-        "learningModules.continueAfterSetback.sections.perspective.paragraph2"
+        "learningModules.continueAfterSetback.sections.perspective.paragraph2",
+        "learningModules.continueAfterSetback.sections.perspective.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.continueAfterSetback.sections.perspective.keyPoint1",
+        "learningModules.continueAfterSetback.sections.perspective.keyPoint2",
+        "learningModules.continueAfterSetback.sections.perspective.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.continueAfterSetback.sections.compassion.title",
+      "paragraphKeys": [
+        "learningModules.continueAfterSetback.sections.compassion.paragraph1",
+        "learningModules.continueAfterSetback.sections.compassion.paragraph2",
+        "learningModules.continueAfterSetback.sections.compassion.paragraph3"
       ]
     },
     {
       "titleKey": "learningModules.continueAfterSetback.sections.adjust.title",
       "paragraphKeys": [
         "learningModules.continueAfterSetback.sections.adjust.paragraph1",
-        "learningModules.continueAfterSetback.sections.adjust.paragraph2"
+        "learningModules.continueAfterSetback.sections.adjust.paragraph2",
+        "learningModules.continueAfterSetback.sections.adjust.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.continueAfterSetback.sections.adjust.keyPoint1",
+        "learningModules.continueAfterSetback.sections.adjust.keyPoint2",
+        "learningModules.continueAfterSetback.sections.adjust.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.continueAfterSetback.sections.plan.title",
+      "paragraphKeys": [
+        "learningModules.continueAfterSetback.sections.plan.paragraph1",
+        "learningModules.continueAfterSetback.sections.plan.paragraph2",
+        "learningModules.continueAfterSetback.sections.plan.paragraph3"
       ]
     },
     {
       "titleKey": "learningModules.continueAfterSetback.sections.help.title",
       "paragraphKeys": [
         "learningModules.continueAfterSetback.sections.help.paragraph1",
-        "learningModules.continueAfterSetback.sections.help.paragraph2"
+        "learningModules.continueAfterSetback.sections.help.paragraph2",
+        "learningModules.continueAfterSetback.sections.help.paragraph3"
       ]
     }
   ],
   "reflectionPromptKey": "learningModules.continueAfterSetback.reflectionPrompt",
   "references": [
     {
+      "citation": "Shiffman S. et al. (1996). Progression from a smoking lapse to relapse: prediction from abstinence violation effects, nicotine dependence, and lapse characteristics. Journal of Consulting and Clinical Psychology, 64(5), 993–1002. https://doi.org/10.1037/0022-006X.64.5.993",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8916628/"
+    },
+    {
       "citation": "Breines J. G. & Chen S. (2012). Self-compassion increases self-improvement motivation. Personality and Social Psychology Bulletin, 38(9), 1133–1143. https://doi.org/10.1177/0146167212445599",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22645164/"
     },
     {
-      "citation": "Shiffman S. et al. (1996). Progression from a smoking lapse to relapse: prediction from abstinence violation effects, nicotine dependence, and lapse characteristics. Journal of Consulting and Clinical Psychology, 64(5), 993–1002. https://doi.org/10.1037/0022-006X.64.5.993",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8916628/"
+      "citation": "Neff K. D. & Germer C. K. (2013). A pilot study and randomized controlled trial of the mindful self-compassion program. Journal of Clinical Psychology, 69(1), 28–44. https://doi.org/10.1002/jclp.21923",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23070875/"
+    },
+    {
+      "citation": "Hendershot C. S., Witkiewitz K., George W. H. & Marlatt G. A. (2011). Relapse prevention for addictive behaviors. Substance Abuse Treatment, Prevention, and Policy, 6, 17. https://doi.org/10.1186/1747-597X-6-17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21771314/"
+    },
+    {
+      "citation": "Roza T. H. et al. (2024). Treatment Approaches for Problematic Pornography Use: A Systematic Review. Archives of Sexual Behavior, 53(2), 645–672. https://doi.org/10.1007/s10508-023-02699-z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37880509/"
+    },
+    {
+      "citation": "López-Pinar C., Esparza-Reig J. & Bőthe B. (2025). Psychotherapy for problematic pornography use: A comprehensive meta-analysis. Journal of Behavioral Addictions, 14(2), 630–643. https://doi.org/10.1556/2006.2025.00018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40126561/"
     }
   ]
 }

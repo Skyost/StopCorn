@@ -4,18 +4,39 @@
   "sections": {
     "perspective": {
       "title": "Sortir du « tout est fichu »",
-      "paragraph1": "Un événement n'efface pas les pauses, les choix et les observations que tu as déjà faits.",
-      "paragraph2": "Penser que tout est fichu peut te pousser à abandonner un plan qui reste pourtant utile."
+      "paragraph1": "Ici, un « écart » désigne un événement qui ne correspond pas à l'objectif que tu as choisi. Il n'efface pas les pauses, les choix et les observations que tu as déjà faits.",
+      "paragraph2": "Dans une étude sur le sevrage tabagique, la plupart des réactions regroupées sous le nom d'effet de violation de l'abstinence n'ont pas prédit la rechute. En revanche, le sentiment d'abandon après l'écart était associé à une progression plus rapide vers un deuxième écart.",
+      "paragraph3": "Les participants qui ont essayé une réponse réparatrice après l'écart étaient moins susceptibles d'en connaître un autre le même jour. Comme cette étude portait sur le tabagisme, il s'agit d'une piste utile plutôt que d'une règle pour ta situation.",
+      "keyPoint1": "Un écart et un retour durable sont deux choses différentes.",
+      "keyPoint2": "Une réponse réparatrice peut aider à reprendre le fil.",
+      "keyPoint3": "Reprends le plan en cours, ne le recommence pas à zéro."
+    },
+    "compassion": {
+      "title": "L'autocompassion n'est pas de la complaisance",
+      "paragraph1": "Beaucoup redoutent qu'être indulgent avec soi-même revienne à baisser les bras. Des expériences suggèrent l'inverse : après un échec, une attitude bienveillante envers soi était associée à davantage d'efforts pour s'améliorer.",
+      "paragraph2": "Un programme structuré d'entraînement à l'autocompassion a par ailleurs montré des effets sur le bien-être dans un essai contrôlé, mené sur un petit échantillon majoritairement féminin. L'autocompassion se travaille donc comme une compétence, plutôt qu'elle ne se constate comme un trait de caractère.",
+      "paragraph3": "Une formulation simple : parle-toi comme tu parlerais à quelqu'un que tu estimes et qui vient de traverser la même chose."
     },
     "adjust": {
       "title": "Ajuster plutôt que te punir",
       "paragraph1": "Regarde ce qui a précédé : l'heure, la fatigue, l'émotion, l'appareil ou le contexte général.",
-      "paragraph2": "Choisis ensuite un ajustement limité. Une punition ou un objectif irréaliste apporte rarement une information utile."
+      "paragraph2": "Choisis ensuite un ajustement limité. Une punition ou un objectif irréaliste apporte rarement une information utile.",
+      "paragraph3": "Un écart est aussi une donnée : il indique un endroit du plan qui n'était pas encore couvert. C'est désagréable, mais c'est exploitable.",
+      "keyPoint1": "Cherche la situation, pas le coupable.",
+      "keyPoint2": "Commence par un ajustement limité.",
+      "keyPoint3": "Durcir l'objectif après un écart le rend rarement plus tenable."
+    },
+    "plan": {
+      "title": "Une compétence, pas une fatalité",
+      "paragraph1": "Les approches de prévention de la rechute envisagent la possibilité d'un écart et proposent de préparer sa réponse à l'avance plutôt que de compter uniquement sur l'espoir qu'il n'arrive pas.",
+      "paragraph2": "Les revues de ces programmes montrent des effets globalement favorables sur les comportements addictifs, avec des résultats variables selon les substances et les protocoles.",
+      "paragraph3": "Tu peux préparer trois lignes : ce que je fais après l'écart, à qui je peux écrire, et ce que je regarde dans mon plan avant de conclure quoi que ce soit."
     },
     "help": {
       "title": "Savoir quand demander de l'aide",
       "paragraph1": "Si la perte de contrôle persiste, provoque une forte souffrance ou entraîne des conséquences importantes, en parler à un professionnel qualifié peut aider.",
-      "paragraph2": "Demander de l'aide peut faire partie de ton plan et n'enlève rien aux progrès déjà accomplis."
+      "paragraph2": "Les revues récentes portent surtout sur les psychothérapies cognitivo-comportementales et les approches d'acceptation. Elles rapportent des résultats encourageants, mais la qualité des études reste souvent faible et le risque de biais élevé : on ne peut donc pas annoncer une efficacité certaine.",
+      "paragraph3": "Demander de l'aide peut faire partie de ton plan et n'enlève rien aux progrès déjà accomplis."
     }
   },
   "reflectionPrompt": "Quelle information utile peux-tu tirer du dernier événement sans te juger ?"

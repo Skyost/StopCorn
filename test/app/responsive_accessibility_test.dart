@@ -69,6 +69,13 @@ void main() {
         await _pumpFrames(tester);
         _expectNoLayoutError(tester, destination);
       }
+
+      await tester.tap(find.text('Apprendre'));
+      await _pumpFrames(tester);
+      await tester.tap(find.byKey(const Key('learning_module_why-change')));
+      await _pumpFrames(tester);
+      expect(find.text('À retenir'), findsOneWidget);
+      _expectNoLayoutError(tester, 'module avec points à retenir');
     },
   );
 

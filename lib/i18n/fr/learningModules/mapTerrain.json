@@ -5,17 +5,38 @@
     "states": {
       "title": "Les moments et les états",
       "paragraph1": "L'heure et le lieu peuvent devenir des repères de contexte récurrents. Le stress, l'ennui ou l'envie de prendre de la distance avec une émotion difficile peuvent aussi apparaître dans tes observations.",
-      "paragraph2": "Considère ces répétitions comme des hypothèses, pas comme des causes : plusieurs observations dans le temps sont plus utiles qu'une coïncidence isolée."
+      "paragraph2": "Une étude par échantillonnage d'expérience a montré que les désirs quotidiens sont fréquents et souvent liés à ce que la personne est en train de faire. Ressentir des envies régulières n'est donc pas en soi le signe d'un problème.",
+      "paragraph3": "Considère ces répétitions comme des hypothèses, pas comme des causes : plusieurs observations dans le temps sont plus utiles qu'une coïncidence isolée.",
+      "keyPoint1": "Note l'heure, le lieu et l'état, pas le contenu.",
+      "keyPoint2": "Cherche une régularité sur plusieurs jours.",
+      "keyPoint3": "Une envie fréquente n'est pas un diagnostic."
+    },
+    "motives": {
+      "title": "Les raisons derrière l'usage",
+      "paragraph1": "Une étude portant sur les motivations d'usage en a identifié plusieurs, très différentes entre elles : plaisir sexuel, curiosité, ennui, fantasme, réduction du stress ou évitement d'une émotion.",
+      "paragraph2": "Dans ces travaux, plusieurs motifs liés à la gestion d'une difficulté — réduire le stress, détourner une émotion ou répondre à l'ennui — étaient associés à l'usage problématique, tout comme le fantasme et le plaisir sexuel. Toutes ces associations restaient faibles à modérées.",
+      "paragraph3": "Identifier ton motif dominant change la suite du plan : à un ennui répété, on ne répond pas comme à une soirée de stress ou à un moment de solitude."
     },
     "routines": {
       "title": "Les appareils et les routines",
       "paragraph1": "Un appareil disponible au même endroit et au même moment peut faciliter une réponse automatique.",
-      "paragraph2": "Si tes notes montrent que les réseaux sociaux ou une routine du soir précèdent souvent un moment difficile, considère-les comme des repères utiles, pas forcément comme sa seule cause."
+      "paragraph2": "Les travaux sur la formation des habitudes montrent que la répétition dans un contexte stable renforce l'automatisme, avec de grandes différences d'une personne et d'un comportement à l'autre : il n'existe pas de délai fixe au terme duquel une habitude serait « installée ».",
+      "paragraph3": "Si tes notes montrent que les réseaux sociaux ou une routine du soir précèdent souvent un moment difficile, considère-les comme des repères utiles, pas forcément comme sa seule cause."
+    },
+    "emotions": {
+      "title": "Les émotions comme repère",
+      "paragraph1": "Nommer l'émotion présente juste avant une impulsion donne souvent plus d'information que de nommer l'impulsion elle-même.",
+      "paragraph2": "Une méta-analyse portant sur la régulation émotionnelle et les symptômes anxieux, dépressifs, alimentaires ou liés aux substances observe que les stratégies d'évitement et de suppression sont associées à davantage de difficultés, tandis que la résolution de problème et la réévaluation le sont à moins de difficultés.",
+      "paragraph3": "Ce constat porte sur des tendances de groupe. Il ne signifie pas que ta manière de faire est fautive : il suggère surtout d'élargir la gamme de réponses disponibles.",
+      "keyPoint1": "Nomme l'émotion avant de juger le comportement.",
+      "keyPoint2": "Élargir tes réponses vaut mieux qu'en interdire une.",
+      "keyPoint3": "Trois mots suffisent : quand, où, quel état."
     },
     "map": {
       "title": "Une carte, pas un verdict",
       "paragraph1": "Cartographier ton terrain sert à préparer des options, pas à éviter toutes les situations difficiles.",
-      "paragraph2": "Quelques observations générales suffisent : aucun détail explicite ni historique de navigation n'est utile."
+      "paragraph2": "Une carte trop détaillée peut devenir difficile à utiliser. Tu peux commencer par deux ou trois situations récurrentes pour construire un plan réaliste.",
+      "paragraph3": "Quelques observations générales suffisent : aucun détail explicite ni historique de navigation n'est utile."
     }
   },
   "reflectionPrompt": "Quelle situation revient le plus souvent dans tes observations ?"

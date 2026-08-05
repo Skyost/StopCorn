@@ -1,29 +1,62 @@
 {
   "id": "ride-urge",
-  "order": 4,
+  "order": 5,
   "titleKey": "learningModules.rideUrge.title",
   "summaryKey": "learningModules.rideUrge.summary",
-  "estimatedMinutes": 6,
   "sections": [
     {
       "titleKey": "learningModules.rideUrge.sections.delay.title",
       "paragraphKeys": [
         "learningModules.rideUrge.sections.delay.paragraph1",
-        "learningModules.rideUrge.sections.delay.paragraph2"
+        "learningModules.rideUrge.sections.delay.paragraph2",
+        "learningModules.rideUrge.sections.delay.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.rideUrge.sections.delay.keyPoint1",
+        "learningModules.rideUrge.sections.delay.keyPoint2",
+        "learningModules.rideUrge.sections.delay.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.rideUrge.sections.wave.title",
+      "paragraphKeys": [
+        "learningModules.rideUrge.sections.wave.paragraph1",
+        "learningModules.rideUrge.sections.wave.paragraph2",
+        "learningModules.rideUrge.sections.wave.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.rideUrge.sections.suppression.title",
+      "paragraphKeys": [
+        "learningModules.rideUrge.sections.suppression.paragraph1",
+        "learningModules.rideUrge.sections.suppression.paragraph2",
+        "learningModules.rideUrge.sections.suppression.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.rideUrge.sections.suppression.keyPoint1",
+        "learningModules.rideUrge.sections.suppression.keyPoint2",
+        "learningModules.rideUrge.sections.suppression.keyPoint3"
       ]
     },
     {
       "titleKey": "learningModules.rideUrge.sections.concrete.title",
       "paragraphKeys": [
         "learningModules.rideUrge.sections.concrete.paragraph1",
-        "learningModules.rideUrge.sections.concrete.paragraph2"
+        "learningModules.rideUrge.sections.concrete.paragraph2",
+        "learningModules.rideUrge.sections.concrete.paragraph3"
       ]
     },
     {
       "titleKey": "learningModules.rideUrge.sections.expectations.title",
       "paragraphKeys": [
         "learningModules.rideUrge.sections.expectations.paragraph1",
-        "learningModules.rideUrge.sections.expectations.paragraph2"
+        "learningModules.rideUrge.sections.expectations.paragraph2",
+        "learningModules.rideUrge.sections.expectations.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.rideUrge.sections.expectations.keyPoint1",
+        "learningModules.rideUrge.sections.expectations.keyPoint2",
+        "learningModules.rideUrge.sections.expectations.keyPoint3"
       ]
     }
   ],
@@ -32,6 +65,14 @@
     {
       "citation": "Bowen S. & Marlatt A. (2009). Surfing the urge: brief mindfulness-based intervention for college student smokers. Psychology of Addictive Behaviors, 23(4), 666–671. https://doi.org/10.1037/a0017127",
       "url": "https://pubmed.ncbi.nlm.nih.gov/20025372/"
+    },
+    {
+      "citation": "Wenzlaff R. M. & Wegner D. M. (2000). Thought suppression. Annual Review of Psychology, 51, 59–91. https://doi.org/10.1146/annurev.psych.51.1.59",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10751965/"
+    },
+    {
+      "citation": "Twohig M. P. & Crosby J. M. (2010). Acceptance and commitment therapy as a treatment for problematic internet pornography viewing. Behavior Therapy, 41(3), 285–295. https://doi.org/10.1016/j.beth.2009.06.002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20569778/"
     },
     {
       "citation": "Duckworth A. L., Gendler T. S. & Gross J. J. (2016). Situational Strategies for Self-Control. Perspectives on Psychological Science, 11(1), 35–55. https://doi.org/10.1177/1745691615623247",

@@ -1,29 +1,57 @@
 {
   "id": "map-terrain",
-  "order": 3,
+  "order": 4,
   "titleKey": "learningModules.mapTerrain.title",
   "summaryKey": "learningModules.mapTerrain.summary",
-  "estimatedMinutes": 7,
   "sections": [
     {
       "titleKey": "learningModules.mapTerrain.sections.states.title",
       "paragraphKeys": [
         "learningModules.mapTerrain.sections.states.paragraph1",
-        "learningModules.mapTerrain.sections.states.paragraph2"
+        "learningModules.mapTerrain.sections.states.paragraph2",
+        "learningModules.mapTerrain.sections.states.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.mapTerrain.sections.states.keyPoint1",
+        "learningModules.mapTerrain.sections.states.keyPoint2",
+        "learningModules.mapTerrain.sections.states.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.mapTerrain.sections.motives.title",
+      "paragraphKeys": [
+        "learningModules.mapTerrain.sections.motives.paragraph1",
+        "learningModules.mapTerrain.sections.motives.paragraph2",
+        "learningModules.mapTerrain.sections.motives.paragraph3"
       ]
     },
     {
       "titleKey": "learningModules.mapTerrain.sections.routines.title",
       "paragraphKeys": [
         "learningModules.mapTerrain.sections.routines.paragraph1",
-        "learningModules.mapTerrain.sections.routines.paragraph2"
+        "learningModules.mapTerrain.sections.routines.paragraph2",
+        "learningModules.mapTerrain.sections.routines.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.mapTerrain.sections.emotions.title",
+      "paragraphKeys": [
+        "learningModules.mapTerrain.sections.emotions.paragraph1",
+        "learningModules.mapTerrain.sections.emotions.paragraph2",
+        "learningModules.mapTerrain.sections.emotions.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.mapTerrain.sections.emotions.keyPoint1",
+        "learningModules.mapTerrain.sections.emotions.keyPoint2",
+        "learningModules.mapTerrain.sections.emotions.keyPoint3"
       ]
     },
     {
       "titleKey": "learningModules.mapTerrain.sections.map.title",
       "paragraphKeys": [
         "learningModules.mapTerrain.sections.map.paragraph1",
-        "learningModules.mapTerrain.sections.map.paragraph2"
+        "learningModules.mapTerrain.sections.map.paragraph2",
+        "learningModules.mapTerrain.sections.map.paragraph3"
       ]
     }
   ],
@@ -36,6 +64,18 @@
     {
       "citation": "Bőthe B. et al. (2021). Why do people watch pornography? The motivational basis of pornography use. Psychology of Addictive Behaviors, 35(2), 172–186. https://doi.org/10.1037/adb0000603",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32730047/"
+    },
+    {
+      "citation": "Hofmann W., Baumeister R. F., Förster G. & Vohs K. D. (2012). Everyday temptations: an experience sampling study of desire, conflict, and self-control. Journal of Personality and Social Psychology, 102(6), 1318–1335. https://doi.org/10.1037/a0026545",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22149456/"
+    },
+    {
+      "citation": "Lally P., van Jaarsveld C. H. M., Potts H. W. W. & Wardle J. (2010). How are habits formed: Modelling habit formation in the real world. European Journal of Social Psychology, 40(6), 998–1009. https://doi.org/10.1002/ejsp.674",
+      "url": "https://doi.org/10.1002/ejsp.674"
+    },
+    {
+      "citation": "Aldao A., Nolen-Hoeksema S. & Schweizer S. (2010). Emotion-regulation strategies across psychopathology: A meta-analytic review. Clinical Psychology Review, 30(2), 217–237. https://doi.org/10.1016/j.cpr.2009.11.004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20015584/"
     }
   ]
 }

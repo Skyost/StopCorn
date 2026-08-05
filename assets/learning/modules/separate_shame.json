@@ -1,0 +1,85 @@
+{
+  "id": "separate-shame",
+  "order": 3,
+  "titleKey": "learningModules.separateShame.title",
+  "summaryKey": "learningModules.separateShame.summary",
+  "sections": [
+    {
+      "titleKey": "learningModules.separateShame.sections.frequency.title",
+      "paragraphKeys": [
+        "learningModules.separateShame.sections.frequency.paragraph1",
+        "learningModules.separateShame.sections.frequency.paragraph2",
+        "learningModules.separateShame.sections.frequency.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.separateShame.sections.frequency.keyPoint1",
+        "learningModules.separateShame.sections.frequency.keyPoint2",
+        "learningModules.separateShame.sections.frequency.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.separateShame.sections.incongruence.title",
+      "paragraphKeys": [
+        "learningModules.separateShame.sections.incongruence.paragraph1",
+        "learningModules.separateShame.sections.incongruence.paragraph2",
+        "learningModules.separateShame.sections.incongruence.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.separateShame.sections.shameGuilt.title",
+      "paragraphKeys": [
+        "learningModules.separateShame.sections.shameGuilt.paragraph1",
+        "learningModules.separateShame.sections.shameGuilt.paragraph2",
+        "learningModules.separateShame.sections.shameGuilt.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.separateShame.sections.shameGuilt.keyPoint1",
+        "learningModules.separateShame.sections.shameGuilt.keyPoint2",
+        "learningModules.separateShame.sections.shameGuilt.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.separateShame.sections.comparison.title",
+      "paragraphKeys": [
+        "learningModules.separateShame.sections.comparison.paragraph1",
+        "learningModules.separateShame.sections.comparison.paragraph2",
+        "learningModules.separateShame.sections.comparison.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.separateShame.sections.labels.title",
+      "paragraphKeys": [
+        "learningModules.separateShame.sections.labels.paragraph1",
+        "learningModules.separateShame.sections.labels.paragraph2",
+        "learningModules.separateShame.sections.labels.paragraph3"
+      ]
+    }
+  ],
+  "reflectionPromptKey": "learningModules.separateShame.reflectionPrompt",
+  "references": [
+    {
+      "citation": "Grubbs J. B. et al. (2019). Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis. Archives of Sexual Behavior, 48(2), 397–415. https://doi.org/10.1007/s10508-018-1248-x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30076491/"
+    },
+    {
+      "citation": "Grubbs J. B. & Perry S. L. (2019). Moral Incongruence and Pornography Use: A Critical Review and Integration. The Journal of Sex Research, 56(1), 29–37. https://doi.org/10.1080/00224499.2018.1427204",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29412013/"
+    },
+    {
+      "citation": "Breines J. G. & Chen S. (2012). Self-compassion increases self-improvement motivation. Personality and Social Psychology Bulletin, 38(9), 1133–1143. https://doi.org/10.1177/0146167212445599",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22645164/"
+    },
+    {
+      "citation": "Wright P. J., Tokunaga R. S., Kraus A. & Klann E. (2017). Pornography Consumption and Satisfaction: A Meta-Analysis. Human Communication Research, 43(3), 315–343. https://doi.org/10.1111/hcre.12108",
+      "url": "https://doi.org/10.1111/hcre.12108"
+    },
+    {
+      "citation": "Kraus S. W. et al. (2018). Compulsive sexual behaviour disorder in the ICD-11. World Psychiatry, 17(1), 109–110. https://doi.org/10.1002/wps.20499",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29352554/"
+    },
+    {
+      "citation": "Kraus S. W., Voon V. & Potenza M. N. (2016). Should compulsive sexual behavior be considered an addiction? Addiction, 111(12), 2097–2106. https://doi.org/10.1111/add.13297",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26893127/"
+    }
+  ]
+}

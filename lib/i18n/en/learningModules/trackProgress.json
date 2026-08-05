@@ -1,0 +1,46 @@
+{
+  "title": "Track without scoring yourself",
+  "summary": "Follow what moves, without turning your notes into a report card.",
+  "sections": {
+    "why": {
+      "title": "Why observing changes something",
+      "paragraph1": "Recording where you stand is not administrative busywork. A meta-analysis covering many experiments showed that monitoring progress toward a goal increases, on average, the chances of reaching it.",
+      "paragraph2": "The effect was clearer when monitoring was made explicit—written down or shared—rather than kept in mind.",
+      "paragraph3": "Observation also works outside of measurement: it brings attention back to a behavior that had become automatic, which is sometimes enough to open up a choice.",
+      "keyPoint1": "Write your observation rather than keeping it in your head.",
+      "keyPoint2": "Aim for regular rather than exhaustive tracking.",
+      "keyPoint3": "Observing is already an action, not a preparation."
+    },
+    "what": {
+      "title": "What to record, and what not to",
+      "paragraph1": "Useful information is general: a time, a place, a state, a strategy you tried, how you felt afterwards. That is enough for a pattern to appear.",
+      "paragraph2": "Explicit details, on the other hand, add nothing to the analysis and create extra risk if your device is lost or seen by someone else.",
+      "paragraph3": "A good test before writing: would this note help me decide something next week? If the answer is no, it can stay unwritten."
+    },
+    "noScore": {
+      "title": "An observation, not a grade",
+      "paragraph1": "The same data can be read two ways: “three events this week” is information; “I failed, three times” is a verdict. Only the first lets you adjust anything.",
+      "paragraph2": "A meta-regression of healthy-eating and physical-activity interventions found that self-monitoring was the single most decisive technique, and that combining it with other self-regulation techniques—setting a goal, comparing, adjusting—outperformed the other interventions.",
+      "paragraph3": "That is also why StopCorn assigns no moral score and no streak whose loss erases everything you have done.",
+      "keyPoint1": "Describe the facts, leave the verdict aside.",
+      "keyPoint2": "Compare with your starting point, not with an ideal.",
+      "keyPoint3": "Data is there to help you decide, not to judge you."
+    },
+    "gaps": {
+      "title": "Gaps in the data",
+      "paragraph1": "There will be days without notes. That is normal, and it does not make the rest unusable.",
+      "paragraph2": "Missing data is not the same as no events, though: when you read a trend, keep in mind what was never recorded before drawing a conclusion.",
+      "paragraph3": "Picking tracking back up after a break is worth more than a perfect history. Monitoring does not have to be complete to be useful."
+    },
+    "rhythm": {
+      "title": "A review rhythm",
+      "paragraph1": "Notes become meaningful when you reread them. A short, regular appointment—for example, ten minutes once a week—can be a starting point.",
+      "paragraph2": "Look at three things: what recurs, what helped, and what you want to adjust next. To begin with, choosing a single adjustment can make its effects easier to read.",
+      "paragraph3": "If the review turns into self-reproach, try reframing the questions: what keeps recurring, what helped, and what do you want to test next?",
+      "keyPoint1": "Set a short review on a fixed day.",
+      "keyPoint2": "Start with one adjustment.",
+      "keyPoint3": "Record what worked, too."
+    }
+  },
+  "reflectionPrompt": "Which day of the week could you set aside for a short review of your notes?"
+}

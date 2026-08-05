@@ -1,29 +1,65 @@
 {
   "id": "prepare-environment",
-  "order": 5,
+  "order": 6,
   "titleKey": "learningModules.prepareEnvironment.title",
   "summaryKey": "learningModules.prepareEnvironment.summary",
-  "estimatedMinutes": 8,
   "sections": [
     {
       "titleKey": "learningModules.prepareEnvironment.sections.friction.title",
       "paragraphKeys": [
         "learningModules.prepareEnvironment.sections.friction.paragraph1",
-        "learningModules.prepareEnvironment.sections.friction.paragraph2"
+        "learningModules.prepareEnvironment.sections.friction.paragraph2",
+        "learningModules.prepareEnvironment.sections.friction.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.prepareEnvironment.sections.friction.keyPoint1",
+        "learningModules.prepareEnvironment.sections.friction.keyPoint2",
+        "learningModules.prepareEnvironment.sections.friction.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.prepareEnvironment.sections.avoid.title",
+      "paragraphKeys": [
+        "learningModules.prepareEnvironment.sections.avoid.paragraph1",
+        "learningModules.prepareEnvironment.sections.avoid.paragraph2",
+        "learningModules.prepareEnvironment.sections.avoid.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.prepareEnvironment.sections.ifThen.title",
+      "paragraphKeys": [
+        "learningModules.prepareEnvironment.sections.ifThen.paragraph1",
+        "learningModules.prepareEnvironment.sections.ifThen.paragraph2",
+        "learningModules.prepareEnvironment.sections.ifThen.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.prepareEnvironment.sections.ifThen.keyPoint1",
+        "learningModules.prepareEnvironment.sections.ifThen.keyPoint2",
+        "learningModules.prepareEnvironment.sections.ifThen.keyPoint3"
       ]
     },
     {
       "titleKey": "learningModules.prepareEnvironment.sections.moments.title",
       "paragraphKeys": [
         "learningModules.prepareEnvironment.sections.moments.paragraph1",
-        "learningModules.prepareEnvironment.sections.moments.paragraph2"
+        "learningModules.prepareEnvironment.sections.moments.paragraph2",
+        "learningModules.prepareEnvironment.sections.moments.paragraph3"
       ]
     },
     {
       "titleKey": "learningModules.prepareEnvironment.sections.alternative.title",
       "paragraphKeys": [
         "learningModules.prepareEnvironment.sections.alternative.paragraph1",
-        "learningModules.prepareEnvironment.sections.alternative.paragraph2"
+        "learningModules.prepareEnvironment.sections.alternative.paragraph2",
+        "learningModules.prepareEnvironment.sections.alternative.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.prepareEnvironment.sections.limits.title",
+      "paragraphKeys": [
+        "learningModules.prepareEnvironment.sections.limits.paragraph1",
+        "learningModules.prepareEnvironment.sections.limits.paragraph2",
+        "learningModules.prepareEnvironment.sections.limits.paragraph3"
       ]
     }
   ],
@@ -32,6 +68,14 @@
     {
       "citation": "Duckworth A. L., Gendler T. S. & Gross J. J. (2016). Situational Strategies for Self-Control. Perspectives on Psychological Science, 11(1), 35–55. https://doi.org/10.1177/1745691615623247",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26817725/"
+    },
+    {
+      "citation": "Milyavskaya M. & Inzlicht M. (2017). What's So Great About Self-Control? Examining the Importance of Effortful Self-Control and Temptation in Predicting Real-Life Depletion and Goal Attainment. Social Psychological and Personality Science, 8(6), 603–611. https://doi.org/10.1177/1948550616679237",
+      "url": "https://doi.org/10.1177/1948550616679237"
+    },
+    {
+      "citation": "Gollwitzer P. M. & Sheeran P. (2006). Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes. Advances in Experimental Social Psychology, 38, 69–119. https://doi.org/10.1016/S0065-2601(06)38002-1",
+      "url": "https://doi.org/10.1016/S0065-2601(06)38002-1"
     }
   ]
 }

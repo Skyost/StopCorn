@@ -5,17 +5,41 @@
     "direction": {
       "title": "A goal that belongs to you",
       "paragraph1": "Change is more sustainable when your chosen direction reflects what matters to you, rather than only an outside expectation.",
-      "paragraph2": "You may want to stop, reduce, avoid certain situations, or simply observe. None of these goals defines your worth."
+      "paragraph2": "Research on self-determined motivation points the same way: in health contexts, reasons experienced as personal are associated with more durable engagement than outside pressure, fear of judgment, or shame.",
+      "paragraph3": "You may want to stop, reduce, avoid certain situations, or simply start by observing. None of these goals defines your worth, and you are allowed to revise your choice along the way.",
+      "keyPoint1": "Write your goal in your own words rather than a forum's.",
+      "keyPoint2": "Personal reasons tend to support change more sustainably over time.",
+      "keyPoint3": "Starting with observation is a valid goal."
     },
     "benefits": {
-      "title": "Concrete benefits",
+      "title": "What you want to regain",
       "paragraph1": "Try to name what you would like to regain: time, mental space, sleep, a calmer relationship, or the feeling that you are choosing.",
-      "paragraph2": "A specific motivation can be a useful marker when the impulse is strong."
+      "paragraph2": "The more concrete the reason, the more usable it stays when the impulse is strong. “Be in bed before midnight three nights this week” gives you a marker that “feel better” does not.",
+      "paragraph3": "You can also name what you simply want to protect: a relationship, trust, or your ability to be present. Protecting something is as valid a reason as repairing something.",
+      "keyPoint1": "Write one reason, in a single present-tense sentence.",
+      "keyPoint2": "Pick a marker you can check yourself.",
+      "keyPoint3": "Keep it within reach for difficult moments."
+    },
+    "ambivalence": {
+      "title": "Wanting and not wanting at once",
+      "paragraph1": "Wanting to change while not feeling like it is common. This ambivalence is not insincerity: it accompanies almost every change of habit.",
+      "paragraph2": "In motivational interviewing studies, some forms of change talk and sustain talk expressed by the person are associated with later behavior. The links vary by type of statement, however, and are sometimes unstable.",
+      "paragraph3": "Writing down both sides—what this habit gives you and what it costs you—can help you hear that ambivalence without trying to silence either side."
+    },
+    "gap": {
+      "title": "From intention to action",
+      "paragraph1": "Deciding firmly is not always enough. Reviews of the intention–behavior gap show that a clearly strengthened intention translates, on average, into a more modest change in behavior.",
+      "paragraph2": "That is not a reason to give up, but a reason to prepare: what makes the difference usually lies in concrete plans and in the environment, more than in the intensity of the decision.",
+      "paragraph3": "Several of the modules that follow are about exactly that preparation: spotting recurring situations, riding out an impulse, adjusting your environment.",
+      "keyPoint1": "A strong decision does not replace a specific plan.",
+      "keyPoint2": "Prepare the situation, not only the intention.",
+      "keyPoint3": "A written plan stays available when motivation drops."
     },
     "changes": {
       "title": "Motivation changes",
       "paragraph1": "Motivation varies from one day to the next. That variation is neither a failure nor proof that your goal is wrong.",
-      "paragraph2": "When motivation drops, a small action prepared in advance can take over."
+      "paragraph2": "Tiredness, stress, isolation, or a hard day can lower it without changing anything about what matters to you.",
+      "paragraph3": "When it drops, a small action prepared in advance can take over. Rereading the reason you wrote is sometimes enough to get through a flat moment."
     }
   },
   "reflectionPrompt": "What would you like to regain or protect by changing this habit?"

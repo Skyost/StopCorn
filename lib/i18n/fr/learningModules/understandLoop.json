@@ -5,17 +5,44 @@
     "sequence": {
       "title": "Un enchaînement à observer",
       "paragraph1": "Une habitude peut parfois se décrire ainsi : situation → émotion → impulsion → comportement → effet ou soulagement immédiat → conséquences.",
-      "paragraph2": "C'est un modèle pratique pour observer, pas un enchaînement dont l'application à tout le monde est démontrée. Certaines étapes peuvent être très rapides ou difficiles à remarquer."
+      "paragraph2": "C'est un modèle pratique pour observer, pas un enchaînement dont l'application à tout le monde est démontrée. Certaines étapes peuvent être très rapides ou difficiles à remarquer.",
+      "paragraph3": "L'intérêt de le poser à plat est simple : une boucle a plusieurs endroits où agir, alors qu'une décision unique n'en a qu'un seul."
+    },
+    "cues": {
+      "title": "Des déclencheurs devenus automatiques",
+      "paragraph1": "Les recherches sur les habitudes décrivent des associations apprises entre un contexte et une réponse : lorsqu'un comportement est répété assez souvent dans un environnement stable, le contexte suffit à le déclencher, sans décision consciente à chaque fois.",
+      "paragraph2": "Dans une étude de terrain souvent citée, une part importante des comportements quotidiens était réalisée presque au même endroit et au même moment, avec peu de réflexion préalable.",
+      "paragraph3": "C'est pourquoi une envie peut sembler surgir « de nulle part » : le déclencheur était présent, mais tu ne l'as pas remarqué.",
+      "keyPoint1": "Un lieu ou un horaire répété devient un déclencheur.",
+      "keyPoint2": "L'automatisme n'est pas un défaut de volonté.",
+      "keyPoint3": "Repérer le déclencheur ouvre un point d'action."
+    },
+    "reinforcement": {
+      "title": "Ce qui entretient la boucle",
+      "paragraph1": "Un comportement se répète surtout lorsqu'il apporte quelque chose immédiatement : un plaisir, une distraction, une baisse de tension ou une pause dans une émotion difficile.",
+      "paragraph2": "Une étude menée auprès d'hommes utilisant régulièrement de la pornographie en ligne a mesuré leur humeur juste avant et juste après une session choisie par eux-mêmes. En moyenne, ils se sentaient un peu mieux et plus calmes après — mais plus les tendances d'usage problématique étaient marquées, moins cette amélioration était nette.",
+      "paragraph3": "Un effet agréable immédiat peut donc contribuer à entretenir une boucle, sans permettre de conclure à lui seul sur les conséquences ultérieures ni sur ton cas. L'écart entre ce que tu attends d'un moment et ce que tu constates ensuite reste une information utile à observer."
+    },
+    "models": {
+      "title": "Ce que les modèles disent, et ne disent pas",
+      "paragraph1": "Des modèles théoriques comme le modèle I-PACE proposent d'articuler les prédispositions personnelles, l'affect, les attentes, la réactivité aux déclencheurs et les fonctions de contrôle pour décrire les comportements addictifs.",
+      "paragraph2": "Des travaux d'imagerie ont observé une réactivité cérébrale accrue aux indices annonçant du contenu chez des hommes consultant pour un usage problématique. Ces résultats portent sur des groupes, avec des échantillons limités, et ne permettent pas de conclure sur ton cas particulier.",
+      "paragraph3": "Un modèle sert à organiser l'observation. Il ne remplace ni un diagnostic ni ce que tu constates réellement dans ta vie."
     },
     "action": {
       "title": "Trouver un point d'appui",
       "paragraph1": "Tu n'as pas besoin de maîtriser toute la boucle. Changer de lieu, attendre quelques minutes ou choisir une autre action peut ouvrir une marge de manœuvre.",
-      "paragraph2": "Observer la situation et l'émotion peut t'aider à choisir une action réaliste."
+      "paragraph2": "Observer la situation et l'émotion peut t'aider à choisir un point d'appui réaliste. Intervenir tôt dans l'enchaînement peut demander moins d'effort que d'attendre le moment le plus intense.",
+      "paragraph3": "Un seul point d'appui suffit pour commencer. Essaie celui qui te semble le plus facile, pas le plus impressionnant.",
+      "keyPoint1": "Essaie d'agir tôt dans la boucle quand c'est possible.",
+      "keyPoint2": "Choisis un seul point d'appui à la fois.",
+      "keyPoint3": "Un changement facile et tenu vaut mieux qu'un changement ambitieux abandonné."
     },
     "observe": {
       "title": "Observer sans poser de diagnostic",
       "paragraph1": "Les notes de StopCorn sont des repères personnels, pas un diagnostic.",
-      "paragraph2": "Le but est de mieux voir les enchaînements qui reviennent afin d'ajuster ton plan."
+      "paragraph2": "Le but est de mieux voir les enchaînements qui reviennent afin d'ajuster ton plan.",
+      "paragraph3": "Quelques observations suffisent : inutile de noter des détails explicites, seul le contexte général sert à repérer une régularité."
     }
   },
   "reflectionPrompt": "À quel moment de la boucle pourrais-tu agir le plus facilement cette semaine ?"

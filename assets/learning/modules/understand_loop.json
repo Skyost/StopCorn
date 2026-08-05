@@ -3,27 +3,63 @@
   "order": 2,
   "titleKey": "learningModules.understandLoop.title",
   "summaryKey": "learningModules.understandLoop.summary",
-  "estimatedMinutes": 7,
   "sections": [
     {
       "titleKey": "learningModules.understandLoop.sections.sequence.title",
       "paragraphKeys": [
         "learningModules.understandLoop.sections.sequence.paragraph1",
-        "learningModules.understandLoop.sections.sequence.paragraph2"
+        "learningModules.understandLoop.sections.sequence.paragraph2",
+        "learningModules.understandLoop.sections.sequence.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.understandLoop.sections.cues.title",
+      "paragraphKeys": [
+        "learningModules.understandLoop.sections.cues.paragraph1",
+        "learningModules.understandLoop.sections.cues.paragraph2",
+        "learningModules.understandLoop.sections.cues.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.understandLoop.sections.cues.keyPoint1",
+        "learningModules.understandLoop.sections.cues.keyPoint2",
+        "learningModules.understandLoop.sections.cues.keyPoint3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.understandLoop.sections.reinforcement.title",
+      "paragraphKeys": [
+        "learningModules.understandLoop.sections.reinforcement.paragraph1",
+        "learningModules.understandLoop.sections.reinforcement.paragraph2",
+        "learningModules.understandLoop.sections.reinforcement.paragraph3"
+      ]
+    },
+    {
+      "titleKey": "learningModules.understandLoop.sections.models.title",
+      "paragraphKeys": [
+        "learningModules.understandLoop.sections.models.paragraph1",
+        "learningModules.understandLoop.sections.models.paragraph2",
+        "learningModules.understandLoop.sections.models.paragraph3"
       ]
     },
     {
       "titleKey": "learningModules.understandLoop.sections.action.title",
       "paragraphKeys": [
         "learningModules.understandLoop.sections.action.paragraph1",
-        "learningModules.understandLoop.sections.action.paragraph2"
+        "learningModules.understandLoop.sections.action.paragraph2",
+        "learningModules.understandLoop.sections.action.paragraph3"
+      ],
+      "keyPointKeys": [
+        "learningModules.understandLoop.sections.action.keyPoint1",
+        "learningModules.understandLoop.sections.action.keyPoint2",
+        "learningModules.understandLoop.sections.action.keyPoint3"
       ]
     },
     {
       "titleKey": "learningModules.understandLoop.sections.observe.title",
       "paragraphKeys": [
         "learningModules.understandLoop.sections.observe.paragraph1",
-        "learningModules.understandLoop.sections.observe.paragraph2"
+        "learningModules.understandLoop.sections.observe.paragraph2",
+        "learningModules.understandLoop.sections.observe.paragraph3"
       ]
     }
   ],
@@ -34,12 +70,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/12500811/"
     },
     {
+      "citation": "Wood W. & Rünger D. (2016). Psychology of Habit. Annual Review of Psychology, 67, 289–314. https://doi.org/10.1146/annurev-psych-122414-033417",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26361052/"
+    },
+    {
       "citation": "Gola M. et al. (2017). Can Pornography be Addictive? An fMRI Study of Men Seeking Treatment for Problematic Pornography Use. Neuropsychopharmacology, 42(10), 2021–2031. https://doi.org/10.1038/npp.2017.78",
       "url": "https://pubmed.ncbi.nlm.nih.gov/28409565/"
     },
     {
       "citation": "Laier C. & Brand M. (2017). Mood changes after watching pornography on the Internet are linked to tendencies towards Internet-pornography-viewing disorder. Addictive Behaviors Reports, 5, 9–13. https://doi.org/10.1016/j.abrep.2016.11.003",
       "url": "https://pubmed.ncbi.nlm.nih.gov/29450222/"
+    },
+    {
+      "citation": "Brand M. et al. (2019). The Interaction of Person-Affect-Cognition-Execution (I-PACE) model for addictive behaviors: Update, generalization to addictive behaviors beyond internet-use disorders, and specification of the process character of addictive behaviors. Neuroscience & Biobehavioral Reviews, 104, 1–10. https://doi.org/10.1016/j.neubiorev.2019.06.032",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31247240/"
     }
   ]
 }

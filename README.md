@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Take back control, at your pace.</strong><br>
-  A private, judgment-free companion for understanding or changing pornography use.
+  A private, judgment-free companion for understanding or changing _cornography_ use.
 </p>
 
 <p align="center">
@@ -309,11 +309,15 @@ copy uses Slang cardinal forms. English normally resolves zero through `other`;
 French requires explicit `zero` forms anywhere `0` would otherwise use the
 singular. `test/i18n/pluralization_test.dart` locks this behavior down.
 
-Learning-module descriptors contain stable identifiers, order, duration,
-translation keys, and references. Each section lists its paragraph keys and may
-add optional `keyPointKeys` rendered as takeaways. Reader-facing copy lives in
-one Slang JSON file per module and locale. When the bundled catalog changes,
-increment both its `contentVersion` and `AppConstants.learningContentVersion`.
+Learning-module descriptors contain stable identifiers, order, translation
+keys, and references. Each section lists its paragraph keys and may add optional
+`keyPointKeys` rendered as takeaways. Reader-facing copy lives in one Slang JSON
+file per module and locale. When the bundled catalog changes, increment both its
+`contentVersion` and `AppConstants.learningContentVersion`.
+
+Reading duration is not stored: `learning_reading_time.dart` derives it from the
+word count of the translated sections, so each locale reports its own estimate
+and the figure can never drift away from the copy.
 
 Every reference must be a real, verifiable record: the citation carries a
 resolvable DOI and the `url` points to its PubMed entry, or to `doi.org` when

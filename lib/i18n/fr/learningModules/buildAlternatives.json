@@ -1,0 +1,43 @@
+{
+  "title": "Reconstruire ce qui compte",
+  "summary": "Remplace la place laissée vide par des actions qui ont du sens pour toi.",
+  "sections": {
+    "vacuum": {
+      "title": "Prévoir ce qui prendra la place",
+      "paragraph1": "Retirer une habitude libère du temps, de l'attention et parfois une manière d'apaiser une soirée difficile. Si rien ne vient occuper cette place, elle a tendance à se remplir par ce qui est le plus accessible.",
+      "paragraph2": "Un plan uniquement fait d'interdictions peut donc s'essouffler : il décrit ce que tu ne fais plus, jamais ce que tu fais.",
+      "paragraph3": "La question utile n'est donc pas seulement « comment arrêter ? », mais « qu'est-ce que je mets à la place, concrètement, mardi soir à 22 h ? »",
+      "keyPoint1": "Formule ton plan en actions, pas seulement en interdits.",
+      "keyPoint2": "Prévois quoi faire au moment précis qui se libère.",
+      "keyPoint3": "Rends l'alternative facile d'accès."
+    },
+    "activation": {
+      "title": "Agir avant d'en avoir envie",
+      "paragraph1": "On attend souvent la motivation pour agir. L'activation comportementale propose l'ordre inverse : programmer des activités, puis observer que l'humeur suit, au moins en partie.",
+      "paragraph2": "Une méta-analyse portant sur la dépression a observé que ces programmes d'activités structurés produisaient des effets comparables à d'autres traitements psychologiques reconnus. Ces travaux concernent la dépression, pas cette habitude en particulier, mais le principe reste éclairant.",
+      "paragraph3": "En pratique : inscris l'activité dans ta semaine comme un rendez-vous, sans attendre d'en avoir envie le jour venu."
+    },
+    "values": {
+      "title": "Des actions reliées à ce à quoi tu tiens",
+      "paragraph1": "Une activité reliée à quelque chose qui compte pour toi — une relation, une compétence, ta santé ou une création — peut être plus facile à choisir de nouveau.",
+      "paragraph2": "Les thérapies d'acceptation et d'engagement travaillent explicitement dans cette direction, et leurs synthèses rapportent des effets dans divers problèmes de santé mentale. Une petite étude préliminaire a aussi appliqué cette approche à l'usage problématique de pornographie en ligne : les résultats observés chez six participants sont encourageants, mais restent à confirmer par des essais contrôlés.",
+      "paragraph3": "Une bonne question de départ : si cette difficulté prenait moins de place, à quoi consacrerais-tu ce temps ?",
+      "keyPoint1": "Relie chaque action à une valeur, pas à une performance.",
+      "keyPoint2": "Choisis une activité qui te correspond.",
+      "keyPoint3": "Vise le sens, pas l'occupation."
+    },
+    "small": {
+      "title": "Assez petit pour tenir un mauvais jour",
+      "paragraph1": "Une alternative n'est utile que si elle reste possible quand tu es fatigué, énervé ou seul. C'est précisément dans ces états qu'elle sera sollicitée.",
+      "paragraph2": "Tu peux prévoir deux formats : une version complète pour les bons jours, et une version minimale pour les autres. Une courte marche plutôt qu'une séance de sport, une page lue plutôt qu'un chapitre.",
+      "paragraph3": "La version minimale n'est pas un échec de la version complète. C'est ce qui empêche l'ensemble du plan de s'arrêter."
+    },
+    "people": {
+      "title": "Ne pas tout porter seul",
+      "paragraph1": "Garder cette difficulté entièrement pour toi peut renforcer l'isolement ou la honte et rendre le soutien moins accessible au moment utile.",
+      "paragraph2": "Tu n'as pas à tout raconter pour créer du lien. Une activité partagée régulièrement peut déjà t'apporter de la présence et du soutien, sans que tu aies à expliquer le sujet.",
+      "paragraph3": "Si tu choisis d'en parler à quelqu'un, choisis une personne dont tu attends du soutien, et non une évaluation de ta valeur."
+    }
+  },
+  "reflectionPrompt": "Quelle activité aimerais-tu voir prendre plus de place dans ta semaine ?"
+}

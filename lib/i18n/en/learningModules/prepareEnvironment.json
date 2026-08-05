@@ -5,17 +5,44 @@
     "friction": {
       "title": "Reduce automatic access",
       "paragraph1": "Leaving the phone outside the bedroom, setting time boundaries, or using the system focus mode can add intentional friction.",
-      "paragraph2": "A blocker can complement a plan, but it cannot resolve a difficulty on its own."
+      "paragraph2": "The point is not to make something impossible, but to add a few seconds between the impulse and the action. Those seconds can create space for a choice to become possible again.",
+      "paragraph3": "Useful friction is friction you accept. If you work around a setup almost immediately, try a more realistic setting rather than turning it into a reason to feel you failed.",
+      "keyPoint1": "Aim for a few seconds of delay, not impossibility.",
+      "keyPoint2": "Choose friction you are willing to keep.",
+      "keyPoint3": "Adjust friction that you quickly work around."
+    },
+    "avoid": {
+      "title": "Avoiding costs less than resisting",
+      "paragraph1": "A longitudinal study observed that people who best reached their goals were not those who resisted most, but those who encountered fewer temptations.",
+      "paragraph2": "In other words, self-control often plays out upstream: in how the day and the space are organized, more than in the critical moment.",
+      "paragraph3": "That can also remove some guilt: needing to rearrange your environment is not an admission of weakness. It is a strategy consistent with these findings."
+    },
+    "ifThen": {
+      "title": "“If… then…” plans",
+      "paragraph1": "A meta-analysis covering many studies showed that forming a specific plan—“if this situation occurs, then I will do this action”—improves goal attainment compared with intention alone.",
+      "paragraph2": "Precision matters: the situation must be recognizable and the action immediately doable. “If I am in bed with my phone after 11 p.m., then I put it back on the desk” is more specific than “I will be careful in the evening.”",
+      "paragraph3": "You can start with two or three plans that match your most frequent situations.",
+      "keyPoint1": "Write the triggering situation, not only the goal.",
+      "keyPoint2": "Choose an action you can start immediately.",
+      "keyPoint3": "Start with two or three plans."
     },
     "moments": {
       "title": "Prepare vulnerable moments",
       "paragraph1": "If tired evenings recur in your observations, preparing a simple routine or charging a device elsewhere can make the desired choice easier.",
-      "paragraph2": "If certain accounts or networks often come before difficult moments, you can adjust access without having to remove everything."
+      "paragraph2": "Prepare for those moments while they are not happening: deciding in advance may take less effort than choosing in the middle of a difficult moment.",
+      "paragraph3": "If certain accounts or networks often come before difficult moments, you can adjust access without having to remove everything."
     },
     "alternative": {
       "title": "Make the alternative visible",
       "paragraph1": "Prepare an accessible replacement action: a book nearby, a short walk, or a task chosen in advance.",
-      "paragraph2": "Your environment works best when it supports a specific intention."
+      "paragraph2": "Removing something leaves a gap, and a gap rarely fills itself in the right direction. The alternative should be at least as reachable as what you removed.",
+      "paragraph3": "Your environment works best when it supports a specific intention."
+    },
+    "limits": {
+      "title": "What a filter does not do",
+      "paragraph1": "A blocker can complement a plan, but it cannot resolve a difficulty on its own: it acts on access, not on the situation, emotion, or habit that came before.",
+      "paragraph2": "Tools based on third-party monitoring also raise questions of privacy and trust. StopCorn does not access your browser activity or history, and it does not transmit web-browsing data.",
+      "paragraph3": "A technical tool works better as support for a plan than as a substitute for one."
     }
   },
   "reflectionPrompt": "What change to your environment could you make today?"

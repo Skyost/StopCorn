@@ -5,17 +5,44 @@
     "sequence": {
       "title": "A sequence to observe",
       "paragraph1": "A habit can sometimes be described as: situation → emotion → impulse → behavior → immediate effect or relief → consequences.",
-      "paragraph2": "This is a practical observation model, not a sequence proven to apply to everyone. Some stages may happen very quickly or be difficult to notice."
+      "paragraph2": "This is a practical observation model, not a sequence proven to apply to everyone. Some stages may happen very quickly or be difficult to notice.",
+      "paragraph3": "Laying it out has one simple benefit: a loop offers several places to act, whereas a single decision offers only one."
+    },
+    "cues": {
+      "title": "Cues that became automatic",
+      "paragraph1": "Habit research describes learned associations between a context and a response: once a behavior has been repeated often enough in a stable environment, the context alone can trigger it, without a conscious decision each time.",
+      "paragraph2": "In a frequently cited field study, a substantial share of everyday behaviors happened in nearly the same place and at the same time, with little prior deliberation.",
+      "paragraph3": "That is why an urge can seem to appear “out of nowhere”: the cue was present, but you did not notice it.",
+      "keyPoint1": "A repeated place or time becomes a cue.",
+      "keyPoint2": "Automaticity is not a lack of willpower.",
+      "keyPoint3": "Spotting the cue gives you a point of action."
+    },
+    "reinforcement": {
+      "title": "What keeps the loop going",
+      "paragraph1": "A behavior repeats mostly when it delivers something immediately: pleasure, distraction, a drop in tension, or a break from a difficult emotion.",
+      "paragraph2": "A study of men who regularly used online pornography measured their mood immediately before and after a self-selected session. On average, they felt slightly better and calmer afterward—but the stronger the tendencies toward problematic use, the smaller that improvement was.",
+      "paragraph3": "An immediate pleasant effect can therefore help maintain a loop, without by itself telling us about later consequences or your individual situation. The gap between what you expect from a moment and what you observe afterwards stays worth noticing."
+    },
+    "models": {
+      "title": "What models say, and do not say",
+      "paragraph1": "Theoretical models such as I-PACE propose combining personal predispositions, affect, expectancies, cue reactivity, and control functions to describe addictive behaviors.",
+      "paragraph2": "Imaging work has observed heightened brain reactivity to cues predicting content among men seeking treatment for problematic use. These results describe groups, rest on limited samples, and cannot settle anything about your individual case.",
+      "paragraph3": "A model helps organize observation. It replaces neither a diagnosis nor what you actually notice in your own life."
     },
     "action": {
       "title": "Find a point of action",
       "paragraph1": "You do not need to control the entire loop. Changing location, waiting a few minutes, or choosing another action can create space.",
-      "paragraph2": "Observing the situation and emotion can help you choose a realistic point of action."
+      "paragraph2": "Observing the situation and emotion can help you choose a realistic point of action. Stepping in earlier may take less effort than waiting for the most intense moment.",
+      "paragraph3": "One point of action is enough to start. Try the one that feels easiest, not the most impressive.",
+      "keyPoint1": "Try to act early in the loop when you can.",
+      "keyPoint2": "Pick a single point of action at a time.",
+      "keyPoint3": "An easy change you keep beats an ambitious one you drop."
     },
     "observe": {
       "title": "Observe without diagnosing",
       "paragraph1": "StopCorn notes are personal markers, not a diagnosis.",
-      "paragraph2": "The aim is to make recurring sequences more visible so you can adjust your plan."
+      "paragraph2": "The aim is to make recurring sequences more visible so you can adjust your plan.",
+      "paragraph3": "A few observations are enough: explicit details are never needed, only the general context helps a pattern show up."
     }
   },
   "reflectionPrompt": "Which part of the loop seems easiest to change this week?"

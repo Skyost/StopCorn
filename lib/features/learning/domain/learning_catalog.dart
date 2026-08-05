@@ -1,3 +1,5 @@
+import 'package:stopcorn/features/learning/domain/learning_reading_time.dart';
+
 /// Versioned collection of offline learning modules for one locale.
 final class LearningCatalog {
   /// Schema version of the bundled content.
@@ -52,7 +54,7 @@ final class LearningModule {
   /// Localized short module summary.
   final String summary;
 
-  /// Approximate reading duration.
+  /// Approximate reading duration, derived from the localized word count.
   final int estimatedMinutes;
 
   /// Ordered localized reading sections.
@@ -83,39 +85,43 @@ final class LearningModule {
   }) {
     Object? id = json['id'];
     Object? order = json['order'];
-    Object? estimatedMinutes = json['estimatedMinutes'];
     Object? rawSections = json['sections'];
     Object? rawReferences = json['references'];
     if (id is! String ||
         id.isEmpty ||
         order is! int ||
-        estimatedMinutes is! int ||
-        estimatedMinutes <= 0 ||
         rawSections is! List<Object?> ||
         rawSections.isEmpty ||
         rawReferences is! List<Object?> ||
         rawReferences.isEmpty) {
       throw const FormatException('Invalid learning module content.');
     }
+    List<LearningSection> sections = List<LearningSection>.unmodifiable(
+      rawSections.map((raw) {
+        if (raw is! Map<String, Object?>) {
+          throw const FormatException('Invalid learning section.');
+        }
+        return LearningSection.fromJson(raw, translate: translate);
+      }),
+    );
+    String reflectionPrompt = _translateRequired(
+      json,
+      'reflectionPromptKey',
+      translate,
+    );
     return LearningModule(
       id: id,
       order: order,
       title: _translateRequired(json, 'titleKey', translate),
       summary: _translateRequired(json, 'summaryKey', translate),
-      estimatedMinutes: estimatedMinutes,
-      sections: List<LearningSection>.unmodifiable(
-        rawSections.map((raw) {
-          if (raw is! Map<String, Object?>) {
-            throw const FormatException('Invalid learning section.');
-          }
-          return LearningSection.fromJson(raw, translate: translate);
-        }),
+      estimatedMinutes: estimateLearningMinutes(
+        wordCount:
+            sections.fold(0, (total, section) => total + section.wordCount) +
+            countLearningWords(reflectionPrompt),
+        sectionCount: sections.length,
       ),
-      reflectionPrompt: _translateRequired(
-        json,
-        'reflectionPromptKey',
-        translate,
-      ),
+      sections: sections,
+      reflectionPrompt: reflectionPrompt,
       references: List<LearningReference>.unmodifiable(
         rawReferences.map((raw) {
           if (raw is! Map<String, Object?>) {
@@ -136,11 +142,21 @@ final class LearningSection {
   /// Ordered localized paragraphs.
   final List<String> paragraphs;
 
+  /// Ordered localized takeaways, possibly empty.
+  final List<String> keyPoints;
+
   /// Creates an immutable learning section.
   const LearningSection({
     required this.title,
     required this.paragraphs,
+    this.keyPoints = const [],
   });
+
+  /// Number of words a reader goes through in this section.
+  int get wordCount => [title, ...paragraphs, ...keyPoints].fold(
+    0,
+    (total, text) => total + countLearningWords(text),
+  );
 
   /// Validates and translates one section descriptor.
   factory LearningSection.fromJson(
@@ -148,13 +164,22 @@ final class LearningSection {
     required LearningTranslationResolver translate,
   }) {
     Object? rawParagraphKeys = json['paragraphKeys'];
+    Object? rawKeyPointKeys = json['keyPointKeys'];
     if (rawParagraphKeys is! List<Object?> || rawParagraphKeys.isEmpty || rawParagraphKeys.any((key) => key is! String)) {
       throw const FormatException('Invalid learning section content.');
+    }
+    if (rawKeyPointKeys != null && (rawKeyPointKeys is! List<Object?> || rawKeyPointKeys.isEmpty || rawKeyPointKeys.any((key) => key is! String))) {
+      throw const FormatException('Invalid learning section takeaways.');
     }
     return LearningSection(
       title: _translateRequired(json, 'titleKey', translate),
       paragraphs: List<String>.unmodifiable(
         rawParagraphKeys.cast<String>().map(translate),
+      ),
+      keyPoints: List<String>.unmodifiable(
+        (rawKeyPointKeys as List<Object?>? ?? const []).cast<String>().map(
+          translate,
+        ),
       ),
     );
   }

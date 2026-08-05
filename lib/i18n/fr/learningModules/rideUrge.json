@@ -5,17 +5,41 @@
     "delay": {
       "title": "T'accorder un instant",
       "paragraph1": "Une impulsion ne t'oblige pas à prendre une décision immédiate ou définitive.",
-      "paragraph2": "Attendre un peu te permet d'observer si son intensité monte, baisse ou reste stable."
+      "paragraph2": "Attendre un peu te permet d'observer si son intensité monte, baisse ou reste stable. Tu n'as rien à décider pendant ce délai : tu regardes, c'est tout.",
+      "paragraph3": "Un délai court que tu peux tenir est souvent plus réaliste qu'un long délai que tu abandonnes.",
+      "keyPoint1": "Fixe une durée courte, décidée à l'avance.",
+      "keyPoint2": "Pendant le délai, tu n'as aucune décision à prendre.",
+      "keyPoint3": "Après le délai, tu choisis en connaissance de cause."
+    },
+    "wave": {
+      "title": "Observer la vague",
+      "paragraph1": "Une approche issue de la pleine conscience, parfois appelée « surfer l'envie », consiste à observer la sensation comme une vague : où elle se situe dans le corps, comment elle évolue, sans chercher à la faire disparaître.",
+      "paragraph2": "Une intervention brève construite sur ce principe a été testée auprès d'étudiants fumeurs et a montré des résultats encourageants sur la consommation dans les jours suivants. L'essai était court et portait sur un autre comportement, ce qui invite à rester prudent.",
+      "paragraph3": "En pratique, cette manière d'observer peut offrir une alternative à la lutte directe, notamment lorsque tu es fatigué."
+    },
+    "suppression": {
+      "title": "Ne pas essayer de ne pas y penser",
+      "paragraph1": "Se répéter « je ne dois pas y penser » est rarement efficace. Les travaux sur la suppression des pensées décrivent des effets paradoxaux : la pensée surveillée revient souvent, parfois plus fort.",
+      "paragraph2": "Les approches d'acceptation proposent l'inverse : laisser la pensée présente, et agir malgré elle. Une étude préliminaire suivant six hommes selon un protocole à lignes de base multiples a observé une réduction de la fréquence après une intervention de ce type. Sans groupe contrôle randomisé, ce résultat reste exploratoire.",
+      "paragraph3": "Concrètement : tu n'as pas à gagner une discussion contre ton propre esprit. Tu peux avoir la pensée et faire autre chose.",
+      "keyPoint1": "Chasser une pensée peut la faire revenir.",
+      "keyPoint2": "Laisse-la présente, et agis quand même.",
+      "keyPoint3": "Concentre-toi sur l'action choisie, pas sur le contrôle de chaque pensée."
     },
     "concrete": {
       "title": "Changer quelque chose de concret",
       "paragraph1": "Changer de pièce, poser le téléphone ou commencer une toute petite tâche peut interrompre une réponse automatique.",
-      "paragraph2": "Choisis une action assez simple pour rester possible même lorsque ton énergie est basse."
+      "paragraph2": "Les stratégies dites situationnelles agissent en amont : modifier la situation peut demander moins d'effort que résister au moment le plus intense.",
+      "paragraph3": "Choisis une action assez simple pour rester possible même lorsque ton énergie est basse : boire un verre d'eau, sortir sur le palier, mettre un morceau de musique."
     },
     "expectations": {
       "title": "Ne pas exiger que la sensation disparaisse",
-      "paragraph1": "Une stratégie peut être utile même si la sensation ne disparaît pas tout de suite.",
-      "paragraph2": "L'objectif est de t'entraîner à choisir, pas d'obtenir un résultat parfait à chaque fois."
+      "paragraph1": "Une stratégie peut être utile même si la sensation ne disparaît pas tout de suite. Dans l'essai mené auprès d'étudiants fumeurs, les deux groupes ne différaient pas sur l'intensité des envies ressenties ; c'est la consommation des jours suivants qui différait.",
+      "paragraph2": "L'objectif est de t'entraîner à choisir, pas d'obtenir un résultat parfait à chaque fois. Une tentative qui n'a pas « marché » t'apprend quand même quelque chose sur le moment où tu l'as essayée.",
+      "paragraph3": "Une même stratégie ne fonctionne pas dans tous les contextes. Tu peux en garder deux ou trois disponibles plutôt qu'une seule.",
+      "keyPoint1": "Réussir, c'est avoir choisi, pas avoir cessé de ressentir.",
+      "keyPoint2": "Prépare plusieurs stratégies simples.",
+      "keyPoint3": "Note laquelle t'a aidé, et dans quel contexte."
     }
   },
   "reflectionPrompt": "Quelle stratégie réaliste pourrais-tu essayer lors du prochain moment difficile ?"

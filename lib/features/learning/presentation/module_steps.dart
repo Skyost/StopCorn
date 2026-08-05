@@ -42,10 +42,68 @@ final class ModuleReadingStep extends StatelessWidget {
             const SizedBox(height: AppSpacing.big),
             Text(paragraph, style: context.theme.typography.body.lg),
           ],
+          if (section.keyPoints.isNotEmpty) ...[
+            const SizedBox(height: AppSpacing.section),
+            _SectionKeyPoints(keyPoints: section.keyPoints),
+          ],
         ],
       ),
     );
   }
+}
+
+/// Lists the concrete takeaways of one reading section.
+final class _SectionKeyPoints extends StatelessWidget {
+  /// Localized takeaways to display.
+  final List<String> keyPoints;
+
+  /// Creates the takeaway list for [keyPoints].
+  const _SectionKeyPoints({
+    required this.keyPoints,
+  });
+
+  @override
+  Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.all(AppSpacing.big),
+    decoration: BoxDecoration(
+      color: context.theme.colors.secondary,
+      borderRadius: BorderRadius.circular(AppSpacing.medium),
+    ),
+    child: Column(
+      crossAxisAlignment: .stretch,
+      children: [
+        Text(
+          context.t.learning.reading.keyPoints,
+          style: context.theme.typography.body.sm.copyWith(
+            fontWeight: .w700,
+            color: context.theme.colors.secondaryForeground,
+          ),
+        ),
+        for (final String keyPoint in keyPoints) ...[
+          const SizedBox(height: AppSpacing.medium),
+          Row(
+            crossAxisAlignment: .start,
+            children: [
+              Icon(
+                FLucideIcons.check,
+                size: AppIconSize.inlineBrand,
+                color: context.theme.colors.primary,
+              ),
+              const SizedBox(width: AppSpacing.medium),
+              Expanded(
+                child: Text(
+                  keyPoint,
+                  style: context.theme.typography.body.sm.copyWith(
+                    color: context.theme.colors.secondaryForeground,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
+      ],
+    ),
+  );
 }
 
 /// Collects the optional device-only module reflection.

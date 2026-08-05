@@ -1,11 +1,11 @@
 {
-  "subtitle": "Six short modules, available offline and without diagnosis.",
+  "subtitle": "Nine short modules, available offline and without diagnosis.",
   "semantics": "Learning modules",
   "evidence": {
     "title": "What informs these modules?",
     "sheetTitle": "Evidence and limitations",
-    "principles": "Each module cites peer-reviewed research supporting general principles about motivation, habits, self-control, mindfulness, or self-compassion.",
-    "limitations": "These sources do not clinically validate StopCorn. Some concern general behavior or smoking, and pornography-specific studies can involve limited samples. The modules provide cautious educational guidance, not a diagnosis or treatment."
+    "principles": "Each module cites peer-reviewed research supporting general principles about motivation, habits, self-control, emotion regulation, self-monitoring, mindfulness, or self-compassion. Every reference links to a PubMed record or a verifiable DOI.",
+    "limitations": "These sources do not clinically validate StopCorn. Some concern general behavior, smoking, or depression, and pornography-specific studies can involve limited samples. Several findings are correlational and do not establish cause and effect. The modules provide cautious educational guidance, not a diagnosis or treatment."
   },
   "sources": {
     "title(param=count)": {
@@ -30,6 +30,7 @@
   },
   "reading": {
     "progress": "Module reading progress",
+    "keyPoints": "Key points",
     "part": "Part $current of $total",
     "previous": "Previous"
   },
