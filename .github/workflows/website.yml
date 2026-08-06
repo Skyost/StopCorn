@@ -41,43 +41,115 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: stable
-          flutter-version: 3.44.8
-          cache: true
-
-      - name: Install image-generation dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install --yes build-essential fontconfig libfontconfig1-dev libfreetype-dev libjpeg-dev libpango1.0-dev libpng-dev librsvg2-dev libtiff-dev libwebp-dev libxml2-dev pkg-config
-          imagemagick_directory="$RUNNER_TEMP/imagemagick"
-          mkdir --parents "$imagemagick_directory"
-          curl --fail --location --retry 3 --output "$imagemagick_directory/source.tar.gz" https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-29.tar.gz
-          tar --extract --file "$imagemagick_directory/source.tar.gz" --directory "$imagemagick_directory"
-          (
-            cd "$imagemagick_directory/ImageMagick-7.1.2-29"
-            ./configure --prefix="$imagemagick_directory/install" --with-pango=yes --with-rsvg=yes
-            make --jobs "$(nproc)"
-            make install
-          )
-          "$imagemagick_directory/install/bin/magick" -list format | grep --quiet 'PANGO.*r--'
-          echo "$imagemagick_directory/install/bin" >> "$GITHUB_PATH"
-
-      - name: Install Flutter dependencies
-        run: flutter pub get
-
-      - name: Generate Dart sources for screenshots
+      - name: Download published website media
         env:
-          REVENUECAT_ANDROID_API_KEY: ''
-          REVENUECAT_IOS_API_KEY: ''
-          REVENUECAT_TEST_API_KEY: ''
-          SENTRY_DSN: ''
-        run: dart run build_runner build
+          PUBLISHED_SITE_URL: https://stopcorn.skyost.eu
+        shell: bash
+        run: |
+          set -euo pipefail
 
-      - name: Generate website media
-        run: tool/website/generate.sh
+          locales=(de en es fr it pt)
+          devices=(android/phone android/tablet ios/iphone ios/ipad)
+          screenshots=(
+            1_home.png
+            2_urge_support.png
+            3_progress.png
+            4_journal.png
+            5_learning.png
+          )
+          max_parallel_downloads=8
+          active_downloads=0
+          failed_downloads=0
+          published_locales=()
+          fallback_locales=()
+
+          download_screenshot() {
+            local locale="$1"
+            local source_locale="$2"
+            local device="$3"
+            local screenshot="$4"
+            local relative_path="screenshots/$locale/$device/$screenshot"
+            local source_path="screenshots/$source_locale/$device/$screenshot"
+
+            mkdir --parents "$(dirname "docs/public/$relative_path")"
+            curl \
+              --fail \
+              --location \
+              --retry 3 \
+              --retry-all-errors \
+              --show-error \
+              --silent \
+              --output "docs/public/$relative_path" \
+              "$PUBLISHED_SITE_URL/$source_path"
+          }
+
+          for locale in "${locales[@]}"; do
+            if [[ "$locale" == en ]] || curl \
+              --fail \
+              --head \
+              --location \
+              --output /dev/null \
+              --silent \
+              "$PUBLISHED_SITE_URL/screenshots/$locale/ios/iphone/1_home.png"
+            then
+              published_locales+=("$locale")
+            else
+              fallback_locales+=("$locale")
+              echo "::warning::No published screenshots found for '$locale'; using the English screenshots until the manual screenshot workflow is deployed."
+            fi
+          done
+
+          for locale in "${published_locales[@]}"; do
+            for device in "${devices[@]}"; do
+              for screenshot in "${screenshots[@]}"; do
+                download_screenshot \
+                  "$locale" \
+                  "$locale" \
+                  "$device" \
+                  "$screenshot" &
+                active_downloads=$((active_downloads + 1))
+
+                if ((active_downloads >= max_parallel_downloads)); then
+                  if ! wait -n; then
+                    failed_downloads=$((failed_downloads + 1))
+                  fi
+                  active_downloads=$((active_downloads - 1))
+                fi
+              done
+            done
+          done
+
+          while ((active_downloads > 0)); do
+            if ! wait -n; then
+              failed_downloads=$((failed_downloads + 1))
+            fi
+            active_downloads=$((active_downloads - 1))
+          done
+
+          if ((failed_downloads > 0)); then
+            echo "::error::$failed_downloads published screenshot download(s) failed."
+            exit 1
+          fi
+
+          for locale in "${fallback_locales[@]}"; do
+            mkdir --parents "docs/public/screenshots/$locale"
+            cp --archive \
+              docs/public/screenshots/en/. \
+              "docs/public/screenshots/$locale/"
+          done
+
+          mkdir --parents docs/public/social
+          for asset in social/open-graph.png social/twitter.png favicon.ico; do
+            curl \
+              --fail \
+              --location \
+              --retry 3 \
+              --retry-all-errors \
+              --show-error \
+              --silent \
+              --output "docs/public/$asset" \
+              "$PUBLISHED_SITE_URL/$asset"
+          done
 
       - name: Set up pnpm and Node.js
         uses: pnpm/setup@v2

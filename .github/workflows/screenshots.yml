@@ -1,0 +1,119 @@
+name: Generate screenshots and deploy website
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+concurrency:
+  group: screenshots
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Generate screenshots and build website
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.8
+          cache: true
+
+      - name: Install image-generation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes build-essential fontconfig libfontconfig1-dev libfreetype-dev libjpeg-dev libpango1.0-dev libpng-dev librsvg2-dev libtiff-dev libwebp-dev libxml2-dev pkg-config
+          imagemagick_directory="$RUNNER_TEMP/imagemagick"
+          mkdir --parents "$imagemagick_directory"
+          curl --fail --location --retry 3 --output "$imagemagick_directory/source.tar.gz" https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-29.tar.gz
+          tar --extract --file "$imagemagick_directory/source.tar.gz" --directory "$imagemagick_directory"
+          (
+            cd "$imagemagick_directory/ImageMagick-7.1.2-29"
+            ./configure --prefix="$imagemagick_directory/install" --with-pango=yes --with-rsvg=yes
+            make --jobs "$(nproc)"
+            make install
+          )
+          "$imagemagick_directory/install/bin/magick" -list format | grep --quiet 'PANGO.*r--'
+          echo "$imagemagick_directory/install/bin" >> "$GITHUB_PATH"
+
+      - name: Install Flutter dependencies
+        run: flutter pub get
+
+      - name: Generate Dart sources for screenshots
+        env:
+          REVENUECAT_ANDROID_API_KEY: ''
+          REVENUECAT_IOS_API_KEY: ''
+          REVENUECAT_TEST_API_KEY: ''
+          SENTRY_DSN: ''
+        run: dart run build_runner build
+
+      - name: Generate raw screenshots
+        run: |
+          flutter test \
+            --reporter=compact \
+            --ignore-timeouts \
+            --dart-define=STOPCORN_SCREENSHOTS=true \
+            test/screenshots_test.dart
+
+      - name: Process screenshots and website media
+        run: tool/website/generate.sh --process-only
+
+      - name: Upload generated screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: stopcorn-store-screenshots-${{ github.sha }}
+          path: docs/public/screenshots
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+
+      - name: Set up pnpm and Node.js
+        uses: pnpm/setup@v2
+        with:
+          runtime: node@22.19.0
+          cache: true
+          cache-dependency-path: docs/pnpm-lock.yaml
+          package-json-file: docs/package.json
+          install: false
+
+      - name: Install dependencies
+        run: pnpm --dir docs install --frozen-lockfile
+
+      - name: Check and generate website
+        run: pnpm --dir docs run check
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+        with:
+          enablement: true
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs/.output/public
+
+  deploy:
+    name: Deploy website with generated screenshots
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
