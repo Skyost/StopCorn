@@ -4,13 +4,16 @@ import 'dart:io';
 Future<void> main() async {
   Directory repository = _repositoryRoot();
   Directory public = Directory('${repository.path}/docs/public');
+  Directory output = Directory('${repository.path}/tool/website/outputs');
   List<_AssetDirectory> directories = [
     _AssetDirectory(
-      source: Directory('${repository.path}/screenshots/store'),
+      source: Directory(
+        '${repository.path}/tool/screenshots/outputs/store',
+      ),
       destination: Directory('${public.path}/screenshots'),
     ),
     _AssetDirectory(
-      source: Directory('${repository.path}/social/generated'),
+      source: Directory('${repository.path}/tool/social/outputs'),
       destination: Directory('${public.path}/social'),
     ),
   ];
@@ -32,13 +35,18 @@ Future<void> main() async {
     );
   }
 
-  File favicon = File('${public.path}/favicon.ico');
+  File favicon = File('${output.path}/favicon.ico');
   await _generateFavicon(
     logo: File('${repository.path}/assets/branding/logo.svg'),
     destination: favicon,
   );
+  await public.create(recursive: true);
+  File publicFavicon = await favicon.copy('${public.path}/favicon.ico');
   stdout.writeln(
     'Created ${favicon.path.substring(repository.path.length + 1)}',
+  );
+  stdout.writeln(
+    'Synced ${publicFavicon.path.substring(repository.path.length + 1)}',
   );
 }
 

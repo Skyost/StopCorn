@@ -7,13 +7,17 @@ StopCorn generates five deterministic screenshots for French and English on:
 - iPhone 6.9-inch (`1320 × 2868`)
 - iPad 13-inch (`2064 × 2752`)
 
-The Flutter test writes clean application captures to `screenshots/raw/`.
-ImageMagick then creates localized store artwork in `screenshots/store/`, with
-the same platform-compatible dimensions, a generated device mockup, a
-scenario-specific logo or emoji, and captions from
-`tool/screenshots/captions.json`. This catalog also controls whether each
-device appears above or below its caption, its per-screenshot overflow and
-horizontal offset, and the decorative background variation.
+The Flutter test writes clean application captures to
+`tool/screenshots/outputs/raw/`. ImageMagick then creates localized store
+artwork in `tool/screenshots/outputs/store/`, with the same
+platform-compatible dimensions, a generated device mockup, a scenario-specific
+logo or emoji, and captions from `tool/screenshots/captions.json`. This catalog
+also controls whether each device appears above or below its caption, its
+per-screenshot overflow and horizontal offset, and the decorative background
+variation.
+
+`tool/screenshots/outputs/` is ignored by Git because all of its contents can
+be regenerated from the tracked tests, catalog, fonts, and artwork sources.
 
 ## Commands
 

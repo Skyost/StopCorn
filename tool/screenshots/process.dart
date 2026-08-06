@@ -8,8 +8,12 @@ import 'device_catalog.dart';
 /// Converts raw application screenshots into localized store artwork.
 Future<void> main() async {
   Directory repository = _repositoryRoot();
-  Directory rawRoot = Directory('${repository.path}/screenshots/raw');
-  Directory outputRoot = Directory('${repository.path}/screenshots/store');
+  Directory rawRoot = Directory(
+    '${repository.path}/tool/screenshots/outputs/raw',
+  );
+  Directory outputRoot = Directory(
+    '${repository.path}/tool/screenshots/outputs/store',
+  );
   File captionsFile = File(
     '${repository.path}/tool/screenshots/captions.json',
   );

@@ -12,5 +12,5 @@ of the store artwork. Generate them with:
 tool/social/generate.sh
 ```
 
-The PNG files are written to `social/generated/` and intentionally ignored by
-Git. ImageMagick 7 with its Pango delegate is required.
+The PNG files are written to `tool/social/outputs/` and intentionally ignored
+by Git. ImageMagick 7 with its Pango delegate is required.

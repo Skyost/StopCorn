@@ -30,11 +30,21 @@ const int _adaptiveLogoPercent = 46;
 /// Share of an iOS icon's edge covered by the logo.
 const int _iosLogoPercent = 62;
 
+/// Exact edge required by the iOS App Store marketing icon.
+const int _appStoreSize = 1024;
+
+/// Exact edge required by the Google Play store-listing icon.
+const int _googlePlaySize = 512;
+
+/// Maximum Google Play icon size in bytes.
+const int _googlePlayMaxBytes = 1024 * 1024;
+
 /// Corner radius of a legacy icon, as a share of its edge.
 const int _legacyCornerPercent = 22;
 
-/// Generates the Android and iOS launcher icons from the branding logo.
-Future<void> main() async {
+/// Generates store and platform icons from the tracked vector logo.
+Future<void> main(List<String> arguments) async {
+  bool storeOnly = _parseArguments(arguments);
   Directory repository = _repositoryRoot();
   File logo = File('${repository.path}/assets/branding/logo.svg');
   if (!logo.existsSync()) {
@@ -47,13 +57,21 @@ Future<void> main() async {
   );
 
   try {
-    await _generateAndroid(
-      magick: magick,
-      logo: logo,
-      repository: repository,
-      working: temporary,
-    );
-    await _generateIos(
+    if (!storeOnly) {
+      await _generateAndroid(
+        magick: magick,
+        logo: logo,
+        repository: repository,
+        working: temporary,
+      );
+      await _generateIos(
+        magick: magick,
+        logo: logo,
+        repository: repository,
+        working: temporary,
+      );
+    }
+    await _generateStoreIcons(
       magick: magick,
       logo: logo,
       repository: repository,
@@ -64,6 +82,19 @@ Future<void> main() async {
       await temporary.delete(recursive: true);
     }
   }
+}
+
+/// Returns whether only store assets should be generated.
+bool _parseArguments(List<String> arguments) {
+  if (arguments.isEmpty) {
+    return false;
+  }
+  if (arguments.length == 1 && arguments.single == '--store-only') {
+    return true;
+  }
+  throw ArgumentError(
+    'Usage: dart run tool/icons/generate.dart [--store-only]',
+  );
 }
 
 /// Writes the legacy and adaptive Android launcher icons.
@@ -167,6 +198,69 @@ Future<void> _generateIos({
   stdout.writeln('Created ${written.length} iOS application icons.');
 }
 
+/// Writes the exact high-resolution assets expected by both store listings.
+Future<void> _generateStoreIcons({
+  required String magick,
+  required File logo,
+  required Directory repository,
+  required Directory working,
+}) async {
+  Directory store = Directory('${repository.path}/tool/icons/outputs');
+  await store.create(recursive: true);
+
+  File appStore = File('${store.path}/app-store-icon.png');
+  await _composeIcon(
+    magick: magick,
+    logo: logo,
+    working: working,
+    destination: appStore,
+    size: _appStoreSize,
+    logoPercent: _iosLogoPercent,
+    stripMetadata: true,
+  );
+  await _validateStoreIcon(
+    magick: magick,
+    file: appStore,
+    expectsAlpha: false,
+  );
+  File iosMarketingIcon = File(
+    '${repository.path}/ios/Runner/Assets.xcassets/'
+    'AppIcon.appiconset/Icon-App-1024x1024@1x.png',
+  );
+  if (!iosMarketingIcon.existsSync()) {
+    throw StateError(
+      'Missing iOS marketing icon at ${iosMarketingIcon.path}.',
+    );
+  }
+  await appStore.copy(iosMarketingIcon.path);
+
+  File googlePlay = File('${store.path}/google-play-icon.png');
+  await _composeIcon(
+    magick: magick,
+    logo: logo,
+    working: working,
+    destination: googlePlay,
+    size: _googlePlaySize,
+    logoPercent: _iosLogoPercent,
+    includeOpaqueAlpha: true,
+    stripMetadata: true,
+  );
+  await _validateStoreIcon(
+    magick: magick,
+    file: googlePlay,
+    expectsAlpha: true,
+    maximumBytes: _googlePlayMaxBytes,
+  );
+
+  stdout
+    ..writeln('Created the store listing icons:')
+    ..writeln('  ${_relativePath(repository, appStore)}')
+    ..writeln('  ${_relativePath(repository, googlePlay)}')
+    ..writeln(
+      'Updated ${_relativePath(repository, iosMarketingIcon)}',
+    );
+}
+
 /// Converts a `20x20` point size and a `2x` scale into an edge in pixels.
 int _iosPixelSize(String size, String scale) {
   double points = double.parse(size.split('x').first);
@@ -184,6 +278,8 @@ Future<void> _composeIcon({
   required int logoPercent,
   int? cornerPercent,
   bool transparent = false,
+  bool includeOpaqueAlpha = false,
+  bool stripMetadata = false,
 }) async {
   File background = File('${working.path}/background-$size.png');
   File resizedLogo = File(
@@ -250,7 +346,7 @@ Future<void> _composeIcon({
     'over',
     '-composite',
   ];
-  bool keepsAlpha = transparent || cornerPercent != null;
+  bool keepsAlpha = transparent || cornerPercent != null || includeOpaqueAlpha;
   if (!keepsAlpha) {
     // iOS rejects an icon carrying an alpha channel.
     composition.addAll([
@@ -261,6 +357,10 @@ Future<void> _composeIcon({
       '-alpha',
       'off',
     ]);
+  }
+  composition.addAll(['-colorspace', 'sRGB']);
+  if (stripMetadata) {
+    composition.add('-strip');
   }
   composition.add('${keepsAlpha ? 'PNG32' : 'PNG24'}:${destination.path}');
   await _run(magick, composition);
@@ -274,19 +374,69 @@ Future<void> _composeIcon({
   }
 }
 
+/// Checks store-specific channel, color-space, and file-size requirements.
+Future<void> _validateStoreIcon({
+  required String magick,
+  required File file,
+  required bool expectsAlpha,
+  int? maximumBytes,
+}) async {
+  String channels = await _imageProperty(magick, file, '%[channels]');
+  String channelType = channels.toLowerCase().split(RegExp(r'\s+')).first;
+  bool hasAlpha = channelType.endsWith('a');
+  if (hasAlpha != expectsAlpha) {
+    throw StateError(
+      '${file.path} has channels "$channels"; '
+      '${expectsAlpha ? 'an alpha channel is required' : 'alpha is forbidden'}.',
+    );
+  }
+
+  String colorSpace = await _imageProperty(magick, file, '%[colorspace]');
+  if (colorSpace.toLowerCase() != 'srgb') {
+    throw StateError(
+      '${file.path} uses $colorSpace instead of the sRGB color space.',
+    );
+  }
+
+  String opaque = await _imageProperty(magick, file, '%[opaque]');
+  if (opaque.toLowerCase() != 'true') {
+    throw StateError(
+      '${file.path} contains transparent pixels; store icons must use the '
+      'full square canvas.',
+    );
+  }
+
+  int bytes = await file.length();
+  if (maximumBytes != null && bytes > maximumBytes) {
+    throw StateError(
+      '${file.path} is $bytes bytes; the maximum is $maximumBytes bytes.',
+    );
+  }
+}
+
 /// Reads the pixel dimensions of [file].
 Future<(int, int)> _imageSize(String magick, File file) async {
+  String value = await _imageProperty(magick, file, '%w %h');
+  List<String> parts = value.split(' ');
+  return (int.parse(parts.first), int.parse(parts.last));
+}
+
+/// Reads a single ImageMagick property from [file].
+Future<String> _imageProperty(
+  String magick,
+  File file,
+  String format,
+) async {
   ProcessResult result = await Process.run(magick, [
     'identify',
     '-format',
-    '%w %h',
+    format,
     file.path,
   ]);
   if (result.exitCode != 0) {
     throw ProcessException(magick, ['identify'], '${result.stderr}'.trim());
   }
-  List<String> parts = '${result.stdout}'.trim().split(' ');
-  return (int.parse(parts.first), int.parse(parts.last));
+  return '${result.stdout}'.trim();
 }
 
 /// Resolves [executable] and fails with an actionable message when absent.
@@ -321,3 +471,8 @@ Future<void> _run(String executable, List<String> arguments) async {
 Directory _repositoryRoot() => File.fromUri(
   Platform.script,
 ).parent.parent.parent;
+
+/// Returns [file]'s path relative to [repository].
+String _relativePath(Directory repository, File file) => file.path.substring(
+  repository.path.length + 1,
+);

@@ -11,6 +11,7 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+store-listings.md
 
 # IntelliJ related
 *.iml
@@ -36,9 +37,10 @@ migrate_working_dir/
 
 # Generated
 *.g.dart
-/screenshots/raw/
-/screenshots/store/
-/social/generated/
+/tool/icons/outputs/
+/tool/screenshots/outputs/
+/tool/social/outputs/
+/tool/website/outputs/
 /docs/public/favicon.ico
 /docs/public/screenshots/
 /docs/public/social/

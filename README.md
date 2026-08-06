@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Take back control, at your pace.</strong><br>
-  A private, judgment-free companion for understanding or changing _cornography_ use.
+  A private, judgment-free companion for understanding or changing <em>cornography</em> use.
 </p>
 
 <p align="center">

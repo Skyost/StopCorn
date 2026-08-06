@@ -6,7 +6,7 @@ import '../artwork/brand_artwork.dart';
 Future<void> main() async {
   Directory repository = _repositoryRoot();
   File logo = File('${repository.path}/assets/branding/logo.svg');
-  Directory output = Directory('${repository.path}/social/generated');
+  Directory output = Directory('${repository.path}/tool/social/outputs');
 
   if (!logo.existsSync()) {
     throw StateError('Missing application logo at ${logo.path}.');
@@ -251,7 +251,7 @@ final class _SocialImageSpec {
   /// Stable identifier used for temporary files.
   final String id;
 
-  /// Output filename under `social/generated`.
+  /// Output filename under `tool/social/outputs`.
   final String fileName;
 
   /// Output width in pixels.

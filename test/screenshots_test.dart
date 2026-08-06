@@ -501,7 +501,7 @@ Future<void> _writeScreenshot({
       }
 
       Directory directory = Directory(
-        'screenshots/raw/${locale.languageCode}/'
+        'tool/screenshots/outputs/raw/${locale.languageCode}/'
         '${storeDevice.spec.platformFolder}/${storeDevice.spec.deviceFolder}',
       );
       await directory.create(recursive: true);
