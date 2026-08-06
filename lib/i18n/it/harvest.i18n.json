@@ -1,0 +1,46 @@
+{
+  "label": "Raccolto",
+  "explanationAction": "Che cos'è?",
+  "cornPoints": {
+    "title": "Corn point",
+    "todayCollected": "Il corn point di oggi è stato raccolto.",
+    "todayAvailable": "Basta un gesto costruttivo per raccogliere il corn point di oggi."
+  },
+  "momentum": {
+    "title": "Serie",
+    "currentMomentum(param=count)": {
+      "one": "Serie attuale: $count giorno di fila.",
+      "other": "Serie attuale: $count giorni di fila."
+    },
+    "bestMomentum(param=count)": {
+      "one": "Serie migliore: $count giorno di fila.",
+      "other": "Serie migliore: $count giorni di fila."
+    },
+    "dayCollected": "Corn point raccolto in questo giorno",
+    "dayNotCollected": "Nessun corn point raccolto in questo giorno",
+    "dayUpcoming": "Giorno futuro"
+  },
+  "reward": {
+    "title": "Corn point raccolto!",
+    "body": "Il tuo gesto costruttivo fa avanzare il tuo raccolto.",
+    "pointsSemantics": "$gain corn point aggiunto. Nuovo totale: $total.",
+    "momentumSemantics(param=total)": {
+      "one": "Serie aumentata di $gain. Nuova serie: $total giorno.",
+      "other": "Serie aumentata di $gain. Nuova serie: $total giorni."
+    },
+    "gain": "+$count",
+    "continueAction": "Continua"
+  },
+  "sheet": {
+    "title": "Come funziona il raccolto?",
+    "intro": "Il raccolto valorizza i gesti che ti aiutano ad andare avanti. Non misura l'astinenza e non giudica mai il risultato di una giornata.",
+    "onePerDay": "Puoi raccogliere al massimo un corn point al giorno. Basta una sola azione costruttiva.",
+    "urge": "Portare a termine un percorso di sostegno conta, qualunque sia il risultato.",
+    "checkIn": "Fare un bilancio quotidiano conta.",
+    "observation": "Annotare onestamente un consumo conta allo stesso modo: la sincerità non viene mai penalizzata.",
+    "learning": "Completare un modulo di apprendimento conta.",
+    "goal": "Creare o aggiornare il tuo obiettivo conta.",
+    "momentumTitle": "E la serie?",
+    "momentumBody": "La serie corrisponde ai giorni coltivati di fila. La giornata in corso resta un periodo di grazia. Se la serie si interrompe, il tuo raccolto non diminuisce mai e tutti i tuoi corn point restano acquisiti."
+  }
+}

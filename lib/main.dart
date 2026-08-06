@@ -27,6 +27,7 @@ Future<void> main() async {
     AppConstants.dailyCheckInNotificationId,
   );
   String? storedLocaleCode = await preferences.getLocale();
+  AppLocaleResolver.registerPluralResolvers();
   await AppLocaleResolver.useStoredOrDevice(storedLocaleCode);
 
   bool reportingAllowed = await preferences.getErrorReportingEnabled();

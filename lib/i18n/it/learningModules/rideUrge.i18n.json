@@ -1,0 +1,46 @@
+{
+  "title": "Attraversare un impulso",
+  "summary": "Crea un po' di spazio prima di scegliere che cosa viene dopo.",
+  "sections": {
+    "delay": {
+      "title": "Concediti un momento",
+      "paragraph1": "Un impulso non richiede una decisione immediata né definitiva.",
+      "paragraph2": "Aspettare un poco ti dà la possibilità di notare se la sua intensità sale, scende o resta stabile. Durante quell'attesa non devi decidere nulla: stai solo osservando.",
+      "paragraph3": "Un'attesa breve che riesci a mantenere è spesso più realistica di una lunga che abbandoni.",
+      "keyPoint1": "Fissa una durata breve, decisa in anticipo.",
+      "keyPoint2": "Durante l'attesa non ti viene chiesta nessuna decisione.",
+      "keyPoint3": "Dopo l'attesa scegli con più informazioni."
+    },
+    "wave": {
+      "title": "Osserva l'onda",
+      "paragraph1": "Un approccio che viene dalla mindfulness, a volte chiamato «surfare l'impulso», consiste nell'osservare la sensazione come un'onda: dove si colloca nel corpo, come cambia, senza cercare di farla sparire.",
+      "paragraph2": "Un intervento breve costruito su questo principio è stato testato con studenti fumatori e ha mostrato risultati incoraggianti sul consumo nei giorni successivi. Lo studio era breve e riguardava un altro comportamento, il che invita alla prudenza.",
+      "paragraph3": "In pratica, osservare in questo modo può offrire un'alternativa al combattere direttamente la sensazione, soprattutto quando sei stanco."
+    },
+    "suppression": {
+      "title": "Non cercare di non pensarci",
+      "paragraph1": "Ripetersi «non devo pensarci» funziona di rado. La ricerca sulla soppressione dei pensieri descrive effetti paradossali: il pensiero sorvegliato spesso torna, a volte più forte.",
+      "paragraph2": "Gli approcci basati sull'accettazione propongono il contrario: lascia che il pensiero ci sia e agisci comunque. Uno studio preliminare a linee di base multiple che ha seguito sei uomini ha osservato una frequenza ridotta dopo questo tipo di intervento. Senza un gruppo di controllo randomizzato, il risultato resta esplorativo.",
+      "paragraph3": "In pratica: non devi vincere una discussione contro la tua mente. Puoi avere il pensiero e fare altro.",
+      "keyPoint1": "Cercare di allontanare un pensiero può farlo tornare.",
+      "keyPoint2": "Lascialo stare e agisci lo stesso.",
+      "keyPoint3": "Concentrati sull'azione che scegli, non sul controllare ogni pensiero."
+    },
+    "concrete": {
+      "title": "Cambia qualcosa di concreto",
+      "paragraph1": "Cambiare stanza, posare il telefono o iniziare un compito piccolissimo può interrompere una risposta automatica.",
+      "paragraph2": "Le cosiddette strategie situazionali agiscono a monte: cambiare la situazione può costare meno fatica che resistere nel momento più intenso.",
+      "paragraph3": "Scegli un'azione abbastanza semplice da restare possibile anche quando hai poca energia: bere un bicchiere d'acqua, uscire dalla porta, mettere una canzone."
+    },
+    "expectations": {
+      "title": "Non pretendere che sparisca",
+      "paragraph1": "Una strategia può essere utile anche quando la sensazione non sparisce subito. Nello studio con studenti fumatori, i due gruppi non differivano per l'intensità delle voglie provate; a differire era quanto fumavano nei giorni successivi.",
+      "paragraph2": "L'obiettivo è allenare la capacità di scegliere, non ottenere un risultato perfetto ogni volta. Un tentativo che non ha «funzionato» ti insegna comunque qualcosa sul momento in cui l'hai provato.",
+      "paragraph3": "La stessa strategia non va bene in ogni contesto. Puoi tenerne due o tre a disposizione invece di contare su una sola.",
+      "keyPoint1": "Il successo è aver scelto, non aver smesso di sentire.",
+      "keyPoint2": "Prepara più strategie semplici.",
+      "keyPoint3": "Annota quale ti ha aiutato e in quale contesto."
+    }
+  },
+  "reflectionPrompt": "Quale strategia realistica potresti provare nel prossimo momento difficile?"
+}

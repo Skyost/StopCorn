@@ -1,0 +1,43 @@
+{
+  "title": "Mappa il tuo terreno",
+  "summary": "Individua le situazioni che ricorrono nelle tue osservazioni.",
+  "sections": {
+    "states": {
+      "title": "Orari e stati",
+      "paragraph1": "L'orario e il luogo possono diventare segnali di contesto ricorrenti. Anche lo stress, la noia o il tentativo di prendere le distanze da un'emozione difficile possono comparire nelle tue osservazioni.",
+      "paragraph2": "Uno studio di campionamento dell'esperienza ha rilevato che i desideri quotidiani sono frequenti e spesso legati a ciò che la persona sta facendo in quel momento. Provare voglie con regolarità non è quindi di per sé un segno di problema.",
+      "paragraph3": "Tratta queste ripetizioni come ipotesi, non come cause: più osservazioni nel tempo dicono più di una coincidenza.",
+      "keyPoint1": "Annota l'orario, il luogo e lo stato, non il contenuto.",
+      "keyPoint2": "Cerca uno schema nell'arco di più giorni.",
+      "keyPoint3": "Una voglia frequente non è una diagnosi."
+    },
+    "motives": {
+      "title": "Le ragioni dietro il consumo",
+      "paragraph1": "Uno studio sulle motivazioni al consumo ne ha individuate diverse molto differenti: piacere sessuale, curiosità, noia, fantasia, riduzione dello stress o evitamento di un'emozione.",
+      "paragraph2": "In quel lavoro, diversi motivi legati alla gestione di una difficoltà — ridurre lo stress, distrarsi da un'emozione o rispondere alla noia — si associavano a un uso problematico, così come la fantasia e il piacere sessuale. Tutte queste associazioni sono rimaste da deboli a moderate.",
+      "paragraph3": "Individuare il tuo motivo principale cambia il resto del piano: una noia ripetuta non chiede la stessa risposta di una serata stressante o di un momento di solitudine."
+    },
+    "routines": {
+      "title": "Dispositivi e routine",
+      "paragraph1": "Un dispositivo disponibile nello stesso posto e alla stessa ora può favorire una risposta automatica.",
+      "paragraph2": "La ricerca sulla formazione delle abitudini mostra che la ripetizione in un contesto stabile rafforza l'automatismo, con grandi differenze tra persone e comportamenti: non esiste un numero fisso di giorni dopo il quale un'abitudine sia semplicemente «acquisita».",
+      "paragraph3": "Se le tue note mostrano che i social o una routine serale vengono spesso prima, consideralo uno schema utile, non per forza l'unica causa."
+    },
+    "emotions": {
+      "title": "Le emozioni come riferimento",
+      "paragraph1": "Dare un nome all'emozione presente appena prima di un impulso spesso dice più che dare un nome all'impulso stesso.",
+      "paragraph2": "Una meta-analisi sulla regolazione emotiva e sui sintomi dei disturbi d'ansia, depressivi, alimentari e da uso di sostanze osserva che le strategie di evitamento e di soppressione si associano a maggiori difficoltà, mentre la risoluzione dei problemi e la rivalutazione si associano a minori difficoltà.",
+      "paragraph3": "Questi risultati descrivono tendenze di gruppo. Non significano che il tuo modo di far fronte sia colpevole: suggeriscono soprattutto di ampliare la gamma di risposte a tua disposizione.",
+      "keyPoint1": "Dai un nome all'emozione prima di giudicare il comportamento.",
+      "keyPoint2": "Ampliare le risposte è meglio che vietarne una.",
+      "keyPoint3": "Bastano tre parole: quando, dove, quale stato."
+    },
+    "map": {
+      "title": "Una mappa, non un verdetto",
+      "paragraph1": "Mappare il tuo terreno ti aiuta a preparare delle opzioni. Non significa evitare ogni situazione difficile.",
+      "paragraph2": "Una mappa troppo dettagliata può diventare difficile da usare. Puoi iniziare da due o tre situazioni ricorrenti per costruire un piano realistico.",
+      "paragraph3": "Bastano poche osservazioni generali; nessun dettaglio esplicito o cronologia di navigazione è utile."
+    }
+  },
+  "reflectionPrompt": "Quale situazione compare più spesso nelle tue osservazioni?"
+}

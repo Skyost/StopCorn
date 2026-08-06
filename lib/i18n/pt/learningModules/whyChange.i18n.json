@@ -1,0 +1,46 @@
+{
+  "title": "Por que mudar?",
+  "summary": "Esclareça o que você quer recuperar ou proteger.",
+  "sections": {
+    "direction": {
+      "title": "Um objetivo que pertence a você",
+      "paragraph1": "A mudança se sustenta melhor quando o rumo escolhido reflete o que realmente importa para você, e não apenas uma expectativa externa.",
+      "paragraph2": "A pesquisa sobre motivação autodeterminada aponta na mesma direção: em contextos de saúde, as razões vividas como pessoais estão associadas a um engajamento mais duradouro do que a pressão externa, o medo do julgamento ou a vergonha.",
+      "paragraph3": "Você pode querer parar, reduzir, evitar certas situações ou simplesmente começar observando. Nenhum destes objetivos define o seu valor, e você tem o direito de rever a sua escolha pelo caminho.",
+      "keyPoint1": "Escreva o seu objetivo com as suas palavras, não com as de um fórum.",
+      "keyPoint2": "As razões pessoais tendem a sustentar a mudança de forma mais duradoura.",
+      "keyPoint3": "Começar pela observação é um objetivo válido."
+    },
+    "benefits": {
+      "title": "O que você quer recuperar",
+      "paragraph1": "Tente nomear o que gostaria de recuperar: tempo, espaço mental, sono, uma relação mais tranquila ou a sensação de que é você quem escolhe.",
+      "paragraph2": "Quanto mais concreta é a razão, mais utilizável ela continua quando o impulso é forte. «Estar na cama antes da meia-noite em três noites esta semana» dá um marco que «me sentir melhor» não oferece.",
+      "paragraph3": "Você também pode nomear o que simplesmente quer proteger: uma relação, a confiança ou a sua capacidade de estar presente. Proteger algo é uma razão tão válida quanto reparar algo.",
+      "keyPoint1": "Escreva uma razão, numa única frase no presente.",
+      "keyPoint2": "Escolha um marco que você mesmo possa verificar.",
+      "keyPoint3": "Deixe-o à mão para os momentos difíceis."
+    },
+    "ambivalence": {
+      "title": "Querer e não querer ao mesmo tempo",
+      "paragraph1": "Querer mudar e ao mesmo tempo não ter vontade é comum. Essa ambivalência não é falta de sinceridade: ela acompanha quase toda mudança de hábito.",
+      "paragraph2": "Nos estudos sobre entrevista motivacional, certas formas de discurso a favor da mudança e de discurso a favor de manter o comportamento estão associadas ao comportamento posterior. As ligações variam, porém, conforme o tipo de afirmação e às vezes são instáveis.",
+      "paragraph3": "Colocar no papel os dois lados — o que este hábito traz para você e o que ele custa — pode ajudar a escutar essa ambivalência sem tentar silenciar nenhum dos lados."
+    },
+    "gap": {
+      "title": "Da intenção à ação",
+      "paragraph1": "Decidir com firmeza nem sempre basta. As revisões sobre a distância entre intenção e comportamento mostram que uma intenção claramente reforçada se traduz, em média, numa mudança de comportamento mais modesta.",
+      "paragraph2": "Não é um motivo para desistir, e sim para se preparar: o que faz a diferença costuma estar nos planos concretos e no ambiente, mais do que na intensidade da decisão.",
+      "paragraph3": "Vários dos módulos seguintes tratam justamente dessa preparação: identificar as situações recorrentes, atravessar um impulso, ajustar o seu ambiente.",
+      "keyPoint1": "Uma decisão firme não substitui um plano concreto.",
+      "keyPoint2": "Prepare a situação, não apenas a intenção.",
+      "keyPoint3": "Um plano escrito continua disponível quando a motivação cai."
+    },
+    "changes": {
+      "title": "A motivação muda",
+      "paragraph1": "A motivação varia de um dia para o outro. Essa variação não é um fracasso nem a prova de que o seu objetivo está errado.",
+      "paragraph2": "O cansaço, o estresse, o isolamento ou um dia difícil podem reduzi-la sem mudar nada do que importa para você.",
+      "paragraph3": "Quando ela cai, uma pequena ação preparada com antecedência pode assumir o lugar. Às vezes basta reler a razão que você escreveu para atravessar um momento sem energia."
+    }
+  },
+  "reflectionPrompt": "O que você gostaria de recuperar ou proteger ao mudar este hábito?"
+}

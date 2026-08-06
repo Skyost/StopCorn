@@ -1,0 +1,43 @@
+{
+  "title": "Wiederaufbauen, was zählt",
+  "summary": "Füll den frei gewordenen Raum mit Handlungen, die dir etwas bedeuten.",
+  "sections": {
+    "vacuum": {
+      "title": "Plane, was an die Stelle tritt",
+      "paragraph1": "Eine Gewohnheit wegzunehmen macht Zeit und Aufmerksamkeit frei und manchmal auch eine Art, einen schwierigen Abend zu beruhigen. Tritt nichts an diese Stelle, füllt sie sich meist mit dem, was am leichtesten erreichbar ist.",
+      "paragraph2": "Ein Plan, der nur aus Verboten besteht, kann deshalb an Kraft verlieren: Er beschreibt, was du nicht mehr tust, nie das, was du tust.",
+      "paragraph3": "Die nützliche Frage lautet also nicht nur „wie höre ich auf?“, sondern „was setze ich dort ein, ganz konkret, am Dienstag um 22 Uhr?“",
+      "keyPoint1": "Schreib deinen Plan als Handlungen, nicht nur als Verbote.",
+      "keyPoint2": "Plane für genau den Moment, der frei wird.",
+      "keyPoint3": "Mach die Alternative leicht erreichbar."
+    },
+    "activation": {
+      "title": "Handeln, bevor du Lust hast",
+      "paragraph1": "Oft warten wir auf Motivation, bevor wir handeln. Die Verhaltensaktivierung schlägt die umgekehrte Reihenfolge vor: Aktivitäten einplanen und dann beobachten, dass die Stimmung zumindest teilweise folgt.",
+      "paragraph2": "Eine Metaanalyse bei Depression beobachtete, dass diese strukturierten Aktivitätsprogramme Wirkungen erzielten, die mit anderen etablierten psychologischen Behandlungen vergleichbar sind. Diese Arbeit betrifft Depression, nicht speziell diese Gewohnheit, doch das Prinzip bleibt aufschlussreich.",
+      "paragraph3": "In der Praxis: Setz die Aktivität wie einen Termin in deine Woche, ohne am Tag selbst auf Lust zu warten."
+    },
+    "values": {
+      "title": "Handlungen, die mit dem verbunden sind, was dir wichtig ist",
+      "paragraph1": "Eine Aktivität, die mit etwas Wichtigem verbunden ist – einer Beziehung, einer Fähigkeit, deiner Gesundheit oder etwas, das du erschaffst –, lässt sich leichter wieder wählen.",
+      "paragraph2": "Akzeptanz- und Commitment-Therapien arbeiten ausdrücklich in diese Richtung, und Übersichtsarbeiten berichten Wirkungen bei verschiedenen psychischen Problemen. Eine kleine Vorstudie wandte diesen Ansatz auch auf problematischen Gebrauch von Online-Pornografie an: Die bei sechs Teilnehmenden beobachteten Ergebnisse waren ermutigend, müssen aber noch in kontrollierten Studien bestätigt werden.",
+      "paragraph3": "Eine gute Einstiegsfrage: Wenn diese Schwierigkeit weniger Raum einnähme, wofür würdest du diese Zeit nutzen?",
+      "keyPoint1": "Verknüpfe jede Handlung mit einem Wert, nicht mit einer Leistung.",
+      "keyPoint2": "Wähle eine Aktivität, die zu dir passt.",
+      "keyPoint3": "Ziel ist Bedeutung, nicht Beschäftigung."
+    },
+    "small": {
+      "title": "Klein genug für einen schlechten Tag",
+      "paragraph1": "Eine Alternative nützt nur, wenn sie möglich bleibt, wenn du müde, gereizt oder allein bist. Genau in diesen Zuständen wirst du sie brauchen.",
+      "paragraph2": "Du kannst zwei Formate vorsehen: eine vollständige Fassung für gute Tage und eine minimale für die übrigen. Ein kurzer Spaziergang statt eines Trainings, eine gelesene Seite statt eines Kapitels.",
+      "paragraph3": "Die minimale Fassung ist keine gescheiterte vollständige. Sie ist das, was den ganzen Plan davor bewahrt, stehen zu bleiben."
+    },
+    "people": {
+      "title": "Nicht alles allein tragen",
+      "paragraph1": "Diese Schwierigkeit ganz für sich zu behalten kann Isolation oder Scham verstärken und Unterstützung genau dann schwerer zugänglich machen, wenn sie helfen würde.",
+      "paragraph2": "Du musst nicht alles erzählen, um Verbindung zu schaffen. Eine regelmäßig geteilte Aktivität kann schon Gesellschaft und Halt geben, ohne dass du das Thema erklären musst.",
+      "paragraph3": "Wenn du dich entscheidest, mit jemandem zu sprechen, wähle eine Person, von der du Unterstützung erwartest, kein Urteil über deinen Wert."
+    }
+  },
+  "reflectionPrompt": "Welche Aktivität soll in deiner Woche mehr Raum einnehmen?"
+}

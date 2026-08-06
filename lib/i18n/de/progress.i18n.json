@@ -1,0 +1,157 @@
+{
+  "subtitle": "Beschreibende Anhaltspunkte, die allein aus dem entstehen, was du festhalten wolltest.",
+  "error": {
+    "load": "Die Fortschrittsdaten konnten nicht geladen werden."
+  },
+  "overview": {
+    "title": "Überblick",
+    "events(param=count)": {
+      "one": "festgehaltener Konsum",
+      "other": "festgehaltene Konsumereignisse"
+    },
+    "daysWithout(param=count)": {
+      "one": "Tag ohne festgehaltenen Konsum",
+      "other": "Tage ohne festgehaltenen Konsum"
+    },
+    "completedUrges(param=count)": {
+      "one": "abgeschlossene Unterstützungssitzung",
+      "other": "abgeschlossene Unterstützungssitzungen"
+    },
+    "averageDecrease": "durchschnittlicher Rückgang der Intensität",
+    "notEnough": "Noch nicht genug Daten",
+    "decreaseDetail": "Der Unterschied zwischen der Intensität am Anfang und am Ende",
+    "goal": {
+      "abstinence(param=count)": {
+        "one": "$count Konsum wurde im gewählten Zeitraum freiwillig festgehalten. Fehlende Beobachtungen belegen nie, dass nichts passiert ist.",
+        "other": "$count Konsumereignisse wurden im gewählten Zeitraum freiwillig festgehalten. Fehlende Beobachtungen belegen nie, dass nichts passiert ist."
+      },
+      "reduction(param=count)": {
+        "one": "Diese Woche: $count festgehaltenes Ereignis bei einer gewünschten Grenze von $limit.",
+        "other": "Diese Woche: $count festgehaltene Ereignisse bei einer gewünschten Grenze von $limit."
+      },
+      "contextual(param=count)": {
+        "one": "$count festgehaltenes Ereignis entsprach im gewählten Zeitraum einer deiner geschützten Situationen: $contexts.",
+        "other": "$count festgehaltene Ereignisse entsprachen im gewählten Zeitraum einer deiner geschützten Situationen: $contexts."
+      },
+      "observation(param=count)": {
+        "one": "$count freiwilliger Anhaltspunkt wurde im gewählten Zeitraum festgehalten. Jede ehrliche Beobachtung hilft, Muster sichtbar zu machen.",
+        "other": "$count freiwillige Anhaltspunkte wurden im gewählten Zeitraum festgehalten. Jede ehrliche Beobachtung hilft, Muster sichtbar zu machen."
+      }
+    },
+    "empty": "Noch nicht genug Daten. Ein paar Anhaltspunkte genügen, damit Tendenzen sichtbar werden."
+  },
+  "events": {
+    "title": "Entwicklung der Ereignisse",
+    "weeklyTitle": "Wöchentliche Entwicklung",
+    "empty": "In diesem Zeitraum wurde kein Ereignis festgehalten.",
+    "weekOf": "Woche vom $date",
+    "summary(param=count)": {
+      "one": "$count freiwillig festgehaltenes Ereignis, nach Wochen gruppiert.",
+      "other": "$count freiwillig festgehaltene Ereignisse, nach Wochen gruppiert."
+    }
+  },
+  "urges": {
+    "title(rich)": "Verlangen nach $corn",
+    "averageIntensity": "Durchschnittliche Intensität",
+    "empty": "Noch nicht genug abgeschlossene Sitzungen mit einer Endintensität.",
+    "initial": "Anfang",
+    "observationHours": "Uhrzeiten der Beobachtungen",
+    "noHours": "Für eine Unterstützungssitzung oder ein Ereignis wurde keine Uhrzeit festgehalten.",
+    "comparison": {
+      "unavailable": "Noch nicht genug Daten, um Anfang und Ende der Unterstützungsabläufe zu vergleichen.",
+      "decrease(param=count)": {
+        "one": "Die Intensität ist während vollständiger Sitzungen um durchschnittlich $value Punkt gesunken.",
+        "other": "Die Intensität ist während vollständiger Sitzungen um durchschnittlich $value Punkte gesunken."
+      },
+      "increase(param=count)": {
+        "one": "Die Intensität ist während vollständiger Sitzungen um durchschnittlich $value Punkt gestiegen.",
+        "other": "Die Intensität ist während vollständiger Sitzungen um durchschnittlich $value Punkte gestiegen."
+      }
+    },
+    "hourSummary": "Der Zeitraum $label enthält die meisten festgehaltenen Beobachtungen.",
+    "timeBucket": {
+      "midnight": "$start:00 – Mitternacht",
+      "range": "$start:00 – $end:00"
+    },
+    "finalLabel": "Ende"
+  },
+  "patterns": {
+    "title": "Auslöser und Emotionen",
+    "triggers": {
+      "title": "Am häufigsten festgehaltene Auslöser",
+      "kind": "Auslöser",
+      "empty": "Es wurde noch kein Auslöser festgehalten."
+    },
+    "emotions": {
+      "title": "Am häufigsten festgehaltene Emotionen",
+      "kind": "Emotion",
+      "empty": "Es wurde noch keine Emotion festgehalten."
+    },
+    "rankingSummary": "$label ist in diesem Zeitraum der am häufigsten festgehaltene Eintrag ($kind)."
+  },
+  "strategies": {
+    "title": "Strategien",
+    "effectiveness": "Empfundene Wirksamkeit",
+    "empty": "In diesem Zeitraum wurde keine Strategie bewertet. Die Skala reicht von −5 bis +5.",
+    "evaluations(param=count)": {
+      "one": "$effect ($count Bewertung)",
+      "other": "$effect ($count Bewertungen)"
+    },
+    "threshold": "Nutze und bewerte eine Strategie mindestens dreimal, um einen verlässlicheren Anhaltspunkt zu bekommen.",
+    "best": "$strategy ist die am besten bewertete Strategie unter denen, die mindestens dreimal genutzt wurden."
+  },
+  "checkIns": {
+    "title": "Rückblicke",
+    "count(param=count)": {
+      "one": "täglicher Rückblick",
+      "other": "tägliche Rückblicke"
+    },
+    "averageMood": "durchschnittliche Stimmung",
+    "averageControl": "durchschnittliche Kontrolle",
+    "outOfTen": "Von 10"
+  },
+  "comparison": {
+    "unavailable": "Noch nicht genug vergleichbare Daten",
+    "stable": "Stabil im Vergleich zum vorherigen Zeitraum",
+    "value": "$value % $direction als im vorherigen Zeitraum",
+    "more": "mehr",
+    "less": "weniger"
+  },
+  "startingPoint": {
+    "sectionTitle": "Vergleich mit meinem Ausgangspunkt",
+    "screenTitle": "Mein Ausgangspunkt",
+    "intro": "Diese Antworten wurden bei deiner ersten Einrichtung festgehalten. Sie sind ein persönlicher Bezugspunkt, keine Diagnose.",
+    "recordedOn": "Erste Bestandsaufnahme festgehalten am $date.",
+    "goalTitle": "Dein anfängliches Ziel",
+    "goalUnavailable": "Dein anfängliches Ziel ist nicht mehr verfügbar.",
+    "weeklyLimit": "Gewünschte Grenze: $count pro Woche",
+    "contexts": "Gewählte Situationen: $contexts",
+    "motivationTitle": "Deine anfängliche Motivation",
+    "markersTitle": "Deine anfänglichen Anhaltspunkte",
+    "frequency": "Ungefähre Häufigkeit in den 7 Tagen davor",
+    "frequencyValue": "$count in 7 Tagen",
+    "control": "Gefühl von Kontrolle",
+    "impact": "Empfundene negative Auswirkung",
+    "confidence": "Zuversicht, dass du etwas ändern kannst",
+    "score": "$value / 10",
+    "disclaimer": "Diese Werte geben nur wieder, wie du dich zum Zeitpunkt der ersten Bestandsaufnahme gefühlt hast.",
+    "comparison": {
+      "intro": "Vergleich mit den Beobachtungen aus dem gewählten Zeitraum.",
+      "control": "Gefühl von Kontrolle",
+      "initial": "Anfang",
+      "finalLabel": "Ende",
+      "controlDetail(param=count)": {
+        "one": "Durchschnitt aus $count täglichem Rückblick berechnet.",
+        "other": "Durchschnitt aus $count täglichen Rückblicken berechnet."
+      },
+      "controlPending": "Für einen Vergleich sind mindestens fünf tägliche Rückblicke nötig.",
+      "frequency": "Wöchentliche Häufigkeit",
+      "frequencyPending": "Für einen Vergleich ist eine vollständige Beobachtungswoche nötig.",
+      "frequencyDetail": "Der aktuelle Wert zählt nur die Konsumereignisse, die du festhalten wolltest, und kann daher von der tatsächlichen Häufigkeit abweichen.",
+      "open": "Meinen Ausgangspunkt ansehen"
+    },
+    "empty": "Es ist keine erste Bestandsaufnahme verfügbar.",
+    "error": "Dein Ausgangspunkt konnte nicht geladen werden."
+  },
+  "harvest": "Ernte"
+}

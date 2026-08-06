@@ -1,0 +1,49 @@
+{
+  "title": "Prepara il tuo ambiente",
+  "summary": "Aggiungi attrito e rendi più facili le azioni che hai scelto.",
+  "sections": {
+    "friction": {
+      "title": "Ridurre l'accesso automatico",
+      "paragraph1": "Lasciare il telefono fuori dalla camera, porre limiti di tempo o usare la modalità di concentrazione del sistema può aggiungere un attrito voluto.",
+      "paragraph2": "Non si tratta di rendere qualcosa impossibile, ma di aggiungere qualche secondo tra l'impulso e l'azione. Quei secondi possono creare lo spazio perché scegliere torni possibile.",
+      "paragraph3": "L'attrito utile è quello che accetti. Se aggiri una configurazione quasi subito, prova un'impostazione più realistica invece di farne un motivo per sentirti fallito.",
+      "keyPoint1": "Punta a qualche secondo di ritardo, non all'impossibilità.",
+      "keyPoint2": "Scegli un attrito che sei disposto a mantenere.",
+      "keyPoint3": "Adatta l'attrito che aggiri in fretta."
+    },
+    "avoid": {
+      "title": "Evitare costa meno che resistere",
+      "paragraph1": "Uno studio longitudinale ha osservato che le persone che raggiungevano meglio i propri obiettivi non erano quelle che resistevano di più, ma quelle che incontravano meno tentazioni.",
+      "paragraph2": "In altre parole, l'autocontrollo si gioca spesso a monte: nel modo in cui la giornata e lo spazio sono organizzati, più che nel momento critico.",
+      "paragraph3": "Questo toglie anche un po' di colpa: dover riorganizzare il proprio ambiente non è un'ammissione di debolezza. È una strategia coerente con questi risultati."
+    },
+    "ifThen": {
+      "title": "Piani «se… allora…»",
+      "paragraph1": "Una meta-analisi che copre numerosi studi ha mostrato che formulare un piano concreto — «se si presenta questa situazione, allora farò questa azione» — migliora il raggiungimento degli obiettivi rispetto alla sola intenzione.",
+      "paragraph2": "La precisione conta: la situazione deve essere riconoscibile e l'azione immediatamente fattibile. «Se sono a letto con il telefono dopo le 23, allora lo rimetto sulla scrivania» è più concreto di «starò attento la sera».",
+      "paragraph3": "Puoi iniziare con due o tre piani che corrispondono alle tue situazioni più frequenti.",
+      "keyPoint1": "Scrivi la situazione scatenante, non solo l'obiettivo.",
+      "keyPoint2": "Scegli un'azione che puoi iniziare subito.",
+      "keyPoint3": "Inizia con due o tre piani."
+    },
+    "moments": {
+      "title": "Preparare i momenti vulnerabili",
+      "paragraph1": "Se le serate di stanchezza ricorrono nelle tue osservazioni, preparare una routine semplice o mettere in carica un dispositivo altrove può facilitare la scelta desiderata.",
+      "paragraph2": "Prepara quei momenti mentre non stanno accadendo: decidere in anticipo può costare meno fatica che scegliere in piena difficoltà.",
+      "paragraph3": "Se certi account o social precedono spesso i momenti difficili, puoi regolare l'accesso senza dover eliminare tutto."
+    },
+    "alternative": {
+      "title": "Rendere visibile l'alternativa",
+      "paragraph1": "Prepara un'azione sostitutiva accessibile: un libro a portata di mano, una breve passeggiata o un compito scelto in anticipo.",
+      "paragraph2": "Togliere qualcosa lascia un vuoto, e un vuoto raramente si riempie da solo nella direzione giusta. L'alternativa dovrebbe essere almeno tanto raggiungibile quanto ciò che hai tolto.",
+      "paragraph3": "Il tuo ambiente funziona meglio quando sostiene un'intenzione precisa."
+    },
+    "limits": {
+      "title": "Ciò che un filtro non fa",
+      "paragraph1": "Un blocco può completare un piano, ma non risolve da solo una difficoltà: agisce sull'accesso, non sulla situazione, sull'emozione o sull'abitudine che sono venute prima.",
+      "paragraph2": "Gli strumenti basati sul monitoraggio da parte di terzi sollevano inoltre questioni di riservatezza e di fiducia. StopCorn non accede alla tua attività né alla tua cronologia di navigazione e non trasmette dati di navigazione web.",
+      "paragraph3": "Uno strumento tecnico funziona meglio come sostegno a un piano che come suo sostituto."
+    }
+  },
+  "reflectionPrompt": "Quale cambiamento nel tuo ambiente potresti fare oggi?"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Nach einem Rückfall weitermachen",
+  "summary": "Mach aus einem Ereignis nützliche Information, ohne Bewertung.",
+  "sections": {
+    "perspective": {
+      "title": "Raus aus dem „jetzt ist alles kaputt“",
+      "paragraph1": "Ein „Ausrutscher“ meint hier ein Ereignis, das nicht zu dem Ziel passt, das du gewählt hast. Er löscht die Pausen, Entscheidungen und Beobachtungen nicht, die du bereits gemacht hast.",
+      "paragraph2": "In einer Studie zur Rauchentwöhnung sagten die meisten Reaktionen, die unter dem Abstinenzverletzungseffekt zusammengefasst werden, keinen Rückfall voraus. Der Wunsch aufzugeben nach dem Ausrutscher ging dagegen mit einem schnelleren Weg zum zweiten Ausrutscher einher.",
+      "paragraph3": "Teilnehmende, die nach dem Ausrutscher eine wiederherstellende Reaktion versuchten, hatten seltener noch einen am selben Tag. Da die Studie das Rauchen betraf, ist das eher ein nützlicher Hinweis als eine Regel für deine Lage.",
+      "keyPoint1": "Ein Ausrutscher und eine dauerhafte Rückkehr sind zweierlei.",
+      "keyPoint2": "Eine wiederherstellende Reaktion kann helfen, den Faden aufzunehmen.",
+      "keyPoint3": "Nimm den laufenden Plan wieder auf, statt bei null anzufangen."
+    },
+    "compassion": {
+      "title": "Selbstmitgefühl ist keine Nachsicht",
+      "paragraph1": "Viele fürchten, nachsichtig mit sich zu sein käme dem Aufgeben gleich. Experimente legen das Gegenteil nahe: Nach einem Misserfolg ging eine freundliche Haltung sich selbst gegenüber mit mehr Anstrengung einher, es besser zu machen.",
+      "paragraph2": "Ein strukturiertes Trainingsprogramm für Selbstmitgefühl zeigte in einer kontrollierten Studie ebenfalls Wirkungen auf das Wohlbefinden, durchgeführt an einer kleinen, überwiegend weiblichen Stichprobe. Selbstmitgefühl ist damit eher eine Fähigkeit, die man übt, als ein festes Persönlichkeitsmerkmal.",
+      "paragraph3": "Eine einfache Formulierung: Sprich mit dir so, wie du mit jemandem sprechen würdest, den du achtest und der gerade dasselbe erlebt hat."
+    },
+    "adjust": {
+      "title": "Anpassen statt bestrafen",
+      "paragraph1": "Schau, was davor war: Uhrzeit, Müdigkeit, Emotion, Gerät oder allgemeiner Zusammenhang.",
+      "paragraph2": "Wähle dann eine begrenzte Anpassung. Bestrafung oder ein unrealistisches Ziel liefern selten nützliche Informationen.",
+      "paragraph3": "Ein Ausrutscher ist auch ein Datenpunkt: Er zeigt eine Stelle im Plan, die noch nicht abgedeckt war. Das ist unangenehm, aber brauchbar.",
+      "keyPoint1": "Such die Situation, nicht die Schuld.",
+      "keyPoint2": "Fang mit einer begrenzten Anpassung an.",
+      "keyPoint3": "Das Ziel nach einem Ausrutscher zu verschärfen macht es selten tragfähiger."
+    },
+    "plan": {
+      "title": "Eine Fähigkeit, kein Schicksal",
+      "paragraph1": "Ansätze zur Rückfallprävention rechnen mit der Möglichkeit eines Ausrutschers und schlagen vor, deine Reaktion im Voraus vorzubereiten, statt allein darauf zu hoffen, dass er ausbleibt.",
+      "paragraph2": "Übersichtsarbeiten zu diesen Programmen zeigen insgesamt günstige Wirkungen auf süchtige Verhaltensweisen, mit Ergebnissen, die je nach Substanz und Vorgehen schwanken.",
+      "paragraph3": "Du kannst drei Zeilen vorbereiten: was ich nach dem Ausrutscher tue, wem ich schreiben kann und was ich in meinem Plan ansehe, bevor ich irgendetwas schlussfolgere."
+    },
+    "help": {
+      "title": "Wissen, wann man um Hilfe bittet",
+      "paragraph1": "Wenn der Kontrollverlust anhält, starkes Leiden verursacht oder deutliche Folgen hat, kann ein Gespräch mit einer qualifizierten Fachperson helfen.",
+      "paragraph2": "Neuere Übersichtsarbeiten betreffen vor allem kognitiv-verhaltenstherapeutische und akzeptanzbasierte Ansätze. Sie berichten ermutigende Ergebnisse, doch die Studienqualität ist oft gering und das Verzerrungsrisiko hoch, sodass sich die Wirksamkeit noch nicht mit Sicherheit feststellen lässt.",
+      "paragraph3": "Um Hilfe zu bitten kann Teil des Plans sein; es schmälert die bisherigen Fortschritte nicht."
+    }
+  },
+  "reflectionPrompt": "Welche nützliche Information kannst du aus dem letzten Ereignis ziehen, ohne dich zu verurteilen?"
+}

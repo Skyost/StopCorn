@@ -1,0 +1,62 @@
+{
+  "history": {
+    "title": "Tagebuch",
+    "intro": "Hier findest du die Konsumereignisse, Unterstützungssitzungen und täglichen Rückblicke, die du festgehalten hast, nach Datum gruppiert.",
+    "error": "Das Tagebuch konnte nicht geladen werden.",
+    "empty": {
+      "title": "Dein Tagebuch ist noch leer",
+      "body": "Konsumereignisse und Rückblicke, die du festhältst, erscheinen hier."
+    },
+    "date": {
+      "today": "Heute",
+      "yesterday": "Gestern"
+    },
+    "entry": {
+      "consumption": "Konsum",
+      "checkIn": "Täglicher Rückblick",
+      "time": "Um $time",
+      "checkInSummary": "Stimmung: $mood/10 · Kontrolle: $control/10",
+      "noText": "Kein Kontext und keine Notiz.",
+      "entries(param=count)": {
+        "zero": "Keine Einträge",
+        "one": "$count Eintrag",
+        "other": "$count Einträge"
+      },
+      "urge": "Unterstützungssitzung",
+      "urgeSummary": "Intensität $initial → $finalValue",
+      "urgeSummaryPartial": "Anfangsintensität $initial"
+    },
+    "details": {
+      "cornUrges(plural, param=count, rich)": {
+        "zero": "kein Verlangen nach $corn",
+        "one": "$count Verlangen nach $corn",
+        "other": "$count Verlangen nach $corn"
+      },
+      "initialIntensity": "Anfangsintensität",
+      "finalIntensity": "Intensität am Ende",
+      "outcome": "Ausgang",
+      "strategy": "Ausprobierte Handlung",
+      "pause": "Geführte Pause",
+      "pauseSeconds(param=count)": {
+        "one": "$count Sekunde",
+        "other": "$count Sekunden"
+      },
+      "reflection": "Deine Reflexion"
+    }
+  },
+  "edit": {
+    "action": "Korrigieren"
+  },
+  "delete": {
+    "action": "Löschen",
+    "title": "Diesen Eintrag löschen?",
+    "consumption": "Dieser Eintrag und seine private Notiz werden endgültig aus deinem Tagebuch entfernt. Deine Statistiken werden ohne ihn neu berechnet.",
+    "checkIn": "Dieser tägliche Rückblick und seine private Notiz werden endgültig aus deinem Tagebuch entfernt. Deine Statistiken werden ohne ihn neu berechnet.",
+    "urge": "Diese Unterstützungssitzung und die am Ende geschriebene Reflexion werden endgültig entfernt. Die dabei ausprobierte Strategie zählt nicht mehr; ein daraus festgehaltener Konsum bleibt erhalten.",
+    "irreversible": "Das lässt sich nicht rückgängig machen.",
+    "confirm": "Endgültig löschen"
+  },
+  "error": {
+    "delete": "Dieser Eintrag konnte nicht gelöscht werden. Es wurde nichts verändert."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "StopCorn",
+  "logoSemantics": "Logo StopCorn a forma di pannocchia",
+  "urgeCueSemantics": "questo contenuto",
+  "loading": "Caricamento…",
+  "retry": "Riprova",
+  "cancel": "Annulla",
+  "close": "Chiudi",
+  "continueLabel": "Continua",
+  "back": "Indietro",
+  "backHome": "Torna alla home",
+  "save": "Salva",
+  "saving": "Salvataggio…",
+  "noChoice": "Nessuna scelta",
+  "unknown": "Sconosciuto",
+  "minutes": "$count min",
+  "notMedicalDisclaimer": "StopCorn non è uno strumento medico. Non formula diagnosi e non sostituisce un professionista della salute. Se questo comportamento provoca una forte sofferenza, una perdita di controllo persistente o conseguenze importanti nella tua vita, parlarne con un professionista qualificato può essere utile.",
+  "technicalDetails": {
+    "show": "Mostra i dettagli tecnici",
+    "hide": "Nascondi i dettagli tecnici"
+  },
+  "splash": {
+    "preparing": "Preparazione di StopCorn…",
+    "error": "StopCorn non è riuscito ad avviarsi. I tuoi dati non sono stati modificati."
+  },
+  "score": {
+    "unanswered": "Facoltativo — senza risposta",
+    "outOfTen": "$value / 10",
+    "clear": "Cancella $label",
+    "unansweredSemantics": "$label: senza risposta",
+    "answeredSemantics": "$label: $value su 10"
+  },
+  "moduleNumber": "Modulo n. $order"
+}

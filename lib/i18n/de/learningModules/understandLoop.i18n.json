@@ -1,0 +1,49 @@
+{
+  "title": "Den Kreislauf verstehen",
+  "summary": "Erkenne die Stufen, die eine Gewohnheit am Laufen halten können.",
+  "sections": {
+    "sequence": {
+      "title": "Eine Abfolge zum Beobachten",
+      "paragraph1": "Eine Gewohnheit lässt sich manchmal so beschreiben: Situation → Emotion → Impuls → Verhalten → unmittelbare Wirkung oder Erleichterung → Folgen.",
+      "paragraph2": "Das ist ein praktisches Beobachtungsmodell, keine für alle nachgewiesene Abfolge. Manche Stufen laufen sehr schnell ab oder sind schwer zu bemerken.",
+      "paragraph3": "Sie auszubreiten hat einen einfachen Vorteil: Ein Kreislauf bietet mehrere Stellen zum Handeln, eine einzelne Entscheidung nur eine."
+    },
+    "cues": {
+      "title": "Auslösereize, die automatisch geworden sind",
+      "paragraph1": "Die Gewohnheitsforschung beschreibt gelernte Verbindungen zwischen einem Kontext und einer Reaktion: Wurde ein Verhalten in einer stabilen Umgebung oft genug wiederholt, kann der Kontext allein es auslösen, ohne jedes Mal eine bewusste Entscheidung.",
+      "paragraph2": "In einer viel zitierten Feldstudie fand ein erheblicher Teil alltäglicher Verhaltensweisen fast am gleichen Ort und zur gleichen Zeit statt, mit wenig vorheriger Abwägung.",
+      "paragraph3": "Deshalb kann ein Verlangen scheinbar „aus dem Nichts“ auftauchen: Der Auslösereiz war da, nur hast du ihn nicht bemerkt.",
+      "keyPoint1": "Ein wiederkehrender Ort oder eine wiederkehrende Uhrzeit wird zum Auslösereiz.",
+      "keyPoint2": "Automatik ist kein Mangel an Willenskraft.",
+      "keyPoint3": "Den Auslösereiz zu erkennen gibt dir einen Ansatzpunkt."
+    },
+    "reinforcement": {
+      "title": "Was den Kreislauf am Laufen hält",
+      "paragraph1": "Ein Verhalten wiederholt sich vor allem, wenn es sofort etwas bringt: Vergnügen, Ablenkung, ein Nachlassen der Anspannung oder eine Pause von einer schwierigen Emotion.",
+      "paragraph2": "Eine Studie mit Männern, die regelmäßig Online-Pornografie nutzten, erfasste ihre Stimmung unmittelbar vor und nach einer selbst gewählten Sitzung. Im Mittel fühlten sie sich danach etwas besser und ruhiger – doch je ausgeprägter die Tendenzen zu problematischem Gebrauch waren, desto geringer fiel diese Verbesserung aus.",
+      "paragraph3": "Eine unmittelbar angenehme Wirkung kann also helfen, einen Kreislauf aufrechtzuerhalten, ohne für sich genommen etwas über spätere Folgen oder deine persönliche Lage auszusagen. Der Abstand zwischen dem, was du dir von einem Moment erwartest, und dem, was du danach beobachtest, bleibt bemerkenswert."
+    },
+    "models": {
+      "title": "Was Modelle sagen und was nicht",
+      "paragraph1": "Theoretische Modelle wie I-PACE schlagen vor, persönliche Veranlagungen, Affekte, Erwartungen, Reizreaktivität und Kontrollfunktionen zu verbinden, um süchtige Verhaltensweisen zu beschreiben.",
+      "paragraph2": "Bildgebende Arbeiten beobachteten bei Männern, die wegen problematischen Gebrauchs Behandlung suchten, eine erhöhte Hirnreaktivität auf Reize, die Inhalte ankündigen. Diese Ergebnisse beschreiben Gruppen, beruhen auf begrenzten Stichproben und können über deinen Einzelfall nichts entscheiden.",
+      "paragraph3": "Ein Modell hilft, die Beobachtung zu ordnen. Es ersetzt weder eine Diagnose noch das, was du in deinem eigenen Leben tatsächlich bemerkst."
+    },
+    "action": {
+      "title": "Einen Ansatzpunkt finden",
+      "paragraph1": "Du musst nicht den ganzen Kreislauf kontrollieren. Den Ort wechseln, ein paar Minuten warten oder eine andere Handlung wählen kann Raum schaffen.",
+      "paragraph2": "Die Situation und die Emotion zu beobachten kann dir helfen, einen realistischen Ansatzpunkt zu wählen. Früher einzugreifen kostet oft weniger Kraft, als auf den intensivsten Moment zu warten.",
+      "paragraph3": "Ein Ansatzpunkt genügt für den Anfang. Probier den, der dir am leichtesten fällt, nicht den eindrucksvollsten.",
+      "keyPoint1": "Versuche früh im Kreislauf zu handeln, wenn du kannst.",
+      "keyPoint2": "Wähle jeweils einen einzigen Ansatzpunkt.",
+      "keyPoint3": "Eine leichte Änderung, die du beibehältst, schlägt eine ehrgeizige, die du aufgibst."
+    },
+    "observe": {
+      "title": "Beobachten, ohne zu diagnostizieren",
+      "paragraph1": "Die Notizen in StopCorn sind persönliche Anhaltspunkte, keine Diagnose.",
+      "paragraph2": "Es geht darum, wiederkehrende Abfolgen sichtbarer zu machen, damit du deinen Plan anpassen kannst.",
+      "paragraph3": "Ein paar Beobachtungen genügen: Explizite Einzelheiten sind nie nötig, nur der allgemeine Kontext hilft, ein Muster sichtbar zu machen."
+    }
+  },
+  "reflectionPrompt": "Welcher Teil des Kreislaufs scheint diese Woche am leichtesten zu verändern?"
+}

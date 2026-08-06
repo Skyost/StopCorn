@@ -1,0 +1,64 @@
+{
+  "load": {
+    "error": "Não foi possível carregar os dados de hoje."
+  },
+  "sections": {
+    "today": "Hoje",
+    "metrics": "Métricas",
+    "lastThirtyDays": "Últimos 30 dias",
+    "quickActions": "Ações rápidas"
+  },
+  "goal": {
+    "title": "Objetivo",
+    "undefined": "Objetivo a definir",
+    "weeklyLimit(param=count)": {
+      "one": "Limite desejado: $count evento por semana.",
+      "other": "Limite desejado: $count eventos por semana."
+    },
+    "contexts": "Contextos protegidos: $contexts."
+  },
+  "checkIn": {
+    "title": "Balanço diário",
+    "completed": "Balanço diário salvo.",
+    "available": "Balanço diário disponível quando você quiser.\nToque para registrar.",
+    "action": {
+      "done": "Editar o meu balanço diário",
+      "pending": "Fazer o meu balanço diário"
+    }
+  },
+  "urge": {
+    "today": "Vontades de hoje",
+    "count(plural, param=count, rich)": {
+      "zero": "Nenhuma vontade anotada hoje.",
+      "one": "$count vontade anotada hoje.",
+      "other": "$count vontades anotadas hoje."
+    },
+    "semantics": "Sinto vontade de ver conteúdo, fazer uma pausa",
+    "action(rich)": "Estou com vontade de $corn",
+    "subtitle": "Fazer uma pausa"
+  },
+  "strategy": {
+    "lastHelpful": "Última estratégia útil"
+  },
+  "metrics": {
+    "daysWithout(param=count)": {
+      "one": "dia sem nenhum consumo anotado",
+      "other": "dias sem nenhum consumo anotado"
+    },
+    "traversedUrges(plural, param=count)": {
+      "one": "vontade superada ou reduzida",
+      "other": "vontades superadas ou reduzidas"
+    },
+    "averageControl": "taxa média de controle declarada",
+    "empty": "As suas primeiras observações vão aparecer aqui. Não é preciso anotar tudo com perfeição: alguns marcos bastam para começar."
+  },
+  "actions": {
+    "openJournal": "Abrir o meu diário",
+    "logConsumption": "Anotar um consumo",
+    "reviewPlan": "Rever o meu plano"
+  },
+  "learningRecommendation": {
+    "title": "Para continuar",
+    "action": "Continuar a leitura"
+  }
+}

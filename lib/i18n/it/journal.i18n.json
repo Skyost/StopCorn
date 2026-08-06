@@ -1,0 +1,62 @@
+{
+  "history": {
+    "title": "Diario",
+    "intro": "Ritrova i consumi, le sessioni di sostegno e i bilanci quotidiani che hai scelto di salvare, raggruppati per data.",
+    "error": "Non è stato possibile caricare il diario.",
+    "empty": {
+      "title": "Il tuo diario è ancora vuoto",
+      "body": "I consumi e i bilanci che registrerai compariranno qui."
+    },
+    "date": {
+      "today": "Oggi",
+      "yesterday": "Ieri"
+    },
+    "entry": {
+      "consumption": "Consumo",
+      "checkIn": "Bilancio quotidiano",
+      "time": "Alle $time",
+      "checkInSummary": "Umore: $mood/10 · Controllo: $control/10",
+      "noText": "Nessun contesto né nota.",
+      "entries(param=count)": {
+        "zero": "Nessuna voce",
+        "one": "$count voce",
+        "other": "$count voci"
+      },
+      "urge": "Sessione di sostegno",
+      "urgeSummary": "Intensità $initial → $finalValue",
+      "urgeSummaryPartial": "Intensità iniziale $initial"
+    },
+    "details": {
+      "cornUrges(plural, param=count, rich)": {
+        "zero": "nessuna voglia di $corn",
+        "one": "$count voglia di $corn",
+        "other": "$count voglie di $corn"
+      },
+      "initialIntensity": "Intensità iniziale",
+      "finalIntensity": "Intensità alla fine",
+      "outcome": "Esito",
+      "strategy": "Azione provata",
+      "pause": "Pausa guidata",
+      "pauseSeconds(param=count)": {
+        "one": "$count secondo",
+        "other": "$count secondi"
+      },
+      "reflection": "La tua riflessione"
+    }
+  },
+  "edit": {
+    "action": "Correggere"
+  },
+  "delete": {
+    "action": "Eliminare",
+    "title": "Eliminare questa voce?",
+    "consumption": "Questa voce e la sua nota privata verranno rimosse definitivamente dal tuo diario. Le tue statistiche verranno ricalcolate senza di essa.",
+    "checkIn": "Questo bilancio quotidiano e la sua nota privata verranno rimossi definitivamente dal tuo diario. Le tue statistiche verranno ricalcolate senza di esso.",
+    "urge": "Questa sessione di sostegno e la riflessione scritta alla fine verranno rimosse definitivamente. La strategia provata durante la sessione smette di essere conteggiata; un consumo annotato a partire da essa viene conservato.",
+    "irreversible": "Questa azione è irreversibile.",
+    "confirm": "Eliminare definitivamente"
+  },
+  "error": {
+    "delete": "Non è stato possibile eliminare questa voce. Non è stato modificato nulla."
+  }
+}

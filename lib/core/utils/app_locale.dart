@@ -2,6 +2,21 @@ import 'package:stopcorn/i18n/strings.g.dart';
 
 /// Resolves persisted and device locales against StopCorn's supported catalog.
 abstract final class AppLocaleResolver {
+  /// Registers the plural rules Slang does not ship for a supported language.
+  ///
+  /// Portuguese has no built-in resolver, so every plural would otherwise log a
+  /// warning and silently fall back. The rule below matches the fallback and the
+  /// translated forms: an empty count reads as a plural, as it does in French.
+  static void registerPluralResolvers() => LocaleSettings.setPluralResolverSync(
+    language: 'pt',
+    cardinalResolver: (count, {zero, one, two, few, many, other}) => switch (count) {
+      0 => zero ?? other!,
+      1 => one ?? other!,
+      _ => other!,
+    },
+    ordinalResolver: (count, {zero, one, two, few, many, other}) => other!,
+  );
+
   /// Returns the supported locale matching [languageCode], if any.
   static AppLocale? fromLanguageCode(String? languageCode) {
     for (AppLocale locale in AppLocale.values) {

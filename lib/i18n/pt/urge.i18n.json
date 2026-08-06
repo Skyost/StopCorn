@@ -1,0 +1,101 @@
+{
+  "pauseTitle": "Fazer uma pausa",
+  "quit": "Sair",
+  "support": {
+    "pageTitle": "Escolher um apoio",
+    "title": "O que ajudaria você agora?",
+    "subtitle": "Escolha a opção que parecer mais acessível. Você continua no controle do ritmo.",
+    "semantics": "Formas de apoio disponíveis",
+    "guidedTitle": "Pausa guiada",
+    "guidedDescription": "Tire um momento curto para respirar e depois avalie de novo.",
+    "planTitle": "Plano de emergência",
+    "planDescription(param=count)": {
+      "zero": "Nenhuma ação foi preparada ainda.",
+      "one": "Escolha a ação que você tinha preparado.",
+      "other": "Escolha entre as $count ações que você tinha preparado."
+    },
+    "ideasTitle": "Outras ideias",
+    "ideasDescription(param=count)": {
+      "zero": "Nenhuma outra ação está disponível.",
+      "one": "Descubra outra ação.",
+      "other": "Descubra outras $count ações."
+    }
+  },
+  "grounding": {
+    "feet": "Apoie os pés no chão.",
+    "inhale": "Inspire devagar.",
+    "observe": "Observe o que você sente sem tentar afastar.",
+    "exhale": "Expire por mais tempo do que inspira.",
+    "change": "Observe simplesmente se aumenta, diminui ou fica estável.",
+    "title": "Dê um momento a você.",
+    "subtitle": "Esta pausa curta é uma ajuda para relaxar, não uma regra médica.",
+    "semantics": "Progresso da pausa",
+    "skip": "Pular"
+  },
+  "strategy": {
+    "pageTitle": "Escolher uma ação",
+    "title": "Que ação você pode tentar agora?",
+    "subtitle": "Uma ação pequena e realista basta. Ela não precisa fazer desaparecer o que você sente.",
+    "planTitle": "O seu plano de emergência",
+    "planSubtitle": "Escolha uma das ações que você tinha preparado para este momento.",
+    "ideasTitle": "Outras ideias",
+    "ideasSubtitle": "Escolha outra ação simples que pareça possível agora.",
+    "loadError": "Não foi possível carregar as estratégias.",
+    "empty": "Nenhuma ação está disponível nesta lista.",
+    "semantics": "Estratégias disponíveis",
+    "start": "Começar esta ação",
+    "started": "Ação iniciada: $strategy.",
+    "timerTitle": "Duração indicativa",
+    "timerGuidance": "Este cronômetro é apenas indicativo: você pode terminar antes ou levar todo o tempo de que precisar.",
+    "timerSemantics": "Cronômetro indicativo da ação",
+    "timerComplete": "A duração indicativa terminou.",
+    "reassess": "Avaliar de novo",
+    "effect": "Utilidade percebida da estratégia"
+  },
+  "result": {
+    "pageTitle": "Avaliar a situação",
+    "title(rich)": "Qual é a intensidade da sua vontade agora?",
+    "subtitle": "Ela pode ter aumentado, diminuído ou ficado igual.",
+    "outcome": {
+      "title": "E agora?",
+      "subtitle": "Não hesite em ser honesto. Como sempre, sem julgamento!",
+      "label": "Resultado"
+    },
+    "note": "Nota opcional",
+    "noteHint": "Um marco útil para a próxima vez.",
+    "finish": "Terminar o percurso"
+  },
+  "complete": {
+    "title": "Percurso terminado",
+    "consumedHeadline": "Sem problema.",
+    "otherHeadline": "Muito bem!",
+    "consumedBody": "Este episódio não apaga o seu progresso.\nVocê pode simplesmente anotar o que talvez ajude da próxima vez.",
+    "otherBody": "Você criou espaço entre a sua vontade e a sua escolha.\nÉ uma habilidade que cresce a cada tentativa.",
+    "log": "Anotar o que aconteceu"
+  },
+  "intensity": {
+    "title(rich)": "Qual é a intensidade da sua vontade?",
+    "subtitle": "Avalie de 0 a 10. Não existe resposta errada: este marco vai ajudar a ver como ela evolui.",
+    "label": "Intensidade atual"
+  },
+  "factors": {
+    "title": "Mais detalhes?",
+    "subtitle": "Estas informações opcionais podem ajudar você a entender melhor esses momentos.",
+    "label": "Fatores desencadeantes (opcional)",
+    "trigger": "Gatilho",
+    "emotion": "Emoção"
+  },
+  "timer": {
+    "count(param=count)": {
+      "one": "resta $count segundo",
+      "other": "restam $count segundos"
+    }
+  },
+  "error": {
+    "start": "Não é possível iniciar este percurso agora. Tente de novo.",
+    "missingSession": "Esta sessão já não está disponível.",
+    "strategySave": "Não foi possível salvar a estratégia. Tente de novo.",
+    "outcomeRequired": "Escolha o resultado que melhor descreve a situação.",
+    "save": "Não é possível salvar agora. Tente de novo daqui a pouco."
+  }
+}

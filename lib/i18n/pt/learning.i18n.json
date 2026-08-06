@@ -1,0 +1,55 @@
+{
+  "subtitle": "Nove módulos curtos, disponíveis offline e sem diagnóstico.",
+  "semantics": "Módulos de aprendizado",
+  "evidence": {
+    "title": "Em que se baseiam estes módulos?",
+    "sheetTitle": "Fontes e limites",
+    "principles": "Cada módulo cita pesquisas revisadas por pares que sustentam princípios gerais sobre motivação, hábitos, autocontrole, regulação emocional, auto-observação, atenção plena ou autocompaixão. Cada referência leva a uma ficha do PubMed ou a um DOI verificável.",
+    "limitations": "Estas fontes não validam clinicamente o StopCorn. Algumas tratam do comportamento em geral, do tabagismo ou da depressão, e os estudos dedicados à pornografia podem se basear em amostras limitadas. Vários resultados são correlacionais e não demonstram uma relação de causa e efeito. Os módulos oferecem orientações educativas prudentes, não um diagnóstico nem um tratamento."
+  },
+  "sources": {
+    "title(param=count)": {
+      "one": "$count fonte científica",
+      "other": "$count fontes científicas"
+    },
+    "shortDescription": "Referências e alcance dos resultados",
+    "sheetTitle": "Fontes científicas",
+    "scope": "Cada resultado deve ser lido dentro da sua população e do seu método: uma associação não prova uma causa, e um resultado obtido com outro comportamento ou com uma amostra limitada nem sempre pode ser generalizado. Estas referências não provam que este módulo ou o StopCorn sejam um tratamento."
+  },
+  "module": {
+    "line": "$minutes min · $status",
+    "progress": "Progresso do módulo $title",
+    "pageTitle": "Módulo",
+    "loadError": "Não foi possível carregar este módulo."
+  },
+  "status": {
+    "completed": "Terminado",
+    "reviewing": "Relendo",
+    "resume": "Continuar a leitura",
+    "discover": "Descobrir"
+  },
+  "reading": {
+    "progress": "Progresso de leitura do módulo",
+    "keyPoints": "Para lembrar",
+    "part": "Parte $current de $total",
+    "previous": "Anterior"
+  },
+  "reflection": {
+    "optional": "Reflexão opcional",
+    "label": "A minha reflexão",
+    "hint": "Algumas palavras para você…",
+    "localNote": "Esta nota fica apenas no seu aparelho.",
+    "continueAction": "Passar à reflexão",
+    "yours": "A sua reflexão"
+  },
+  "completion": {
+    "title": "Módulo terminado",
+    "finish": "Terminar o módulo",
+    "restart": "Recomeçar o módulo",
+    "back": "Voltar aos módulos"
+  },
+  "error": {
+    "load": "Não foi possível carregar os módulos.",
+    "save": "Não é possível salvar o seu progresso agora. Tente de novo."
+  }
+}

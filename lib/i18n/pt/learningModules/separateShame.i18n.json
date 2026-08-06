@@ -1,0 +1,43 @@
+{
+  "title": "Consumo, sofrimento e vergonha",
+  "summary": "Separe o que você faz do que pensa a respeito.",
+  "sections": {
+    "frequency": {
+      "title": "A frequência não diz tudo",
+      "paragraph1": "Duas pessoas com um consumo parecido podem estar em situações bem diferentes. O que pesa não é só a quantidade, mas o espaço que o comportamento ocupa e o sofrimento que provoca.",
+      "paragraph2": "Trabalhos recentes distinguem duas dimensões: o consumo em si e o sofrimento sentido a respeito dele. Estão ligados, mas não se sobrepõem.",
+      "paragraph3": "Por isso também comparar o seu contador de dias com o de um desconhecido na internet diz pouco. O que importa é o que você observa na sua própria vida.",
+      "keyPoint1": "Olhe para o impacto concreto, não só para o contador.",
+      "keyPoint2": "Comparar-se com os outros raramente esclarece a sua situação.",
+      "keyPoint3": "O sofrimento e a frequência são duas medidas distintas."
+    },
+    "incongruence": {
+      "title": "Quando o consumo entra em conflito com os seus valores",
+      "paragraph1": "Parte do sofrimento vem às vezes da distância entre o comportamento e aquilo que importa para você: uma revisão sistemática constatou que esse desacordo interno se associa à sensação de ser dependente, por vezes independentemente da frequência real.",
+      "paragraph2": "Isso não significa que o seu sofrimento seja imaginário, nem que os seus valores sejam o verdadeiro problema. Indica sobretudo que um mesmo consumo não pesa igual conforme o que você faz dele.",
+      "paragraph3": "Na prática, isso dá a você duas alavancas em vez de uma: ajustar o comportamento e examinar com honestidade o que espera de si mesmo."
+    },
+    "shameGuilt": {
+      "title": "A vergonha e o arrependimento levam a lugares diferentes",
+      "paragraph1": "A vergonha diz «sou uma pessoa ruim». O arrependimento diz «esta ação não combina comigo». A primeira ataca a pessoa, o segundo aponta um comportamento.",
+      "paragraph2": "O arrependimento deixa algo sobre o que agir; a vergonha, por mirar a pessoa inteira, deixa pouco. De fato, experimentos observaram que uma atitude gentil consigo mesmo depois de um erro vinha acompanhada de mais motivação para melhorar.",
+      "paragraph3": "Tratar-se com dureza dá a impressão de estar fazendo algo, mas raramente produz informação utilizável da próxima vez. A vergonha também empurra a guardar tudo para si, o que dificulta buscar apoio justamente quando ele ajudaria.",
+      "keyPoint1": "Mire o comportamento, não quem você é.",
+      "keyPoint2": "Ser gentil consigo mesmo não impede de querer melhorar.",
+      "keyPoint3": "Você pode buscar apoio sem contar tudo."
+    },
+    "comparison": {
+      "title": "Expectativas construídas em outro lugar",
+      "paragraph1": "Uma meta-análise observou uma associação — modesta e encontrada sobretudo em homens — entre o consumo de pornografia e uma menor satisfação relacional ou sexual.",
+      "paragraph2": "Essa síntese reúne pesquisas transversais, acompanhamentos longitudinais e alguns experimentos. Ainda assim, não estabelece um único sentido de causalidade, e uma média de grupo não prevê a sua experiência.",
+      "paragraph3": "O que continua útil observar é mais concreto: o que você espera, com o que se compara e o que isso muda na sua vida real."
+    },
+    "labels": {
+      "title": "O que os rótulos dizem, e o que não dizem",
+      "paragraph1": "A Classificação Internacional de Doenças (CID-11) reconhece o «transtorno do comportamento sexual compulsivo». Ele envolve uma falha persistente em controlar o comportamento, em geral por um período prolongado, com sofrimento marcado ou prejuízo importante — e não uma frequência específica.",
+      "paragraph2": "Um sofrimento devido unicamente a julgamentos morais ou à desaprovação não basta para este diagnóstico. Se o transtorno deve ser classificado como uma dependência continua em debate; você não precisa de um rótulo para decidir uma mudança.",
+      "paragraph3": "O StopCorn não faz nenhum diagnóstico. Se o sofrimento for intenso ou duradouro, um profissional qualificado continua sendo a pessoa certa para essa questão."
+    }
+  },
+  "reflectionPrompt": "O que pesa mais para você: o que faz ou o que diz a si mesmo a respeito?"
+}

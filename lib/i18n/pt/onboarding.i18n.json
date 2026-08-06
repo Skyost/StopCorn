@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Configuração",
+  "step": "Etapa $current de $total",
+  "welcome": {
+    "title": "Retome o controle, sem julgamento",
+    "subtitle": "O StopCorn ajuda você a entender os seus hábitos, a atravessar os momentos difíceis e a construir um plano adaptado ao seu objetivo.",
+    "noAccount": "Sem criar nenhuma conta",
+    "localData": "Dados guardados neste aparelho",
+    "noAds": "Sem publicidade",
+    "selfHelp": "Uma ferramenta de autoajuda",
+    "privacyAction": "Saber mais sobre a privacidade",
+    "privacyTitle": "Privacidade desde o início",
+    "privacyBody": "Nenhum dado do diário é enviado ao StopCorn. O app não lê o seu navegador, nem as suas buscas, nem o conteúdo que você vê. Você escolhe apenas os marcos gerais que quer anotar. Se o app travar, um relatório técnico anônimo pode ser enviado para que o problema seja corrigido; ele não contém nada do que você escreveu e pode ser desativado nos ajustes."
+  },
+  "goal": {
+    "title": "O que você gostaria de mudar?",
+    "subtitle": "Escolha um rumo que combine com você. Poderá mudá-lo mais tarde.",
+    "semantics": "Escolha do objetivo",
+    "weeklyLimit": "Limite semanal desejado",
+    "weeklyHint": "Exemplo: 2",
+    "contexts": "Contextos a evitar",
+    "motivation": "Motivação pessoal",
+    "motivationHint": "O que você gostaria de recuperar ou proteger…"
+  },
+  "baseline": {
+    "title": "O seu ponto de partida",
+    "subtitle": "Isto não é um teste médico. Vai servir apenas para observar a sua evolução.",
+    "frequency": "Frequência aproximada nos últimos 7 dias",
+    "control": "Sensação de controle",
+    "impact": "Impacto negativo percebido",
+    "confidence": "Confiança na sua capacidade de mudar"
+  },
+  "strategies": {
+    "title": "Prepare o seu plano de emergência",
+    "subtitle": "O ideal é escolher três ações realistas. Uma só basta para continuar.",
+    "selected(param=count)": {
+      "zero": "Nenhuma estratégia selecionada",
+      "one": "$count estratégia selecionada",
+      "other": "$count estratégias selecionadas"
+    },
+    "semantics": "Estratégias de emergência"
+  },
+  "privacy": {
+    "title": "Os seus dados continuam sob o seu controle",
+    "subtitle": "Esta versão do StopCorn funciona sem conta e sem servidor.",
+    "local": "Os dados são guardados apenas neste aparelho.",
+    "noHistory": "Nenhuma URL nem busca é registrada.",
+    "control": "Você pode exportar voluntariamente ou apagar completamente os seus dados.",
+    "backup": "Os backups do sistema do telefone podem incluir os dados do app, conforme os seus ajustes do sistema.",
+    "dailyCheckInReminder": "Lembrar-me de fazer o meu balanço",
+    "dailyCheckInReminderDescription": "Às 20h, receba um lembrete local apenas se o balanço de hoje ainda estiver vazio. Você poderá mudar isso mais tarde.",
+    "reminderPermissionDenied": "As notificações não foram autorizadas. Desative esta opção para continuar, ou autorize-as e tente de novo.",
+    "reminderUnavailable": "Os lembretes diários não estão disponíveis neste aparelho.",
+    "reminderError": "Não foi possível preparar o lembrete diário. Tente de novo ou desative-o para continuar.",
+    "crashReports": "Os relatórios de falhas anônimos ajudam a corrigir bugs e podem ser desativados nos ajustes."
+  },
+  "start": "Começar",
+  "finish": "Terminar a configuração",
+  "error": {
+    "load": "Não foi possível carregar a configuração.",
+    "save": "Não é possível salvar agora. Tente de novo daqui a pouco.",
+    "complete": "Não foi possível terminar a configuração. Nenhum dado foi enviado.",
+    "notReady": "A configuração inicial ainda não está pronta.",
+    "invalidDraft": "O rascunho de configuração salvo é inválido."
+  },
+  "validation": {
+    "goal": "Escolha um objetivo.",
+    "weeklyLimit": "Indique um limite semanal positivo.",
+    "context": "Escolha pelo menos um contexto.",
+    "strategy": "Escolha pelo menos uma estratégia.",
+    "scoreRange": "As pontuações devem estar entre 0 e 10."
+  }
+}

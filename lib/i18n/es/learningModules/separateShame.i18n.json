@@ -1,0 +1,43 @@
+{
+  "title": "Consumo, malestar y vergüenza",
+  "summary": "Separa lo que haces de lo que piensas sobre ello.",
+  "sections": {
+    "frequency": {
+      "title": "La frecuencia no lo dice todo",
+      "paragraph1": "Dos personas con un consumo parecido pueden estar en situaciones muy distintas. Lo que pesa no es solo la cantidad, sino el espacio que ocupa el comportamiento y el malestar que provoca.",
+      "paragraph2": "Trabajos recientes distinguen dos dimensiones: el consumo en sí y el malestar que se siente al respecto. Están relacionados, pero no se solapan.",
+      "paragraph3": "Por eso también comparar tu contador de días con el de un desconocido en internet dice poco. Lo que importa es lo que observas en tu propia vida.",
+      "keyPoint1": "Fíjate en el impacto concreto, no solo en el contador.",
+      "keyPoint2": "Compararte con otros rara vez aclara tu propia situación.",
+      "keyPoint3": "El malestar y la frecuencia son dos medidas distintas."
+    },
+    "incongruence": {
+      "title": "Cuando el consumo choca con tus valores",
+      "paragraph1": "Parte del malestar viene a veces de la distancia entre el comportamiento y lo que te importa: una revisión sistemática encontró que este desacuerdo interno se asocia a la sensación de ser adicto, a veces con independencia de la frecuencia real.",
+      "paragraph2": "Esto no significa que tu malestar sea imaginario, ni que tus valores sean el verdadero problema. Sobre todo indica que un mismo consumo no pesa igual según lo que hagas con él.",
+      "paragraph3": "En la práctica, eso te da dos palancas en lugar de una: ajustar el comportamiento y examinar con honestidad lo que esperas de ti mismo."
+    },
+    "shameGuilt": {
+      "title": "La vergüenza y el arrepentimiento llevan a lugares distintos",
+      "paragraph1": "La vergüenza dice «soy mala persona». El arrepentimiento dice «esta acción no me conviene». La primera ataca a la persona, el segundo señala un comportamiento.",
+      "paragraph2": "El arrepentimiento te deja algo sobre lo que actuar; la vergüenza, al apuntar a toda la persona, deja poco. De hecho, algunos experimentos han observado que una actitud amable hacia uno mismo tras un error iba acompañada de más motivación para mejorar.",
+      "paragraph3": "Tratarte con dureza da la impresión de estar haciendo algo, pero rara vez produce información que puedas usar la próxima vez. La vergüenza también empuja a guardárselo todo, lo que hace más difícil buscar apoyo justo cuando ayudaría.",
+      "keyPoint1": "Apunta al comportamiento, no a quién eres.",
+      "keyPoint2": "Ser amable contigo mismo no te impide querer mejorar.",
+      "keyPoint3": "Puedes buscar apoyo sin contarlo todo."
+    },
+    "comparison": {
+      "title": "Expectativas construidas en otra parte",
+      "paragraph1": "Un metaanálisis observó una asociación —modesta y encontrada sobre todo en hombres— entre el consumo de pornografía y una menor satisfacción relacional o sexual.",
+      "paragraph2": "Esa síntesis reúne encuestas transversales, seguimientos longitudinales y algunos experimentos. Aun así, no establece un único sentido de causalidad, y una media de grupo no predice tu experiencia.",
+      "paragraph3": "Lo que sigue siendo útil observar es más concreto: qué esperas, con qué te comparas y qué cambia eso en tu vida real."
+    },
+    "labels": {
+      "title": "Lo que dicen las etiquetas, y lo que no",
+      "paragraph1": "La Clasificación Internacional de Enfermedades (CIE-11) reconoce el «trastorno del comportamiento sexual compulsivo». Implica un fracaso persistente en controlar el comportamiento, en general durante un periodo prolongado, con un malestar marcado o un deterioro importante, y no una frecuencia concreta.",
+      "paragraph2": "Un malestar debido únicamente a juicios morales o a la desaprobación no basta para este diagnóstico. Si el trastorno debe clasificarse como una adicción sigue siendo objeto de debate; no necesitas una etiqueta para decidir un cambio.",
+      "paragraph3": "StopCorn no emite ningún diagnóstico. Si el malestar es intenso o duradero, un profesional cualificado sigue siendo la persona adecuada para esa cuestión."
+    }
+  },
+  "reflectionPrompt": "¿Qué te pesa más: lo que haces o lo que te dices sobre ello?"
+}

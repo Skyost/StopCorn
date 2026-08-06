@@ -329,7 +329,14 @@ final class _ScreenshotFixture {
           type: GoalType.reduction.name,
           weeklyLimit: const Value(3),
           motivation: Value(
-            locale == .fr ? 'Retrouver du temps et de la sérénité.' : 'Make room for more time and peace of mind.',
+            switch (locale) {
+              .en => 'Make room for more time and peace of mind.',
+              .fr => 'Retrouver du temps et de la sérénité.',
+              .es => 'Recuperar tiempo y serenidad.',
+              .pt => 'Recuperar tempo e serenidade.',
+              .de => 'Wieder Zeit und Ruhe gewinnen.',
+              .it => 'Ritrovare tempo e serenità.',
+            },
           ),
           startedAt: _screenshotNow.subtract(const Duration(days: 35)),
         ),
@@ -346,24 +353,56 @@ final class _ScreenshotFixture {
         .write(
           ConsumptionEventsCompanion(
             contextLabel: Value(
-              locale == .fr ? 'Un moment de pause à la maison' : 'A quiet moment at home',
+              switch (locale) {
+                .en => 'A quiet moment at home',
+                .fr => 'Un moment de pause à la maison',
+                .es => 'Un momento de calma en casa',
+                .pt => 'Um momento de calma em casa',
+                .de => 'Ein ruhiger Moment zu Hause',
+                .it => 'Un momento di calma a casa',
+              },
             ),
             notes: const Value(null),
           ),
         );
-    List<String> checkInNotes = locale == .fr
-        ? [
-            'J’ai pris le temps de souffler.',
-            'Une journée plus calme qu’hier.',
-            'J’ai mieux repéré ce qui déclenche l’envie.',
-            'Davantage de présence ce soir.',
-          ]
-        : [
-            'I took a moment to breathe.',
-            'A calmer day than yesterday.',
-            'I noticed what triggered the urge.',
-            'I felt more present this evening.',
-          ];
+    List<String> checkInNotes = switch (locale) {
+      .en => [
+        'I took a moment to breathe.',
+        'A calmer day than yesterday.',
+        'I noticed what triggered the urge.',
+        'I felt more present this evening.',
+      ],
+      .fr => [
+        'J’ai pris le temps de souffler.',
+        'Une journée plus calme qu’hier.',
+        'J’ai mieux repéré ce qui déclenche l’envie.',
+        'Davantage de présence ce soir.',
+      ],
+      .es => [
+        'Me he tomado un momento para respirar.',
+        'Un día más tranquilo que ayer.',
+        'He identificado mejor lo que desencadena el impulso.',
+        'Más presente esta noche.',
+      ],
+      .pt => [
+        'Tirei um momento para respirar.',
+        'Um dia mais calmo que ontem.',
+        'Percebi melhor o que desencadeia a vontade.',
+        'Mais presente esta noite.',
+      ],
+      .de => [
+        'Ich habe mir einen Moment zum Durchatmen genommen.',
+        'Ein ruhigerer Tag als gestern.',
+        'Ich habe besser erkannt, was das Verlangen auslöst.',
+        'Heute Abend war ich präsenter.',
+      ],
+      .it => [
+        'Mi sono preso un momento per respirare.',
+        'Una giornata più calma di ieri.',
+        'Ho notato meglio che cosa scatena la voglia.',
+        'Più presente stasera.',
+      ],
+    };
     List<DailyCheckIn> sampleCheckIns =
         await (database.select(
                 database.dailyCheckIns,
@@ -392,10 +431,24 @@ final class _ScreenshotFixture {
         .write(
           ConsumptionEventsCompanion(
             contextLabel: Value(
-              locale == .fr ? 'Après une journée exigeante' : 'After a demanding day',
+              switch (locale) {
+                .en => 'After a demanding day',
+                .fr => 'Après une journée exigeante',
+                .es => 'Después de un día exigente',
+                .pt => 'Depois de um dia exigente',
+                .de => 'Nach einem fordernden Tag',
+                .it => 'Dopo una giornata impegnativa',
+              },
             ),
             notes: Value(
-              locale == .fr ? 'J’ai remarqué le contexte sans me juger.' : 'I noticed the context without judging myself.',
+              switch (locale) {
+                .en => 'I noticed the context without judging myself.',
+                .fr => 'J’ai remarqué le contexte sans me juger.',
+                .es => 'He observado el contexto sin juzgarme.',
+                .pt => 'Observei o contexto sem me julgar.',
+                .de => 'Ich habe den Kontext bemerkt, ohne mich zu verurteilen.',
+                .it => 'Ho notato il contesto senza giudicarmi.',
+              },
             ),
           ),
         );
@@ -405,7 +458,14 @@ final class _ScreenshotFixture {
         .write(
           DailyCheckInsCompanion(
             note: Value(
-              locale == .fr ? 'Une journée plus calme, avec davantage de contrôle.' : 'A calmer day, with a stronger sense of control.',
+              switch (locale) {
+                .en => 'A calmer day, with a stronger sense of control.',
+                .fr => 'Une journée plus calme, avec davantage de contrôle.',
+                .es => 'Un día más tranquilo, con más sensación de control.',
+                .pt => 'Um dia mais calmo, com mais sensação de controle.',
+                .de => 'Ein ruhigerer Tag, mit mehr Gefühl von Kontrolle.',
+                .it => 'Una giornata più calma, con più senso di controllo.',
+              },
             ),
           ),
         );

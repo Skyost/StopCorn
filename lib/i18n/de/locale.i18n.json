@@ -1,0 +1,13 @@
+{
+  "label": "App-Sprache",
+  "english": "Englisch",
+  "french": "Französisch",
+  "spanish": "Spanisch",
+  "portuguese": "Portugiesisch",
+  "german": "Deutsch",
+  "italian": "Italienisch",
+  "section": {
+    "title": "Sprache",
+    "description": "Wähle die Sprache, die in der ganzen App verwendet wird."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "label": "Ernte",
+  "explanationAction": "Was ist das?",
+  "cornPoints": {
+    "title": "Corn Points",
+    "todayCollected": "Der Corn Point von heute ist eingesammelt.",
+    "todayAvailable": "Eine konstruktive Handlung genügt, um den Corn Point von heute zu ernten."
+  },
+  "momentum": {
+    "title": "Serie",
+    "currentMomentum(param=count)": {
+      "one": "Aktuelle Serie: $count Tag am Stück.",
+      "other": "Aktuelle Serie: $count Tage am Stück."
+    },
+    "bestMomentum(param=count)": {
+      "one": "Beste Serie: $count Tag am Stück.",
+      "other": "Beste Serie: $count Tage am Stück."
+    },
+    "dayCollected": "An diesem Tag Corn Point geerntet",
+    "dayNotCollected": "An diesem Tag kein Corn Point geerntet",
+    "dayUpcoming": "Kommender Tag"
+  },
+  "reward": {
+    "title": "Corn Point geerntet!",
+    "body": "Deine konstruktive Handlung bringt deine Ernte voran.",
+    "pointsSemantics": "$gain Corn Point hinzugefügt. Neuer Gesamtstand: $total.",
+    "momentumSemantics(param=total)": {
+      "one": "Serie um $gain erhöht. Neue Serie: $total Tag.",
+      "other": "Serie um $gain erhöht. Neue Serie: $total Tage."
+    },
+    "gain": "+$count",
+    "continueAction": "Weiter"
+  },
+  "sheet": {
+    "title": "Wie funktioniert die Ernte?",
+    "intro": "Die Ernte hebt die Handlungen hervor, die dich weiterbringen. Sie misst keine Abstinenz und bewertet nie das Ergebnis eines Tages.",
+    "onePerDay": "Du kannst höchstens einen Corn Point pro Tag ernten. Eine einzige konstruktive Handlung genügt.",
+    "urge": "Einen Unterstützungsablauf abzuschließen zählt, unabhängig vom Ergebnis.",
+    "checkIn": "Einen täglichen Rückblick zu machen zählt.",
+    "observation": "Einen Konsum ehrlich festzuhalten zählt ebenfalls: Ehrlichkeit wird nie bestraft.",
+    "learning": "Ein Lernmodul abzuschließen zählt.",
+    "goal": "Dein Ziel zu erstellen oder zu aktualisieren zählt.",
+    "momentumTitle": "Und die Serie?",
+    "momentumBody": "Die Serie entspricht den aufeinanderfolgenden bestellten Tagen. Der laufende Tag bleibt eine Schonfrist. Wenn die Serie endet, wird deine Ernte nie kleiner und alle Corn Points bleiben dir erhalten."
+  }
+}

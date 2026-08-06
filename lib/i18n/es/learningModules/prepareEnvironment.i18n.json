@@ -1,0 +1,49 @@
+{
+  "title": "Prepara tu entorno",
+  "summary": "Añade fricción y facilita las acciones que has elegido.",
+  "sections": {
+    "friction": {
+      "title": "Reducir el acceso automático",
+      "paragraph1": "Dejar el teléfono fuera del dormitorio, poner límites de tiempo o usar el modo de concentración del sistema puede añadir una fricción intencionada.",
+      "paragraph2": "No se trata de hacer algo imposible, sino de añadir unos segundos entre el impulso y la acción. Esos segundos pueden crear el espacio necesario para que vuelva a ser posible elegir.",
+      "paragraph3": "La fricción útil es la que aceptas. Si esquivas una configuración casi de inmediato, prueba un ajuste más realista en lugar de convertirlo en un motivo para sentirte fracasado.",
+      "keyPoint1": "Busca unos segundos de retraso, no la imposibilidad.",
+      "keyPoint2": "Elige una fricción que estés dispuesto a mantener.",
+      "keyPoint3": "Ajusta la fricción que esquivas enseguida."
+    },
+    "avoid": {
+      "title": "Evitar cuesta menos que resistir",
+      "paragraph1": "Un estudio longitudinal observó que las personas que mejor alcanzaban sus objetivos no eran las que más resistían, sino las que se encontraban con menos tentaciones.",
+      "paragraph2": "Dicho de otro modo, el autocontrol se juega a menudo antes: en cómo se organizan el día y el espacio, más que en el momento crítico.",
+      "paragraph3": "Eso también quita culpa: necesitar reorganizar tu entorno no es una confesión de debilidad. Es una estrategia coherente con estos resultados."
+    },
+    "ifThen": {
+      "title": "Planes «si… entonces…»",
+      "paragraph1": "Un metaanálisis que abarcaba numerosos estudios mostró que formular un plan concreto —«si ocurre esta situación, entonces haré esta acción»— mejora el logro de los objetivos en comparación con la intención sola.",
+      "paragraph2": "La precisión importa: la situación debe ser reconocible y la acción, realizable de inmediato. «Si estoy en la cama con el móvil después de las 23:00, entonces lo dejo en el escritorio» es más concreto que «tendré cuidado por la noche».",
+      "paragraph3": "Puedes empezar con dos o tres planes que correspondan a tus situaciones más frecuentes.",
+      "keyPoint1": "Escribe la situación desencadenante, no solo el objetivo.",
+      "keyPoint2": "Elige una acción que puedas empezar de inmediato.",
+      "keyPoint3": "Empieza con dos o tres planes."
+    },
+    "moments": {
+      "title": "Preparar los momentos vulnerables",
+      "paragraph1": "Si las tardes de cansancio se repiten en tus observaciones, preparar una rutina sencilla o cargar un dispositivo en otro sitio puede facilitar la decisión deseada.",
+      "paragraph2": "Prepara esos momentos cuando no están ocurriendo: decidir de antemano puede costar menos esfuerzo que elegir en plena dificultad.",
+      "paragraph3": "Si ciertas cuentas o redes preceden a menudo a los momentos difíciles, puedes ajustar el acceso sin tener que eliminarlo todo."
+    },
+    "alternative": {
+      "title": "Hacer visible la alternativa",
+      "paragraph1": "Prepara una acción de sustitución accesible: un libro a mano, un paseo corto o una tarea elegida de antemano.",
+      "paragraph2": "Quitar algo deja un hueco, y un hueco rara vez se llena solo en la buena dirección. La alternativa debería estar al menos tan a mano como lo que has quitado.",
+      "paragraph3": "Tu entorno funciona mejor cuando apoya una intención concreta."
+    },
+    "limits": {
+      "title": "Lo que un filtro no hace",
+      "paragraph1": "Un bloqueador puede complementar un plan, pero no puede resolver una dificultad por sí solo: actúa sobre el acceso, no sobre la situación, la emoción o el hábito que vinieron antes.",
+      "paragraph2": "Las herramientas basadas en la supervisión por terceros también plantean cuestiones de privacidad y de confianza. StopCorn no accede a tu actividad ni a tu historial de navegación, y no transmite datos de navegación web.",
+      "paragraph3": "Una herramienta técnica funciona mejor como apoyo a un plan que como sustituto de él."
+    }
+  },
+  "reflectionPrompt": "¿Qué cambio en tu entorno podrías hacer hoy?"
+}

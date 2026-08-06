@@ -124,6 +124,154 @@
         },
         "subtitle": "Short, practical content you can access wherever you are."
       }
+    },
+    "es": {
+      "1_home": {
+        "title": {
+          "text": "Avanza a tu propio ritmo",
+          "highlight": "ritmo"
+        },
+        "subtitle": "Descubre de un vistazo lo que puede ayudarte hoy."
+      },
+      "2_urge_support": {
+        "title": {
+          "text": "Atraviesa los momentos difíciles",
+          "highlight": "Atraviesa"
+        },
+        "subtitle": "Encuentra el apoyo que te conviene, justo cuando lo necesitas."
+      },
+      "3_progress": {
+        "title": {
+          "text": "Mira todo lo que has avanzado",
+          "highlight": "avanzado"
+        },
+        "subtitle": "Observa tus progresos con amabilidad, sin presión ni culpa."
+      },
+      "4_journal": {
+        "title": {
+          "text": "Aprende a conocerte mejor",
+          "highlight": "conocerte"
+        },
+        "subtitle": "Anota lo que sientes en un espacio privado y sin juicios."
+      },
+      "5_learning": {
+        "title": {
+          "text": "Descubre lo que de verdad puede ayudarte",
+          "highlight": "ayudarte"
+        },
+        "subtitle": "Contenidos breves y concretos, para consultar estés donde estés."
+      }
+    },
+    "pt": {
+      "1_home": {
+        "title": {
+          "text": "Avance no seu próprio ritmo",
+          "highlight": "ritmo"
+        },
+        "subtitle": "Veja num relance o que pode ajudar você hoje."
+      },
+      "2_urge_support": {
+        "title": {
+          "text": "Atravesse os momentos difíceis",
+          "highlight": "Atravesse"
+        },
+        "subtitle": "Encontre o apoio que combina com você, na hora em que precisa."
+      },
+      "3_progress": {
+        "title": {
+          "text": "Veja todo o caminho percorrido",
+          "highlight": "caminho"
+        },
+        "subtitle": "Observe o seu progresso com gentileza, sem pressão nem culpa."
+      },
+      "4_journal": {
+        "title": {
+          "text": "Aprenda a se conhecer melhor",
+          "highlight": "conhecer"
+        },
+        "subtitle": "Anote o que você sente num espaço privado e sem julgamento."
+      },
+      "5_learning": {
+        "title": {
+          "text": "Descubra o que pode mesmo ajudar",
+          "highlight": "ajudar"
+        },
+        "subtitle": "Conteúdos curtos e concretos, para consultar onde você estiver."
+      }
+    },
+    "de": {
+      "1_home": {
+        "title": {
+          "text": "Geh in deinem eigenen Tempo voran",
+          "highlight": "Tempo"
+        },
+        "subtitle": "Sieh auf einen Blick, was dir heute helfen kann."
+      },
+      "2_urge_support": {
+        "title": {
+          "text": "Komm durch die schwierigen Momente",
+          "highlight": "durch"
+        },
+        "subtitle": "Finde die Unterstützung, die zu dir passt, genau dann, wenn du sie brauchst."
+      },
+      "3_progress": {
+        "title": {
+          "text": "Sieh, wie weit du schon gekommen bist",
+          "highlight": "weit"
+        },
+        "subtitle": "Betrachte deine Fortschritte freundlich, ohne Druck und ohne Schuldgefühl."
+      },
+      "4_journal": {
+        "title": {
+          "text": "Lerne dich besser kennen",
+          "highlight": "kennen"
+        },
+        "subtitle": "Halte fest, wie du dich fühlst – privat und ohne Bewertung."
+      },
+      "5_learning": {
+        "title": {
+          "text": "Entdecke, was wirklich helfen kann",
+          "highlight": "helfen"
+        },
+        "subtitle": "Kurze, konkrete Inhalte, überall verfügbar."
+      }
+    },
+    "it": {
+      "1_home": {
+        "title": {
+          "text": "Vai avanti al tuo ritmo",
+          "highlight": "ritmo"
+        },
+        "subtitle": "Scopri in un colpo d’occhio ciò che può aiutarti oggi."
+      },
+      "2_urge_support": {
+        "title": {
+          "text": "Attraversa i momenti difficili",
+          "highlight": "Attraversa"
+        },
+        "subtitle": "Trova il sostegno giusto per te, nel momento in cui ti serve."
+      },
+      "3_progress": {
+        "title": {
+          "text": "Guarda quanta strada hai fatto",
+          "highlight": "strada"
+        },
+        "subtitle": "Osserva i tuoi progressi con gentilezza, senza pressione né colpa."
+      },
+      "4_journal": {
+        "title": {
+          "text": "Impara a conoscerti meglio",
+          "highlight": "conoscerti"
+        },
+        "subtitle": "Annota ciò che senti in uno spazio privato e senza giudizio."
+      },
+      "5_learning": {
+        "title": {
+          "text": "Scopri ciò che può davvero aiutarti",
+          "highlight": "aiutarti"
+        },
+        "subtitle": "Contenuti brevi e concreti, da consultare ovunque tu sia."
+      }
     }
   }
 }

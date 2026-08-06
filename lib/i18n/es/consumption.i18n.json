@@ -1,0 +1,41 @@
+{
+  "title": "Anotar un consumo",
+  "intro": "Con unos pocos datos basta. Puedes omitir todas las preguntas opcionales.",
+  "date": "Fecha",
+  "time": "Hora",
+  "factors": {
+    "label": "Factores desencadenantes (opcional)",
+    "trigger": "Desencadenante",
+    "emotion": "Emoción"
+  },
+  "control": {
+    "label": "Sensación de control (opcional)",
+    "scale": "0 = ningún control, 10 = control completo"
+  },
+  "context": {
+    "label": "Contexto muy breve (opcional)",
+    "hint": "Ejemplo: solo por la noche",
+    "description": "Manténlo general: ningún sitio web, búsqueda ni detalle explícito."
+  },
+  "contextualGoal": {
+    "title": "Tus contextos protegidos",
+    "description": "Selecciona los contextos de tu objetivo actual que correspondían a la situación. Así aparecerán en tu progreso, sin sustituir la nota opcional de abajo.",
+    "label": "Contextos de mi objetivo (opcional)"
+  },
+  "note": {
+    "label": "Nota opcional",
+    "hint": "Un punto de referencia útil para más adelante…"
+  },
+  "saved": {
+    "title": "Está guardado.",
+    "body": "El objetivo es entender mejor la situación, no juzgarte."
+  },
+  "edit": {
+    "title": "Corregir este consumo"
+  },
+  "error": {
+    "load": "No se ha podido preparar el formulario.",
+    "save": "No se puede guardar en este momento. Inténtalo de nuevo dentro de un rato.",
+    "missingEvent": "Este consumo ya no existe."
+  }
+}

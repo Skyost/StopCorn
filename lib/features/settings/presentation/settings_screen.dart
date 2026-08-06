@@ -413,5 +413,9 @@ final class _SettingsContent extends ConsumerWidget {
   String _localeLabel(AppLocale locale) => switch (locale) {
     .en => t.locale.english,
     .fr => t.locale.french,
+    .es => t.locale.spanish,
+    .pt => t.locale.portuguese,
+    .de => t.locale.german,
+    .it => t.locale.italian,
   };
 }

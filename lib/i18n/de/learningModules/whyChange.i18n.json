@@ -1,0 +1,46 @@
+{
+  "title": "Warum etwas ändern?",
+  "summary": "Kläre, was du zurückgewinnen oder schützen möchtest.",
+  "sections": {
+    "direction": {
+      "title": "Ein Ziel, das dir gehört",
+      "paragraph1": "Veränderung hält länger, wenn die gewählte Richtung das widerspiegelt, was dir wichtig ist, und nicht nur eine Erwartung von außen.",
+      "paragraph2": "Die Forschung zur selbstbestimmten Motivation weist in dieselbe Richtung: Im Gesundheitsbereich gehen Gründe, die als persönlich erlebt werden, mit einem dauerhafteren Engagement einher als Druck von außen, Angst vor Bewertung oder Scham.",
+      "paragraph3": "Du kannst aufhören, reduzieren, bestimmte Situationen vermeiden oder einfach mit Beobachten anfangen wollen. Keines dieser Ziele bestimmt deinen Wert, und du darfst deine Wahl unterwegs überdenken.",
+      "keyPoint1": "Schreib dein Ziel in deinen eigenen Worten auf, nicht in denen eines Forums.",
+      "keyPoint2": "Persönliche Gründe tragen Veränderung meist länger.",
+      "keyPoint3": "Mit Beobachten anzufangen ist ein gültiges Ziel."
+    },
+    "benefits": {
+      "title": "Was du zurückgewinnen möchtest",
+      "paragraph1": "Versuch zu benennen, was du zurückgewinnen möchtest: Zeit, geistigen Freiraum, Schlaf, eine ruhigere Beziehung oder das Gefühl, selbst zu wählen.",
+      "paragraph2": "Je konkreter der Grund, desto brauchbarer bleibt er, wenn der Impuls stark ist. „Diese Woche an drei Abenden vor Mitternacht im Bett sein“ gibt dir einen Anhaltspunkt, den „mich besser fühlen“ nicht liefert.",
+      "paragraph3": "Du kannst auch benennen, was du einfach schützen möchtest: eine Beziehung, Vertrauen oder deine Fähigkeit, präsent zu sein. Etwas zu schützen ist ein ebenso gültiger Grund wie etwas zu reparieren.",
+      "keyPoint1": "Schreib einen Grund auf, in einem einzigen Satz im Präsens.",
+      "keyPoint2": "Wähle einen Anhaltspunkt, den du selbst überprüfen kannst.",
+      "keyPoint3": "Halte ihn für schwierige Momente griffbereit."
+    },
+    "ambivalence": {
+      "title": "Wollen und nicht wollen zugleich",
+      "paragraph1": "Ändern zu wollen und zugleich keine Lust darauf zu haben ist verbreitet. Diese Ambivalenz ist keine Unaufrichtigkeit: Sie begleitet fast jede Veränderung einer Gewohnheit.",
+      "paragraph2": "In Studien zur motivierenden Gesprächsführung stehen bestimmte Formen von Veränderungsrede und von Beibehaltungsrede mit dem späteren Verhalten in Zusammenhang. Die Zusammenhänge unterscheiden sich jedoch je nach Art der Aussage und sind manchmal instabil.",
+      "paragraph3": "Beide Seiten aufzuschreiben – was dir diese Gewohnheit gibt und was sie dich kostet – kann helfen, diese Ambivalenz zu hören, ohne eine der beiden Seiten zum Schweigen bringen zu wollen."
+    },
+    "gap": {
+      "title": "Von der Absicht zur Handlung",
+      "paragraph1": "Ein fester Entschluss genügt nicht immer. Übersichtsarbeiten zur Lücke zwischen Absicht und Verhalten zeigen, dass eine deutlich gestärkte Absicht sich im Mittel in eine bescheidenere Verhaltensänderung übersetzt.",
+      "paragraph2": "Das ist kein Grund aufzugeben, sondern ein Grund, sich vorzubereiten: Den Unterschied machen meist konkrete Pläne und die Umgebung, weniger die Stärke des Entschlusses.",
+      "paragraph3": "Mehrere der folgenden Module handeln genau von dieser Vorbereitung: wiederkehrende Situationen erkennen, einen Impuls durchstehen, deine Umgebung anpassen.",
+      "keyPoint1": "Ein starker Entschluss ersetzt keinen konkreten Plan.",
+      "keyPoint2": "Bereite die Situation vor, nicht nur die Absicht.",
+      "keyPoint3": "Ein aufgeschriebener Plan bleibt verfügbar, wenn die Motivation sinkt."
+    },
+    "changes": {
+      "title": "Motivation verändert sich",
+      "paragraph1": "Motivation schwankt von Tag zu Tag. Diese Schwankung ist weder ein Scheitern noch ein Beleg dafür, dass dein Ziel falsch ist.",
+      "paragraph2": "Müdigkeit, Stress, Einsamkeit oder ein harter Tag können sie senken, ohne etwas an dem zu ändern, was dir wichtig ist.",
+      "paragraph3": "Wenn sie sinkt, kann eine kleine, vorbereitete Handlung übernehmen. Manchmal genügt es, den aufgeschriebenen Grund noch einmal zu lesen, um durch einen flauen Moment zu kommen."
+    }
+  },
+  "reflectionPrompt": "Was möchtest du zurückgewinnen oder schützen, indem du diese Gewohnheit veränderst?"
+}

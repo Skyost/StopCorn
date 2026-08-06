@@ -10,7 +10,11 @@ void main() {
   test('resolves only supported language codes', () {
     expect(AppLocaleResolver.fromLanguageCode('en'), AppLocale.en);
     expect(AppLocaleResolver.fromLanguageCode('fr'), AppLocale.fr);
-    expect(AppLocaleResolver.fromLanguageCode('de'), isNull);
+    expect(AppLocaleResolver.fromLanguageCode('es'), AppLocale.es);
+    expect(AppLocaleResolver.fromLanguageCode('pt'), AppLocale.pt);
+    expect(AppLocaleResolver.fromLanguageCode('de'), AppLocale.de);
+    expect(AppLocaleResolver.fromLanguageCode('it'), AppLocale.it);
+    expect(AppLocaleResolver.fromLanguageCode('ja'), isNull);
     expect(AppLocaleResolver.fromLanguageCode(null), isNull);
   });
 
@@ -33,7 +37,7 @@ void main() {
       expect(supportedLocale, AppLocale.fr);
 
       tester.platformDispatcher.localesTestValue = const [
-        Locale('de'),
+        Locale('ja'),
       ];
       AppLocale fallbackLocale = await AppLocaleResolver.useDeviceOrEnglish();
       expect(fallbackLocale, AppLocale.en);

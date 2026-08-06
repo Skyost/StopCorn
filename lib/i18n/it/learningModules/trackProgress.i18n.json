@@ -1,0 +1,46 @@
+{
+  "title": "Monitorare senza darsi voti",
+  "summary": "Segui ciò che si muove, senza trasformare le tue note in una pagella.",
+  "sections": {
+    "why": {
+      "title": "Perché osservare cambia qualcosa",
+      "paragraph1": "Annotare a che punto sei non è burocrazia. Una meta-analisi che copre numerosi esperimenti ha mostrato che monitorare l'avanzamento verso un obiettivo aumenta, in media, le probabilità di raggiungerlo.",
+      "paragraph2": "L'effetto era più chiaro quando il monitoraggio veniva reso esplicito — scritto o condiviso — invece di restare in testa.",
+      "paragraph3": "L'osservazione funziona anche al di là della misura: riporta l'attenzione su un comportamento diventato automatico, e a volte basta questo per aprire una scelta.",
+      "keyPoint1": "Scrivi la tua osservazione invece di tenerla in testa.",
+      "keyPoint2": "Punta a un monitoraggio regolare, non esaustivo.",
+      "keyPoint3": "Osservare è già un'azione, non una preparazione."
+    },
+    "what": {
+      "title": "Che cosa annotare e che cosa no",
+      "paragraph1": "L'informazione utile è generale: un orario, un luogo, uno stato, una strategia provata e come ti sei sentito dopo. Basta questo perché emerga uno schema.",
+      "paragraph2": "I dettagli espliciti, invece, non aggiungono nulla all'analisi e creano un rischio in più se il dispositivo viene perso o visto da qualcun altro.",
+      "paragraph3": "Un buon test prima di scrivere: questa nota mi aiuterebbe a decidere qualcosa la prossima settimana? Se la risposta è no, può restare non scritta."
+    },
+    "noScore": {
+      "title": "Un'osservazione, non un voto",
+      "paragraph1": "Lo stesso dato si può leggere in due modi: «tre eventi questa settimana» è un'informazione; «ho fallito, tre volte» è un verdetto. Solo il primo permette di modificare qualcosa.",
+      "paragraph2": "Una meta-regressione di interventi su alimentazione sana e attività fisica ha rilevato che l'auto-monitoraggio era la tecnica singola più decisiva, e che combinarlo con altre tecniche di autoregolazione — fissare un obiettivo, confrontare, adattare — superava gli altri interventi.",
+      "paragraph3": "Anche per questo StopCorn non assegna nessun voto morale né una serie la cui perdita cancelli tutto ciò che hai fatto.",
+      "keyPoint1": "Descrivi i fatti e lascia da parte il verdetto.",
+      "keyPoint2": "Confrontati con il tuo punto di partenza, non con un ideale.",
+      "keyPoint3": "I dati servono ad aiutarti a decidere, non a giudicarti."
+    },
+    "gaps": {
+      "title": "Buchi nei dati",
+      "paragraph1": "Ci saranno giorni senza note. È normale e non rende inutile il resto.",
+      "paragraph2": "L'assenza di dati non equivale però all'assenza di eventi: quando leggi una tendenza, tieni presente ciò che non è mai stato annotato prima di trarre una conclusione.",
+      "paragraph3": "Riprendere il monitoraggio dopo una pausa vale più di uno storico perfetto. Non deve essere completo per essere utile."
+    },
+    "rhythm": {
+      "title": "Un ritmo di revisione",
+      "paragraph1": "Le note acquistano senso quando le rileggi. Un appuntamento breve e regolare — per esempio dieci minuti una volta a settimana — può essere un punto di partenza.",
+      "paragraph2": "Guarda tre cose: ciò che ricorre, ciò che ha aiutato e ciò che vuoi modificare dopo. All'inizio, scegliere una sola modifica rende più facile leggerne gli effetti.",
+      "paragraph3": "Se la revisione diventa un rimprovero, prova a riformulare le domande: che cosa continua a ripetersi, che cosa ha aiutato e che cosa vuoi provare dopo?",
+      "keyPoint1": "Fissa una revisione breve in un giorno preciso.",
+      "keyPoint2": "Inizia con una sola modifica.",
+      "keyPoint3": "Annota anche ciò che ha funzionato."
+    }
+  },
+  "reflectionPrompt": "Quale giorno della settimana potresti riservare a una breve revisione delle tue note?"
+}

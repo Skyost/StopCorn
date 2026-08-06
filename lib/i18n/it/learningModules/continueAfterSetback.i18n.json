@@ -1,0 +1,43 @@
+{
+  "title": "Continuare dopo una ricaduta",
+  "summary": "Trasforma un episodio in informazione utile, senza giudizio.",
+  "sections": {
+    "perspective": {
+      "title": "Uscire dal «ormai è tutto rovinato»",
+      "paragraph1": "Qui una «scivolata» indica un episodio che non corrisponde all'obiettivo che hai scelto. Non cancella le pause, le scelte e le osservazioni che hai già fatto.",
+      "paragraph2": "In uno studio sulla cessazione del fumo, la maggior parte delle reazioni raccolte sotto l'effetto di violazione dell'astinenza non prediceva la ricaduta. La voglia di mollare dopo la scivolata, invece, si associava a un passaggio più rapido a una seconda scivolata.",
+      "paragraph3": "I partecipanti che hanno provato una risposta riparatrice dopo la scivolata avevano meno probabilità di averne un'altra lo stesso giorno. Poiché lo studio riguardava il fumo, questa è una pista utile più che una regola per la tua situazione.",
+      "keyPoint1": "Una scivolata e un ritorno duraturo sono due cose diverse.",
+      "keyPoint2": "Una risposta riparatrice può aiutarti a riprendere il filo.",
+      "keyPoint3": "Riprendi il piano in corso invece di ricominciare da zero."
+    },
+    "compassion": {
+      "title": "L'autocompassione non è indulgenza",
+      "paragraph1": "Molte persone temono che essere gentili con sé stesse equivalga ad arrendersi. Gli esperimenti suggeriscono il contrario: dopo un fallimento, un atteggiamento gentile verso sé stessi si associava a un maggiore sforzo per migliorare.",
+      "paragraph2": "Un programma strutturato di allenamento all'autocompassione ha mostrato effetti sul benessere anche in uno studio controllato, condotto su un campione piccolo e in gran parte femminile. L'autocompassione è quindi qualcosa che si pratica come una capacità, non un tratto fisso di personalità.",
+      "paragraph3": "Una formulazione semplice: parlati come parleresti a una persona che stimi e che ha appena vissuto la stessa cosa."
+    },
+    "adjust": {
+      "title": "Adattare invece di punire",
+      "paragraph1": "Guarda che cosa è venuto prima: l'orario, la stanchezza, l'emozione, il dispositivo o il contesto generale.",
+      "paragraph2": "Poi scegli una modifica limitata. La punizione o un obiettivo poco realistico raramente forniscono informazioni utili.",
+      "paragraph3": "Una scivolata è anche un dato: indica un punto del piano non ancora coperto. È spiacevole, ma è utilizzabile.",
+      "keyPoint1": "Cerca la situazione, non il colpevole.",
+      "keyPoint2": "Inizia con una modifica limitata.",
+      "keyPoint3": "Irrigidire l'obiettivo dopo una scivolata raramente lo rende più sostenibile."
+    },
+    "plan": {
+      "title": "Una capacità, non un destino",
+      "paragraph1": "Gli approcci di prevenzione delle ricadute considerano la possibilità di una scivolata e propongono di preparare in anticipo la tua risposta, invece di affidarsi solo alla speranza che non accada.",
+      "paragraph2": "Le rassegne su questi programmi mostrano effetti complessivamente favorevoli sui comportamenti di dipendenza, con risultati che variano secondo le sostanze e i protocolli.",
+      "paragraph3": "Puoi preparare tre righe: che cosa faccio dopo la scivolata, a chi posso scrivere e che cosa guardo nel mio piano prima di concludere qualsiasi cosa."
+    },
+    "help": {
+      "title": "Sapere quando chiedere aiuto",
+      "paragraph1": "Se la perdita di controllo persiste, provoca una forte sofferenza o ha conseguenze importanti, parlarne con un professionista qualificato può aiutare.",
+      "paragraph2": "Le rassegne recenti riguardano soprattutto le psicoterapie cognitivo-comportamentali e gli approcci basati sull'accettazione. Riportano risultati incoraggianti, ma la qualità degli studi è spesso bassa e il rischio di distorsione elevato, per cui l'efficacia non può ancora essere affermata con certezza.",
+      "paragraph3": "Chiedere aiuto può far parte del piano; non toglie nulla ai progressi già fatti."
+    }
+  },
+  "reflectionPrompt": "Quale informazione utile puoi trarre dall'ultimo episodio senza giudicarti?"
+}

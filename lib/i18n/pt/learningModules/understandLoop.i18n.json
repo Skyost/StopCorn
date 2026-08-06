@@ -1,0 +1,49 @@
+{
+  "title": "Entender o ciclo",
+  "summary": "Observe as etapas que podem manter um hábito.",
+  "sections": {
+    "sequence": {
+      "title": "Uma sequência para observar",
+      "paragraph1": "Um hábito às vezes pode ser descrito assim: situação → emoção → impulso → comportamento → efeito imediato ou alívio → consequências.",
+      "paragraph2": "É um modelo prático de observação, não uma sequência comprovada para todo mundo. Algumas etapas podem acontecer muito rápido ou ser difíceis de perceber.",
+      "paragraph3": "Descrevê-lo tem uma vantagem simples: um ciclo oferece vários pontos onde agir, enquanto uma única decisão oferece apenas um."
+    },
+    "cues": {
+      "title": "Sinais que se tornaram automáticos",
+      "paragraph1": "A pesquisa sobre hábitos descreve associações aprendidas entre um contexto e uma resposta: quando um comportamento foi repetido bastante num ambiente estável, o contexto sozinho pode desencadeá-lo, sem uma decisão consciente a cada vez.",
+      "paragraph2": "Num estudo de campo muito citado, uma parte importante dos comportamentos cotidianos acontecia quase no mesmo lugar e no mesmo horário, com pouca deliberação prévia.",
+      "paragraph3": "Por isso uma vontade pode parecer surgir «do nada»: o sinal estava presente, mas você não o percebeu.",
+      "keyPoint1": "Um lugar ou um horário repetidos viram um sinal.",
+      "keyPoint2": "O automatismo não é falta de força de vontade.",
+      "keyPoint3": "Identificar o sinal dá a você um ponto onde agir."
+    },
+    "reinforcement": {
+      "title": "O que mantém o ciclo",
+      "paragraph1": "Um comportamento se repete sobretudo quando traz algo de imediato: prazer, distração, uma queda da tensão ou uma pausa diante de uma emoção difícil.",
+      "paragraph2": "Um estudo com homens que consumiam pornografia on-line com regularidade mediu o humor deles logo antes e logo depois de uma sessão escolhida por eles mesmos. Em média, sentiam-se um pouco melhor e mais calmos depois, mas quanto mais marcadas eram as tendências a um uso problemático, menor era essa melhora.",
+      "paragraph3": "Um efeito agradável imediato pode, portanto, ajudar a manter um ciclo, sem dizer por si só nada sobre as consequências posteriores nem sobre a sua situação pessoal. A diferença entre o que você espera de um momento e o que observa depois continua merecendo atenção."
+    },
+    "models": {
+      "title": "O que os modelos dizem, e o que não dizem",
+      "paragraph1": "Modelos teóricos como o I-PACE propõem combinar predisposições pessoais, afetos, expectativas, reatividade aos sinais e funções de controle para descrever os comportamentos aditivos.",
+      "paragraph2": "Trabalhos de neuroimagem observaram uma reatividade cerebral maior aos sinais que anunciam conteúdo em homens que buscavam tratamento por um uso problemático. Estes resultados descrevem grupos, baseiam-se em amostras limitadas e não podem decidir nada sobre o seu caso pessoal.",
+      "paragraph3": "Um modelo ajuda a organizar a observação. Não substitui nem um diagnóstico nem aquilo que você realmente percebe na sua própria vida."
+    },
+    "action": {
+      "title": "Encontrar um ponto onde agir",
+      "paragraph1": "Você não precisa controlar todo o ciclo. Mudar de lugar, esperar alguns minutos ou escolher outra ação pode criar espaço.",
+      "paragraph2": "Observar a situação e a emoção pode ajudar você a escolher um ponto de ação realista. Intervir mais cedo pode custar menos esforço do que esperar o momento mais intenso.",
+      "paragraph3": "Basta um ponto de ação para começar. Tente o que parecer mais fácil, não o mais impressionante.",
+      "keyPoint1": "Tente agir cedo no ciclo quando for possível.",
+      "keyPoint2": "Escolha um único ponto de ação de cada vez.",
+      "keyPoint3": "Uma mudança fácil que você mantém vale mais que uma ambiciosa que você abandona."
+    },
+    "observe": {
+      "title": "Observar sem diagnosticar",
+      "paragraph1": "As notas do StopCorn são marcos pessoais, não um diagnóstico.",
+      "paragraph2": "O objetivo é tornar mais visíveis as sequências que se repetem, para que você possa ajustar o seu plano.",
+      "paragraph3": "Algumas observações bastam: nunca são necessários detalhes explícitos, só o contexto geral ajuda um padrão a aparecer."
+    }
+  },
+  "reflectionPrompt": "Qual parte do ciclo parece mais fácil de mudar esta semana?"
+}

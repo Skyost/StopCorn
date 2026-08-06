@@ -1,0 +1,43 @@
+{
+  "title": "Dein Gelände kartieren",
+  "summary": "Erkenne die Situationen, die in deinen Beobachtungen wiederkehren.",
+  "sections": {
+    "states": {
+      "title": "Zeiten und Zustände",
+      "paragraph1": "Uhrzeit und Ort können zu wiederkehrenden Kontextreizen werden. Stress, Langeweile oder der Versuch, zu einer schwierigen Emotion Abstand zu gewinnen, können ebenfalls in deinen Beobachtungen auftauchen.",
+      "paragraph2": "Eine Studie mit Erfahrungsstichproben fand, dass alltägliche Wünsche häufig sind und oft mit dem zusammenhängen, was die Person gerade tut. Regelmäßiges Verlangen ist also für sich genommen kein Zeichen für ein Problem.",
+      "paragraph3": "Behandle diese Wiederholungen als Hypothesen, nicht als Ursachen: Mehrere Beobachtungen über die Zeit sagen mehr aus als ein Zufall.",
+      "keyPoint1": "Halte Uhrzeit, Ort und Zustand fest – nicht den Inhalt.",
+      "keyPoint2": "Suche über mehrere Tage nach einem Muster.",
+      "keyPoint3": "Häufiges Verlangen ist keine Diagnose."
+    },
+    "motives": {
+      "title": "Die Gründe hinter dem Konsum",
+      "paragraph1": "Eine Studie zu Konsummotiven fand mehrere sehr unterschiedliche: sexuelles Vergnügen, Neugier, Langeweile, Fantasie, Stressabbau oder das Vermeiden einer Emotion.",
+      "paragraph2": "In dieser Arbeit hingen mehrere Motive, die mit dem Bewältigen von Schwierigkeiten zu tun haben – Stress abbauen, sich von einer Emotion ablenken oder auf Langeweile reagieren –, mit problematischem Gebrauch zusammen, ebenso Fantasie und sexuelles Vergnügen. Alle diese Zusammenhänge blieben schwach bis mäßig.",
+      "paragraph3": "Dein vorherrschendes Motiv zu erkennen verändert den Rest des Plans: Wiederkehrende Langeweile verlangt eine andere Antwort als ein stressiger Abend oder ein einsamer Moment."
+    },
+    "routines": {
+      "title": "Geräte und Routinen",
+      "paragraph1": "Ein Gerät, das am selben Ort und zur selben Zeit verfügbar ist, kann eine automatische Reaktion erleichtern.",
+      "paragraph2": "Die Forschung zur Gewohnheitsbildung zeigt, dass Wiederholung in einem stabilen Kontext die Automatik verstärkt, mit großen Unterschieden zwischen Personen und Verhaltensweisen: Es gibt keine feste Zahl von Tagen, nach der eine Gewohnheit einfach „sitzt“.",
+      "paragraph3": "Wenn deine Notizen zeigen, dass soziale Medien oder eine Abendroutine oft vorausgehen, betrachte das als nützliches Muster – nicht zwangsläufig als einzige Ursache."
+    },
+    "emotions": {
+      "title": "Emotionen als Anhaltspunkt",
+      "paragraph1": "Die Emotion zu benennen, die kurz vor einem Impuls da ist, sagt oft mehr aus als den Impuls selbst zu benennen.",
+      "paragraph2": "Eine Metaanalyse zu Emotionsregulation und Symptomen von Angst-, depressiven, Ess- und substanzbezogenen Störungen beobachtet, dass Vermeidungs- und Unterdrückungsstrategien mit mehr Schwierigkeiten einhergehen, während Problemlösen und Neubewertung mit weniger einhergehen.",
+      "paragraph3": "Diese Befunde beschreiben Gruppentendenzen. Sie bedeuten nicht, dass deine Art zurechtzukommen schuld ist: Sie legen vor allem nahe, dein Repertoire an Reaktionen zu erweitern.",
+      "keyPoint1": "Benenne die Emotion, bevor du das Verhalten bewertest.",
+      "keyPoint2": "Reaktionen zu erweitern ist besser, als eine zu verbieten.",
+      "keyPoint3": "Drei Angaben genügen: wann, wo, welcher Zustand."
+    },
+    "map": {
+      "title": "Eine Karte, kein Urteil",
+      "paragraph1": "Dein Gelände zu kartieren hilft dir, Möglichkeiten vorzubereiten. Es bedeutet nicht, jede schwierige Situation zu meiden.",
+      "paragraph2": "Eine zu detaillierte Karte lässt sich schwer nutzen. Du kannst mit zwei oder drei wiederkehrenden Situationen anfangen, um einen realistischen Plan zu bauen.",
+      "paragraph3": "Ein paar allgemeine Beobachtungen genügen; explizite Einzelheiten oder der Browserverlauf nützen nichts."
+    }
+  },
+  "reflectionPrompt": "Welche Situation taucht in deinen Beobachtungen am häufigsten auf?"
+}

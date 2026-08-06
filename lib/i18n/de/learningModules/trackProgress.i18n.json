@@ -1,0 +1,46 @@
+{
+  "title": "Beobachten, ohne dich zu benoten",
+  "summary": "Verfolge, was sich bewegt, ohne deine Notizen in ein Zeugnis zu verwandeln.",
+  "sections": {
+    "why": {
+      "title": "Warum Beobachten etwas verändert",
+      "paragraph1": "Festzuhalten, wo du stehst, ist keine Verwaltungsarbeit. Eine Metaanalyse über zahlreiche Experimente zeigte, dass die Verfolgung des Fortschritts auf ein Ziel hin die Chancen, es zu erreichen, im Mittel erhöht.",
+      "paragraph2": "Der Effekt war deutlicher, wenn die Verfolgung ausdrücklich erfolgte – aufgeschrieben oder geteilt – statt nur im Kopf zu bleiben.",
+      "paragraph3": "Beobachten wirkt auch jenseits des Messens: Es lenkt die Aufmerksamkeit zurück auf ein Verhalten, das automatisch geworden war, und das genügt manchmal, um eine Wahl zu eröffnen.",
+      "keyPoint1": "Schreib deine Beobachtung auf, statt sie im Kopf zu behalten.",
+      "keyPoint2": "Ziel ist Regelmäßigkeit, nicht Vollständigkeit.",
+      "keyPoint3": "Beobachten ist bereits eine Handlung, keine Vorbereitung."
+    },
+    "what": {
+      "title": "Was du festhalten solltest und was nicht",
+      "paragraph1": "Nützliche Angaben sind allgemein: eine Uhrzeit, ein Ort, ein Zustand, eine ausprobierte Strategie und wie du dich danach gefühlt hast. Das genügt, damit ein Muster sichtbar wird.",
+      "paragraph2": "Explizite Einzelheiten bringen der Auswertung dagegen nichts und schaffen zusätzliches Risiko, falls dein Gerät verloren geht oder jemand hineinsieht.",
+      "paragraph3": "Ein guter Test vor dem Schreiben: Würde mir diese Notiz nächste Woche helfen, etwas zu entscheiden? Wenn nicht, kann sie ungeschrieben bleiben."
+    },
+    "noScore": {
+      "title": "Eine Beobachtung, keine Note",
+      "paragraph1": "Dieselbe Angabe lässt sich zweifach lesen: „drei Ereignisse diese Woche“ ist eine Information; „ich habe dreimal versagt“ ist ein Urteil. Nur das Erste erlaubt es, etwas anzupassen.",
+      "paragraph2": "Eine Metaregression zu Interventionen für gesunde Ernährung und körperliche Aktivität fand, dass Selbstbeobachtung die für sich genommen entscheidendste Technik war und dass ihre Kombination mit weiteren Selbstregulationstechniken – ein Ziel setzen, vergleichen, anpassen – die übrigen Interventionen übertraf.",
+      "paragraph3": "Auch deshalb vergibt StopCorn keine moralische Note und keine Serie, deren Verlust alles Geleistete auslöscht.",
+      "keyPoint1": "Beschreibe die Fakten und lass das Urteil beiseite.",
+      "keyPoint2": "Vergleiche mit deinem Ausgangspunkt, nicht mit einem Ideal.",
+      "keyPoint3": "Daten sind da, um dir Entscheidungen zu erleichtern, nicht um dich zu bewerten."
+    },
+    "gaps": {
+      "title": "Lücken in den Daten",
+      "paragraph1": "Es wird Tage ohne Notizen geben. Das ist normal und macht den Rest nicht unbrauchbar.",
+      "paragraph2": "Fehlende Daten sind allerdings nicht dasselbe wie fehlende Ereignisse: Wenn du eine Tendenz liest, denk an das, was nie festgehalten wurde, bevor du einen Schluss ziehst.",
+      "paragraph3": "Die Beobachtung nach einer Pause wieder aufzunehmen ist mehr wert als ein lückenloser Verlauf. Sie muss nicht vollständig sein, um zu nützen."
+    },
+    "rhythm": {
+      "title": "Ein Rhythmus zum Durchsehen",
+      "paragraph1": "Notizen werden aussagekräftig, wenn du sie noch einmal liest. Ein kurzer, regelmäßiger Termin – zum Beispiel zehn Minuten einmal pro Woche – kann ein Anfang sein.",
+      "paragraph2": "Schau auf drei Dinge: was wiederkehrt, was geholfen hat und was du als Nächstes anpassen willst. Am Anfang lässt sich die Wirkung leichter ablesen, wenn du nur eine einzige Anpassung wählst.",
+      "paragraph3": "Wenn das Durchsehen in Selbstvorwürfe kippt, formuliere die Fragen um: Was kehrt wieder, was hat geholfen und was willst du als Nächstes ausprobieren?",
+      "keyPoint1": "Lege einen kurzen Rückblick auf einen festen Tag.",
+      "keyPoint2": "Fang mit einer einzigen Anpassung an.",
+      "keyPoint3": "Halte auch fest, was funktioniert hat."
+    }
+  },
+  "reflectionPrompt": "Welchen Wochentag könntest du für einen kurzen Blick auf deine Notizen reservieren?"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Rückblick des Tages",
+  "intro": {
+    "create": "Ein kurzer Anhaltspunkt, in weniger als einer Minute.",
+    "edit": "Den heutigen Rückblick bearbeiten."
+  },
+  "mood": {
+    "label": "Stimmung",
+    "scale": "0 = sehr schwierig, 10 = sehr gut"
+  },
+  "control": {
+    "label": "Gefühl von Kontrolle",
+    "scale": "0 = keine Kontrolle, 10 = volle Kontrolle"
+  },
+  "urge": {
+    "count": "Ungefähre Anzahl an Verlangen (optional)",
+    "hint": "Beispiel: 3",
+    "negative": "Die Zahl darf nicht negativ sein."
+  },
+  "consumption": {
+    "recorded(param=count)": {
+      "one": "$count festgehaltener Konsum an diesem Tag.",
+      "other": "$count festgehaltene Konsumereignisse an diesem Tag."
+    },
+    "none": "Kein Konsum an diesem Tag festgehalten."
+  },
+  "sleep": {
+    "label": "Schlafqualität (optional)",
+    "scale": "0 = sehr schlecht, 10 = ausgezeichnet"
+  },
+  "note": {
+    "label": "Optionale Notiz",
+    "hint": "Was deinen Tag geprägt hat…"
+  },
+  "saved": {
+    "title": "Rückblick gespeichert.",
+    "body": "Diese Anhaltspunkte helfen dir, Tendenzen im Lauf der Zeit zu erkennen."
+  },
+  "error": {
+    "load": "Der Rückblick des Tages konnte nicht geladen werden.",
+    "save": "Speichern ist gerade nicht möglich. Versuche es in einem Moment erneut."
+  }
+}

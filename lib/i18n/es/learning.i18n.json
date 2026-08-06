@@ -1,0 +1,55 @@
+{
+  "subtitle": "Nueve módulos breves, disponibles sin conexión y sin diagnóstico.",
+  "semantics": "Módulos de aprendizaje",
+  "evidence": {
+    "title": "¿En qué se basan estos módulos?",
+    "sheetTitle": "Fuentes y límites",
+    "principles": "Cada módulo cita investigaciones revisadas por pares que respaldan principios generales sobre la motivación, los hábitos, el autocontrol, la regulación emocional, la autoobservación, la atención plena o la autocompasión. Cada referencia enlaza con una ficha de PubMed o con un DOI verificable.",
+    "limitations": "Estas fuentes no validan clínicamente StopCorn. Algunas tratan sobre el comportamiento en general, el tabaquismo o la depresión, y los estudios centrados en la pornografía pueden basarse en muestras limitadas. Varios resultados son correlacionales y no demuestran una relación de causa y efecto. Los módulos ofrecen orientaciones educativas prudentes, no un diagnóstico ni un tratamiento."
+  },
+  "sources": {
+    "title(param=count)": {
+      "one": "$count fuente científica",
+      "other": "$count fuentes científicas"
+    },
+    "shortDescription": "Referencias y alcance de los resultados",
+    "sheetTitle": "Fuentes científicas",
+    "scope": "Cada resultado debe leerse dentro de su población y su método: una asociación no demuestra una causa, y un resultado obtenido con otro comportamiento o con una muestra limitada no siempre es generalizable. Estas referencias no demuestran que este módulo o StopCorn sean un tratamiento."
+  },
+  "module": {
+    "line": "$minutes min · $status",
+    "progress": "Progreso del módulo $title",
+    "pageTitle": "Módulo",
+    "loadError": "No se ha podido cargar este módulo."
+  },
+  "status": {
+    "completed": "Terminado",
+    "reviewing": "Releyendo",
+    "resume": "Seguir leyendo",
+    "discover": "Descubrir"
+  },
+  "reading": {
+    "progress": "Progreso de lectura del módulo",
+    "keyPoints": "Para recordar",
+    "part": "Parte $current de $total",
+    "previous": "Anterior"
+  },
+  "reflection": {
+    "optional": "Reflexión opcional",
+    "label": "Mi reflexión",
+    "hint": "Unas palabras para ti…",
+    "localNote": "Esta nota se queda únicamente en tu dispositivo.",
+    "continueAction": "Pasar a la reflexión",
+    "yours": "Tu reflexión"
+  },
+  "completion": {
+    "title": "Módulo terminado",
+    "finish": "Terminar el módulo",
+    "restart": "Volver a empezar el módulo",
+    "back": "Volver a los módulos"
+  },
+  "error": {
+    "load": "No se han podido cargar los módulos.",
+    "save": "No se puede guardar tu progreso en este momento. Inténtalo de nuevo."
+  }
+}

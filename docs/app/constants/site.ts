@@ -24,10 +24,15 @@ export const SITE = Object.freeze({
 
 export const DEFAULT_LOCALE = 'en' as const
 export const FALLBACK_LOCALE = 'en' as const
+export const DEFAULT_LANGUAGE_TAG = 'en-US' as const
 
 export const SUPPORTED_LOCALES = [
-  { code: 'en', languageTag: 'en-US', label: 'English', shortLabel: 'EN' },
+  { code: 'en', languageTag: DEFAULT_LANGUAGE_TAG, label: 'English', shortLabel: 'EN' },
   { code: 'fr', languageTag: 'fr-FR', label: 'Français', shortLabel: 'FR' },
+  { code: 'es', languageTag: 'es-ES', label: 'Español', shortLabel: 'ES' },
+  { code: 'pt', languageTag: 'pt-PT', label: 'Português', shortLabel: 'PT' },
+  { code: 'de', languageTag: 'de-DE', label: 'Deutsch', shortLabel: 'DE' },
+  { code: 'it', languageTag: 'it-IT', label: 'Italiano', shortLabel: 'IT' },
 ] as const
 
 export type SiteLocale = (typeof SUPPORTED_LOCALES)[number]['code']
@@ -197,6 +202,11 @@ export function localizedPath(locale: SiteLocale, hash?: string): string {
 
 export function absoluteUrl(path: string): string {
   return new URL(path, SITE.url).toString()
+}
+
+export function openGraphLocale(locale: SiteLocale): string {
+  const supported = SUPPORTED_LOCALES.find(({ code }) => code === locale)
+  return (supported?.languageTag ?? DEFAULT_LANGUAGE_TAG).replace('-', '_')
 }
 
 export function appScreenshotPath(locale: SiteLocale, fileName: string): string {

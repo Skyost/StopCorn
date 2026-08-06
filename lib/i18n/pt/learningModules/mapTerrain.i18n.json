@@ -1,0 +1,43 @@
+{
+  "title": "Mapeie o seu terreno",
+  "summary": "Identifique as situações que se repetem nas suas observações.",
+  "sections": {
+    "states": {
+      "title": "Horários e estados",
+      "paragraph1": "O horário e o lugar podem se tornar sinais de contexto recorrentes. O estresse, o tédio ou a tentativa de se afastar de uma emoção difícil também podem aparecer nas suas observações.",
+      "paragraph2": "Um estudo de amostragem de experiências constatou que os desejos do dia a dia são frequentes e muitas vezes ligados ao que a pessoa está fazendo naquele momento. Sentir vontades com regularidade não é, portanto, em si um sinal de problema.",
+      "paragraph3": "Trate estas repetições como hipóteses, não como causas: várias observações ao longo do tempo informam mais do que uma coincidência.",
+      "keyPoint1": "Anote o horário, o lugar e o estado, não o conteúdo.",
+      "keyPoint2": "Procure um padrão ao longo de vários dias.",
+      "keyPoint3": "Uma vontade frequente não é um diagnóstico."
+    },
+    "motives": {
+      "title": "As razões por trás do consumo",
+      "paragraph1": "Um estudo sobre as motivações de consumo identificou várias bem diferentes: prazer sexual, curiosidade, tédio, fantasia, redução do estresse ou evitação de uma emoção.",
+      "paragraph2": "Nesse trabalho, vários motivos ligados a lidar com uma dificuldade — reduzir o estresse, se distrair de uma emoção ou responder ao tédio — associavam-se a um uso problemático, assim como a fantasia e o prazer sexual. Todas estas associações permaneceram fracas a moderadas.",
+      "paragraph3": "Identificar o seu motivo dominante muda o resto do plano: um tédio repetido não pede a mesma resposta que uma noite estressante ou um momento de solidão."
+    },
+    "routines": {
+      "title": "Aparelhos e rotinas",
+      "paragraph1": "Um aparelho disponível no mesmo lugar e no mesmo horário pode facilitar uma resposta automática.",
+      "paragraph2": "A pesquisa sobre a formação de hábitos mostra que a repetição num contexto estável reforça o automatismo, com grandes diferenças entre pessoas e comportamentos: não existe um número fixo de dias após o qual um hábito fique simplesmente «fixado».",
+      "paragraph3": "Se as suas notas mostram que as redes sociais ou uma rotina noturna vêm muitas vezes antes, veja isso como um padrão útil, não necessariamente como a única causa."
+    },
+    "emotions": {
+      "title": "As emoções como marco",
+      "paragraph1": "Nomear a emoção presente logo antes de um impulso costuma trazer mais informação do que nomear o próprio impulso.",
+      "paragraph2": "Uma meta-análise sobre a regulação emocional e os sintomas de transtornos de ansiedade, depressivos, alimentares e por uso de substâncias observa que as estratégias de evitação e de supressão se associam a mais dificuldades, enquanto a resolução de problemas e a reavaliação se associam a menos.",
+      "paragraph3": "Estes resultados descrevem tendências de grupo. Não significam que a sua forma de lidar seja culpada: sugerem sobretudo ampliar o leque de respostas de que você dispõe.",
+      "keyPoint1": "Nomeie a emoção antes de julgar o comportamento.",
+      "keyPoint2": "Ampliar as suas respostas é melhor do que proibir uma delas.",
+      "keyPoint3": "Bastam três palavras: quando, onde, em que estado."
+    },
+    "map": {
+      "title": "Um mapa, não um veredito",
+      "paragraph1": "Mapear o seu terreno ajuda a preparar opções. Não significa evitar toda situação difícil.",
+      "paragraph2": "Um mapa com detalhes demais pode ficar difícil de usar. Você pode começar com duas ou três situações recorrentes para construir um plano realista.",
+      "paragraph3": "Bastam algumas observações gerais; nenhum detalhe explícito ou histórico de navegação é útil."
+    }
+  },
+  "reflectionPrompt": "Qual situação aparece com mais frequência nas suas observações?"
+}

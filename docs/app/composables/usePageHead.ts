@@ -7,6 +7,7 @@ import {
   SUPPORTED_LOCALES,
   absoluteUrl,
   localizedPath,
+  openGraphLocale,
   type SiteLocale,
 } from '~/constants/site'
 
@@ -40,7 +41,7 @@ export function usePageHead(options: PageHeadOptions) {
     ogImageHeight: SITE.socialImages.openGraph.height,
     ogImageType: 'image/png',
     ogUrl: pageUrl,
-    ogLocale: computed(() => locale.value === 'fr' ? 'fr_FR' : 'en_US'),
+    ogLocale: computed(() => openGraphLocale(locale.value)),
     twitterCard: 'summary',
     twitterTitle: title,
     twitterDescription: description,

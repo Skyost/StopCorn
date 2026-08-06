@@ -53,8 +53,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/': { prerender: true },
-    '/fr/**': { prerender: true },
-    '/en/**': { prerender: true },
+    ...Object.fromEntries(SUPPORTED_LOCALES.map(({ code }) => [`/${code}/**`, { prerender: true }])),
   },
   experimental: {
     defaults: {

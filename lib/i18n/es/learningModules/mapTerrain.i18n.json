@@ -1,0 +1,43 @@
+{
+  "title": "Traza tu terreno",
+  "summary": "Identifica las situaciones que se repiten en tus observaciones.",
+  "sections": {
+    "states": {
+      "title": "Horas y estados",
+      "paragraph1": "La hora y el lugar pueden convertirse en señales de contexto recurrentes. El estrés, el aburrimiento o el intento de tomar distancia de una emoción difícil también pueden aparecer en tus observaciones.",
+      "paragraph2": "Un estudio de muestreo de experiencias encontró que los deseos cotidianos son frecuentes y a menudo están ligados a lo que la persona está haciendo en ese momento. Sentir impulsos con regularidad no es, por tanto, en sí mismo una señal de problema.",
+      "paragraph3": "Trata estas repeticiones como hipótesis, no como causas: varias observaciones a lo largo del tiempo informan más que una coincidencia.",
+      "keyPoint1": "Anota la hora, el lugar y el estado, no el contenido.",
+      "keyPoint2": "Busca un patrón a lo largo de varios días.",
+      "keyPoint3": "Un impulso frecuente no es un diagnóstico."
+    },
+    "motives": {
+      "title": "Las razones del consumo",
+      "paragraph1": "Un estudio sobre las motivaciones de consumo identificó varias muy distintas: placer sexual, curiosidad, aburrimiento, fantasía, reducción del estrés o evitación de una emoción.",
+      "paragraph2": "En ese trabajo, varios motivos relacionados con gestionar una dificultad —reducir el estrés, distraerse de una emoción o responder al aburrimiento— se asociaban a un uso problemático, igual que la fantasía y el placer sexual. Todas estas asociaciones eran de débiles a moderadas.",
+      "paragraph3": "Identificar tu motivo dominante cambia el resto del plan: un aburrimiento repetido no pide la misma respuesta que una tarde estresante o un momento de soledad."
+    },
+    "routines": {
+      "title": "Dispositivos y rutinas",
+      "paragraph1": "Un dispositivo disponible en el mismo lugar y a la misma hora puede facilitar una respuesta automática.",
+      "paragraph2": "La investigación sobre la formación de hábitos muestra que la repetición en un contexto estable refuerza el automatismo, con grandes diferencias entre personas y comportamientos: no existe un número fijo de días tras el cual un hábito quede simplemente «fijado».",
+      "paragraph3": "Si tus notas muestran que las redes sociales o una rutina nocturna aparecen a menudo antes, considéralo un patrón útil, no necesariamente la única causa."
+    },
+    "emotions": {
+      "title": "Las emociones como punto de referencia",
+      "paragraph1": "Nombrar la emoción presente justo antes de un impulso suele aportar más información que nombrar el impulso en sí.",
+      "paragraph2": "Un metaanálisis sobre la regulación emocional y los síntomas de trastornos de ansiedad, depresivos, alimentarios y por consumo de sustancias observa que las estrategias de evitación y de supresión se asocian a más dificultades, mientras que la resolución de problemas y la reevaluación se asocian a menos.",
+      "paragraph3": "Estos resultados describen tendencias de grupo. No significan que tu forma de afrontarlo sea culpable: sobre todo sugieren ampliar el abanico de respuestas de que dispones.",
+      "keyPoint1": "Nombra la emoción antes de juzgar el comportamiento.",
+      "keyPoint2": "Ampliar tus respuestas es mejor que prohibir una de ellas.",
+      "keyPoint3": "Bastan tres palabras: cuándo, dónde, en qué estado."
+    },
+    "map": {
+      "title": "Un mapa, no un veredicto",
+      "paragraph1": "Trazar tu terreno te ayuda a preparar opciones. No significa evitar toda situación difícil.",
+      "paragraph2": "Un mapa con demasiado detalle puede volverse difícil de usar. Puedes empezar con dos o tres situaciones recurrentes para construir un plan realista.",
+      "paragraph3": "Bastan unas pocas observaciones generales; ningún detalle explícito ni historial de navegación resulta útil."
+    }
+  },
+  "reflectionPrompt": "¿Qué situación aparece con más frecuencia en tus observaciones?"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Bilancio del giorno",
+  "intro": {
+    "create": "Un punto di riferimento rapido, in meno di un minuto.",
+    "edit": "Modificare il bilancio di oggi."
+  },
+  "mood": {
+    "label": "Umore",
+    "scale": "0 = molto difficile, 10 = molto buono"
+  },
+  "control": {
+    "label": "Senso di controllo",
+    "scale": "0 = nessun controllo, 10 = controllo completo"
+  },
+  "urge": {
+    "count": "Numero approssimativo di voglie (facoltativo)",
+    "hint": "Esempio: 3",
+    "negative": "Il numero non può essere negativo."
+  },
+  "consumption": {
+    "recorded(param=count)": {
+      "one": "$count consumo registrato quel giorno.",
+      "other": "$count consumi registrati quel giorno."
+    },
+    "none": "Nessun consumo registrato quel giorno."
+  },
+  "sleep": {
+    "label": "Qualità del sonno (facoltativo)",
+    "scale": "0 = molto scarsa, 10 = eccellente"
+  },
+  "note": {
+    "label": "Nota facoltativa",
+    "hint": "Ciò che ha segnato la tua giornata…"
+  },
+  "saved": {
+    "title": "Bilancio salvato.",
+    "body": "Questi punti di riferimento ti aiuteranno a osservare le tendenze nel tempo."
+  },
+  "error": {
+    "load": "Non è stato possibile caricare il bilancio del giorno.",
+    "save": "Impossibile salvare in questo momento. Riprova tra poco."
+  }
+}

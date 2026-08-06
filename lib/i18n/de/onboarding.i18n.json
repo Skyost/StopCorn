@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Einrichtung",
+  "step": "Schritt $current von $total",
+  "welcome": {
+    "title": "Die Kontrolle zurückgewinnen, ohne Bewertung",
+    "subtitle": "StopCorn hilft dir, deine Gewohnheiten zu verstehen, schwierige Momente zu überstehen und einen Plan zu bauen, der zu deinem Ziel passt.",
+    "noAccount": "Kein Konto nötig",
+    "localData": "Daten bleiben auf diesem Gerät",
+    "noAds": "Keine Werbung",
+    "selfHelp": "Ein Selbsthilfe-Werkzeug",
+    "privacyAction": "Mehr über den Datenschutz erfahren",
+    "privacyTitle": "Datenschutz von Anfang an",
+    "privacyBody": "Es werden keine Tagebuchdaten an StopCorn gesendet. Die App liest weder deinen Browser noch deine Suchen noch die Inhalte, die du dir ansiehst. Du wählst allein die allgemeinen Anhaltspunkte, die du festhalten möchtest. Bei einem Absturz kann ein anonymer technischer Bericht gesendet werden, damit das Problem behoben wird; er enthält nichts von deinen Einträgen und lässt sich in den Einstellungen abschalten."
+  },
+  "goal": {
+    "title": "Was möchtest du verändern?",
+    "subtitle": "Wähle eine Richtung, die zu dir passt. Du kannst sie später ändern.",
+    "semantics": "Auswahl des Ziels",
+    "weeklyLimit": "Gewünschte Wochengrenze",
+    "weeklyHint": "Beispiel: 2",
+    "contexts": "Zu vermeidende Situationen",
+    "motivation": "Persönliche Motivation",
+    "motivationHint": "Was du zurückgewinnen oder schützen möchtest…"
+  },
+  "baseline": {
+    "title": "Dein Ausgangspunkt",
+    "subtitle": "Das ist kein medizinischer Test. Er hilft dir nur, deine Entwicklung zu beobachten.",
+    "frequency": "Ungefähre Häufigkeit in den letzten 7 Tagen",
+    "control": "Gefühl von Kontrolle",
+    "impact": "Empfundene negative Auswirkung",
+    "confidence": "Zuversicht, dass du etwas ändern kannst"
+  },
+  "strategies": {
+    "title": "Bereite deinen Notfallplan vor",
+    "subtitle": "Wähle idealerweise drei realistische Handlungen. Eine genügt, um weiterzumachen.",
+    "selected(param=count)": {
+      "zero": "Keine Strategie ausgewählt",
+      "one": "$count Strategie ausgewählt",
+      "other": "$count Strategien ausgewählt"
+    },
+    "semantics": "Notfallstrategien"
+  },
+  "privacy": {
+    "title": "Deine Daten bleiben unter deiner Kontrolle",
+    "subtitle": "Diese Version von StopCorn funktioniert ohne Konto und ohne Server.",
+    "local": "Die Daten werden nur auf diesem Gerät gespeichert.",
+    "noHistory": "Es werden keine URLs und keine Suchen gespeichert.",
+    "control": "Du kannst deine Daten freiwillig exportieren oder vollständig löschen.",
+    "backup": "Die Systemsicherungen deines Telefons können App-Daten enthalten, je nach deinen Systemeinstellungen.",
+    "dailyCheckInReminder": "Mich an meinen Rückblick erinnern",
+    "dailyCheckInReminderDescription": "Erhalte um 20 Uhr eine lokale Erinnerung, aber nur wenn der heutige Rückblick noch leer ist. Du kannst das später ändern.",
+    "reminderPermissionDenied": "Mitteilungen wurden nicht erlaubt. Schalte diese Option aus, um fortzufahren, oder erlaube sie und versuche es erneut.",
+    "reminderUnavailable": "Tägliche Erinnerungen sind auf diesem Gerät nicht verfügbar.",
+    "reminderError": "Die tägliche Erinnerung konnte nicht vorbereitet werden. Versuche es erneut oder schalte sie aus, um fortzufahren.",
+    "crashReports": "Anonyme Absturzberichte helfen, Fehler zu beheben, und lassen sich in den Einstellungen abschalten."
+  },
+  "start": "Loslegen",
+  "finish": "Einrichtung abschließen",
+  "error": {
+    "load": "Die Einrichtung konnte nicht geladen werden.",
+    "save": "Speichern ist gerade nicht möglich. Versuche es in einem Moment erneut.",
+    "complete": "Die Einrichtung konnte nicht abgeschlossen werden. Es wurden keine Daten gesendet.",
+    "notReady": "Die Einrichtung ist noch nicht bereit.",
+    "invalidDraft": "Der gespeicherte Einrichtungsentwurf ist ungültig."
+  },
+  "validation": {
+    "goal": "Wähle ein Ziel.",
+    "weeklyLimit": "Gib eine positive Wochengrenze an.",
+    "context": "Wähle mindestens eine Situation.",
+    "strategy": "Wähle mindestens eine Strategie.",
+    "scoreRange": "Die Werte müssen zwischen 0 und 10 liegen."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "support": {
+    "title": "Un progetto libero, per restare accessibile",
+    "body": "StopCorn è nato da una constatazione semplice: gli strumenti simili finiscono spesso dietro un abbonamento o con funzioni limitate. Per questo l'app è gratuita e open source, senza pubblicità né tracker, così che chiunque possa andare avanti senza barriere.",
+    "values": {
+      "free": "Gratuita",
+      "openSource": "Open source",
+      "noAds": "Senza pubblicità",
+      "noTracking": "Senza tracker"
+    },
+    "contribution": "Se StopCorn ti è utile, puoi sostenerne lo sviluppo. È del tutto facoltativo e non sblocca nessuna funzione.",
+    "supportAction": "Sostenere lo sviluppo",
+    "collapseAction": "Comprimere la scheda del progetto",
+    "expandAction": "Espandere la scheda del progetto",
+    "sourceAction": "Codice sorgente",
+    "websiteAction": "Sito web",
+    "thanks": "Grazie! Il tuo sostegno aiuta StopCorn a restare gratuita e indipendente.",
+    "error": {
+      "link": "Non è stato possibile aprire questo link in questo momento.",
+      "notConfigured": "Il sostegno integrato non è ancora configurato in questa versione.",
+      "paywall": "Non è stato possibile mostrare la pagina di sostegno in questo momento."
+    }
+  },
+  "appearance": {
+    "title": "Aspetto",
+    "description": "Scegli un tema oppure segui l'impostazione del sistema."
+  },
+  "reminders": {
+    "title": "Promemoria",
+    "description": "Scegli se StopCorn deve proporti un piccolo bilancio a fine giornata.",
+    "daily": {
+      "label": "Promemoria del bilancio quotidiano",
+      "description": "Alle 20:00, avvisarmi solo se il bilancio di oggi è ancora vuoto.",
+      "unavailable": "I promemoria quotidiani non sono disponibili su questo dispositivo."
+    },
+    "error": {
+      "permissionDenied": "Le notifiche non sono state autorizzate nelle impostazioni di sistema.",
+      "save": "Non è stato possibile aggiornare il promemoria quotidiano."
+    }
+  },
+  "progress": {
+    "title": "Progressi",
+    "description": "Adatta gli indicatori a ciò che ti è utile.",
+    "defaultPeriod": "Periodo predefinito",
+    "harvest": {
+      "label": "Raccolto",
+      "description": "Raccogli al massimo un corn point per giornata costruttiva. Il tuo raccolto non diminuisce mai."
+    }
+  },
+  "personalPlan": {
+    "title": "Piano personale",
+    "description": "Tieni a portata di mano le opzioni che potranno aiutarti quando ne hai bisogno.",
+    "goal": {
+      "label": "Il mio obiettivo",
+      "none": "Nessun obiettivo attivo"
+    },
+    "backup": {
+      "title": "Il mio piano di riserva",
+      "description": "Metti per prime le azioni che puoi davvero provare in un momento difficile.",
+      "summary(param=count)": {
+        "zero": "Nessuna azione selezionata",
+        "one": "$count azione selezionata",
+        "other": "$count azioni selezionate"
+      }
+    },
+    "history": {
+      "title": "Cronologia degli obiettivi",
+      "subtitle": "Le direzioni che hai scelto finora",
+      "open": "Vedere la cronologia",
+      "current": "In corso",
+      "ended": "Terminato il $date",
+      "started": "Iniziato il $date",
+      "empty": "Non hai ancora definito nessun obiettivo.",
+      "error": "Non è stato possibile caricare la cronologia degli obiettivi.",
+      "count(param=count)": {
+        "one": "$count obiettivo",
+        "other": "$count obiettivi"
+      },
+      "weeklyLimit(param=count)": {
+        "one": "$count evento a settimana",
+        "other": "$count eventi a settimana"
+      },
+      "contexts": "Contesti protetti: $contexts"
+    }
+  },
+  "data": {
+    "title": "Dati",
+    "description": "I tuoi dati restano locali, a meno che tu non scelga di esportarli.",
+    "errorReporting": {
+      "label": "Segnalazioni di crash anonime",
+      "description": "Invia una segnalazione tecnica quando StopCorn va in crash, così che il problema possa essere corretto. Non contiene nessun obiettivo, voce del diario, nota o impostazione. Disattiva questa opzione per non inviare assolutamente nulla."
+    },
+    "export": {
+      "title": "Esportare i miei dati",
+      "description": "Creare un file JSON con versione."
+    },
+    "stored": {
+      "title": "Che cosa viene salvato",
+      "description": "Capire i dati locali.",
+      "body1": "StopCorn conserva in locale i tuoi obiettivi, bilanci, percorsi di sostegno, eventi volontari, strategie usate e progressi di apprendimento.",
+      "body2": "L'app non raccoglie mai URL, cronologia del browser, ricerche, screenshot, contatti o posizione.",
+      "body3": "In base alle impostazioni di sistema, un backup del telefono può includere i dati dell'app."
+    },
+    "delete": {
+      "action": "Eliminare tutti i miei dati",
+      "description": "Azione definitiva in due passaggi.",
+      "progress": "Eliminazione in corso…",
+      "semantics": "Confermare l'eliminazione",
+      "title": "Eliminare tutti i dati?",
+      "body": "Obiettivi, osservazioni, note, bilanci, progressi, preferenze ed esportazioni in cache verranno cancellati da questo dispositivo. Questa azione è definitiva.",
+      "error": "Non è stato possibile completare l'eliminazione. Alcuni dati potrebbero già essere cancellati; riprova per terminare.",
+      "confirmation": {
+        "semantics": "Eliminazione definitiva",
+        "title": "Ultima conferma",
+        "action": "Eliminare definitivamente",
+        "keep": "Conservare i miei dati"
+      }
+    }
+  },
+  "developer": {
+    "title": "Strumenti di sviluppo",
+    "description": "Utilità disponibili soltanto nelle versioni di debug.",
+    "sample": {
+      "action": "Caricare dati di esempio",
+      "description": "Aggiunge una cronologia locale coerente su 60 giorni senza cancellare i tuoi dati esistenti.",
+      "progress": "Caricamento dei dati di esempio…",
+      "loaded": "Dati di esempio caricati. Puoi ricaricarli in qualsiasi momento.",
+      "error": "Non è stato possibile caricare i dati di esempio."
+    },
+    "cornPoint": {
+      "action": "Assegnare un Corn point",
+      "description": "Aggiunge un punto bonus e apre la finestra animata, anche se il Corn point di oggi è già stato raccolto."
+    },
+    "supportThanks": {
+      "label": "Mostrare il ringraziamento di sostegno",
+      "description": "Mostra in locale la nota di ringraziamento nella scheda di sostegno, senza nessun acquisto RevenueCat."
+    }
+  },
+  "about": {
+    "title": "Informazioni",
+    "description": "Informazioni su StopCorn e sul suo ambito d'uso.",
+    "version": "Versione $version.",
+    "body": "StopCorn è uno strumento di auto-aiuto gratuito, privato e senza giudizio.",
+    "privacy": {
+      "title": "Riservatezza",
+      "body1": "Non viene creato nessun account StopCorn e l'accompagnamento quotidiano non usa né tracciamento d'uso, né misurazione dell'audience, né pubblicità.",
+      "body2": "Tutte le osservazioni restano su questo dispositivo, a meno che tu non scelga esplicitamente di creare e poi condividere un'esportazione.",
+      "body3": "StopCorn contatta RevenueCat solo se sei tu ad aprire la pagina di sostegno: mostrare le Impostazioni resta un'operazione locale. Dopo quell'apertura, l'app verifica all'avvio se esiste un acquisto, per poterti ringraziare. RevenueCat e lo store del tuo dispositivo trattano allora le informazioni necessarie all'acquisto, senza le tue note private. StopCorn disattiva le diagnostiche e la raccolta di identificatori pubblicitari.",
+      "body4": "L'eliminazione totale cancella i dati utente e le preferenze di StopCorn, poi riporta l'app al suo stato iniziale.",
+      "policyAction": "Vedere l'informativa sulla privacy",
+      "policyError": "Non è stato possibile aprire l'informativa sulla privacy in questo momento.",
+      "body5": "Le segnalazioni di crash anonime vengono inviate tramite Sentry perché i blocchi possano essere corretti. Contengono l'errore tecnico e il punto in cui si è verificato, mai un obiettivo, una voce del diario, una nota o un valore del database. L'opzione della sezione Dati le interrompe completamente."
+    },
+    "licenses": "Licenze open source",
+    "professionalHelp": "Trovare un aiuto professionale",
+    "help": {
+      "title": "Aiuto professionale",
+      "body1": "Un medico di base, uno psicologo o un altro professionista qualificato può aiutare a valutare la situazione e proporre un accompagnamento adeguato.",
+      "body2": "Chiedere aiuto può essere utile se la sofferenza è forte, se la perdita di controllo persiste o se le conseguenze diventano importanti.",
+      "body3": "StopCorn non fornisce diagnosi e non sostituisce questo accompagnamento."
+    }
+  },
+  "goalEditor": {
+    "title": "Scegliere un nuovo obiettivo",
+    "history": "L'obiettivo attuale resterà nella tua cronologia.",
+    "activate": "Attivare questo obiettivo",
+    "error": "Non è stato possibile salvare l'obiettivo.",
+    "validation": {
+      "weeklyLimit": "Indica un limite settimanale positivo.",
+      "context": "Scegli almeno un contesto."
+    }
+  },
+  "error": {
+    "load": "Non è stato possibile caricare le impostazioni.",
+    "save": "Impossibile salvare questa impostazione in questo momento."
+  }
+}

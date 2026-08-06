@@ -1,0 +1,46 @@
+{
+  "label": "Cosecha",
+  "explanationAction": "¿Qué es esto?",
+  "cornPoints": {
+    "title": "Corn points",
+    "todayCollected": "El corn point de hoy ya está recogido.",
+    "todayAvailable": "Basta con una acción constructiva para recoger el corn point de hoy."
+  },
+  "momentum": {
+    "title": "Racha",
+    "currentMomentum(param=count)": {
+      "one": "Racha actual: $count día seguido.",
+      "other": "Racha actual: $count días seguidos."
+    },
+    "bestMomentum(param=count)": {
+      "one": "Mejor racha: $count día seguido.",
+      "other": "Mejor racha: $count días seguidos."
+    },
+    "dayCollected": "Corn point recogido este día",
+    "dayNotCollected": "Ningún corn point recogido este día",
+    "dayUpcoming": "Día por venir"
+  },
+  "reward": {
+    "title": "¡Corn point recogido!",
+    "body": "Tu acción constructiva hace avanzar tu cosecha.",
+    "pointsSemantics": "$gain corn point añadido. Nuevo total: $total.",
+    "momentumSemantics(param=total)": {
+      "one": "Racha aumentada en $gain. Nueva racha: $total día.",
+      "other": "Racha aumentada en $gain. Nueva racha: $total días."
+    },
+    "gain": "+$count",
+    "continueAction": "Continuar"
+  },
+  "sheet": {
+    "title": "¿Cómo funciona la cosecha?",
+    "intro": "La cosecha destaca las acciones que te ayudan a avanzar. No mide la abstinencia y nunca juzga el resultado de un día.",
+    "onePerDay": "Puedes recoger como máximo un corn point al día. Basta con una sola acción constructiva.",
+    "urge": "Terminar un recorrido de apoyo cuenta, sea cual sea su resultado.",
+    "checkIn": "Hacer un balance diario cuenta.",
+    "observation": "Anotar con honestidad un consumo también cuenta: la sinceridad nunca se penaliza.",
+    "learning": "Terminar un módulo de aprendizaje cuenta.",
+    "goal": "Crear o actualizar tu objetivo cuenta.",
+    "momentumTitle": "¿Y la racha?",
+    "momentumBody": "La racha corresponde a los días cultivados seguidos. El día en curso sigue siendo un periodo de gracia. Si la racha se interrumpe, tu cosecha nunca disminuye y todos tus corn points siguen siendo tuyos."
+  }
+}

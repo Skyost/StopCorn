@@ -1,0 +1,49 @@
+{
+  "title": "Entender el bucle",
+  "summary": "Observa las etapas que pueden mantener un hábito.",
+  "sections": {
+    "sequence": {
+      "title": "Una secuencia que observar",
+      "paragraph1": "A veces un hábito se puede describir así: situación → emoción → impulso → comportamiento → efecto inmediato o alivio → consecuencias.",
+      "paragraph2": "Es un modelo práctico de observación, no una secuencia demostrada para todo el mundo. Algunas etapas pueden pasar muy deprisa o ser difíciles de percibir.",
+      "paragraph3": "Describirlo tiene una ventaja sencilla: un bucle ofrece varios puntos donde actuar, mientras que una sola decisión ofrece uno solo."
+    },
+    "cues": {
+      "title": "Señales que se han vuelto automáticas",
+      "paragraph1": "La investigación sobre los hábitos describe asociaciones aprendidas entre un contexto y una respuesta: cuando un comportamiento se ha repetido bastante en un entorno estable, el contexto por sí solo puede desencadenarlo, sin una decisión consciente cada vez.",
+      "paragraph2": "En un estudio de campo muy citado, una parte importante de los comportamientos cotidianos ocurría casi en el mismo lugar y a la misma hora, con poca deliberación previa.",
+      "paragraph3": "Por eso un impulso puede parecer que aparece «de la nada»: la señal estaba presente, pero no la habías notado.",
+      "keyPoint1": "Un lugar o una hora repetidos se convierten en una señal.",
+      "keyPoint2": "El automatismo no es falta de voluntad.",
+      "keyPoint3": "Detectar la señal te da un punto donde actuar."
+    },
+    "reinforcement": {
+      "title": "Lo que mantiene el bucle",
+      "paragraph1": "Un comportamiento se repite sobre todo cuando aporta algo de inmediato: placer, distracción, una bajada de la tensión o una pausa frente a una emoción difícil.",
+      "paragraph2": "Un estudio con hombres que consumían pornografía en línea con regularidad midió su estado de ánimo justo antes y justo después de una sesión elegida por ellos mismos. De media, se sentían algo mejor y más tranquilos después, pero cuanto más marcadas eran las tendencias a un uso problemático, menor era esa mejora.",
+      "paragraph3": "Un efecto agradable inmediato puede, por tanto, ayudar a mantener un bucle, sin decir por sí mismo nada sobre las consecuencias posteriores ni sobre tu situación personal. La diferencia entre lo que esperas de un momento y lo que observas después sigue mereciendo atención."
+    },
+    "models": {
+      "title": "Lo que dicen los modelos, y lo que no",
+      "paragraph1": "Los modelos teóricos como I-PACE proponen combinar predisposiciones personales, afectos, expectativas, reactividad a las señales y funciones de control para describir los comportamientos adictivos.",
+      "paragraph2": "Trabajos de neuroimagen han observado una mayor reactividad cerebral a las señales que anuncian contenido en hombres que buscaban tratamiento por un uso problemático. Estos resultados describen grupos, se basan en muestras limitadas y no pueden decidir nada sobre tu caso personal.",
+      "paragraph3": "Un modelo ayuda a organizar la observación. No sustituye ni un diagnóstico ni lo que realmente notas en tu propia vida."
+    },
+    "action": {
+      "title": "Encontrar un punto donde actuar",
+      "paragraph1": "No hace falta controlar todo el bucle. Cambiar de lugar, esperar unos minutos o elegir otra acción puede crear espacio.",
+      "paragraph2": "Observar la situación y la emoción puede ayudarte a elegir un punto de acción realista. Intervenir antes puede costar menos esfuerzo que esperar al momento más intenso.",
+      "paragraph3": "Basta con un punto de acción para empezar. Prueba el que te resulte más fácil, no el más impresionante.",
+      "keyPoint1": "Intenta actuar pronto en el bucle cuando puedas.",
+      "keyPoint2": "Elige un único punto de acción cada vez.",
+      "keyPoint3": "Un cambio fácil que mantienes vale más que uno ambicioso que abandonas."
+    },
+    "observe": {
+      "title": "Observar sin diagnosticar",
+      "paragraph1": "Las notas de StopCorn son puntos de referencia personales, no un diagnóstico.",
+      "paragraph2": "El objetivo es hacer más visibles las secuencias que se repiten para que puedas ajustar tu plan.",
+      "paragraph3": "Bastan unas pocas observaciones: nunca hacen falta detalles explícitos, solo el contexto general ayuda a que aparezca un patrón."
+    }
+  },
+  "reflectionPrompt": "¿Qué parte del bucle te parece más fácil de cambiar esta semana?"
+}

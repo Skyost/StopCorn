@@ -1,0 +1,43 @@
+{
+  "title": "Konsum, Leidensdruck und Scham",
+  "summary": "Trenne das, was du tust, von dem, was du darüber denkst.",
+  "sections": {
+    "frequency": {
+      "title": "Häufigkeit sagt nicht alles",
+      "paragraph1": "Zwei Menschen mit vergleichbarem Konsum können in sehr unterschiedlichen Lagen sein. Es zählt nicht nur die Menge, sondern der Raum, den das Verhalten einnimmt, und der Leidensdruck, den es erzeugt.",
+      "paragraph2": "Neuere Arbeiten trennen zwei Dimensionen: den Konsum selbst und den Leidensdruck, den man deswegen empfindet. Sie hängen zusammen, decken sich aber nicht.",
+      "paragraph3": "Auch deshalb sagt der Vergleich deines Tageszählers mit dem einer fremden Person im Internet wenig. Es zählt, was du in deinem eigenen Leben beobachtest.",
+      "keyPoint1": "Schau auf die konkreten Auswirkungen, nicht nur auf den Zähler.",
+      "keyPoint2": "Der Vergleich mit anderen klärt deine eigene Lage selten.",
+      "keyPoint3": "Leidensdruck und Häufigkeit sind zwei verschiedene Maße."
+    },
+    "incongruence": {
+      "title": "Wenn der Konsum deinen Werten widerspricht",
+      "paragraph1": "Ein Teil des Leidensdrucks entsteht manchmal aus dem Abstand zwischen dem Verhalten und dem, was dir wichtig ist: Eine systematische Übersichtsarbeit fand, dass dieser innere Widerspruch mit dem Gefühl einhergeht, süchtig zu sein – teils unabhängig von der tatsächlichen Häufigkeit.",
+      "paragraph2": "Das heißt nicht, dass dein Leidensdruck eingebildet ist, und auch nicht, dass deine Werte das eigentliche Problem sind. Es zeigt vor allem, dass derselbe Konsum je nach dem, was du daraus machst, unterschiedlich schwer wiegt.",
+      "paragraph3": "In der Praxis gibt dir das zwei Hebel statt einem: das Verhalten anpassen und ehrlich prüfen, was du von dir selbst erwartest."
+    },
+    "shameGuilt": {
+      "title": "Scham und Bedauern führen an verschiedene Orte",
+      "paragraph1": "Scham sagt „ich bin ein schlechter Mensch“. Bedauern sagt „diese Handlung passt nicht zu mir“. Das eine greift die Person an, das andere zeigt auf ein Verhalten.",
+      "paragraph2": "Bedauern lässt dir etwas, woran du arbeiten kannst; Scham lässt wenig, weil sie die ganze Person trifft. Experimente haben tatsächlich beobachtet, dass eine freundliche Haltung sich selbst gegenüber nach einem Fehltritt mit mehr Motivation einherging, es besser zu machen.",
+      "paragraph3": "Hart mit sich umzugehen fühlt sich an, als täte man etwas, liefert aber selten Informationen, die beim nächsten Mal nützen. Scham drängt außerdem dazu, alles für sich zu behalten, was Unterstützung genau dann erschwert, wenn sie helfen würde.",
+      "keyPoint1": "Ziel auf das Verhalten, nicht darauf, wer du bist.",
+      "keyPoint2": "Freundlichkeit dir selbst gegenüber hindert dich nicht daran, dich verbessern zu wollen.",
+      "keyPoint3": "Du kannst Unterstützung suchen, ohne alles zu erzählen."
+    },
+    "comparison": {
+      "title": "Erwartungen, die anderswo entstanden sind",
+      "paragraph1": "Eine Metaanalyse beobachtete einen Zusammenhang – bescheiden und vor allem bei Männern gefunden – zwischen Pornografiekonsum und geringerer Beziehungs- oder sexueller Zufriedenheit.",
+      "paragraph2": "Diese Zusammenschau bündelt Querschnittsbefragungen, Längsschnittverläufe und einige Experimente. Sie belegt dennoch keine eindeutige Wirkrichtung, und ein Gruppenmittelwert sagt nichts über dein Erleben voraus.",
+      "paragraph3": "Nützlicher zu beobachten bleibt das Konkrete: was du erwartest, womit du dich vergleichst und was das in deinem tatsächlichen Leben verändert."
+    },
+    "labels": {
+      "title": "Was Etiketten sagen und was nicht",
+      "paragraph1": "Die Internationale Klassifikation der Krankheiten (ICD-11) kennt die „Störung durch zwanghaftes Sexualverhalten“. Sie umfasst ein anhaltendes Scheitern, das Verhalten zu steuern, meist über einen längeren Zeitraum, mit deutlichem Leidensdruck oder erheblicher Beeinträchtigung – nicht eine bestimmte Häufigkeit.",
+      "paragraph2": "Ein Leidensdruck, der allein auf moralischen Urteilen oder Missbilligung beruht, genügt für diese Diagnose nicht. Ob die Störung als Sucht einzuordnen ist, bleibt umstritten; du brauchst kein Etikett, um dich für eine Veränderung zu entscheiden.",
+      "paragraph3": "StopCorn stellt keine Diagnose. Wenn der Leidensdruck stark oder anhaltend ist, bleibt eine qualifizierte Fachperson die richtige Ansprechperson für diese Frage."
+    }
+  },
+  "reflectionPrompt": "Was wiegt für dich schwerer: was du tust oder was du dir darüber sagst?"
+}

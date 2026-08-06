@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Configuración",
+  "step": "Paso $current de $total",
+  "welcome": {
+    "title": "Recupera el control, sin juicios",
+    "subtitle": "StopCorn te ayuda a entender tus hábitos, a atravesar los momentos difíciles y a construir un plan adaptado a tu objetivo.",
+    "noAccount": "Sin crear ninguna cuenta",
+    "localData": "Datos guardados en este dispositivo",
+    "noAds": "Sin publicidad",
+    "selfHelp": "Una herramienta de autoayuda",
+    "privacyAction": "Saber más sobre la privacidad",
+    "privacyTitle": "Privacidad desde el principio",
+    "privacyBody": "Ningún dato del diario se envía a StopCorn. La aplicación no lee tu navegador, ni tus búsquedas, ni el contenido que consultas. Tú eliges únicamente los datos generales que quieres anotar. Si la aplicación falla, se puede enviar un informe técnico anónimo para que el problema se corrija; no contiene nada de lo que has escrito y se puede desactivar en los ajustes."
+  },
+  "goal": {
+    "title": "¿Qué te gustaría cambiar?",
+    "subtitle": "Elige un rumbo que encaje contigo. Podrás cambiarlo más adelante.",
+    "semantics": "Selección del objetivo",
+    "weeklyLimit": "Límite semanal deseado",
+    "weeklyHint": "Ejemplo: 2",
+    "contexts": "Contextos que evitar",
+    "motivation": "Motivación personal",
+    "motivationHint": "Lo que te gustaría recuperar o proteger…"
+  },
+  "baseline": {
+    "title": "Tu punto de partida",
+    "subtitle": "Esto no es una prueba médica. Solo servirá para observar tu evolución.",
+    "frequency": "Frecuencia aproximada en los últimos 7 días",
+    "control": "Sensación de control",
+    "impact": "Impacto negativo percibido",
+    "confidence": "Confianza en tu capacidad de cambiar"
+  },
+  "strategies": {
+    "title": "Prepara tu plan de emergencia",
+    "subtitle": "Elige idealmente tres acciones realistas. Con una basta para continuar.",
+    "selected(param=count)": {
+      "zero": "Ninguna estrategia seleccionada",
+      "one": "$count estrategia seleccionada",
+      "other": "$count estrategias seleccionadas"
+    },
+    "semantics": "Estrategias de emergencia"
+  },
+  "privacy": {
+    "title": "Tus datos siguen bajo tu control",
+    "subtitle": "Esta versión de StopCorn funciona sin cuenta y sin servidor.",
+    "local": "Los datos se guardan únicamente en este dispositivo.",
+    "noHistory": "No se registra ninguna URL ni búsqueda.",
+    "control": "Puedes exportar voluntariamente o borrar por completo tus datos.",
+    "backup": "Las copias de seguridad del sistema del teléfono pueden incluir los datos de la aplicación según tus ajustes del sistema.",
+    "dailyCheckInReminder": "Recordarme hacer mi balance",
+    "dailyCheckInReminderDescription": "A las 20:00, recibe un recordatorio local solo si el balance de hoy sigue vacío. Podrás cambiarlo más adelante.",
+    "reminderPermissionDenied": "No se han permitido las notificaciones. Desactiva esta opción para continuar, o permítelas y vuelve a intentarlo.",
+    "reminderUnavailable": "Los recordatorios diarios no están disponibles en este dispositivo.",
+    "reminderError": "No se ha podido preparar el recordatorio diario. Inténtalo de nuevo o desactívalo para continuar.",
+    "crashReports": "Los informes de fallos anónimos ayudan a corregir errores y se pueden desactivar en los ajustes."
+  },
+  "start": "Empezar",
+  "finish": "Terminar la configuración",
+  "error": {
+    "load": "No se ha podido cargar la configuración.",
+    "save": "No se puede guardar en este momento. Inténtalo de nuevo dentro de un rato.",
+    "complete": "No se ha podido terminar la configuración. No se ha enviado ningún dato.",
+    "notReady": "La configuración inicial todavía no está lista.",
+    "invalidDraft": "El borrador de configuración guardado no es válido."
+  },
+  "validation": {
+    "goal": "Elige un objetivo.",
+    "weeklyLimit": "Indica un límite semanal positivo.",
+    "context": "Elige al menos un contexto.",
+    "strategy": "Elige al menos una estrategia.",
+    "scoreRange": "Las puntuaciones deben estar entre 0 y 10."
+  }
+}

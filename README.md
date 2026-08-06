@@ -136,7 +136,7 @@ SENTRY_DSN=
 Generate translations and source code, then run the app:
 
 ```sh
-dart run build_runner build --delete-conflicting-outputs
+dart run build_runner build
 flutter run
 ```
 
@@ -301,7 +301,7 @@ sources are split by namespace under `lib/i18n/en/` and `lib/i18n/fr/`. Update
 the same key in both locales and run:
 
 ```sh
-dart run build_runner build --delete-conflicting-outputs
+dart run build_runner build
 ```
 
 Generated `strings*.g.dart` files must not be edited manually. Quantity-aware

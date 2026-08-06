@@ -1,0 +1,49 @@
+{
+  "title": "Deine Umgebung vorbereiten",
+  "summary": "Baue Reibung ein und mach dir die gewählten Handlungen leichter.",
+  "sections": {
+    "friction": {
+      "title": "Automatischen Zugriff verringern",
+      "paragraph1": "Das Handy außerhalb des Schlafzimmers zu lassen, Zeitgrenzen zu setzen oder den Fokusmodus des Systems zu nutzen, kann bewusste Reibung erzeugen.",
+      "paragraph2": "Es geht nicht darum, etwas unmöglich zu machen, sondern darum, ein paar Sekunden zwischen Impuls und Handlung zu legen. Diese Sekunden können den Raum schaffen, in dem eine Wahl wieder möglich wird.",
+      "paragraph3": "Nützliche Reibung ist die, die du akzeptierst. Wenn du eine Einstellung fast sofort umgehst, probier eine realistischere, statt daraus einen Grund zu machen, dich als gescheitert zu sehen.",
+      "keyPoint1": "Ziel sind ein paar Sekunden Verzögerung, nicht Unmöglichkeit.",
+      "keyPoint2": "Wähle Reibung, die du beibehalten willst.",
+      "keyPoint3": "Passe Reibung an, die du schnell umgehst."
+    },
+    "avoid": {
+      "title": "Vermeiden kostet weniger als Widerstehen",
+      "paragraph1": "Eine Längsschnittstudie beobachtete, dass die Menschen, die ihre Ziele am besten erreichten, nicht diejenigen waren, die am meisten widerstanden, sondern die, denen weniger Versuchungen begegneten.",
+      "paragraph2": "Anders gesagt: Selbstkontrolle entscheidet sich oft vorher – darin, wie Tag und Raum organisiert sind, mehr als im kritischen Moment.",
+      "paragraph3": "Das nimmt auch etwas Schuldgefühl: Die eigene Umgebung umbauen zu müssen ist kein Eingeständnis von Schwäche. Es ist eine Strategie, die zu diesen Befunden passt."
+    },
+    "ifThen": {
+      "title": "„Wenn … dann …“-Pläne",
+      "paragraph1": "Eine Metaanalyse über zahlreiche Studien zeigte, dass ein konkreter Plan – „wenn diese Situation eintritt, dann tue ich diese Handlung“ – das Erreichen von Zielen gegenüber der bloßen Absicht verbessert.",
+      "paragraph2": "Genauigkeit zählt: Die Situation muss erkennbar und die Handlung sofort machbar sein. „Wenn ich nach 23 Uhr mit dem Handy im Bett bin, dann lege ich es zurück auf den Schreibtisch“ ist konkreter als „ich passe abends auf“.",
+      "paragraph3": "Du kannst mit zwei oder drei Plänen für deine häufigsten Situationen anfangen.",
+      "keyPoint1": "Schreib die auslösende Situation auf, nicht nur das Ziel.",
+      "keyPoint2": "Wähle eine Handlung, die du sofort beginnen kannst.",
+      "keyPoint3": "Fang mit zwei oder drei Plänen an."
+    },
+    "moments": {
+      "title": "Verletzliche Momente vorbereiten",
+      "paragraph1": "Wenn müde Abende in deinen Beobachtungen wiederkehren, kann eine einfache vorbereitete Routine oder das Laden eines Geräts an einem anderen Ort die gewünschte Entscheidung erleichtern.",
+      "paragraph2": "Bereite diese Momente vor, während sie nicht stattfinden: im Voraus zu entscheiden kostet oft weniger Kraft, als mitten in der Schwierigkeit zu wählen.",
+      "paragraph3": "Wenn bestimmte Konten oder Netzwerke schwierigen Momenten oft vorausgehen, kannst du den Zugang anpassen, ohne alles entfernen zu müssen."
+    },
+    "alternative": {
+      "title": "Die Alternative sichtbar machen",
+      "paragraph1": "Bereite eine gut erreichbare Ersatzhandlung vor: ein Buch in der Nähe, ein kurzer Spaziergang oder eine vorher gewählte Aufgabe.",
+      "paragraph2": "Etwas wegzunehmen hinterlässt eine Lücke, und eine Lücke füllt sich selten von selbst in die richtige Richtung. Die Alternative sollte mindestens so erreichbar sein wie das, was du entfernt hast.",
+      "paragraph3": "Deine Umgebung wirkt am besten, wenn sie eine konkrete Absicht unterstützt."
+    },
+    "limits": {
+      "title": "Was ein Filter nicht leistet",
+      "paragraph1": "Ein Blocker kann einen Plan ergänzen, aber keine Schwierigkeit allein lösen: Er wirkt auf den Zugang, nicht auf die Situation, die Emotion oder die Gewohnheit davor.",
+      "paragraph2": "Werkzeuge, die auf Überwachung durch Dritte beruhen, werfen zudem Fragen zu Privatsphäre und Vertrauen auf. StopCorn greift weder auf deine Browseraktivität noch auf deinen Verlauf zu und überträgt keine Daten zum Surfen im Web.",
+      "paragraph3": "Ein technisches Werkzeug wirkt besser als Unterstützung eines Plans denn als dessen Ersatz."
+    }
+  },
+  "reflectionPrompt": "Welche Änderung an deiner Umgebung könntest du heute vornehmen?"
+}

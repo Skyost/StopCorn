@@ -1,0 +1,43 @@
+{
+  "title": "Balanço do dia",
+  "intro": {
+    "create": "Um marco rápido, em menos de um minuto.",
+    "edit": "Editar o balanço de hoje."
+  },
+  "mood": {
+    "label": "Humor",
+    "scale": "0 = muito difícil, 10 = muito bom"
+  },
+  "control": {
+    "label": "Sensação de controle",
+    "scale": "0 = nenhum controle, 10 = controle total"
+  },
+  "urge": {
+    "count": "Número aproximado de vontades (opcional)",
+    "hint": "Exemplo: 3",
+    "negative": "O número não pode ser negativo."
+  },
+  "consumption": {
+    "recorded(param=count)": {
+      "one": "$count consumo anotado nesse dia.",
+      "other": "$count consumos anotados nesse dia."
+    },
+    "none": "Nenhum consumo anotado nesse dia."
+  },
+  "sleep": {
+    "label": "Qualidade do sono (opcional)",
+    "scale": "0 = muito ruim, 10 = excelente"
+  },
+  "note": {
+    "label": "Nota opcional",
+    "hint": "O que marcou o seu dia…"
+  },
+  "saved": {
+    "title": "Balanço salvo.",
+    "body": "Estes marcos vão ajudar a observar as tendências ao longo do tempo."
+  },
+  "error": {
+    "load": "Não foi possível carregar o balanço do dia.",
+    "save": "Não é possível salvar agora. Tente de novo daqui a pouco."
+  }
+}

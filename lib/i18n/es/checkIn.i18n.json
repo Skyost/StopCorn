@@ -1,0 +1,43 @@
+{
+  "title": "Balance del día",
+  "intro": {
+    "create": "Un punto de referencia rápido, en menos de un minuto.",
+    "edit": "Editar el balance de hoy."
+  },
+  "mood": {
+    "label": "Estado de ánimo",
+    "scale": "0 = muy difícil, 10 = muy bueno"
+  },
+  "control": {
+    "label": "Sensación de control",
+    "scale": "0 = ningún control, 10 = control completo"
+  },
+  "urge": {
+    "count": "Número aproximado de impulsos (opcional)",
+    "hint": "Ejemplo: 3",
+    "negative": "El número no puede ser negativo."
+  },
+  "consumption": {
+    "recorded(param=count)": {
+      "one": "$count consumo registrado ese día.",
+      "other": "$count consumos registrados ese día."
+    },
+    "none": "Ningún consumo registrado ese día."
+  },
+  "sleep": {
+    "label": "Calidad del sueño (opcional)",
+    "scale": "0 = muy mala, 10 = excelente"
+  },
+  "note": {
+    "label": "Nota opcional",
+    "hint": "Lo que ha marcado tu día…"
+  },
+  "saved": {
+    "title": "Balance guardado.",
+    "body": "Estos puntos de referencia te ayudarán a observar las tendencias con el tiempo."
+  },
+  "error": {
+    "load": "No se ha podido cargar el balance del día.",
+    "save": "No se puede guardar en este momento. Inténtalo de nuevo dentro de un rato."
+  }
+}

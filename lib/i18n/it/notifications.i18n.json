@@ -1,0 +1,8 @@
+{
+  "dailyCheckIn": {
+    "title": "Il tuo bilancio StopCorn ti aspetta",
+    "body": "Prenditi un momento per annotare com'è andata la giornata.",
+    "channelName": "Promemoria del bilancio quotidiano",
+    "channelDescription": "Un promemoria locale alle 20:00 quando il bilancio del giorno è ancora vuoto."
+  }
+}

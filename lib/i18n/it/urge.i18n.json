@@ -1,0 +1,101 @@
+{
+  "pauseTitle": "Fare una pausa",
+  "quit": "Esci",
+  "support": {
+    "pageTitle": "Scegliere un sostegno",
+    "title": "Che cosa ti aiuterebbe adesso?",
+    "subtitle": "Scegli l'opzione che ti sembra più accessibile. Il ritmo lo decidi tu.",
+    "semantics": "Forme di sostegno disponibili",
+    "guidedTitle": "Pausa guidata",
+    "guidedDescription": "Prenditi un momento breve per respirare, poi fai di nuovo il punto.",
+    "planTitle": "Piano di riserva",
+    "planDescription(param=count)": {
+      "zero": "Non hai ancora preparato nessuna azione.",
+      "one": "Scegli l'azione che avevi preparato.",
+      "other": "Scegli tra le $count azioni che avevi preparato."
+    },
+    "ideasTitle": "Altre idee",
+    "ideasDescription(param=count)": {
+      "zero": "Non è disponibile nessun'altra azione.",
+      "one": "Scopri un'altra azione.",
+      "other": "Scopri altre $count azioni."
+    }
+  },
+  "grounding": {
+    "feet": "Appoggia i piedi a terra.",
+    "inhale": "Inspira lentamente.",
+    "observe": "Osserva ciò che senti senza cercare di allontanarlo.",
+    "exhale": "Espira più a lungo di quanto inspiri.",
+    "change": "Osserva semplicemente se sale, scende o resta stabile.",
+    "title": "Concediti un momento.",
+    "subtitle": "Questa breve pausa è un aiuto a rilassarti, non una regola medica.",
+    "semantics": "Avanzamento della pausa",
+    "skip": "Salta"
+  },
+  "strategy": {
+    "pageTitle": "Scegliere un'azione",
+    "title": "Quale azione puoi provare adesso?",
+    "subtitle": "Basta una piccola azione realistica. Non deve far sparire ciò che senti.",
+    "planTitle": "Il tuo piano di riserva",
+    "planSubtitle": "Scegli una delle azioni che avevi preparato per questo momento.",
+    "ideasTitle": "Altre idee",
+    "ideasSubtitle": "Scegli un'altra azione semplice che ti sembra fattibile adesso.",
+    "loadError": "Non è stato possibile caricare le strategie.",
+    "empty": "Nessuna azione è disponibile in questo elenco.",
+    "semantics": "Strategie disponibili",
+    "start": "Avviare questa azione",
+    "started": "Azione avviata: $strategy.",
+    "timerTitle": "Durata indicativa",
+    "timerGuidance": "Questo timer è solo indicativo: puoi finire prima o prenderti tutto il tempo che ti serve.",
+    "timerSemantics": "Timer indicativo dell'azione",
+    "timerComplete": "La durata indicativa è terminata.",
+    "reassess": "Fare di nuovo il punto",
+    "effect": "Utilità percepita della strategia"
+  },
+  "result": {
+    "pageTitle": "Fare il punto",
+    "title(rich)": "Quanto è intensa la tua voglia adesso?",
+    "subtitle": "Può essere aumentata, diminuita o rimasta uguale.",
+    "outcome": {
+      "title": "E adesso?",
+      "subtitle": "Sentiti libero di essere onesto. Come sempre, nessun giudizio!",
+      "label": "Risultato"
+    },
+    "note": "Nota facoltativa",
+    "noteHint": "Un riferimento utile per la prossima volta.",
+    "finish": "Terminare il percorso"
+  },
+  "complete": {
+    "title": "Percorso terminato",
+    "consumedHeadline": "Nessun problema.",
+    "otherHeadline": "Ottimo!",
+    "consumedBody": "Questo episodio non cancella i tuoi progressi.\nPuoi semplicemente annotare ciò che potrebbe aiutarti la prossima volta.",
+    "otherBody": "Hai creato spazio tra la tua voglia e la tua scelta.\nÈ una capacità che cresce a ogni tentativo.",
+    "log": "Annotare che cosa è successo"
+  },
+  "intensity": {
+    "title(rich)": "Quanto è intensa la tua voglia?",
+    "subtitle": "Valutala su 10. Non ci sono risposte sbagliate: questo riferimento permetterà di vedere come cambia.",
+    "label": "Intensità attuale"
+  },
+  "factors": {
+    "title": "Altri dettagli?",
+    "subtitle": "Queste informazioni facoltative possono aiutarti a capire meglio questi momenti.",
+    "label": "Fattori scatenanti (facoltativo)",
+    "trigger": "Fattore scatenante",
+    "emotion": "Emozione"
+  },
+  "timer": {
+    "count(param=count)": {
+      "one": "manca $count secondo",
+      "other": "mancano $count secondi"
+    }
+  },
+  "error": {
+    "start": "Impossibile avviare questo percorso in questo momento. Riprova.",
+    "missingSession": "Questa sessione non è più disponibile.",
+    "strategySave": "Non è stato possibile salvare la strategia. Riprova.",
+    "outcomeRequired": "Scegli il risultato che descrive meglio la situazione.",
+    "save": "Impossibile salvare in questo momento. Riprova tra poco."
+  }
+}

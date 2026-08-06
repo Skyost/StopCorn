@@ -1,0 +1,43 @@
+{
+  "title": "Continuar depois de uma recaída",
+  "summary": "Transforme um episódio em informação útil, sem julgamento.",
+  "sections": {
+    "perspective": {
+      "title": "Sair do «está tudo arruinado»",
+      "paragraph1": "Aqui, um «deslize» é um episódio que não corresponde ao objetivo que você escolheu. Ele não apaga as pausas, as escolhas e as observações que você já fez.",
+      "paragraph2": "Num estudo sobre parar de fumar, a maioria das reações agrupadas sob o efeito de violação da abstinência não previa a recaída. Já a vontade de desistir depois do deslize associava-se a uma progressão mais rápida para um segundo deslize.",
+      "paragraph3": "Os participantes que tentaram uma resposta reparadora depois do deslize tinham menos probabilidade de ter outro no mesmo dia. Como o estudo tratava do tabagismo, isto é uma pista útil mais do que uma regra para a sua situação.",
+      "keyPoint1": "Um deslize e um retorno duradouro são duas coisas diferentes.",
+      "keyPoint2": "Uma resposta reparadora pode ajudar a retomar o fio.",
+      "keyPoint3": "Retome o plano em curso em vez de recomeçar do zero."
+    },
+    "compassion": {
+      "title": "A autocompaixão não é indulgência",
+      "paragraph1": "Muitas pessoas temem que ser gentil consigo mesmo equivalha a desistir. Os experimentos sugerem o contrário: depois de um fracasso, uma atitude gentil consigo mesmo associava-se a mais esforço para melhorar.",
+      "paragraph2": "Um programa estruturado de treino em autocompaixão também mostrou efeitos sobre o bem-estar num ensaio controlado, feito com uma amostra pequena e majoritariamente feminina. A autocompaixão é, portanto, algo que se pratica como uma habilidade, não um traço fixo de personalidade.",
+      "paragraph3": "Uma formulação simples: fale consigo mesmo como falaria com alguém que você respeita e que acabou de passar pela mesma coisa."
+    },
+    "adjust": {
+      "title": "Ajustar em vez de punir",
+      "paragraph1": "Olhe o que veio antes: o horário, o cansaço, a emoção, o aparelho ou o contexto geral.",
+      "paragraph2": "Depois escolha um ajuste limitado. A punição ou um objetivo pouco realista raramente trazem informação útil.",
+      "paragraph3": "Um deslize também é um dado: aponta um ponto do plano que ainda não estava coberto. É desagradável, mas é utilizável.",
+      "keyPoint1": "Procure a situação, não o culpado.",
+      "keyPoint2": "Comece com um ajuste limitado.",
+      "keyPoint3": "Endurecer o objetivo depois de um deslize raramente o torna mais sustentável."
+    },
+    "plan": {
+      "title": "Uma habilidade, não um destino",
+      "paragraph1": "As abordagens de prevenção de recaída consideram a possibilidade de um deslize e propõem preparar a sua resposta com antecedência, em vez de contar apenas com a esperança de que não aconteça.",
+      "paragraph2": "As revisões destes programas mostram efeitos globalmente favoráveis sobre os comportamentos aditivos, com resultados que variam conforme as substâncias e os protocolos.",
+      "paragraph3": "Você pode preparar três linhas: o que faço depois do deslize, para quem posso mandar uma mensagem e o que olho no meu plano antes de concluir qualquer coisa."
+    },
+    "help": {
+      "title": "Saber quando pedir ajuda",
+      "paragraph1": "Se a perda de controle persistir, causar grande sofrimento ou tiver consequências importantes, falar com um profissional qualificado pode ajudar.",
+      "paragraph2": "As revisões recentes se concentram sobretudo nas psicoterapias cognitivo-comportamentais e nas abordagens baseadas na aceitação. Relatam resultados encorajadores, mas a qualidade dos estudos costuma ser baixa e o risco de viés alto, de modo que a eficácia ainda não pode ser afirmada com certeza.",
+      "paragraph3": "Pedir ajuda pode fazer parte do plano; isso não tira nada dos progressos já feitos."
+    }
+  },
+  "reflectionPrompt": "Que informação útil você pode tirar do último episódio sem se julgar?"
+}

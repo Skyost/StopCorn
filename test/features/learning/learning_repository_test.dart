@@ -25,7 +25,7 @@ void main() {
 
     LearningCatalog catalog = await repository.loadCatalog();
 
-    expect(catalog.contentVersion, 3);
+    expect(catalog.contentVersion, 1);
     expect(catalog.modules, hasLength(9));
     expect(
       catalog.modules.map((module) => module.id),

@@ -1,0 +1,55 @@
+{
+  "subtitle": "Nove moduli brevi, disponibili offline e senza diagnosi.",
+  "semantics": "Moduli di apprendimento",
+  "evidence": {
+    "title": "Su che cosa si basano questi moduli?",
+    "sheetTitle": "Fonti e limiti",
+    "principles": "Ogni modulo cita ricerche sottoposte a revisione paritaria che sostengono principi generali su motivazione, abitudini, autocontrollo, regolazione emotiva, auto-osservazione, mindfulness o autocompassione. Ogni riferimento rimanda a una scheda PubMed o a un DOI verificabile.",
+    "limitations": "Queste fonti non convalidano clinicamente StopCorn. Alcune riguardano il comportamento in generale, il fumo o la depressione, e gli studi dedicati alla pornografia possono basarsi su campioni limitati. Diversi risultati sono correlazionali e non dimostrano un rapporto di causa ed effetto. I moduli offrono indicazioni educative prudenti, non una diagnosi né un trattamento."
+  },
+  "sources": {
+    "title(param=count)": {
+      "one": "$count fonte scientifica",
+      "other": "$count fonti scientifiche"
+    },
+    "shortDescription": "Riferimenti e portata dei risultati",
+    "sheetTitle": "Fonti scientifiche",
+    "scope": "Ogni risultato va letto all'interno della sua popolazione e del suo metodo: un'associazione non dimostra una causa, e un risultato ottenuto su un altro comportamento o su un campione limitato non è per forza generalizzabile. Questi riferimenti non dimostrano che questo modulo o StopCorn siano un trattamento."
+  },
+  "module": {
+    "line": "$minutes min · $status",
+    "progress": "Avanzamento del modulo $title",
+    "pageTitle": "Modulo",
+    "loadError": "Non è stato possibile caricare questo modulo."
+  },
+  "status": {
+    "completed": "Terminato",
+    "reviewing": "Rilettura in corso",
+    "resume": "Continua a leggere",
+    "discover": "Scopri"
+  },
+  "reading": {
+    "progress": "Avanzamento di lettura del modulo",
+    "keyPoints": "Da ricordare",
+    "part": "Parte $current di $total",
+    "previous": "Precedente"
+  },
+  "reflection": {
+    "optional": "Riflessione facoltativa",
+    "label": "La mia riflessione",
+    "hint": "Qualche parola per te…",
+    "localNote": "Questa nota resta soltanto sul tuo dispositivo.",
+    "continueAction": "Passare alla riflessione",
+    "yours": "La tua riflessione"
+  },
+  "completion": {
+    "title": "Modulo terminato",
+    "finish": "Terminare il modulo",
+    "restart": "Ricominciare il modulo",
+    "back": "Torna ai moduli"
+  },
+  "error": {
+    "load": "Non è stato possibile caricare i moduli.",
+    "save": "Impossibile salvare i tuoi progressi in questo momento. Riprova."
+  }
+}

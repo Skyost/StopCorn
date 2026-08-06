@@ -1,0 +1,62 @@
+{
+  "history": {
+    "title": "Diario",
+    "intro": "Encuentra los consumos, las sesiones de apoyo y los balances diarios que has decidido guardar, agrupados por fecha.",
+    "error": "No se ha podido cargar el diario.",
+    "empty": {
+      "title": "Tu diario todavía está vacío",
+      "body": "Los consumos y los balances que registres aparecerán aquí."
+    },
+    "date": {
+      "today": "Hoy",
+      "yesterday": "Ayer"
+    },
+    "entry": {
+      "consumption": "Consumo",
+      "checkIn": "Balance diario",
+      "time": "A las $time",
+      "checkInSummary": "Ánimo: $mood/10 · Control: $control/10",
+      "noText": "Ningún contexto ni nota.",
+      "entries(param=count)": {
+        "zero": "Ninguna entrada",
+        "one": "$count entrada",
+        "other": "$count entradas"
+      },
+      "urge": "Sesión de apoyo",
+      "urgeSummary": "Intensidad $initial → $finalValue",
+      "urgeSummaryPartial": "Intensidad inicial $initial"
+    },
+    "details": {
+      "cornUrges(plural, param=count, rich)": {
+        "zero": "ningún impulso de $corn",
+        "one": "$count impulso de $corn",
+        "other": "$count impulsos de $corn"
+      },
+      "initialIntensity": "Intensidad inicial",
+      "finalIntensity": "Intensidad al final",
+      "outcome": "Resultado",
+      "strategy": "Acción probada",
+      "pause": "Pausa guiada",
+      "pauseSeconds(param=count)": {
+        "one": "$count segundo",
+        "other": "$count segundos"
+      },
+      "reflection": "Tu reflexión"
+    }
+  },
+  "edit": {
+    "action": "Corregir"
+  },
+  "delete": {
+    "action": "Eliminar",
+    "title": "¿Eliminar esta entrada?",
+    "consumption": "Esta entrada y su nota privada se eliminarán definitivamente de tu diario. Tus estadísticas se recalcularán sin ella.",
+    "checkIn": "Este balance diario y su nota privada se eliminarán definitivamente de tu diario. Tus estadísticas se recalcularán sin él.",
+    "urge": "Esta sesión de apoyo y la reflexión escrita al final se eliminarán definitivamente. La estrategia probada durante la sesión deja de contar; un consumo anotado desde ella se conserva.",
+    "irreversible": "Esta acción es irreversible.",
+    "confirm": "Eliminar definitivamente"
+  },
+  "error": {
+    "delete": "No se ha podido eliminar esta entrada. No se ha modificado nada."
+  }
+}

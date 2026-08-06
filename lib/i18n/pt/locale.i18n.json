@@ -1,0 +1,13 @@
+{
+  "label": "Idioma do app",
+  "english": "Inglês",
+  "french": "Francês",
+  "spanish": "Espanhol",
+  "portuguese": "Português",
+  "german": "Alemão",
+  "italian": "Italiano",
+  "section": {
+    "title": "Idioma",
+    "description": "Escolha o idioma usado em todo o app."
+  }
+}

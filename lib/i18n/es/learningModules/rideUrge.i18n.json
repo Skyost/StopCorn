@@ -1,0 +1,46 @@
+{
+  "title": "Atravesar un impulso",
+  "summary": "Crea un poco de espacio antes de elegir lo que viene después.",
+  "sections": {
+    "delay": {
+      "title": "Concédete un momento",
+      "paragraph1": "Un impulso no exige una decisión inmediata ni definitiva.",
+      "paragraph2": "Esperar un poco te da la oportunidad de ver si su intensidad sube, baja o se mantiene estable. Durante esa espera no tienes nada que decidir: solo estás observando.",
+      "paragraph3": "Una espera corta que puedas mantener suele ser más realista que una larga que abandonas.",
+      "keyPoint1": "Fija una duración corta, decidida de antemano.",
+      "keyPoint2": "Durante la espera no se te pide ninguna decisión.",
+      "keyPoint3": "Después de la espera eliges con más información."
+    },
+    "wave": {
+      "title": "Observa la ola",
+      "paragraph1": "Un enfoque procedente de la atención plena, llamado a veces «surfear el impulso», consiste en observar la sensación como una ola: dónde se sitúa en el cuerpo, cómo cambia, sin intentar hacerla desaparecer.",
+      "paragraph2": "Una intervención breve basada en este principio se probó con estudiantes fumadores y mostró resultados alentadores sobre el consumo en los días siguientes. El ensayo fue corto y trataba de otro comportamiento, lo que invita a la prudencia.",
+      "paragraph3": "En la práctica, observar de esta manera puede ofrecer una alternativa a luchar directamente contra la sensación, sobre todo cuando estás cansado."
+    },
+    "suppression": {
+      "title": "No intentes no pensar en ello",
+      "paragraph1": "Repetirse «no debo pensar en esto» rara vez funciona. La investigación sobre la supresión de pensamientos describe efectos paradójicos: el pensamiento vigilado suele volver, a veces con más fuerza.",
+      "paragraph2": "Los enfoques basados en la aceptación proponen lo contrario: deja que el pensamiento esté ahí y actúa de todos modos. Un estudio preliminar de líneas de base múltiples con seis hombres observó una menor frecuencia tras este tipo de intervención. Sin grupo control aleatorizado, el resultado sigue siendo exploratorio.",
+      "paragraph3": "En la práctica: no tienes que ganar una discusión contra tu propia mente. Puedes tener el pensamiento y hacer otra cosa.",
+      "keyPoint1": "Intentar apartar un pensamiento puede hacer que vuelva.",
+      "keyPoint2": "Deja que esté y actúa igualmente.",
+      "keyPoint3": "Céntrate en la acción que eliges, no en controlar cada pensamiento."
+    },
+    "concrete": {
+      "title": "Cambia algo concreto",
+      "paragraph1": "Cambiar de habitación, dejar el teléfono o empezar una tarea muy pequeña puede interrumpir una respuesta automática.",
+      "paragraph2": "Las llamadas estrategias situacionales actúan antes: cambiar la situación puede costar menos esfuerzo que resistir en el momento más intenso.",
+      "paragraph3": "Elige una acción lo bastante sencilla como para seguir siendo posible incluso con poca energía: beber un vaso de agua, salir por la puerta, poner una canción."
+    },
+    "expectations": {
+      "title": "No exijas que desaparezca",
+      "paragraph1": "Una estrategia puede seguir siendo útil aunque la sensación no desaparezca de inmediato. En el ensayo con estudiantes fumadores, los dos grupos no se diferenciaban en la intensidad de los impulsos que sentían; lo que cambiaba era cuánto fumaban los días siguientes.",
+      "paragraph2": "El objetivo es entrenar la capacidad de elegir, no lograr un resultado perfecto cada vez. Un intento que no «funcionó» te enseña igualmente algo sobre el momento en que lo probaste.",
+      "paragraph3": "Una misma estrategia no encaja en todos los contextos. Puedes tener dos o tres disponibles en lugar de depender de una sola.",
+      "keyPoint1": "El éxito es haber elegido, no haber dejado de sentir.",
+      "keyPoint2": "Prepara varias estrategias sencillas.",
+      "keyPoint3": "Anota cuál te ayudó y en qué contexto."
+    }
+  },
+  "reflectionPrompt": "¿Qué estrategia realista podrías probar en el próximo momento difícil?"
+}

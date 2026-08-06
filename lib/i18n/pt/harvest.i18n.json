@@ -1,0 +1,46 @@
+{
+  "label": "Colheita",
+  "explanationAction": "O que é isto?",
+  "cornPoints": {
+    "title": "Corn points",
+    "todayCollected": "O corn point de hoje já foi colhido.",
+    "todayAvailable": "Uma ação construtiva basta para colher o corn point de hoje."
+  },
+  "momentum": {
+    "title": "Sequência",
+    "currentMomentum(param=count)": {
+      "one": "Sequência atual: $count dia seguido.",
+      "other": "Sequência atual: $count dias seguidos."
+    },
+    "bestMomentum(param=count)": {
+      "one": "Melhor sequência: $count dia seguido.",
+      "other": "Melhor sequência: $count dias seguidos."
+    },
+    "dayCollected": "Corn point colhido neste dia",
+    "dayNotCollected": "Nenhum corn point colhido neste dia",
+    "dayUpcoming": "Dia por vir"
+  },
+  "reward": {
+    "title": "Corn point colhido!",
+    "body": "A sua ação construtiva faz a colheita avançar.",
+    "pointsSemantics": "$gain corn point adicionado. Novo total: $total.",
+    "momentumSemantics(param=total)": {
+      "one": "Sequência aumentada em $gain. Nova sequência: $total dia.",
+      "other": "Sequência aumentada em $gain. Nova sequência: $total dias."
+    },
+    "gain": "+$count",
+    "continueAction": "Continuar"
+  },
+  "sheet": {
+    "title": "Como funciona a colheita?",
+    "intro": "A colheita valoriza as ações que ajudam você a avançar. Ela não mede a abstinência e nunca julga o resultado de um dia.",
+    "onePerDay": "Você pode colher no máximo um corn point por dia. Uma única ação construtiva basta.",
+    "urge": "Terminar um percurso de apoio conta, seja qual for o resultado.",
+    "checkIn": "Fazer um balanço diário conta.",
+    "observation": "Anotar um consumo com honestidade também conta: a sinceridade nunca é penalizada.",
+    "learning": "Terminar um módulo de aprendizado conta.",
+    "goal": "Criar ou atualizar o seu objetivo conta.",
+    "momentumTitle": "E a sequência?",
+    "momentumBody": "A sequência corresponde aos dias cultivados em seguida. O dia em curso continua sendo um período de graça. Se a sequência for interrompida, a sua colheita nunca diminui e todos os seus corn points continuam sendo seus."
+  }
+}

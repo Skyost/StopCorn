@@ -1,0 +1,64 @@
+{
+  "load": {
+    "error": "Die Daten von heute konnten nicht geladen werden."
+  },
+  "sections": {
+    "today": "Heute",
+    "metrics": "Kennzahlen",
+    "lastThirtyDays": "Letzte 30 Tage",
+    "quickActions": "Schnellaktionen"
+  },
+  "goal": {
+    "title": "Ziel",
+    "undefined": "Ziel noch festzulegen",
+    "weeklyLimit(param=count)": {
+      "one": "Gewünschte Grenze: $count Ereignis pro Woche.",
+      "other": "Gewünschte Grenze: $count Ereignisse pro Woche."
+    },
+    "contexts": "Geschützte Situationen: $contexts."
+  },
+  "checkIn": {
+    "title": "Täglicher Rückblick",
+    "completed": "Täglicher Rückblick gespeichert.",
+    "available": "Täglicher Rückblick jederzeit möglich.\nTippe, um ihn festzuhalten.",
+    "action": {
+      "done": "Meinen täglichen Rückblick bearbeiten",
+      "pending": "Meinen täglichen Rückblick machen"
+    }
+  },
+  "urge": {
+    "today": "Verlangen heute",
+    "count(plural, param=count, rich)": {
+      "zero": "Heute kein Verlangen festgehalten.",
+      "one": "$count Verlangen heute festgehalten.",
+      "other": "$count Verlangen heute festgehalten."
+    },
+    "semantics": "Ich verspüre das Verlangen, Inhalte anzusehen, eine Pause machen",
+    "action(rich)": "Ich habe Verlangen nach $corn",
+    "subtitle": "Eine Pause machen"
+  },
+  "strategy": {
+    "lastHelpful": "Letzte hilfreiche Strategie"
+  },
+  "metrics": {
+    "daysWithout(param=count)": {
+      "one": "Tag ohne festgehaltenen Konsum",
+      "other": "Tage ohne festgehaltenen Konsum"
+    },
+    "traversedUrges(plural, param=count)": {
+      "one": "durchgestandenes oder abgeschwächtes Verlangen",
+      "other": "durchgestandene oder abgeschwächte Verlangen"
+    },
+    "averageControl": "durchschnittlich angegebene Kontrolle",
+    "empty": "Deine ersten Beobachtungen erscheinen hier. Du musst nicht alles perfekt festhalten: Ein paar Anhaltspunkte genügen für den Anfang."
+  },
+  "actions": {
+    "openJournal": "Mein Tagebuch öffnen",
+    "logConsumption": "Einen Konsum festhalten",
+    "reviewPlan": "Meinen Plan durchsehen"
+  },
+  "learningRecommendation": {
+    "title": "Als Nächstes",
+    "action": "Weiterlesen"
+  }
+}

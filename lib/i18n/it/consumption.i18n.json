@@ -1,0 +1,41 @@
+{
+  "title": "Annotare un consumo",
+  "intro": "Bastano poche informazioni. Puoi saltare tutte le domande facoltative.",
+  "date": "Data",
+  "time": "Ora",
+  "factors": {
+    "label": "Fattori scatenanti (facoltativo)",
+    "trigger": "Fattore scatenante",
+    "emotion": "Emozione"
+  },
+  "control": {
+    "label": "Senso di controllo (facoltativo)",
+    "scale": "0 = nessun controllo, 10 = controllo completo"
+  },
+  "context": {
+    "label": "Contesto molto breve (facoltativo)",
+    "hint": "Esempio: da solo la sera",
+    "description": "Resta sul generale: nessun sito, ricerca o dettaglio esplicito."
+  },
+  "contextualGoal": {
+    "title": "I tuoi contesti protetti",
+    "description": "Seleziona i contesti del tuo obiettivo attuale che corrispondevano alla situazione. Così compaiono nei tuoi progressi, senza sostituire la nota facoltativa qui sotto.",
+    "label": "Contesti del mio obiettivo (facoltativo)"
+  },
+  "note": {
+    "label": "Nota facoltativa",
+    "hint": "Un riferimento utile per il seguito…"
+  },
+  "saved": {
+    "title": "È salvato.",
+    "body": "L'obiettivo è capire meglio la situazione, non giudicarti."
+  },
+  "edit": {
+    "title": "Correggere questo consumo"
+  },
+  "error": {
+    "load": "Non è stato possibile preparare il modulo.",
+    "save": "Impossibile salvare in questo momento. Riprova tra poco.",
+    "missingEvent": "Questo consumo non esiste più."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Perché cambiare?",
+  "summary": "Chiarisci che cosa vuoi ritrovare o proteggere.",
+  "sections": {
+    "direction": {
+      "title": "Un obiettivo che ti appartiene",
+      "paragraph1": "Il cambiamento dura di più quando la direzione scelta riflette ciò che conta davvero per te, e non soltanto un'aspettativa esterna.",
+      "paragraph2": "La ricerca sulla motivazione autodeterminata va nella stessa direzione: in ambito di salute, le ragioni vissute come personali si associano a un impegno più duraturo rispetto alla pressione esterna, alla paura del giudizio o alla vergogna.",
+      "paragraph3": "Puoi voler smettere, ridurre, evitare certe situazioni oppure semplicemente iniziare a osservare. Nessuno di questi obiettivi definisce il tuo valore, e hai il diritto di rivedere la tua scelta lungo il percorso.",
+      "keyPoint1": "Scrivi il tuo obiettivo con le tue parole, non con quelle di un forum.",
+      "keyPoint2": "Le ragioni personali tendono a sostenere il cambiamento più a lungo.",
+      "keyPoint3": "Iniziare osservando è un obiettivo valido."
+    },
+    "benefits": {
+      "title": "Ciò che vuoi ritrovare",
+      "paragraph1": "Prova a dare un nome a ciò che vorresti ritrovare: tempo, spazio mentale, sonno, una relazione più serena o la sensazione di essere tu a scegliere.",
+      "paragraph2": "Più la ragione è concreta, più resta utilizzabile quando l'impulso è forte. «Essere a letto prima di mezzanotte per tre sere questa settimana» ti dà un riferimento che «stare meglio» non offre.",
+      "paragraph3": "Puoi anche dare un nome a ciò che vuoi semplicemente proteggere: una relazione, la fiducia o la tua capacità di essere presente. Proteggere qualcosa è una ragione valida quanto ripararla.",
+      "keyPoint1": "Scrivi una ragione, in una sola frase al presente.",
+      "keyPoint2": "Scegli un riferimento che puoi verificare da solo.",
+      "keyPoint3": "Tienilo a portata di mano per i momenti difficili."
+    },
+    "ambivalence": {
+      "title": "Volere e non volere allo stesso tempo",
+      "paragraph1": "Voler cambiare e allo stesso tempo non averne voglia è comune. Questa ambivalenza non è insincerità: accompagna quasi ogni cambiamento di abitudine.",
+      "paragraph2": "Negli studi sul colloquio motivazionale, alcune forme di discorso a favore del cambiamento e di discorso a favore del mantenimento si associano al comportamento successivo. I legami però variano a seconda del tipo di affermazione e a volte sono instabili.",
+      "paragraph3": "Mettere per iscritto entrambi i lati — ciò che questa abitudine ti dà e ciò che ti costa — può aiutarti ad ascoltare quell'ambivalenza senza cercare di zittire nessuna delle due parti."
+    },
+    "gap": {
+      "title": "Dall'intenzione all'azione",
+      "paragraph1": "Decidere con fermezza non basta sempre. Le rassegne sul divario tra intenzione e comportamento mostrano che un'intenzione chiaramente rafforzata si traduce, in media, in un cambiamento di comportamento più modesto.",
+      "paragraph2": "Non è un motivo per rinunciare, ma per prepararsi: ciò che fa la differenza sta di solito nei piani concreti e nell'ambiente, più che nell'intensità della decisione.",
+      "paragraph3": "Diversi dei moduli seguenti parlano proprio di questa preparazione: individuare le situazioni ricorrenti, attraversare un impulso, adattare il tuo ambiente.",
+      "keyPoint1": "Una decisione forte non sostituisce un piano concreto.",
+      "keyPoint2": "Prepara la situazione, non solo l'intenzione.",
+      "keyPoint3": "Un piano scritto resta disponibile quando la motivazione cala."
+    },
+    "changes": {
+      "title": "La motivazione cambia",
+      "paragraph1": "La motivazione varia da un giorno all'altro. Questa variazione non è un fallimento né la prova che il tuo obiettivo sia sbagliato.",
+      "paragraph2": "La stanchezza, lo stress, l'isolamento o una giornata dura possono abbassarla senza cambiare nulla di ciò che conta per te.",
+      "paragraph3": "Quando cala, una piccola azione preparata in anticipo può prendere il posto. A volte basta rileggere la ragione che hai scritto per attraversare un momento piatto."
+    }
+  },
+  "reflectionPrompt": "Che cosa vorresti ritrovare o proteggere cambiando questa abitudine?"
+}

@@ -47,7 +47,7 @@ repository root:
 
 ```sh
 flutter pub get
-dart run build_runner build --delete-conflicting-outputs
+dart run build_runner build
 flutter run
 ```
 
@@ -88,7 +88,7 @@ copy normally require matching updates under both `lib/i18n/en/` and
 `lib/i18n/fr/`, followed by:
 
 ```sh
-dart run build_runner build --delete-conflicting-outputs
+dart run build_runner build
 ```
 
 Do not edit generated `strings*.g.dart` files manually.

@@ -1,0 +1,8 @@
+{
+  "dailyCheckIn": {
+    "title": "Tu balance de StopCorn te espera",
+    "body": "Tómate un momento para anotar cómo ha ido tu día.",
+    "channelName": "Recordatorios del balance diario",
+    "channelDescription": "Un recordatorio local a las 20:00 cuando el balance del día sigue vacío."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "load": {
+    "error": "Non è stato possibile caricare i dati di oggi."
+  },
+  "sections": {
+    "today": "Oggi",
+    "metrics": "Metriche",
+    "lastThirtyDays": "Ultimi 30 giorni",
+    "quickActions": "Azioni rapide"
+  },
+  "goal": {
+    "title": "Obiettivo",
+    "undefined": "Obiettivo da definire",
+    "weeklyLimit(param=count)": {
+      "one": "Limite desiderato: $count evento a settimana.",
+      "other": "Limite desiderato: $count eventi a settimana."
+    },
+    "contexts": "Contesti protetti: $contexts."
+  },
+  "checkIn": {
+    "title": "Bilancio quotidiano",
+    "completed": "Bilancio quotidiano salvato.",
+    "available": "Bilancio quotidiano disponibile quando vuoi.\nTocca per registrarlo.",
+    "action": {
+      "done": "Modificare il mio bilancio quotidiano",
+      "pending": "Fare il mio bilancio quotidiano"
+    }
+  },
+  "urge": {
+    "today": "Voglie di oggi",
+    "count(plural, param=count, rich)": {
+      "zero": "Nessuna voglia registrata oggi.",
+      "one": "$count voglia registrata oggi.",
+      "other": "$count voglie registrate oggi."
+    },
+    "semantics": "Ho voglia di guardare dei contenuti, fare una pausa",
+    "action(rich)": "Ho voglia di $corn",
+    "subtitle": "Fare una pausa"
+  },
+  "strategy": {
+    "lastHelpful": "Ultima strategia utile"
+  },
+  "metrics": {
+    "daysWithout(param=count)": {
+      "one": "giorno senza alcun consumo registrato",
+      "other": "giorni senza alcun consumo registrato"
+    },
+    "traversedUrges(plural, param=count)": {
+      "one": "voglia superata o ridotta",
+      "other": "voglie superate o ridotte"
+    },
+    "averageControl": "livello medio di controllo dichiarato",
+    "empty": "Le tue prime osservazioni compariranno qui. Non serve annotare tutto alla perfezione: bastano pochi riferimenti per iniziare."
+  },
+  "actions": {
+    "openJournal": "Aprire il mio diario",
+    "logConsumption": "Annotare un consumo",
+    "reviewPlan": "Rivedere il mio piano"
+  },
+  "learningRecommendation": {
+    "title": "Da scoprire",
+    "action": "Continua a leggere"
+  }
+}

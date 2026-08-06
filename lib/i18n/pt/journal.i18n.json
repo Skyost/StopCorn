@@ -1,0 +1,62 @@
+{
+  "history": {
+    "title": "Diário",
+    "intro": "Encontre os consumos, as sessões de apoio e os balanços diários que você escolheu guardar, agrupados por data.",
+    "error": "Não foi possível carregar o diário.",
+    "empty": {
+      "title": "O seu diário ainda está vazio",
+      "body": "Os consumos e os balanços que você anotar vão aparecer aqui."
+    },
+    "date": {
+      "today": "Hoje",
+      "yesterday": "Ontem"
+    },
+    "entry": {
+      "consumption": "Consumo",
+      "checkIn": "Balanço diário",
+      "time": "Às $time",
+      "checkInSummary": "Humor: $mood/10 · Controle: $control/10",
+      "noText": "Nenhum contexto nem nota.",
+      "entries(param=count)": {
+        "zero": "Nenhuma entrada",
+        "one": "$count entrada",
+        "other": "$count entradas"
+      },
+      "urge": "Sessão de apoio",
+      "urgeSummary": "Intensidade $initial → $finalValue",
+      "urgeSummaryPartial": "Intensidade inicial $initial"
+    },
+    "details": {
+      "cornUrges(plural, param=count, rich)": {
+        "zero": "nenhuma vontade de $corn",
+        "one": "$count vontade de $corn",
+        "other": "$count vontades de $corn"
+      },
+      "initialIntensity": "Intensidade inicial",
+      "finalIntensity": "Intensidade no final",
+      "outcome": "Resultado",
+      "strategy": "Ação tentada",
+      "pause": "Pausa guiada",
+      "pauseSeconds(param=count)": {
+        "one": "$count segundo",
+        "other": "$count segundos"
+      },
+      "reflection": "A sua reflexão"
+    }
+  },
+  "edit": {
+    "action": "Corrigir"
+  },
+  "delete": {
+    "action": "Excluir",
+    "title": "Excluir esta entrada?",
+    "consumption": "Esta entrada e a sua nota privada serão retiradas definitivamente do seu diário. As suas estatísticas serão recalculadas sem ela.",
+    "checkIn": "Este balanço diário e a sua nota privada serão retirados definitivamente do seu diário. As suas estatísticas serão recalculadas sem ele.",
+    "urge": "Esta sessão de apoio e a reflexão escrita no final serão retiradas definitivamente. A estratégia tentada durante a sessão deixa de contar; um consumo anotado a partir dela é mantido.",
+    "irreversible": "Esta ação é irreversível.",
+    "confirm": "Excluir definitivamente"
+  },
+  "error": {
+    "delete": "Não foi possível excluir esta entrada. Nada foi alterado."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "putPhoneAway": "Dejar el teléfono fuera de tu alcance",
+  "leaveRoom": "Salir de la habitación",
+  "walkFiveMinutes": "Caminar cinco minutos",
+  "slowBreathing": "Respirar despacio durante 90 segundos",
+  "waterAndSwitch": "Beber un vaso de agua y cambiar de actividad",
+  "messageSomeone": "Escribir a una persona que hayas elegido",
+  "twoMinuteTask": "Empezar una tarea de dos minutos",
+  "takeShower": "Darte una ducha",
+  "waitTenMinutes": "Esperar diez minutos antes de decidir",
+  "personal": "Estrategia personal",
+  "genericDescription": "Una acción sencilla para probar cuando necesitas apoyo.",
+  "timerSeconds(param=count)": {
+    "one": "Temporizador sugerido: $count segundo.",
+    "other": "Temporizador sugerido: $count segundos."
+  },
+  "timerMinutes(param=count)": {
+    "one": "Temporizador sugerido: $count minuto.",
+    "other": "Temporizador sugerido: $count minutos."
+  }
+}

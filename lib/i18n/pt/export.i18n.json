@@ -1,0 +1,19 @@
+{
+  "title": "Exportar os meus dados",
+  "confirm": "Entendo que este arquivo pode ser sensível",
+  "backSettings": "Voltar aos ajustes",
+  "error": "Não foi possível criar a exportação. Nenhum dado foi enviado.",
+  "warning": {
+    "title": "Antes de continuar",
+    "sensitive": "O arquivo JSON pode conter informações pessoais sensíveis: notas, objetivos e observações que você escolheu guardar.",
+    "share": "O StopCorn nunca o envia automaticamente. Depois de criado, só será aberta a janela de compartilhamento do sistema."
+  },
+  "create": {
+    "action": "Criar e abrir o compartilhamento",
+    "progress": "Criando o arquivo…"
+  },
+  "share": {
+    "subject": "Exportação de dados do StopCorn",
+    "title": "Exportação do StopCorn"
+  }
+}

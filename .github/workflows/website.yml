@@ -74,7 +74,7 @@ jobs:
           REVENUECAT_IOS_API_KEY: ''
           REVENUECAT_TEST_API_KEY: ''
           SENTRY_DSN: ''
-        run: dart run build_runner build --delete-conflicting-outputs
+        run: dart run build_runner build
 
       - name: Generate website media
         run: tool/website/generate.sh

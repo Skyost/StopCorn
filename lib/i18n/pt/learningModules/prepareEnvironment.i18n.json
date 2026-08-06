@@ -1,0 +1,49 @@
+{
+  "title": "Prepare o seu ambiente",
+  "summary": "Acrescente atrito e facilite as ações que você escolheu.",
+  "sections": {
+    "friction": {
+      "title": "Reduzir o acesso automático",
+      "paragraph1": "Deixar o telefone fora do quarto, definir limites de tempo ou usar o modo de foco do sistema pode acrescentar um atrito intencional.",
+      "paragraph2": "Não se trata de tornar algo impossível, e sim de acrescentar alguns segundos entre o impulso e a ação. Esses segundos podem criar o espaço para que escolher volte a ser possível.",
+      "paragraph3": "O atrito útil é aquele que você aceita. Se você contorna uma configuração quase na hora, tente um ajuste mais realista em vez de transformar isso num motivo para se sentir fracassado.",
+      "keyPoint1": "Busque alguns segundos de atraso, não a impossibilidade.",
+      "keyPoint2": "Escolha um atrito que esteja disposto a manter.",
+      "keyPoint3": "Ajuste o atrito que você contorna rapidamente."
+    },
+    "avoid": {
+      "title": "Evitar custa menos que resistir",
+      "paragraph1": "Um estudo longitudinal observou que as pessoas que melhor alcançavam os seus objetivos não eram as que mais resistiam, e sim as que encontravam menos tentações.",
+      "paragraph2": "Em outras palavras, o autocontrole muitas vezes se joga antes: em como o dia e o espaço são organizados, mais do que no momento crítico.",
+      "paragraph3": "Isso também tira um pouco da culpa: precisar reorganizar o seu ambiente não é uma confissão de fraqueza. É uma estratégia coerente com estes resultados."
+    },
+    "ifThen": {
+      "title": "Planos «se… então…»",
+      "paragraph1": "Uma meta-análise abrangendo muitos estudos mostrou que formular um plano concreto — «se esta situação acontecer, então farei esta ação» — melhora o alcance dos objetivos em comparação com a intenção sozinha.",
+      "paragraph2": "A precisão importa: a situação precisa ser reconhecível e a ação, executável na hora. «Se eu estiver na cama com o telefone depois das 23h, então o coloco de volta na mesa» é mais concreto do que «vou tomar cuidado à noite».",
+      "paragraph3": "Você pode começar com dois ou três planos que correspondam às suas situações mais frequentes.",
+      "keyPoint1": "Escreva a situação desencadeante, não apenas o objetivo.",
+      "keyPoint2": "Escolha uma ação que possa começar na hora.",
+      "keyPoint3": "Comece com dois ou três planos."
+    },
+    "moments": {
+      "title": "Preparar os momentos vulneráveis",
+      "paragraph1": "Se as noites de cansaço se repetem nas suas observações, preparar uma rotina simples ou carregar um aparelho em outro lugar pode facilitar a escolha desejada.",
+      "paragraph2": "Prepare esses momentos quando eles não estão acontecendo: decidir com antecedência pode custar menos esforço do que escolher em plena dificuldade.",
+      "paragraph3": "Se certas contas ou redes vêm muitas vezes antes dos momentos difíceis, você pode ajustar o acesso sem precisar remover tudo."
+    },
+    "alternative": {
+      "title": "Tornar a alternativa visível",
+      "paragraph1": "Prepare uma ação de substituição acessível: um livro por perto, uma caminhada curta ou uma tarefa escolhida com antecedência.",
+      "paragraph2": "Tirar algo deixa um vazio, e um vazio raramente se preenche sozinho na boa direção. A alternativa deveria estar pelo menos tão à mão quanto aquilo que você tirou.",
+      "paragraph3": "O seu ambiente funciona melhor quando apoia uma intenção concreta."
+    },
+    "limits": {
+      "title": "O que um filtro não faz",
+      "paragraph1": "Um bloqueador pode complementar um plano, mas não resolve sozinho uma dificuldade: ele age sobre o acesso, não sobre a situação, a emoção ou o hábito que vieram antes.",
+      "paragraph2": "As ferramentas baseadas em monitoramento por terceiros também levantam questões de privacidade e de confiança. O StopCorn não acessa a sua atividade nem o seu histórico de navegação e não transmite dados de navegação na web.",
+      "paragraph3": "Uma ferramenta técnica funciona melhor como apoio a um plano do que como substituto dele."
+    }
+  },
+  "reflectionPrompt": "Que mudança no seu ambiente você poderia fazer hoje?"
+}

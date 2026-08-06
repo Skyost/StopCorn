@@ -16,7 +16,7 @@ function closeMenu() {
 <template>
   <header class="site-header">
     <BContainer class="site-header__inner">
-      <BrandLogo />
+      <BrandLogo class="site-header__brand" />
 
       <button
         class="site-header__toggle"
@@ -34,7 +34,10 @@ function closeMenu() {
         class="site-header__panel"
         :class="{ 'is-open': isMenuOpen }"
       >
-        <nav :aria-label="$t('navigation.label')">
+        <nav
+          class="site-header__navigation"
+          :aria-label="$t('navigation.label')"
+        >
           <ul class="site-header__nav">
             <li
               v-for="item in NAV_ITEMS"
@@ -77,6 +80,8 @@ function closeMenu() {
 
 <style scoped lang="scss">
 .site-header {
+  --sc-header-control-height: 2.55rem;
+
   position: sticky;
   z-index: 1000;
   top: 0;
@@ -86,13 +91,12 @@ function closeMenu() {
   backdrop-filter: blur(16px);
 
   &__inner {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     min-height: 100%;
     align-items: center;
-    justify-content: space-between;
   }
 
-  &__panel,
   &__actions,
   &__nav {
     display: flex;
@@ -100,7 +104,15 @@ function closeMenu() {
   }
 
   &__panel {
-    gap: clamp(1rem, 3vw, 2.5rem);
+    display: contents;
+  }
+
+  &__brand {
+    justify-self: start;
+  }
+
+  &__navigation {
+    justify-self: center;
   }
 
   &__nav {
@@ -123,13 +135,14 @@ function closeMenu() {
 
   &__actions {
     gap: 0.75rem;
+    justify-self: end;
   }
 
   &__source,
   &__toggle {
     display: grid;
-    width: 2.55rem;
-    height: 2.55rem;
+    width: var(--sc-header-control-height);
+    height: var(--sc-header-control-height);
     place-items: center;
     border: 1px solid var(--sc-border);
     border-radius: 0.75rem;
@@ -149,14 +162,22 @@ function closeMenu() {
   }
 
   :deep(.button-soft--small.btn) {
-    padding: 0.58rem 0.92rem;
+    height: var(--sc-header-control-height);
+    padding: 0 0.92rem;
     border-radius: 0.75rem;
+    box-shadow: none;
     font-size: 0.9rem;
+    transform: none;
   }
 }
 
 @media (max-width: 991.98px) {
   .site-header {
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+    }
+
     &__toggle {
       display: grid;
     }
@@ -194,8 +215,14 @@ function closeMenu() {
       }
     }
 
+    &__navigation {
+      justify-self: stretch;
+    }
+
     &__actions {
+      flex-wrap: wrap;
       justify-content: space-between;
+      justify-self: auto;
       padding-top: 0.8rem;
       border-top: 1px solid var(--sc-border);
     }

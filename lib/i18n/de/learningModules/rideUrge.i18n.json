@@ -1,0 +1,46 @@
+{
+  "title": "Einen Impuls durchstehen",
+  "summary": "Schaffe etwas Raum, bevor du wählst, was als Nächstes kommt.",
+  "sections": {
+    "delay": {
+      "title": "Gönn dir einen Moment",
+      "paragraph1": "Ein Impuls verlangt keine sofortige und keine endgültige Entscheidung.",
+      "paragraph2": "Kurz zu warten gibt dir die Gelegenheit zu bemerken, ob die Intensität steigt, sinkt oder gleich bleibt. Während dieser Wartezeit musst du nichts entscheiden: Du schaust nur zu.",
+      "paragraph3": "Eine kurze Wartezeit, die du einhältst, ist oft realistischer als eine lange, die du abbrichst.",
+      "keyPoint1": "Lege eine kurze, vorher festgelegte Dauer fest.",
+      "keyPoint2": "Während der Wartezeit wird dir keine Entscheidung abverlangt.",
+      "keyPoint3": "Nach der Wartezeit entscheidest du mit mehr Informationen."
+    },
+    "wave": {
+      "title": "Beobachte die Welle",
+      "paragraph1": "Ein Ansatz aus der Achtsamkeit, manchmal „Urge Surfing“ genannt, besteht darin, die Empfindung wie eine Welle zu beobachten: wo sie im Körper sitzt, wie sie sich verändert, ohne sie verschwinden lassen zu wollen.",
+      "paragraph2": "Eine kurze Intervention auf dieser Grundlage wurde mit rauchenden Studierenden getestet und zeigte ermutigende Ergebnisse für den Konsum in den folgenden Tagen. Die Studie war kurz und betraf ein anderes Verhalten, was zur Vorsicht mahnt.",
+      "paragraph3": "In der Praxis kann diese Art des Beobachtens eine Alternative dazu sein, direkt gegen die Empfindung anzukämpfen – besonders wenn du müde bist."
+    },
+    "suppression": {
+      "title": "Versuch nicht, nicht daran zu denken",
+      "paragraph1": "Sich „ich darf daran nicht denken“ vorzusagen funktioniert selten. Die Forschung zur Gedankenunterdrückung beschreibt paradoxe Effekte: Der überwachte Gedanke kehrt oft zurück, manchmal stärker.",
+      "paragraph2": "Akzeptanzbasierte Ansätze schlagen das Gegenteil vor: Lass den Gedanken da sein und handle trotzdem. Eine vorläufige Studie mit multiplen Grundlinien, die sechs Männer begleitete, beobachtete nach einer solchen Intervention eine geringere Häufigkeit. Ohne randomisierte Kontrollgruppe bleibt der Befund explorativ.",
+      "paragraph3": "In der Praxis: Du musst keinen Streit gegen deinen eigenen Kopf gewinnen. Du kannst den Gedanken haben und etwas anderes tun.",
+      "keyPoint1": "Einen Gedanken wegdrängen zu wollen kann ihn zurückbringen.",
+      "keyPoint2": "Lass ihn da und handle trotzdem.",
+      "keyPoint3": "Konzentrier dich auf die Handlung, die du wählst, nicht darauf, jeden Gedanken zu kontrollieren."
+    },
+    "concrete": {
+      "title": "Ändere etwas Konkretes",
+      "paragraph1": "Den Raum wechseln, das Handy weglegen oder eine sehr kleine Aufgabe beginnen kann eine automatische Reaktion unterbrechen.",
+      "paragraph2": "Sogenannte situative Strategien setzen früher an: die Situation zu ändern kostet oft weniger Kraft, als im intensivsten Moment zu widerstehen.",
+      "paragraph3": "Wähle eine Handlung, die einfach genug ist, um auch bei wenig Energie möglich zu bleiben: ein Glas Wasser trinken, vor die Tür gehen, ein Lied anmachen."
+    },
+    "expectations": {
+      "title": "Verlange kein Verschwinden",
+      "paragraph1": "Eine Strategie kann nützlich sein, auch wenn das Gefühl nicht sofort verschwindet. In der Studie mit rauchenden Studierenden unterschieden sich die beiden Gruppen nicht in der Stärke des empfundenen Verlangens; unterschiedlich war, wie viel sie in den folgenden Tagen rauchten.",
+      "paragraph2": "Es geht darum, das Wählen zu üben, nicht darum, jedes Mal ein perfektes Ergebnis zu erzielen. Ein Versuch, der nicht „geklappt“ hat, lehrt dich trotzdem etwas über den Moment, in dem du ihn unternommen hast.",
+      "paragraph3": "Dieselbe Strategie passt nicht in jeden Zusammenhang. Du kannst zwei oder drei bereithalten, statt dich auf eine einzige zu verlassen.",
+      "keyPoint1": "Erfolg heißt gewählt zu haben, nicht nichts mehr zu spüren.",
+      "keyPoint2": "Bereite mehrere einfache Strategien vor.",
+      "keyPoint3": "Halte fest, welche geholfen hat und in welchem Zusammenhang."
+    }
+  },
+  "reflectionPrompt": "Welche realistische Strategie könntest du im nächsten schwierigen Moment ausprobieren?"
+}

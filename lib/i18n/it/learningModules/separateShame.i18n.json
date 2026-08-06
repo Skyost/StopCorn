@@ -1,0 +1,43 @@
+{
+  "title": "Consumo, sofferenza e vergogna",
+  "summary": "Separa ciò che fai da ciò che ne pensi.",
+  "sections": {
+    "frequency": {
+      "title": "La frequenza non dice tutto",
+      "paragraph1": "Due persone con un consumo simile possono trovarsi in situazioni molto diverse. A pesare non è solo la quantità, ma lo spazio che il comportamento occupa e la sofferenza che provoca.",
+      "paragraph2": "Lavori recenti distinguono due dimensioni: il consumo in sé e la sofferenza che se ne prova. Sono legate, ma non si sovrappongono.",
+      "paragraph3": "Anche per questo confrontare il tuo contatore di giorni con quello di uno sconosciuto online dice poco. Ciò che conta è quello che osservi nella tua vita.",
+      "keyPoint1": "Guarda l'impatto concreto, non solo il contatore.",
+      "keyPoint2": "Confrontarsi con gli altri raramente chiarisce la propria situazione.",
+      "keyPoint3": "La sofferenza e la frequenza sono due misure distinte."
+    },
+    "incongruence": {
+      "title": "Quando il consumo va contro i tuoi valori",
+      "paragraph1": "Una parte della sofferenza nasce a volte dalla distanza tra il comportamento e ciò a cui tieni: una revisione sistematica ha rilevato che questo disaccordo interno si associa alla sensazione di essere dipendenti, a volte indipendentemente dalla frequenza reale.",
+      "paragraph2": "Questo non significa che la tua sofferenza sia immaginaria, né che i tuoi valori siano il vero problema. Indica soprattutto che uno stesso consumo non pesa allo stesso modo a seconda di ciò che ne fai.",
+      "paragraph3": "In pratica, questo ti dà due leve invece di una: modificare il comportamento ed esaminare con onestà ciò che ti aspetti da te stesso."
+    },
+    "shameGuilt": {
+      "title": "Vergogna e rimpianto portano in posti diversi",
+      "paragraph1": "La vergogna dice «sono una persona cattiva». Il rimpianto dice «questa azione non mi si addice». La prima attacca la persona, il secondo indica un comportamento.",
+      "paragraph2": "Il rimpianto ti lascia qualcosa su cui agire; la vergogna, prendendo di mira l'intera persona, lascia poco. Alcuni esperimenti hanno in effetti osservato che un atteggiamento gentile verso sé stessi dopo un errore andava di pari passo con più motivazione a migliorare.",
+      "paragraph3": "Trattarsi con durezza dà l'impressione di fare qualcosa, ma raramente produce informazioni utilizzabili la volta successiva. La vergogna spinge inoltre a tenersi tutto dentro, il che rende più difficile cercare sostegno proprio quando servirebbe.",
+      "keyPoint1": "Punta al comportamento, non a chi sei.",
+      "keyPoint2": "Essere gentile con te stesso non ti impedisce di voler migliorare.",
+      "keyPoint3": "Puoi cercare sostegno senza raccontare tutto."
+    },
+    "comparison": {
+      "title": "Aspettative costruite altrove",
+      "paragraph1": "Una meta-analisi ha osservato un'associazione — modesta e riscontrata soprattutto negli uomini — tra il consumo di pornografia e una minore soddisfazione relazionale o sessuale.",
+      "paragraph2": "Quella sintesi raccoglie indagini trasversali, follow-up longitudinali e alcuni esperimenti. Non stabilisce comunque un'unica direzione causale, e una media di gruppo non prevede la tua esperienza.",
+      "paragraph3": "Ciò che resta utile osservare è più concreto: che cosa ti aspetti, con che cosa ti confronti e che cosa questo cambia nella tua vita reale."
+    },
+    "labels": {
+      "title": "Ciò che le etichette dicono, e ciò che non dicono",
+      "paragraph1": "La Classificazione internazionale delle malattie (ICD-11) riconosce il «disturbo da comportamento sessuale compulsivo». Comporta un persistente fallimento nel controllare il comportamento, in genere per un periodo prolungato, con sofferenza marcata o compromissione importante, e non una frequenza precisa.",
+      "paragraph2": "Una sofferenza dovuta unicamente a giudizi morali o alla disapprovazione non basta per questa diagnosi. Se il disturbo debba essere classificato come una dipendenza resta discusso; non ti serve un'etichetta per decidere un cambiamento.",
+      "paragraph3": "StopCorn non formula alcuna diagnosi. Se la sofferenza è forte o duratura, un professionista qualificato resta la persona giusta per questa domanda."
+    }
+  },
+  "reflectionPrompt": "Che cosa ti pesa di più: ciò che fai o ciò che ti racconti al riguardo?"
+}

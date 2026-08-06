@@ -1,0 +1,101 @@
+{
+  "pauseTitle": "Eine Pause machen",
+  "quit": "Verlassen",
+  "support": {
+    "pageTitle": "Unterstützung wählen",
+    "title": "Was würde dir jetzt helfen?",
+    "subtitle": "Wähle die Möglichkeit, die dir am zugänglichsten erscheint. Das Tempo bestimmst du.",
+    "semantics": "Verfügbare Formen der Unterstützung",
+    "guidedTitle": "Geführte Pause",
+    "guidedDescription": "Nimm dir einen kurzen Moment zum Durchatmen und schätze es danach neu ein.",
+    "planTitle": "Notfallplan",
+    "planDescription(param=count)": {
+      "zero": "Es wurde noch keine Handlung vorbereitet.",
+      "one": "Wähle die Handlung, die du vorbereitet hast.",
+      "other": "Wähle aus den $count Handlungen, die du vorbereitet hast."
+    },
+    "ideasTitle": "Weitere Ideen",
+    "ideasDescription(param=count)": {
+      "zero": "Es ist keine weitere Handlung verfügbar.",
+      "one": "Entdecke eine weitere Handlung.",
+      "other": "Entdecke $count weitere Handlungen."
+    }
+  },
+  "grounding": {
+    "feet": "Stell die Füße auf den Boden.",
+    "inhale": "Atme langsam ein.",
+    "observe": "Nimm wahr, was du fühlst, ohne es wegdrängen zu wollen.",
+    "exhale": "Atme länger aus, als du einatmest.",
+    "change": "Beobachte einfach, ob es stärker wird, nachlässt oder gleich bleibt.",
+    "title": "Gönn dir einen Moment.",
+    "subtitle": "Diese kurze Pause ist eine Hilfe zum Entspannen, keine medizinische Vorgabe.",
+    "semantics": "Fortschritt der Pause",
+    "skip": "Überspringen"
+  },
+  "strategy": {
+    "pageTitle": "Eine Handlung wählen",
+    "title": "Welche Handlung kannst du jetzt ausprobieren?",
+    "subtitle": "Eine kleine, realistische Handlung genügt. Sie muss das Gefühl nicht verschwinden lassen.",
+    "planTitle": "Dein Notfallplan",
+    "planSubtitle": "Wähle eine der Handlungen, die du für diesen Moment vorbereitet hast.",
+    "ideasTitle": "Weitere Ideen",
+    "ideasSubtitle": "Wähle eine andere einfache Handlung, die dir gerade machbar erscheint.",
+    "loadError": "Die Strategien konnten nicht geladen werden.",
+    "empty": "In dieser Liste ist keine Handlung verfügbar.",
+    "semantics": "Verfügbare Strategien",
+    "start": "Diese Handlung starten",
+    "started": "Handlung gestartet: $strategy.",
+    "timerTitle": "Ungefähre Dauer",
+    "timerGuidance": "Dieser Timer ist nur ein Anhaltspunkt: Du kannst früher aufhören oder dir so viel Zeit nehmen, wie du brauchst.",
+    "timerSemantics": "Ungefährer Timer der Handlung",
+    "timerComplete": "Die ungefähre Dauer ist abgelaufen.",
+    "reassess": "Erneut einschätzen",
+    "effect": "Empfundener Nutzen der Strategie"
+  },
+  "result": {
+    "pageTitle": "Einschätzen",
+    "title(rich)": "Wie stark ist dein Verlangen jetzt?",
+    "subtitle": "Es kann stärker geworden, schwächer geworden oder gleich geblieben sein.",
+    "outcome": {
+      "title": "Und jetzt?",
+      "subtitle": "Sei ruhig ehrlich. Wie immer gilt: keine Bewertung!",
+      "label": "Ergebnis"
+    },
+    "note": "Optionale Notiz",
+    "noteHint": "Ein nützlicher Anhaltspunkt für das nächste Mal.",
+    "finish": "Ablauf beenden"
+  },
+  "complete": {
+    "title": "Ablauf abgeschlossen",
+    "consumedHeadline": "Kein Problem.",
+    "otherHeadline": "Super!",
+    "consumedBody": "Dieses Ereignis löscht deine Fortschritte nicht.\nDu kannst einfach festhalten, was dir beim nächsten Mal helfen könnte.",
+    "otherBody": "Du hast Raum zwischen dein Verlangen und deine Entscheidung gebracht.\nDas ist eine Fähigkeit, die mit jedem Versuch wächst.",
+    "log": "Festhalten, was passiert ist"
+  },
+  "intensity": {
+    "title(rich)": "Wie stark ist dein Verlangen?",
+    "subtitle": "Schätze es auf einer Skala bis 10 ein. Es gibt keine falsche Antwort: Dieser Anhaltspunkt zeigt, wie es sich verändert.",
+    "label": "Aktuelle Intensität"
+  },
+  "factors": {
+    "title": "Weitere Einzelheiten?",
+    "subtitle": "Diese optionalen Angaben können dir helfen, solche Momente besser zu verstehen.",
+    "label": "Begünstigende Faktoren (optional)",
+    "trigger": "Auslöser",
+    "emotion": "Emotion"
+  },
+  "timer": {
+    "count(param=count)": {
+      "one": "noch $count Sekunde",
+      "other": "noch $count Sekunden"
+    }
+  },
+  "error": {
+    "start": "Dieser Unterstützungsablauf kann gerade nicht gestartet werden. Versuche es erneut.",
+    "missingSession": "Diese Sitzung ist nicht mehr verfügbar.",
+    "strategySave": "Die Strategie konnte nicht gespeichert werden. Versuche es erneut.",
+    "outcomeRequired": "Wähle das Ergebnis, das die Situation am besten beschreibt.",
+    "save": "Speichern ist gerade nicht möglich. Versuche es in einem Moment erneut."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Capire il ciclo",
+  "summary": "Osserva le fasi che possono mantenere un'abitudine.",
+  "sections": {
+    "sequence": {
+      "title": "Una sequenza da osservare",
+      "paragraph1": "Un'abitudine a volte si può descrivere così: situazione → emozione → impulso → comportamento → effetto immediato o sollievo → conseguenze.",
+      "paragraph2": "È un modello pratico di osservazione, non una sequenza dimostrata per tutti. Alcune fasi possono avvenire molto in fretta o essere difficili da notare.",
+      "paragraph3": "Descriverlo ha un vantaggio semplice: un ciclo offre più punti in cui agire, mentre una singola decisione ne offre uno solo."
+    },
+    "cues": {
+      "title": "Segnali diventati automatici",
+      "paragraph1": "La ricerca sulle abitudini descrive associazioni apprese tra un contesto e una risposta: quando un comportamento è stato ripetuto abbastanza in un ambiente stabile, il contesto da solo può innescarlo, senza una decisione consapevole ogni volta.",
+      "paragraph2": "In uno studio sul campo molto citato, una parte importante dei comportamenti quotidiani avveniva quasi nello stesso posto e alla stessa ora, con poca riflessione preliminare.",
+      "paragraph3": "Per questo una voglia può sembrare comparire «dal nulla»: il segnale era presente, ma non l'avevi notato.",
+      "keyPoint1": "Un luogo o un orario ripetuti diventano un segnale.",
+      "keyPoint2": "L'automatismo non è mancanza di volontà.",
+      "keyPoint3": "Individuare il segnale ti dà un punto in cui agire."
+    },
+    "reinforcement": {
+      "title": "Ciò che mantiene il ciclo",
+      "paragraph1": "Un comportamento si ripete soprattutto quando porta qualcosa nell'immediato: piacere, distrazione, un calo della tensione o una pausa da un'emozione difficile.",
+      "paragraph2": "Uno studio su uomini che consumavano regolarmente pornografia online ha misurato il loro umore subito prima e subito dopo una sessione scelta da loro stessi. In media si sentivano un po' meglio e più calmi dopo, ma quanto più marcate erano le tendenze a un uso problematico, tanto minore era quel miglioramento.",
+      "paragraph3": "Un effetto piacevole immediato può quindi contribuire a mantenere un ciclo, senza dire di per sé nulla sulle conseguenze successive né sulla tua situazione personale. La differenza tra ciò che ti aspetti da un momento e ciò che osservi dopo resta degna di attenzione."
+    },
+    "models": {
+      "title": "Ciò che i modelli dicono, e ciò che non dicono",
+      "paragraph1": "Modelli teorici come I-PACE propongono di combinare predisposizioni personali, affetti, aspettative, reattività ai segnali e funzioni di controllo per descrivere i comportamenti di dipendenza.",
+      "paragraph2": "Lavori di neuroimmagine hanno osservato una maggiore reattività cerebrale ai segnali che annunciano contenuti in uomini che cercavano un trattamento per un uso problematico. Questi risultati descrivono gruppi, si basano su campioni limitati e non possono decidere nulla sul tuo caso personale.",
+      "paragraph3": "Un modello aiuta a organizzare l'osservazione. Non sostituisce né una diagnosi né ciò che noti davvero nella tua vita."
+    },
+    "action": {
+      "title": "Trovare un punto in cui agire",
+      "paragraph1": "Non devi controllare tutto il ciclo. Cambiare posto, aspettare qualche minuto o scegliere un'altra azione può creare spazio.",
+      "paragraph2": "Osservare la situazione e l'emozione può aiutarti a scegliere un punto d'azione realistico. Intervenire prima può costare meno fatica che aspettare il momento più intenso.",
+      "paragraph3": "Basta un punto d'azione per iniziare. Prova quello che ti sembra più facile, non il più impressionante.",
+      "keyPoint1": "Prova ad agire presto nel ciclo, quando puoi.",
+      "keyPoint2": "Scegli un solo punto d'azione alla volta.",
+      "keyPoint3": "Un cambiamento facile che mantieni vale più di uno ambizioso che abbandoni."
+    },
+    "observe": {
+      "title": "Osservare senza diagnosticare",
+      "paragraph1": "Le note di StopCorn sono riferimenti personali, non una diagnosi.",
+      "paragraph2": "L'obiettivo è rendere più visibili le sequenze che si ripetono, così da poter adattare il tuo piano.",
+      "paragraph3": "Bastano poche osservazioni: non servono mai dettagli espliciti, solo il contesto generale aiuta a far emergere uno schema."
+    }
+  },
+  "reflectionPrompt": "Quale parte del ciclo ti sembra più facile da cambiare questa settimana?"
+}

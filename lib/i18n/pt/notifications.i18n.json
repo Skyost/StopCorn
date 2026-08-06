@@ -1,0 +1,8 @@
+{
+  "dailyCheckIn": {
+    "title": "Falta o seu balanço do StopCorn",
+    "body": "Reserve um momento para anotar como foi o seu dia.",
+    "channelName": "Lembretes do balanço diário",
+    "channelDescription": "Um lembrete local às 20h quando o balanço do dia ainda está vazio."
+  }
+}

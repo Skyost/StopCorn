@@ -1,0 +1,43 @@
+{
+  "title": "Reconstruir o que importa",
+  "summary": "Preencha o espaço que você libera com ações que signifiquem algo para você.",
+  "sections": {
+    "vacuum": {
+      "title": "Preveja o que vai ocupar o lugar",
+      "paragraph1": "Tirar um hábito libera tempo, atenção e às vezes uma forma de acalmar uma noite difícil. Se nada ocupa esse lugar, ele tende a ser preenchido pelo que estiver mais à mão.",
+      "paragraph2": "Um plano feito só de proibições pode, por isso, perder o fôlego: descreve o que você não faz mais, nunca o que você faz.",
+      "paragraph3": "Então a pergunta útil não é só «como eu paro?», mas «o que eu coloco ali, concretamente, na terça às 22h?».",
+      "keyPoint1": "Escreva o seu plano como ações, não apenas como proibições.",
+      "keyPoint2": "Planeje para o momento exato que se libera.",
+      "keyPoint3": "Deixe a alternativa fácil de alcançar."
+    },
+    "activation": {
+      "title": "Agir antes de ter vontade",
+      "paragraph1": "Muitas vezes esperamos a motivação antes de agir. A ativação comportamental propõe a ordem inversa: programe atividades e observe que o humor acompanha, ao menos em parte.",
+      "paragraph2": "Uma meta-análise na depressão observou que esses programas estruturados de atividades produziam efeitos comparáveis a outros tratamentos psicológicos estabelecidos. Esse trabalho trata da depressão, não deste hábito especificamente, mas o princípio continua informativo.",
+      "paragraph3": "Na prática: coloque a atividade na sua semana como um compromisso, sem esperar ter vontade no dia."
+    },
+    "values": {
+      "title": "Ações ligadas ao que importa para você",
+      "paragraph1": "Uma atividade ligada a algo que importa para você — uma relação, uma habilidade, a sua saúde ou algo que você cria — pode ser mais fácil de escolher de novo.",
+      "paragraph2": "As terapias de aceitação e compromisso trabalham explicitamente nessa direção, e as revisões relatam efeitos em vários problemas de saúde mental. Um pequeno estudo preliminar também aplicou essa abordagem ao uso problemático de pornografia on-line: os resultados observados em seis participantes foram encorajadores, mas ainda precisam de confirmação em ensaios controlados.",
+      "paragraph3": "Uma boa pergunta de partida: se esta dificuldade ocupasse menos espaço, no que você usaria esse tempo?",
+      "keyPoint1": "Ligue cada ação a um valor, não a um desempenho.",
+      "keyPoint2": "Escolha uma atividade que combine com você.",
+      "keyPoint3": "Busque sentido, não ocupação."
+    },
+    "small": {
+      "title": "Pequeno o bastante para um dia ruim",
+      "paragraph1": "Uma alternativa só serve se continuar possível quando você está cansado, irritado ou sozinho. São exatamente os estados em que você vai precisar dela.",
+      "paragraph2": "Você pode prever dois formatos: uma versão completa para os dias bons e uma versão mínima para os outros. Uma caminhada curta em vez de um treino, uma página lida em vez de um capítulo.",
+      "paragraph3": "A versão mínima não é uma versão completa fracassada. É o que impede o plano inteiro de parar."
+    },
+    "people": {
+      "title": "Não carregar tudo sozinho",
+      "paragraph1": "Guardar esta dificuldade só para você pode reforçar o isolamento ou a vergonha e tornar o apoio menos acessível justamente quando ele ajudaria.",
+      "paragraph2": "Você não precisa contar tudo para criar vínculo. Uma atividade compartilhada com regularidade já pode trazer companhia e apoio, sem obrigar você a explicar o assunto.",
+      "paragraph3": "Se decidir falar com alguém, escolha uma pessoa de quem espera apoio, não um julgamento sobre o seu valor."
+    }
+  },
+  "reflectionPrompt": "Qual atividade você gostaria que ocupasse mais espaço na sua semana?"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Ricostruire ciò che conta",
+  "summary": "Riempi lo spazio che liberi con azioni che significano qualcosa per te.",
+  "sections": {
+    "vacuum": {
+      "title": "Prevedi che cosa prenderà il posto",
+      "paragraph1": "Togliere un'abitudine libera tempo, attenzione e a volte un modo per calmare una serata difficile. Se nulla prende quel posto, tende a essere riempito da ciò che è più a portata di mano.",
+      "paragraph2": "Un piano fatto solo di divieti può quindi perdere forza: descrive ciò che non fai più, mai ciò che fai.",
+      "paragraph3": "Perciò la domanda utile non è solo «come smetto?», ma «che cosa metto lì, concretamente, martedì alle 22?».",
+      "keyPoint1": "Scrivi il tuo piano come azioni, non solo come divieti.",
+      "keyPoint2": "Pianifica per il momento preciso che si libera.",
+      "keyPoint3": "Rendi l'alternativa facile da raggiungere."
+    },
+    "activation": {
+      "title": "Agire prima di averne voglia",
+      "paragraph1": "Spesso aspettiamo la motivazione prima di agire. L'attivazione comportamentale propone l'ordine inverso: programma delle attività e osserva che l'umore segue, almeno in parte.",
+      "paragraph2": "Una meta-analisi sulla depressione ha osservato che questi programmi strutturati di attività producevano effetti paragonabili ad altri trattamenti psicologici consolidati. Quel lavoro riguarda la depressione, non questa abitudine in particolare, ma il principio resta informativo.",
+      "paragraph3": "In pratica: metti l'attività nella tua settimana come un appuntamento, senza aspettare di averne voglia quel giorno."
+    },
+    "values": {
+      "title": "Azioni legate a ciò a cui tieni",
+      "paragraph1": "Un'attività legata a qualcosa che conta per te — una relazione, una capacità, la tua salute o qualcosa che crei — può essere più facile da scegliere di nuovo.",
+      "paragraph2": "Le terapie di accettazione e impegno lavorano esplicitamente in questa direzione, e le rassegne riportano effetti su vari problemi di salute mentale. Un piccolo studio preliminare ha applicato questo approccio anche all'uso problematico di pornografia online: i risultati osservati su sei partecipanti erano incoraggianti, ma devono ancora essere confermati in studi controllati.",
+      "paragraph3": "Una buona domanda di partenza: se questa difficoltà occupasse meno spazio, in che cosa impiegheresti quel tempo?",
+      "keyPoint1": "Lega ogni azione a un valore, non a una prestazione.",
+      "keyPoint2": "Scegli un'attività che ti somiglia.",
+      "keyPoint3": "Punta al senso, non all'essere occupato."
+    },
+    "small": {
+      "title": "Abbastanza piccolo per una giornata storta",
+      "paragraph1": "Un'alternativa serve solo se resta possibile quando sei stanco, irritato o solo. Sono esattamente gli stati in cui ne avrai bisogno.",
+      "paragraph2": "Puoi prevedere due formati: una versione completa per le giornate buone e una versione minima per le altre. Una breve camminata invece di un allenamento, una pagina letta invece di un capitolo.",
+      "paragraph3": "La versione minima non è una versione completa fallita. È ciò che impedisce all'intero piano di fermarsi."
+    },
+    "people": {
+      "title": "Non portare tutto da solo",
+      "paragraph1": "Tenere questa difficoltà completamente per te può rafforzare l'isolamento o la vergogna e rendere il sostegno meno accessibile proprio quando servirebbe.",
+      "paragraph2": "Non devi raccontare tutto per creare un legame. Un'attività condivisa con regolarità può già offrire compagnia e sostegno, senza obbligarti a spiegare l'argomento.",
+      "paragraph3": "Se scegli di parlarne con qualcuno, scegli una persona da cui ti aspetti sostegno, non un giudizio sul tuo valore."
+    }
+  },
+  "reflectionPrompt": "Quale attività vorresti che occupasse più spazio nella tua settimana?"
+}

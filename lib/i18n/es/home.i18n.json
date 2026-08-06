@@ -1,0 +1,64 @@
+{
+  "load": {
+    "error": "No se han podido cargar los datos de hoy."
+  },
+  "sections": {
+    "today": "Hoy",
+    "metrics": "Métricas",
+    "lastThirtyDays": "Últimos 30 días",
+    "quickActions": "Acciones rápidas"
+  },
+  "goal": {
+    "title": "Objetivo",
+    "undefined": "Objetivo por definir",
+    "weeklyLimit(param=count)": {
+      "one": "Límite deseado: $count evento por semana.",
+      "other": "Límite deseado: $count eventos por semana."
+    },
+    "contexts": "Contextos protegidos: $contexts."
+  },
+  "checkIn": {
+    "title": "Balance diario",
+    "completed": "Balance diario guardado.",
+    "available": "Balance diario disponible cuando quieras.\nToca para registrarlo.",
+    "action": {
+      "done": "Editar mi balance diario",
+      "pending": "Hacer mi balance diario"
+    }
+  },
+  "urge": {
+    "today": "Impulsos de hoy",
+    "count(plural, param=count, rich)": {
+      "zero": "Ningún impulso registrado hoy.",
+      "one": "$count impulso registrado hoy.",
+      "other": "$count impulsos registrados hoy."
+    },
+    "semantics": "Siento el impulso de ver contenido, hacer una pausa",
+    "action(rich)": "Tengo ganas de $corn",
+    "subtitle": "Hacer una pausa"
+  },
+  "strategy": {
+    "lastHelpful": "Última estrategia útil"
+  },
+  "metrics": {
+    "daysWithout(param=count)": {
+      "one": "día sin ningún consumo registrado",
+      "other": "días sin ningún consumo registrado"
+    },
+    "traversedUrges(plural, param=count)": {
+      "one": "impulso superado o reducido",
+      "other": "impulsos superados o reducidos"
+    },
+    "averageControl": "índice medio de control declarado",
+    "empty": "Tus primeras observaciones aparecerán aquí. No hace falta anotarlo todo a la perfección: unos pocos puntos de referencia bastan para empezar."
+  },
+  "actions": {
+    "openJournal": "Abrir mi diario",
+    "logConsumption": "Anotar un consumo",
+    "reviewPlan": "Revisar mi plan"
+  },
+  "learningRecommendation": {
+    "title": "Para continuar",
+    "action": "Seguir leyendo"
+  }
+}

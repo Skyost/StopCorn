@@ -1,0 +1,46 @@
+{
+  "title": "¿Por qué cambiar?",
+  "summary": "Aclara lo que quieres recuperar o proteger.",
+  "sections": {
+    "direction": {
+      "title": "Un objetivo que te pertenece",
+      "paragraph1": "El cambio se sostiene mejor cuando el rumbo elegido refleja lo que de verdad te importa, y no solo una expectativa externa.",
+      "paragraph2": "La investigación sobre la motivación autodeterminada apunta en la misma dirección: en contextos de salud, las razones vividas como personales se asocian a un compromiso más duradero que la presión externa, el miedo al juicio o la vergüenza.",
+      "paragraph3": "Puedes querer parar, reducir, evitar ciertas situaciones o simplemente empezar por observar. Ninguno de estos objetivos define tu valor, y tienes derecho a revisar tu decisión sobre la marcha.",
+      "keyPoint1": "Escribe tu objetivo con tus propias palabras, no con las de un foro.",
+      "keyPoint2": "Las razones personales tienden a sostener el cambio de forma más duradera.",
+      "keyPoint3": "Empezar por observar es un objetivo válido."
+    },
+    "benefits": {
+      "title": "Lo que quieres recuperar",
+      "paragraph1": "Intenta nombrar lo que te gustaría recuperar: tiempo, espacio mental, sueño, una relación más tranquila o la sensación de que eres tú quien elige.",
+      "paragraph2": "Cuanto más concreta es la razón, más utilizable sigue siendo cuando el impulso es fuerte. «Estar en la cama antes de medianoche tres noches esta semana» te da un punto de referencia que «sentirme mejor» no ofrece.",
+      "paragraph3": "También puedes nombrar lo que simplemente quieres proteger: una relación, la confianza o tu capacidad de estar presente. Proteger algo es una razón tan válida como reparar algo.",
+      "keyPoint1": "Escribe una razón, en una sola frase en presente.",
+      "keyPoint2": "Elige un punto de referencia que puedas comprobar tú mismo.",
+      "keyPoint3": "Tenlo a mano para los momentos difíciles."
+    },
+    "ambivalence": {
+      "title": "Querer y no querer a la vez",
+      "paragraph1": "Querer cambiar y a la vez no tener ganas es algo habitual. Esta ambivalencia no es falta de sinceridad: acompaña a casi todos los cambios de hábito.",
+      "paragraph2": "En los estudios sobre la entrevista motivacional, ciertas formas de discurso a favor del cambio y de discurso a favor de mantenerlo se asocian al comportamiento posterior. Sin embargo, los vínculos varían según el tipo de afirmación y a veces son inestables.",
+      "paragraph3": "Poner por escrito las dos caras —lo que este hábito te aporta y lo que te cuesta— puede ayudarte a escuchar esa ambivalencia sin intentar silenciar ninguna de las dos partes."
+    },
+    "gap": {
+      "title": "De la intención a la acción",
+      "paragraph1": "Decidirse con firmeza no siempre basta. Las revisiones sobre la brecha entre intención y comportamiento muestran que una intención claramente reforzada se traduce, de media, en un cambio de comportamiento más modesto.",
+      "paragraph2": "No es un motivo para abandonar, sino para prepararse: lo que marca la diferencia suele estar en los planes concretos y en el entorno, más que en la intensidad de la decisión.",
+      "paragraph3": "Varios de los módulos siguientes tratan precisamente de esa preparación: detectar las situaciones recurrentes, atravesar un impulso, ajustar tu entorno.",
+      "keyPoint1": "Una decisión firme no sustituye a un plan concreto.",
+      "keyPoint2": "Prepara la situación, no solo la intención.",
+      "keyPoint3": "Un plan escrito sigue disponible cuando baja la motivación."
+    },
+    "changes": {
+      "title": "La motivación cambia",
+      "paragraph1": "La motivación varía de un día para otro. Esa variación no es un fracaso ni la prueba de que tu objetivo esté equivocado.",
+      "paragraph2": "El cansancio, el estrés, el aislamiento o un día duro pueden reducirla sin cambiar nada de lo que te importa.",
+      "paragraph3": "Cuando baja, una pequeña acción preparada de antemano puede tomar el relevo. A veces basta con releer la razón que escribiste para atravesar un momento plano."
+    }
+  },
+  "reflectionPrompt": "¿Qué te gustaría recuperar o proteger cambiando este hábito?"
+}

@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Configurazione",
+  "step": "Passaggio $current di $total",
+  "welcome": {
+    "title": "Riprendi il controllo, senza giudizio",
+    "subtitle": "StopCorn ti aiuta a capire le tue abitudini, ad attraversare i momenti difficili e a costruire un piano adatto al tuo obiettivo.",
+    "noAccount": "Nessun account da creare",
+    "localData": "Dati conservati su questo dispositivo",
+    "noAds": "Nessuna pubblicità",
+    "selfHelp": "Uno strumento di auto-aiuto",
+    "privacyAction": "Scopri di più sulla riservatezza",
+    "privacyTitle": "Riservatezza fin dall'inizio",
+    "privacyBody": "Nessun dato del diario viene inviato a StopCorn. L'app non legge il tuo browser, né le tue ricerche, né i contenuti che guardi. Scegli soltanto i riferimenti generali che vuoi annotare. In caso di crash, può essere inviata una segnalazione tecnica anonima perché il problema venga corretto; non contiene nulla di ciò che hai scritto e resta disattivabile nelle impostazioni."
+  },
+  "goal": {
+    "title": "Che cosa vorresti cambiare?",
+    "subtitle": "Scegli una direzione che ti somiglia. Potrai cambiarla più avanti.",
+    "semantics": "Scelta dell'obiettivo",
+    "weeklyLimit": "Limite settimanale desiderato",
+    "weeklyHint": "Esempio: 2",
+    "contexts": "Contesti da evitare",
+    "motivation": "Motivazione personale",
+    "motivationHint": "Ciò che vorresti ritrovare o proteggere…"
+  },
+  "baseline": {
+    "title": "Il tuo punto di partenza",
+    "subtitle": "Non è un test medico. Servirà soltanto a osservare la tua evoluzione.",
+    "frequency": "Frequenza approssimativa negli ultimi 7 giorni",
+    "control": "Senso di controllo",
+    "impact": "Impatto negativo percepito",
+    "confidence": "Fiducia nella tua capacità di cambiare"
+  },
+  "strategies": {
+    "title": "Prepara il tuo piano di riserva",
+    "subtitle": "L'ideale è scegliere tre azioni realistiche. Ne basta una per continuare.",
+    "selected(param=count)": {
+      "zero": "Nessuna strategia selezionata",
+      "one": "$count strategia selezionata",
+      "other": "$count strategie selezionate"
+    },
+    "semantics": "Strategie di riserva"
+  },
+  "privacy": {
+    "title": "I tuoi dati restano sotto il tuo controllo",
+    "subtitle": "Questa versione di StopCorn funziona senza account e senza server.",
+    "local": "I dati vengono salvati soltanto su questo dispositivo.",
+    "noHistory": "Nessun URL né ricerca viene registrato.",
+    "control": "Puoi esportare volontariamente o cancellare completamente i tuoi dati.",
+    "backup": "I backup di sistema del telefono possono includere i dati dell'app, in base alle tue impostazioni di sistema.",
+    "dailyCheckInReminder": "Ricordami di fare il mio bilancio",
+    "dailyCheckInReminderDescription": "Alle 20:00 ricevi un promemoria locale solo se il bilancio di oggi è ancora vuoto. Potrai cambiare questa scelta più avanti.",
+    "reminderPermissionDenied": "Le notifiche non sono state autorizzate. Disattiva questa opzione per continuare, oppure autorizzale e riprova.",
+    "reminderUnavailable": "I promemoria quotidiani non sono disponibili su questo dispositivo.",
+    "reminderError": "Non è stato possibile preparare il promemoria quotidiano. Riprova o disattivalo per continuare.",
+    "crashReports": "Le segnalazioni di crash anonime aiutano a correggere i bug e sono disattivabili nelle impostazioni."
+  },
+  "start": "Iniziare",
+  "finish": "Terminare la configurazione",
+  "error": {
+    "load": "Non è stato possibile caricare la configurazione.",
+    "save": "Impossibile salvare in questo momento. Riprova tra poco.",
+    "complete": "Non è stato possibile terminare la configurazione. Nessun dato è stato inviato.",
+    "notReady": "La configurazione iniziale non è ancora pronta.",
+    "invalidDraft": "La bozza di configurazione salvata non è valida."
+  },
+  "validation": {
+    "goal": "Scegli un obiettivo.",
+    "weeklyLimit": "Indica un limite settimanale positivo.",
+    "context": "Scegli almeno un contesto.",
+    "strategy": "Scegli almeno una strategia.",
+    "scoreRange": "I punteggi devono essere compresi tra 0 e 10."
+  }
+}

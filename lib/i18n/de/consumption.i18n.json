@@ -1,0 +1,41 @@
+{
+  "title": "Einen Konsum festhalten",
+  "intro": "Ein paar Angaben genügen. Du kannst jede optionale Frage überspringen.",
+  "date": "Datum",
+  "time": "Uhrzeit",
+  "factors": {
+    "label": "Begünstigende Faktoren (optional)",
+    "trigger": "Auslöser",
+    "emotion": "Emotion"
+  },
+  "control": {
+    "label": "Gefühl von Kontrolle (optional)",
+    "scale": "0 = keine Kontrolle, 10 = volle Kontrolle"
+  },
+  "context": {
+    "label": "Sehr kurzer Kontext (optional)",
+    "hint": "Beispiel: abends allein",
+    "description": "Bleib allgemein: keine Website, Suche oder explizite Einzelheit."
+  },
+  "contextualGoal": {
+    "title": "Deine geschützten Situationen",
+    "description": "Wähle die Situationen deines aktuellen Ziels aus, die zutrafen. So erscheinen sie in deinem Fortschritt, ohne die optionale Notiz weiter unten zu ersetzen.",
+    "label": "Situationen aus meinem Ziel (optional)"
+  },
+  "note": {
+    "label": "Optionale Notiz",
+    "hint": "Ein hilfreicher Anhaltspunkt für später…"
+  },
+  "saved": {
+    "title": "Es ist gespeichert.",
+    "body": "Es geht darum, die Situation besser zu verstehen, nicht darum, dich zu verurteilen."
+  },
+  "edit": {
+    "title": "Diesen Konsum korrigieren"
+  },
+  "error": {
+    "load": "Das Formular konnte nicht vorbereitet werden.",
+    "save": "Speichern ist gerade nicht möglich. Versuche es in einem Moment erneut.",
+    "missingEvent": "Dieser Konsum existiert nicht mehr."
+  }
+}
