@@ -401,40 +401,43 @@ usePageHead({ locale: currentLocale })
       class="content-section terms-section"
     >
       <BContainer>
-        <div class="legal-document legal-document--plain">
-          <div class="legal-document__heading">
-            <div>
-              <p class="eyebrow">
-                {{ t('terms.eyebrow') }}
-              </p>
-              <h2>{{ t('terms.title') }}</h2>
+        <details class="legal-document legal-document--plain">
+          <summary class="legal-document__summary">
+            <span>
+              {{ t('terms.eyebrow') }}
+              <strong>{{ t('terms.title') }}</strong>
+            </span>
+            <span>
+              {{ t('legal.lastUpdated', { date: legalUpdatedAt }) }}
+              <Icon name="lucide:plus" />
+            </span>
+          </summary>
+          <div class="legal-document__content">
+            <p class="legal-document__lead">
+              {{ t('terms.lead') }}
+            </p>
+            <div class="legal-document__grid">
+              <article
+                v-for="termsSection in TERMS_SECTIONS"
+                :key="termsSection"
+              >
+                <h3>{{ t(`terms.sections.${termsSection}.title`) }}</h3>
+                <p>{{ t(`terms.sections.${termsSection}.body`) }}</p>
+              </article>
             </div>
-            <p>{{ t('legal.lastUpdated', { date: legalUpdatedAt }) }}</p>
+            <p class="legal-document__contact">
+              {{ t('terms.contact') }}
+              <a
+                :href="SITE.issuesUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ t('terms.contactAction') }}
+                <Icon name="lucide:external-link" />
+              </a>
+            </p>
           </div>
-          <p class="legal-document__lead">
-            {{ t('terms.lead') }}
-          </p>
-          <div class="legal-document__grid">
-            <article
-              v-for="termsSection in TERMS_SECTIONS"
-              :key="termsSection"
-            >
-              <h3>{{ t(`terms.sections.${termsSection}.title`) }}</h3>
-              <p>{{ t(`terms.sections.${termsSection}.body`) }}</p>
-            </article>
-          </div>
-          <p class="legal-document__contact">
-            {{ t('terms.contact') }}
-            <a
-              :href="SITE.issuesUrl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {{ t('terms.contactAction') }}
-              <Icon name="lucide:external-link" />
-            </a>
-          </p>
-        </div>
+        </details>
       </BContainer>
     </section>
   </main>
@@ -818,28 +821,6 @@ usePageHead({ locale: currentLocale })
   border-radius: var(--sc-radius-large);
   background: rgb(255 255 255 / 7%);
 
-  &__heading {
-    display: flex;
-    gap: 2rem;
-    align-items: end;
-    justify-content: space-between;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid rgb(255 255 255 / 12%);
-
-    h2 {
-      margin: 0;
-      color: var(--sc-white);
-      font-size: clamp(2rem, 4vw, 3rem);
-    }
-
-    > p {
-      flex: 0 0 auto;
-      margin: 0 0 0.35rem;
-      color: rgb(255 255 255 / 60%);
-      font-size: 0.86rem;
-    }
-  }
-
   &[open] {
     .legal-document__summary :deep(.iconify) {
       transform: rotate(45deg);
@@ -960,20 +941,22 @@ usePageHead({ locale: currentLocale })
     box-shadow: var(--sc-shadow-small);
     color: var(--sc-foreground);
 
-    .eyebrow {
-      color: var(--sc-primary);
-    }
+    .legal-document__summary {
+      > span:first-child {
+        color: var(--sc-primary);
 
-    .legal-document__heading {
-      border-bottom-color: var(--sc-border);
-
-      h2 {
-        color: var(--sc-foreground);
+        strong {
+          color: var(--sc-foreground);
+        }
       }
 
-      > p {
+      > span:last-child {
         color: var(--sc-muted-foreground);
       }
+    }
+
+    .legal-document__content {
+      border-top-color: var(--sc-border);
     }
 
     .legal-document__grid {
@@ -1249,12 +1232,18 @@ usePageHead({ locale: currentLocale })
   .legal-document {
     border-radius: var(--sc-radius);
 
-    &__heading {
-      display: grid;
-      gap: 0.7rem;
+    &__summary {
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: flex-start;
 
-      > p {
-        margin: 0;
+      > span:first-child,
+      > span:last-child {
+        flex: 1 1 100%;
+      }
+
+      > span:last-child {
+        justify-content: space-between;
       }
     }
 
