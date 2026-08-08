@@ -186,13 +186,10 @@ final class FlutterDailyCheckInNotificationGateway implements DailyCheckInNotifi
         requestSoundPermission: false,
       ),
     );
-    bool? initialized = await _plugin.initialize(
+    await _plugin.initialize(
       settings: settings,
       onDidReceiveNotificationResponse: _handleResponse,
     );
-    if (initialized == false) {
-      throw StateError('Local notification initialization failed.');
-    }
     _initialized = true;
   }
 
