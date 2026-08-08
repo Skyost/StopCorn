@@ -153,8 +153,8 @@ final class _ConsumptionForm extends StatelessWidget {
         const SizedBox(height: AppSpacing.section),
         FDateField.calendar(
           key: const Key('consumption_date'),
-          selectionControl: FDateSelectionControl.liftedSingle(
-            value: selectedDate,
+          selectionControl: FDateSelectionControl.managedSingle(
+            initial: selectedDate,
             toggleable: false,
             onChange: (value) {
               if (value != null) {
@@ -168,8 +168,8 @@ final class _ConsumptionForm extends StatelessWidget {
         const SizedBox(height: AppSpacing.big),
         FTimeField.picker(
           key: const Key('consumption_time'),
-          control: FTimeFieldControl.lifted(
-            time: FTime.fromDateTime(state.occurredAt),
+          control: FTimeFieldControl.managed(
+            initial: FTime.fromDateTime(state.occurredAt),
             onChange: (value) {
               if (value != null) {
                 controller.setTime(hour: value.hour, minute: value.minute);
