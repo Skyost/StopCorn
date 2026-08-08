@@ -150,12 +150,15 @@ final class _ProjectSupportCardState extends ConsumerState<ProjectSupportCard> {
           icon: const Icon(FLucideIcons.heartHandshake),
           title: Text(context.t.settings.support.thanks),
         );
+        break;
       case .cancelled:
         break;
       case .unavailable:
         _showError(context.t.settings.support.error.notConfigured);
+        break;
       case .error:
         _showError(context.t.settings.support.error.paywall);
+        break;
     }
   });
 

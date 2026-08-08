@@ -27,9 +27,6 @@ enum ProjectSupportPaywallResult {
 
 /// Opens public project links and the optional support paywall.
 abstract interface class ProjectSupportService {
-  /// RevenueCat entitlement granted after a StopCorn support purchase.
-  static const String supporterEntitlementId = 'entlad1165a313';
-
   /// Public repository containing the StopCorn source code.
   static final Uri sourceCodeUri = Uri.parse(
     'https://github.com/Skyost/StopCorn',
@@ -63,10 +60,10 @@ abstract interface class ProjectSupportService {
 typedef RevenueCatConfigurator = Future<void> Function(String apiKey);
 
 /// Presents the remotely configured RevenueCat paywall.
-typedef RevenueCatPaywallPresenter = Future<ProjectSupportPaywallResult> Function();
+typedef RevenueCatPaywallPresenter = Future<ProjectSupportPaywallResult> Function(Offering? offering);
 
 /// Reads whether the current customer has the supporter entitlement.
-typedef RevenueCatSupportStatusLoader = Future<bool> Function();
+typedef RevenueCatSupportStatusLoader = Future<bool> Function(String entitlementId);
 
 /// Opens one URI using the host platform.
 typedef ProjectUriLauncher = Future<bool> Function(Uri uri);
@@ -78,6 +75,12 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
 
   /// Whether production keys must be used instead of the Test Store key.
   final bool _releaseMode;
+
+  /// Optional RevenueCat offering identifier.
+  final String _offeringId;
+
+  /// The RevenueCat entitlement identifier.
+  final String _entitlementId;
 
   /// Optional RevenueCat Test Store key used only outside release builds.
   final String _testApiKey;
@@ -110,6 +113,8 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
   factory RevenueCatProjectSupportService({
     TargetPlatform? platform,
     bool? releaseMode,
+    String offeringId = Env.revenueCatOffering,
+    String entitlementId = Env.revenueCatEntitlement,
     String testApiKey = Env.revenueCatTestApiKey,
     String androidApiKey = Env.revenueCatAndroidApiKey,
     String iosApiKey = Env.revenueCatIosApiKey,
@@ -120,6 +125,8 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
   }) => RevenueCatProjectSupportService._(
     platform ?? defaultTargetPlatform,
     releaseMode ?? kReleaseMode,
+    offeringId,
+    entitlementId,
     testApiKey,
     androidApiKey,
     iosApiKey,
@@ -133,6 +140,8 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
   RevenueCatProjectSupportService._(
     this._platform,
     this._releaseMode,
+    this._offeringId,
+    this._entitlementId,
     this._testApiKey,
     this._androidApiKey,
     this._iosApiKey,
@@ -163,7 +172,9 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
       return .unavailable;
     }
     try {
-      return await _presentRevenueCatPaywall();
+      Offerings offerings = await Purchases.getOfferings();
+      Offering? offering = offerings.getOffering(_offeringId);
+      return await _presentRevenueCatPaywall(offering);
     } catch (_) {
       return .error;
     }
@@ -175,7 +186,7 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
       return false;
     }
     try {
-      return await _loadSupportStatus();
+      return await _loadSupportStatus(_entitlementId);
     } catch (_) {
       return false;
     }
@@ -207,6 +218,9 @@ final class RevenueCatProjectSupportService implements ProjectSupportService {
   /// Selects the correct public key and initializes the native purchases SDK.
   Future<bool> _configure() async {
     try {
+      if (_entitlementId.isEmpty) {
+        return false;
+      }
       String? apiKey = _apiKey;
       if (apiKey == null) {
         return false;
@@ -248,7 +262,10 @@ Future<void> _configurePurchases(String apiKey) async {
 }
 
 /// Presents the current RevenueCat offering using the native paywall UI.
-Future<ProjectSupportPaywallResult> _presentPaywall() async => switch (await RevenueCatUI.presentPaywall(displayCloseButton: true)) {
+Future<ProjectSupportPaywallResult> _presentPaywall(Offering? offering) async => switch (await RevenueCatUI.presentPaywall(
+  displayCloseButton: true,
+  offering: offering,
+)) {
   .purchased => .purchased,
   .restored => .restored,
   .cancelled => .cancelled,
@@ -257,7 +274,7 @@ Future<ProjectSupportPaywallResult> _presentPaywall() async => switch (await Rev
 };
 
 /// Reads the active supporter entitlement from the RevenueCat customer.
-Future<bool> _hasSupportEntitlement() async => (await Purchases.getCustomerInfo()).entitlements.active.containsKey(ProjectSupportService.supporterEntitlementId);
+Future<bool> _hasSupportEntitlement(String entitlementId) async => (await Purchases.getCustomerInfo()).entitlements.active.containsKey(entitlementId);
 
 /// Opens a public project link in the user's external browser.
 Future<bool> _launchExternalUri(Uri uri) => launchUrl(

@@ -13,7 +13,7 @@ void main() {
       testApiKey: ' test_public_key ',
       androidApiKey: 'android_public_key',
       configureRevenueCat: (apiKey) async => configuredKeys.add(apiKey),
-      presentRevenueCatPaywall: () async {
+      presentRevenueCatPaywall: (offering) async {
         presentationCount++;
         return .purchased;
       },
@@ -40,7 +40,7 @@ void main() {
       androidApiKey: 'android_public_key',
       iosApiKey: ' ios_public_key ',
       configureRevenueCat: (apiKey) async => configuredKeys.add(apiKey),
-      presentRevenueCatPaywall: () async => .restored,
+      presentRevenueCatPaywall: (offering) async => .restored,
     );
 
     expect(
@@ -57,7 +57,7 @@ void main() {
       releaseMode: true,
       androidApiKey: 'android_public_key',
       configureRevenueCat: (_) async => configurationCount++,
-      loadSupportStatus: () async => true,
+      loadSupportStatus: (entitlement) async => true,
     );
 
     expect(await service.hasSupported(), isTrue);
@@ -74,7 +74,7 @@ void main() {
       androidApiKey: 'android_public_key',
       iosApiKey: 'ios_public_key',
       configureRevenueCat: (_) async => configurationCount++,
-      presentRevenueCatPaywall: () async {
+      presentRevenueCatPaywall: (offering) async {
         presentationCount++;
         return .purchased;
       },
@@ -113,7 +113,7 @@ void main() {
       releaseMode: true,
       androidApiKey: 'android_public_key',
       configureRevenueCat: (_) async {},
-      presentRevenueCatPaywall: () => throw StateError('paywall unavailable'),
+      presentRevenueCatPaywall: (offering) => throw StateError('paywall unavailable'),
       launchUri: (_) => throw StateError('browser unavailable'),
     );
 

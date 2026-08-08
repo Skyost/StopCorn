@@ -52,6 +52,8 @@ jobs:
           REVENUECAT_ANDROID_API_KEY: ''
           REVENUECAT_IOS_API_KEY: ''
           REVENUECAT_TEST_API_KEY: ''
+          REVENUECAT_OFFERING: ''
+          REVENUECAT_ENTITLEMENT: ''
           SENTRY_DSN: ''
         run: dart run build_runner build
 

@@ -17,6 +17,14 @@ abstract final class Env {
   @EnviedField(varName: 'REVENUECAT_TEST_API_KEY')
   static const String revenueCatTestApiKey = _Env.revenueCatTestApiKey;
 
+  /// The RevenueCat offering identifier.
+  @EnviedField(varName: 'REVENUECAT_OFFERING')
+  static const String revenueCatOffering = _Env.revenueCatOffering;
+
+  /// The RevenueCat entitlement identifier.
+  @EnviedField(varName: 'REVENUECAT_ENTITLEMENT')
+  static const String revenueCatEntitlement = _Env.revenueCatEntitlement;
+
   /// The Sentry DSN.
   @EnviedField(varName: 'SENTRY_DSN')
   static const String sentryDsn = _Env.sentryDsn;

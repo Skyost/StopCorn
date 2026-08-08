@@ -130,6 +130,8 @@ Sentry DSN.
 REVENUECAT_ANDROID_API_KEY=
 REVENUECAT_IOS_API_KEY=
 REVENUECAT_TEST_API_KEY=
+REVENUECAT_OFFERING=
+REVENUECAT_ENTITLEMENT=
 SENTRY_DSN=
 ```
 
@@ -223,12 +225,14 @@ with the rest, which returns the application to its offline default.
 
 RevenueCat Paywalls require Android API 24 or newer. On iOS, the native paywall
 is available from iOS 15. Create the apps, products, Offering, and Paywall in
-RevenueCat, then add the public SDK keys to `.env`:
+RevenueCat, then add everything to `.env`:
 
 ```dotenv
 REVENUECAT_ANDROID_API_KEY=your_google_public_key
 REVENUECAT_IOS_API_KEY=your_apple_public_key
 REVENUECAT_TEST_API_KEY=your_test_store_public_key
+REVENUECAT_OFFERING=your_offering_identifier
+REVENUECAT_ENTITLEMENT=your_entitlement_identifier
 ```
 
 Envied reads these values during code generation and writes
