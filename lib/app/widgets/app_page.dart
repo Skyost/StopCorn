@@ -64,6 +64,9 @@ final class AppPage extends StatelessWidget {
       footer: footer,
       child: AppPageViewport(
         scrollable: scrollable,
+        // A footer owns the bottom safe area itself. Applying it to the page
+        // content as well would leave an unnecessary gap above the footer.
+        safeAreaBottom: footer == null,
         child: child,
       ),
     );
