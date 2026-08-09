@@ -2,6 +2,7 @@ name: stopcorn
 description: "StopCorn, a private and judgment-free local self-help tool."
 publish_to: "none"
 version: 1.0.0+1
+repository: https://github.com/Skyost/StopCorn
 
 environment:
   sdk: '>=3.12.0 <4.0.0'
