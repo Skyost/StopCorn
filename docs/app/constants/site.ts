@@ -146,7 +146,7 @@ interface StoreLink {
 
 export const STORE_LINKS: readonly StoreLink[] = [
   { id: 'appStore', icon: 'lucide:apple', url: null },
-  { id: 'playStore', icon: 'lucide:play', url: null },
+  { id: 'playStore', icon: 'lucide:play', url: 'https://play.google.com/store/apps/details?id=fr.skyost.stopcorn' },
 ] as const
 
 export const FUTURE_LINKS: Readonly<{ merchUrl: string | null }> = Object.freeze({

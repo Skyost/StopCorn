@@ -96,7 +96,10 @@ the tracked logo at [`assets/branding/logo.svg`](assets/branding/logo.svg).
 
 ## Getting StopCorn
 
-Official App Store and Google Play links have not been published yet. Follow
+You can download StopCorn on the
+[Google Play Store](https://play.google.com/store/apps/details?id=fr.skyost.stopcorn).
+
+Official App Store is not published yet. Follow
 [GitHub Releases](https://github.com/Skyost/StopCorn/releases) or the
 [project website](https://stopcorn.skyost.eu/en/#download) for availability.
 Developers can already run the complete application from source.
